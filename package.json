@@ -1,0 +1,7 @@
+{
+  "name": "parachar-social",
+  "private": true,
+  "description": "Parachar video engine: JSON -> vertical videos for YouTube Shorts, Instagram and Facebook Reels",
+  "scripts": { "render": "node render.js" },
+  "dependencies": { "playwright": "1.56.1" }
+}

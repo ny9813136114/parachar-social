@@ -1,0 +1,28 @@
+{
+  "id": "udyam-free-myth",
+  "template": "T2 myth-vs-sach",
+  "theme": "navy",
+  "trust": "स्रोत: udyamregistration.gov.in (MSME मंत्रालय) · जाँच: 11 अक्टूबर 2026",
+  "url": "https://parachar.com/udyam-registration-readiness-checker-free-tool/",
+  "campaign": "udyam-myth",
+  "title": "Udyam Registration की फ़ीस लगती है? ❌ सच जानिए | Free MSME Checker #shorts",
+  "description": "उद्यम रजिस्ट्रेशन बिल्कुल फ्री है, सरकारी साइट udyamregistration.gov.in पर, आधार और PAN से। पैसे माँगने वाली साइट से बचें। अपनी MSME कैटेगरी और डॉक्यूमेंट 1 मिनट में चेक करें:",
+  "hashtags": ["#Udyam", "#UdyamRegistration", "#MSME", "#ScamAlert", "#SmallBusinessIndia"],
+  "scenes": [
+    {"type": "hook", "dur": 3, "chip": "⚠️ सावधान",
+     "lines": ["Udyam रजिस्ट्रेशन के", "*₹1,500* माँगे गए?"],
+     "sub": "पैसे देने से पहले यह देखिए",
+     "say": "उद्यम रजिस्ट्रेशन के पैसे माँगे गए? रुकिए।"},
+    {"type": "myth", "dur": 5.6,
+     "myth": "उद्यम रजिस्ट्रेशन की फ़ीस लगती है",
+     "fact": "बिल्कुल *फ्री* है, सरकारी साइट पर",
+     "sub": "udyamregistration.gov.in · बस आधार + PAN",
+     "say": "उद्यम रजिस्ट्रेशन बिल्कुल फ्री है, सरकारी साइट पर, बस आधार और पैन चाहिए।"},
+    {"type": "list", "dur": 5.4, "heading": "नकली साइट ऐसे पहचानें",
+     "items": ["पेमेंट या “सर्विस चार्ज” माँगे", "पता <em>.gov.in</em> पर खत्म न हो", "“एजेंट से जल्दी होगा” कहे"],
+     "say": "नकली साइट पैसे माँगती है, उसका पता डॉट जीओवी डॉट इन नहीं होता।"},
+    {"type": "cta", "dur": 4.4, "line": "आप Micro हैं या Small?<br><em>1 मिनट में चेक करें</em>",
+     "tool": "Udyam / MSME कैटेगरी चेकर", "button": "फ्री चेक करें",
+     "say": "अपनी कैटेगरी फ्री में चेक करें, लिंक डिस्क्रिप्शन में।"}
+  ]
+}

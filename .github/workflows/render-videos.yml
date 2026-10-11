@@ -1,0 +1,76 @@
+name: Render videos
+
+on:
+  push:
+    branches: [main]
+    paths: ["videos/**.json"]
+  workflow_dispatch:
+    inputs:
+      files:
+        description: "Which videos to render (space separated, or 'all')"
+        default: "all"
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install ffmpeg, Playwright and Chromium
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+
+      - name: Pick videos to render
+        id: pick
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            if git rev-parse -q --verify HEAD^ >/dev/null; then
+              FILES=$(git diff --name-only --diff-filter=AM HEAD^ HEAD -- 'videos/*.json' | tr '\n' ' ')
+            else
+              FILES=$(ls videos/*.json | tr '\n' ' ')
+            fi
+          elif [ "${{ github.event.inputs.files }}" = "all" ]; then
+            FILES=$(ls videos/*.json | tr '\n' ' ')
+          else
+            FILES="${{ github.event.inputs.files }}"
+          fi
+          echo "files=$FILES" >> "$GITHUB_OUTPUT"
+          echo "Rendering: $FILES"
+
+      - name: Render
+        if: steps.pick.outputs.files != ''
+        run: |
+          for f in ${{ steps.pick.outputs.files }}; do node render.js "$f"; done
+          ls -la out/*
+
+      - name: Upload as workflow artifact
+        if: steps.pick.outputs.files != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: videos-${{ github.run_number }}
+          path: out/
+          retention-days: 90
+
+      - name: Publish a release (easy download from phone)
+        if: steps.pick.outputs.files != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="videos-$(date -u +%Y-%m-%d)-${{ github.run_number }}"
+          NOTES=$(for d in out/*/; do cat "$d/post.md"; echo; echo '---'; done)
+          ASSETS=""
+          for d in out/*/; do id=$(basename "$d"); cp "$d/cover.png" "$d/$id-cover.png"; cp "$d/post.md" "$d/$id-post.md"; cp "$d/captions.srt" "$d/$id.srt"
+            ASSETS="$ASSETS $d/$id.mp4 $d/$id-cover.png $d/$id-post.md $d/$id.srt"; done
+          gh release create "$TAG" $ASSETS --title "Videos $(date -u +%d-%b-%Y)" --notes "$NOTES"
