@@ -13,7 +13,8 @@ fs.mkdirSync(out, { recursive: true });
 
 const srtTime = s => { const ms = Math.round(s * 1000), h = Math.floor(ms / 3600000), m = Math.floor(ms / 60000) % 60, sec = Math.floor(ms / 1000) % 60;
   return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(sec).padStart(2, '0')},${String(ms % 1000).padStart(3, '0')}`; };
-const utm = (src, med) => `${spec.url}?utm_source=${src}&utm_medium=${med}&utm_campaign=${spec.campaign}`;
+// Clean link in posts: spec.shortUrl (e.g. a bit.ly link carrying UTMs) if set, else the plain page URL.
+const link = spec.shortUrl || spec.url;
 
 (async () => {
   const browser = await chromium.launch();
@@ -61,10 +62,10 @@ const utm = (src, med) => `${spec.url}?utm_source=${src}&utm_medium=${med}&utm_c
 **Title:** ${spec.title}
 **Description:**
 ${spec.description}
-${utm('youtube', 'short')}
+${link}
 
 ${tags}
-**Pinned comment:** फ्री कैलकुलेटर: ${utm('youtube', 'short')}
+**Pinned comment:** फ्री कैलकुलेटर: ${link}
 **Captions file:** captions.srt (YouTube Studio → Subtitles → Upload file → With timing)
 `);
   console.log(`${spec.id}: ${duration.toFixed(1)} s -> ${out}`);
