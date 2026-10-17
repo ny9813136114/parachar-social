@@ -28,3 +28,8 @@ Rules: numbers sirf tested calculator maths se; har video par source + jaanch ki
 2. Har subah 6 baje (IST) `Daily YouTube Shorts` workflow queue se agle 3 video uthata hai, render karta hai, aur Make webhook (`MAKE_WEBHOOK_URL` secret) ko bhejta hai.
 3. Make unhe YouTube par Private + scheduled upload karta hai: 9:00, 13:00, 19:30 IST.
 4. Chhapne ke baad JSON `videos/published/` mein chala jaata hai. Rokna ho toh repo variable `AUTO_PUBLISH=off`.
+
+### Look, voice, playlists (17 Oct 2026)
+- Daily run uses the premium template (`engine-v2.html`), Madhur Hindi voice (edge-tts, each scene's `say` line) and generated background music (`music.py`). Set in `.github/workflows/daily-youtube.yml`.
+- Every new spec needs `"playlist"`: one of the names in `playlists.json`. Make adds the Short to that playlist after upload.
+- Monday 08:30 IST: `youtube-report.yml` saves views/likes/comments to the `reports` branch (`reports/<date>.md`).
