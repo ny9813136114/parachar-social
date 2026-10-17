@@ -66,22 +66,32 @@ jobs:
         if: steps.pick.outputs.files != ''
         run: for f in ${{ steps.pick.outputs.files }}; do node render.js "$f"; done
 
+      - name: Keep a release (Make downloads the MP4 from here)
+        if: steps.pick.outputs.files != ''
+        id: rel
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="yt-${{ steps.pick.outputs.date }}-${{ github.run_number }}-${{ github.run_attempt }}"
+          ASSETS=""
+          for d in out/*/; do id=$(basename "$d"); cp "$d/captions.srt" "$d/$id.srt"; ASSETS="$ASSETS $d/$id.mp4 $d/$id.srt"; done
+          gh release create "$TAG" $ASSETS --title "YouTube ${{ steps.pick.outputs.date }}" \
+            --notes "Scheduled 09:00 / 13:00 / 19:30 IST. Pin the free-tool comment on each Short."
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+
       - name: Send to Make (YouTube upload)
         if: steps.pick.outputs.files != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ steps.rel.outputs.tag }}
         run: |
           DIRS=$(for f in ${{ steps.pick.outputs.files }}; do echo "out/$(basename "$f" .json)"; done)
           node publish.js "${{ steps.pick.outputs.date }}" $DIRS
 
-      - name: Move published specs and keep a release
-        if: steps.pick.outputs.files != ''
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Move published specs out of the queue
+        if: steps.pick.outputs.files != '' && env.PRIVATE_ONLY != 'true'
         run: |
           mkdir -p videos/published
           for f in ${{ steps.pick.outputs.files }}; do git mv "$f" videos/published/; done
           git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -qm "Published to YouTube on ${{ steps.pick.outputs.date }}" && git push
-          ASSETS=""
-          for d in out/*/; do id=$(basename "$d"); cp "$d/captions.srt" "$d/$id.srt"; ASSETS="$ASSETS $d/$id.mp4 $d/$id.srt"; done
-          gh release create "yt-${{ steps.pick.outputs.date }}-${{ github.run_number }}" $ASSETS \
-            --title "YouTube ${{ steps.pick.outputs.date }}" --notes "Scheduled 09:00 / 13:00 / 19:30 IST. Pin the free-tool comment on each Short."
