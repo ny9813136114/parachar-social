@@ -1,0 +1,33 @@
+name: YouTube weekly report
+
+# Every Monday morning: ask Make for the channel's video stats and playlists,
+# and save them (JSON + a Markdown table) to the "reports" branch.
+
+on:
+  schedule:
+    - cron: "0 3 * * 1" # Monday 08:30 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      # Read-only Make webhook: returns this channel's video stats and playlists.
+      REPORT_HOOK: https://hook.us2.make.com/t1redwz8q5ogmcnv85qbp4rtxanjjyym
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch stats and write the report
+        run: |
+          D=$(TZ=Asia/Kolkata date +%F)
+          cp report.js /tmp/report.js
+          curl -sS --fail -m 120 -X POST -H 'Content-Type: application/json' -d '{"kind":"weekly"}' "$REPORT_HOOK" -o /tmp/r.json
+          git fetch origin reports && git checkout reports || git checkout --orphan reports
+          git rm -rfq --cached . >/dev/null 2>&1 || true
+          mkdir -p reports && cp /tmp/r.json "reports/$D.json"
+          node /tmp/report.js "reports/$D.json" > "reports/$D.md" && cat "reports/$D.md"
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports && git commit -qm "YouTube report $D" && git push origin HEAD:reports
