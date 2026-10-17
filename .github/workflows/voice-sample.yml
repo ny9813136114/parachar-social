@@ -36,7 +36,7 @@ jobs:
           ID=$(node -p "require('./$SPEC').id")
           for v in edge:hi-IN-SwaraNeural edge:hi-IN-MadhurNeural piper:hi_IN-pratham-medium; do
             E=${v%%:*}; V=${v#*:}
-            if MUSIC=on TTS_ENGINE=$E TTS_VOICE=$V node render.js "$SPEC"; then
+            if ENGINE_STYLE=v2 MUSIC=on TTS_ENGINE=$E TTS_VOICE=$V node render.js "$SPEC"; then
               cp "out/$ID/$ID.mp4" "samples/$ID-$V.mp4"
             else
               echo "::error::$V failed"

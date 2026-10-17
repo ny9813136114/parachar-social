@@ -34,7 +34,9 @@ if (tts) {
 (async () => {
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
-  await page.goto('file://' + path.join(__dirname, 'engine.html'));
+  // ENGINE_STYLE=v2 (or spec.style) picks the premium template in engine-v2.html.
+  const style = process.env.ENGINE_STYLE || spec.style || 'v1';
+  await page.goto('file://' + path.join(__dirname, style === 'v2' ? 'engine-v2.html' : 'engine.html'));
   const { duration, cues } = await page.evaluate(s => window.build(s), spec);
   await page.evaluate(() => document.fonts.ready);
   await page.waitForTimeout(300);
