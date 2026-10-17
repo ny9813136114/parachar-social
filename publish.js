@@ -45,8 +45,8 @@ const publishAt = slot => new Date(`${date}T${slot}:00+05:30`).toISOString();
       body: JSON.stringify({ ...meta, publishAt: at, fileName: meta.id + '.mp4', videoUrl: await signedUrl(assets, meta.id + '.mp4') }),
     });
     const text = (await res.text()).slice(0, 300);
-    if (!res.ok) { console.error(`${meta.id}: webhook ${res.status} ${text}`); failed++; continue; }
+    if (!res.ok) { console.error(`::error::${meta.id}: webhook ${res.status} ${text}`); failed++; continue; }
     console.log(`${meta.id}: sent, ${at ? `publishes ${at} (${slot} IST)` : 'Private (no publish time)'} · ${text}`);
   }
   process.exit(failed ? 1 : 0);
-})().catch(e => { console.error(e); process.exit(1); });
+})().catch(e => { console.error(`::error::${e.stack || e}`); process.exit(1); });
