@@ -99,6 +99,7 @@ if (tts) {
     description: `${spec.description}\n${link}\n\n${tags}`.replace(/[<>]/g, ''),
     tags: spec.tags || spec.hashtags.map(h => h.replace(/^#/, '')),
     playlist: spec.playlist || '',
+    playlistId: (JSON.parse(fs.readFileSync(path.join(__dirname, 'playlists.json'), 'utf8')))[spec.playlist] || '',
     comment: `फ्री कैलकुलेटर: ${link}`,
   }, null, 2));
   fs.writeFileSync(path.join(out, 'post.md'), `# ${spec.id} (${duration.toFixed(1)} s)
