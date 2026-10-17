@@ -1,0 +1,51 @@
+name: Voice sample
+
+# Renders one video with each voice engine and pushes the MP4s to the "samples" branch,
+# so the voices can be compared before switching the daily run to voice-over.
+
+on:
+  workflow_dispatch:
+    inputs:
+      spec:
+        description: "Video JSON to render"
+        default: "videos/queue/2026-10-18-1-surya-ghar-3kw-78000.json"
+
+permissions:
+  contents: write
+
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install ffmpeg, Playwright, Chromium and the voice engines
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+          python3 -m pip install -q edge-tts piper-tts
+      - name: Render with each voice
+        env:
+          SPEC: ${{ github.event.inputs.spec }}
+        run: |
+          mkdir -p samples
+          ID=$(node -p "require('./$SPEC').id")
+          for v in edge:hi-IN-SwaraNeural edge:hi-IN-MadhurNeural piper:hi_IN-pratham-medium; do
+            E=${v%%:*}; V=${v#*:}
+            if MUSIC=on TTS_ENGINE=$E TTS_VOICE=$V node render.js "$SPEC"; then
+              cp "out/$ID/$ID.mp4" "samples/$ID-$V.mp4"
+            else
+              echo "::error::$V failed"
+            fi
+            rm -rf "out/$ID"
+          done
+          ls -la samples
+      - name: Push to the samples branch
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan samples-tmp && git rm -rfq --cached . && git add samples/*.mp4
+          git commit -qm "Voice samples" && git push -f origin samples-tmp:samples
