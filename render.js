@@ -56,6 +56,15 @@ const link = spec.shortUrl || spec.url;
   fs.writeFileSync(path.join(out, 'captions.srt'),
     cues.map((c, i) => `${i + 1}\n${srtTime(c.start)} --> ${srtTime(c.end)}\n${c.text}\n`).join('\n'));
   const tags = spec.hashtags.join(' ');
+  // Machine-readable copy of the same text, used by publish.js for the automatic YouTube upload.
+  fs.writeFileSync(path.join(out, 'upload.json'), JSON.stringify({
+    id: spec.id,
+    title: spec.title.replace(/[<>]/g, ''),
+    description: `${spec.description}\n${link}\n\n${tags}`.replace(/[<>]/g, ''),
+    tags: spec.tags || spec.hashtags.map(h => h.replace(/^#/, '')),
+    playlist: spec.playlist || '',
+    comment: `फ्री कैलकुलेटर: ${link}`,
+  }, null, 2));
   fs.writeFileSync(path.join(out, 'post.md'), `# ${spec.id} (${duration.toFixed(1)} s)
 
 ## YouTube Shorts

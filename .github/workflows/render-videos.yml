@@ -3,7 +3,7 @@ name: Render videos
 on:
   push:
     branches: [main]
-    paths: ["videos/**.json"]
+    paths: ["videos/*.json"]
   workflow_dispatch:
     inputs:
       files:
@@ -37,7 +37,7 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "push" ]; then
             if git rev-parse -q --verify HEAD^ >/dev/null; then
-              FILES=$(git diff --name-only --diff-filter=AM HEAD^ HEAD -- 'videos/*.json' | tr '\n' ' ')
+              FILES=$(git diff --name-only --diff-filter=AM HEAD^ HEAD -- 'videos/*.json' ':!videos/*/*' | tr '\n' ' ')
             else
               FILES=$(ls videos/*.json | tr '\n' ' ')
             fi

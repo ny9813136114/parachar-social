@@ -22,3 +22,9 @@ Scene types: `hook`, `inputs`, `count`, `split`, `warn`, `myth`, `list`, `cta`. 
 Text mein `*amber highlight*` chalta hai. Design rules: `SOCIAL-MEDIA-PLAN.md`.
 
 Rules: numbers sirf tested calculator maths se; har video par source + jaanch ki date + "यह अनुमान है, मंज़ूरी नहीं".
+
+## Roz 3 Shorts automatic (YouTube)
+1. Naye video ke JSON `videos/queue/` mein daalo (naam ke order se chalte hain, jaise `2026-10-20-1-mudra.json`).
+2. Har subah 6 baje (IST) `Daily YouTube Shorts` workflow queue se agle 3 video uthata hai, render karta hai, aur Make webhook (`MAKE_WEBHOOK_URL` secret) ko bhejta hai.
+3. Make unhe YouTube par Private + scheduled upload karta hai: 9:00, 13:00, 19:30 IST.
+4. Chhapne ke baad JSON `videos/published/` mein chala jaata hai. Rokna ho toh repo variable `AUTO_PUBLISH=off`.

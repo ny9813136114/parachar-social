@@ -1,0 +1,82 @@
+name: Daily YouTube Shorts
+
+# Every morning: take the next 3 videos from videos/queue/, render them, and send them to Make,
+# which uploads them to YouTube as Private and scheduled for 9:00, 13:00 and 19:30 IST that day.
+# Published specs move to videos/published/. Pause by setting repo variable AUTO_PUBLISH=off.
+
+on:
+  schedule:
+    - cron: "30 0 * * *" # 06:00 IST
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "How many videos from the queue (1-3)"
+        default: "3"
+      date:
+        description: "Publish date YYYY-MM-DD (IST). Empty = today"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-youtube
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
+      IN_COUNT: ${{ github.event.inputs.count }}
+      IN_DATE: ${{ github.event.inputs.date }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pick videos from the queue
+        id: pick
+        run: |
+          if [ -z "$MAKE_WEBHOOK_URL" ] || [ "${{ vars.AUTO_PUBLISH }}" = "off" ]; then
+            echo "Auto-publish is not set up or is paused; nothing to do."; echo "files=" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          N="${IN_COUNT:-3}"; case "$N" in [1-3]) ;; *) N=3;; esac
+          FILES=$(ls videos/queue/*.json 2>/dev/null | sort | head -n "$N" | tr '\n' ' ')
+          DATE="${IN_DATE:-$(TZ=Asia/Kolkata date +%F)}"; [[ "$DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] || { echo "bad date"; exit 1; }
+          echo "files=$FILES" >> "$GITHUB_OUTPUT"; echo "date=$DATE" >> "$GITHUB_OUTPUT"
+          [ -n "$FILES" ] && echo "Publishing on $DATE: $FILES" || echo "::warning::Queue is empty, no videos today"
+
+      - uses: actions/setup-node@v4
+        if: steps.pick.outputs.files != ''
+        with:
+          node-version: 22
+
+      - name: Install ffmpeg, Playwright and Chromium
+        if: steps.pick.outputs.files != ''
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+
+      - name: Render
+        if: steps.pick.outputs.files != ''
+        run: for f in ${{ steps.pick.outputs.files }}; do node render.js "$f"; done
+
+      - name: Send to Make (YouTube upload)
+        if: steps.pick.outputs.files != ''
+        run: |
+          DIRS=$(for f in ${{ steps.pick.outputs.files }}; do echo "out/$(basename "$f" .json)"; done)
+          node publish.js "${{ steps.pick.outputs.date }}" $DIRS
+
+      - name: Move published specs and keep a release
+        if: steps.pick.outputs.files != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p videos/published
+          for f in ${{ steps.pick.outputs.files }}; do git mv "$f" videos/published/; done
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -qm "Published to YouTube on ${{ steps.pick.outputs.date }}" && git push
+          ASSETS=""
+          for d in out/*/; do id=$(basename "$d"); cp "$d/captions.srt" "$d/$id.srt"; ASSETS="$ASSETS $d/$id.mp4 $d/$id.srt"; done
+          gh release create "yt-${{ steps.pick.outputs.date }}-${{ github.run_number }}" $ASSETS \
+            --title "YouTube ${{ steps.pick.outputs.date }}" --notes "Scheduled 09:00 / 13:00 / 19:30 IST. Pin the free-tool comment on each Short."
