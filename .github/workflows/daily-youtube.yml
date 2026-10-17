@@ -29,12 +29,17 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
     env:
       MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
       IN_COUNT: ${{ github.event.inputs.count }}
       IN_DATE: ${{ github.event.inputs.date }}
       PRIVATE_ONLY: ${{ github.event.inputs.private_only || 'false' }}
+      # Look and sound: premium template, Hindi voice (Madhur), generated background music.
+      ENGINE_STYLE: v2
+      MUSIC: "on"
+      TTS_ENGINE: edge
+      TTS_VOICE: hi-IN-MadhurNeural
     steps:
       - uses: actions/checkout@v4
 
@@ -61,10 +66,12 @@ jobs:
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           npm install --no-audit --no-fund
           npx playwright install --with-deps chromium
+          python3 -m pip install -q edge-tts
 
       - name: Render
         if: steps.pick.outputs.files != ''
-        run: for f in ${{ steps.pick.outputs.files }}; do node render.js "$f"; done
+        # If the voice service fails, the video still goes out with music only.
+        run: for f in ${{ steps.pick.outputs.files }}; do node render.js "$f" || { echo "::warning::voice failed for $f, rendering without voice"; TTS_ENGINE=off node render.js "$f"; }; done
 
       - name: Keep a release (Make downloads the MP4 from here)
         if: steps.pick.outputs.files != ''
