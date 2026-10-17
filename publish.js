@@ -21,7 +21,7 @@ const publishAt = slot => new Date(`${date}T${slot}:00+05:30`).toISOString();
     const mp4 = path.join(dir, meta.id + '.mp4');
     const bytes = fs.readFileSync(mp4);
     const slot = SLOTS_IST[i % SLOTS_IST.length];
-    const at = publishAt(slot);
+    const at = process.env.PRIVATE_ONLY === 'true' ? '' : publishAt(slot); // test runs stay Private, never auto-publish
     if (bytes.length > MAX_BYTES) { console.error(`${meta.id}: ${bytes.length} bytes is too big for the webhook`); failed++; continue; }
     if (!hook) { console.log(`[dry run, no MAKE_WEBHOOK_URL] ${meta.id} -> ${at} (${slot} IST)`); continue; }
     const res = await fetch(hook, {
@@ -31,7 +31,7 @@ const publishAt = slot => new Date(`${date}T${slot}:00+05:30`).toISOString();
     });
     const text = (await res.text()).slice(0, 300);
     if (!res.ok) { console.error(`${meta.id}: webhook ${res.status} ${text}`); failed++; continue; }
-    console.log(`${meta.id}: sent, publishes ${at} (${slot} IST) · ${text}`);
+    console.log(`${meta.id}: sent, ${at ? `publishes ${at} (${slot} IST)` : 'Private (no publish time)'} · ${text}`);
   }
   process.exit(failed ? 1 : 0);
 })().catch(e => { console.error(e); process.exit(1); });

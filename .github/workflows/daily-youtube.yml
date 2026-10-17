@@ -15,6 +15,10 @@ on:
       date:
         description: "Publish date YYYY-MM-DD (IST). Empty = today"
         default: ""
+      private_only:
+        description: "Test: upload as Private with no publish time"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -30,6 +34,7 @@ jobs:
       MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
       IN_COUNT: ${{ github.event.inputs.count }}
       IN_DATE: ${{ github.event.inputs.date }}
+      PRIVATE_ONLY: ${{ github.event.inputs.private_only || 'false' }}
     steps:
       - uses: actions/checkout@v4
 
