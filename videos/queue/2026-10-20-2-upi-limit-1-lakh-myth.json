@@ -1,0 +1,67 @@
+{
+  "id": "upi-limit-1-lakh-myth",
+  "template": "T2 myth-vs-sach",
+  "theme": "navy",
+  "trust": "स्रोत: NPCI सर्कुलर, RBI · जाँच: 15 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं",
+  "url": "https://parachar.com/upi-limit-kitni-hai-per-day/",
+  "campaign": "upi-limit",
+  "title": "UPI Limit सिर्फ़ ₹1 लाख? ❌ अस्पताल, फ़ीस पर ₹5 लाख | UPI Limit Per Day #shorts",
+  "description": "UPI से किसी व्यक्ति को दिन में ₹1 लाख तक भेज सकते हैं, पर अस्पताल और कॉलेज फ़ीस पर ₹5 लाख तक (NPCI)। टैक्स, बीमा, क्रेडिट कार्ड बिल पर भी ऊँची लिमिट। नया फ़ोन / नया UPI: पहले 24 घंटे ₹5,000। UPI Lite ₹1,000 बिना PIN। ग्राहक से कोई फ़ीस नहीं। अपनी लिमिट चेक करें:",
+  "hashtags": [
+    "#UPI",
+    "#UPILimit",
+    "#DigitalPayment",
+    "#NPCI",
+    "#MoneyTips"
+  ],
+  "tags": [
+    "upi limit per day",
+    "upi limit kitni hai",
+    "यूपीआई लिमिट",
+    "upi limit 5 lakh",
+    "upi transaction limit sbi",
+    "upi limit exceeded",
+    "upi lite limit",
+    "यूपीआई से कितना पैसा भेज सकते हैं"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3,
+      "chip": "⚠️ Limit exceeded?",
+      "lines": [
+        "UPI से ₹1 लाख से ज़्यादा",
+        "*नहीं* भेज सकते?"
+      ],
+      "sub": "आधा सच है 👇",
+      "say": "UPI से एक लाख से ज़्यादा नहीं भेज सकते? आधा सच है।"
+    },
+    {
+      "type": "myth",
+      "dur": 5.8,
+      "myth": "UPI पर हर पेमेंट की लिमिट ₹1&nbsp;लाख",
+      "fact": "अस्पताल, कॉलेज फ़ीस पर *₹5&nbsp;लाख* तक",
+      "sub": "व्यक्ति को ₹1 लाख/दिन · टैक्स, बीमा, क्रेडिट कार्ड बिल पर भी ज़्यादा",
+      "say": "अस्पताल और कॉलेज फ़ीस पर पाँच लाख तक भेज सकते हैं।"
+    },
+    {
+      "type": "list",
+      "dur": 5.6,
+      "heading": "ये लिमिट भी जानिए",
+      "items": [
+        "नया फ़ोन / नया UPI: 24 घंटे *₹5,000*",
+        "UPI Lite: *₹1,000* तक बिना PIN",
+        "आपसे UPI पर *कोई फ़ीस नहीं*"
+      ],
+      "say": "नए फ़ोन पर पहले चौबीस घंटे पाँच हज़ार, UPI पर कोई फ़ीस नहीं।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "line": "आपकी पेमेंट पर लिमिट कितनी?<br><em>बैंक चुनकर देखें</em>",
+      "tool": "UPI लिमिट चेकर",
+      "button": "फ्री चेक करें",
+      "say": "अपनी लिमिट चेक कीजिए, लिंक डिस्क्रिप्शन में।"
+    }
+  ]
+}

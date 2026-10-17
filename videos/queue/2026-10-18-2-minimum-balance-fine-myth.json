@@ -1,0 +1,67 @@
+{
+  "id": "minimum-balance-fine-myth",
+  "template": "T2 myth-vs-sach",
+  "theme": "navy",
+  "trust": "स्रोत: RBI परिपत्र 2014, राज्यसभा उत्तर (जुलाई 2026), बैंक चार्ज सूची · जाँच: 14 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं",
+  "url": "https://parachar.com/minimum-balance-charges-kitne-lagte-hain/",
+  "campaign": "minimum-balance",
+  "title": "Minimum Balance Fine: बैंक खाता माइनस कर सकता है? ❌ RBI नियम जानिए #shorts",
+  "description": "मिनिमम बैलेंस न रखने पर बैंक मनमाना फ़ाइन नहीं काट सकता: RBI के नियम से फ़ाइन कमी के हिसाब से होता है और खाता माइनस में नहीं जा सकता। SBI समेत 10 सरकारी बैंकों में बचत खाते पर फ़ाइन नहीं, Jan Dhan / BSBD खाता ज़ीरो बैलेंस। अपने बैंक का फ़ाइन 1 मिनट में देखें:",
+  "hashtags": [
+    "#MinimumBalance",
+    "#BankCharges",
+    "#RBI",
+    "#SavingsAccount",
+    "#MoneyTips"
+  ],
+  "tags": [
+    "minimum balance charges",
+    "minimum balance penalty",
+    "मिनिमम बैलेंस चार्ज",
+    "bank account minus balance",
+    "hdfc minimum balance",
+    "sbi minimum balance",
+    "rbi minimum balance rule",
+    "बैंक फ़ाइन कैसे बचें"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3,
+      "chip": "⚠️ बैंक फ़ाइन",
+      "lines": [
+        "बैलेंस कम हुआ,",
+        "बैंक ने *फ़ाइन* काटा?"
+      ],
+      "sub": "पहले RBI का यह नियम जानिए 👇",
+      "say": "बैलेंस कम हुआ और बैंक ने फ़ाइन काटा? रुकिए।"
+    },
+    {
+      "type": "myth",
+      "dur": 5.6,
+      "myth": "बैंक फ़ाइन काटकर खाता माइनस कर सकता है",
+      "fact": "फ़ाइन *कमी के हिसाब से*, खाता माइनस नहीं होगा",
+      "sub": "RBI नियम 2014 · पहले SMS/ईमेल सूचना ज़रूरी",
+      "say": "बैंक खाता माइनस नहीं कर सकता, फ़ाइन सिर्फ़ कमी के हिसाब से।"
+    },
+    {
+      "type": "list",
+      "dur": 5.6,
+      "heading": "किस खाते पर कितना?",
+      "items": [
+        "SBI समेत *10 सरकारी बैंक*: ₹0",
+        "Jan Dhan / BSBD खाता: *ज़ीरो बैलेंस*",
+        "HDFC मेट्रो, ₹5,000 कम: *₹354*"
+      ],
+      "say": "SBI समेत दस सरकारी बैंकों में कोई फ़ाइन नहीं, जन धन खाता ज़ीरो बैलेंस।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "line": "आपके बैंक में कितना फ़ाइन?<br><em>1 मिनट में देखें</em>",
+      "tool": "मिनिमम बैलेंस फ़ाइन कैलकुलेटर",
+      "button": "फ्री चेक करें",
+      "say": "अपने बैंक का फ़ाइन देखिए, लिंक डिस्क्रिप्शन में।"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "post-office-rates-oct-dec-2026",
+  "template": "T3 kya-badla",
+  "theme": "navy",
+  "trust": "स्रोत: वित्त मंत्रालय, 30 सितंबर 2026 (अक्टूबर–दिसंबर दरें) · जाँच: 14 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं",
+  "url": "https://parachar.com/post-office-scheme-calculator/",
+  "campaign": "post-office",
+  "title": "Post Office Interest Rates Oct-Dec 2026: NSC, PPF, SCSS, MIS | ₹1 लाख पर कितना? #shorts",
+  "description": "अक्टूबर–दिसंबर 2026 में पोस्ट ऑफिस की ब्याज दरें नहीं बदलीं: SCSS और सुकन्या 8.2%, NSC 7.7%, TD 5 साल और KVP 7.5%, MIS 7.4%, PPF 7.1%। ₹1 लाख 5 साल: NSC में ₹1,44,903, TD में ₹1,38,568। MIS में ₹9 लाख पर ₹5,550 महीना। अपनी रकम पर हिसाब, फ्री:",
+  "hashtags": [
+    "#PostOffice",
+    "#InterestRate",
+    "#NSC",
+    "#PPF",
+    "#SmallSavings"
+  ],
+  "tags": [
+    "post office interest rate 2026",
+    "post office scheme calculator",
+    "पोस्ट ऑफिस ब्याज दर",
+    "nsc interest rate",
+    "ppf interest rate oct 2026",
+    "post office mis",
+    "scss interest rate",
+    "small savings rates october december 2026"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "chip": "अक्टूबर–दिसंबर 2026",
+      "lines": [
+        "पोस्ट ऑफिस ब्याज दरें",
+        "*नहीं बदलीं*"
+      ],
+      "sub": "कहाँ कितना मिलेगा 👇",
+      "say": "पोस्ट ऑफिस की ब्याज दरें इस तिमाही नहीं बदलीं।"
+    },
+    {
+      "type": "inputs",
+      "dur": 5,
+      "heading": "सालाना ब्याज दर",
+      "rows": [
+        [
+          "SCSS / सुकन्या",
+          "8.2%"
+        ],
+        [
+          "NSC",
+          "7.7%"
+        ],
+        [
+          "TD 5 साल / KVP",
+          "7.5%"
+        ],
+        [
+          "MIS",
+          "7.4%"
+        ],
+        [
+          "PPF",
+          "7.1%"
+        ]
+      ],
+      "say": "सीनियर सिटीज़न और सुकन्या आठ दशमलव दो, NSC सात दशमलव सात, PPF सात दशमलव एक।"
+    },
+    {
+      "type": "list",
+      "dur": 5.6,
+      "heading": "₹1 लाख, 5 साल बाद",
+      "items": [
+        "NSC: *₹1,44,903*",
+        "TD 5 साल: *₹1,38,568*",
+        "KVP: 115 महीने में *₹2 लाख*"
+      ],
+      "say": "एक लाख पाँच साल में NSC में एक लाख चवालीस हज़ार, TD में एक लाख अड़तीस हज़ार।"
+    },
+    {
+      "type": "warn",
+      "dur": 4.4,
+      "icon": "💡",
+      "text": "MIS: ₹9 लाख पर हर महीने *₹5,550*",
+      "sub": "SCSS (60+) में ₹10 लाख = ₹20,500 हर तिमाही",
+      "say": "MIS में नौ लाख पर हर महीने पाँच हज़ार पाँच सौ पचास।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "line": "आपकी रकम पर कितना?<br><em>9 योजनाएँ, एक कैलकुलेटर</em>",
+      "tool": "पोस्ट ऑफिस कैलकुलेटर",
+      "say": "अपनी रकम पर हिसाब देखिए, लिंक डिस्क्रिप्शन में।"
+    }
+  ]
+}
