@@ -45,10 +45,13 @@ const publishAt = slot => new Date(Math.max(Date.parse(`${date}T${slot}:00+05:30
     const captionBody = fs.existsSync(srtFile) ? ['--parachar_srt', 'Content-Type: application/json; charset=UTF-8', '',
       JSON.stringify({ snippet: { videoId: '__VIDEO_ID__', language: 'hi', name: 'हिन्दी', isDraft: false } }),
       '--parachar_srt', 'Content-Type: application/octet-stream', '', fs.readFileSync(srtFile, 'utf8'), '--parachar_srt--', ''].join('\r\n') : '';
+    // Hindi as the video and audio language (the upload module can't set it): a ready videos.update body.
+    const snippetBody = JSON.stringify({ id: '__VIDEO_ID__', snippet: { title: meta.title, description: meta.description,
+      tags: meta.tags, categoryId: '27', defaultLanguage: meta.language || 'hi', defaultAudioLanguage: meta.language || 'hi' } });
     const res = await fetch(hook, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ ...meta, publishAt: at, fileName: meta.id + '.mp4', videoUrl: await signedUrl(assets, meta.id + '.mp4'), captionBody }),
+      body: JSON.stringify({ ...meta, publishAt: at, fileName: meta.id + '.mp4', videoUrl: await signedUrl(assets, meta.id + '.mp4'), captionBody, snippetBody }),
     });
     const text = (await res.text()).slice(0, 300);
     if (!res.ok) { console.error(`::error::${meta.id}: webhook ${res.status} ${text}`); failed++; continue; }

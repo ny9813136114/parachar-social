@@ -134,14 +134,27 @@ function pickLook() {
   fs.writeFileSync(path.join(out, 'captions.srt'),
     cues.map((c, i) => `${i + 1}\n${srtTime(c.start)} --> ${srtTime(c.end)}\n${c.text}\n`).join('\n'));
   const tags = spec.hashtags.join(' ');
+  // YouTube SEO: keyword-first opening line and the tool link above the fold, then the facts,
+  // a keyword paragraph, the source line, the playlist and the tools hub, hashtags last.
+  const plId = (JSON.parse(fs.readFileSync(path.join(__dirname, 'playlists.json'), 'utf8')))[spec.playlist] || '';
+  const intro = spec.seoIntro || spec.title.replace(/\s*#shorts\s*/i, '').split('|')[0].trim();
+  const description = [
+    intro, `👉 फ्री कैलकुलेटर: ${link}`, '',
+    `${spec.description}\n${link}`,
+    ...(spec.about ? ['', spec.about] : []),
+    ...(spec.trust ? ['', spec.trust] : []),
+    ...(plId ? ['', `▶ ऐसे और Shorts (${spec.playlist}): https://www.youtube.com/playlist?list=${plId}`] : []),
+    '🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/', '', tags,
+  ].join('\n').replace(/[<>]/g, '').slice(0, 4900);
   // Machine-readable copy of the same text, used by publish.js for the automatic YouTube upload.
   fs.writeFileSync(path.join(out, 'upload.json'), JSON.stringify({
     id: spec.id,
     title: spec.title.replace(/[<>]/g, ''),
-    description: `${spec.description}\n${link}\n\n${tags}`.replace(/[<>]/g, ''),
+    description,
+    language: spec.language || 'hi',
     tags: spec.tags || spec.hashtags.map(h => h.replace(/^#/, '')),
     playlist: spec.playlist || '',
-    playlistId: (JSON.parse(fs.readFileSync(path.join(__dirname, 'playlists.json'), 'utf8')))[spec.playlist] || '',
+    playlistId: plId,
     comment: `फ्री कैलकुलेटर: ${link}`,
   }, null, 2));
   fs.writeFileSync(path.join(out, 'post.md'), `# ${spec.id} (${duration.toFixed(1)} s)
@@ -149,10 +162,7 @@ function pickLook() {
 ## YouTube Shorts
 **Title:** ${spec.title}
 **Description:**
-${spec.description}
-${link}
-
-${tags}
+${description}
 **Pinned comment:** फ्री कैलकुलेटर: ${link}
 **Captions file:** captions.srt (YouTube Studio → Subtitles → Upload file → With timing)
 `);

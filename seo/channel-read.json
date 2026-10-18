@@ -1,0 +1,5 @@
+[
+  { "name": "channel", "method": "GET", "path": "/v3/channels?part=snippet,brandingSettings,statistics&mine=true" },
+  { "name": "playlists", "method": "GET", "path": "/v3/playlists?part=snippet,status&mine=true&maxResults=50" },
+  { "name": "videos", "method": "GET", "path": "/v3/search?part=id&forMine=true&type=video&maxResults=50" }
+]
