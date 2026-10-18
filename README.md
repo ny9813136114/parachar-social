@@ -52,3 +52,9 @@ Rules: numbers sirf tested calculator maths se; har video par source + jaanch ki
 - Each upload also gets Hindi subtitles (captions.srt, via the Make scenario). `youtube-comments.yml` runs hourly and
   posts "फ्री कैलकुलेटर: <link>" on every Short that is already live (ids in videos/published/youtube.json). Pin it by hand.
 - Runners are pinned to ubuntu-24.04.
+
+## YouTube SEO (18 Oct 2026)
+
+- Every spec has `seoIntro` (one keyword-first line) and `about` (a short keyword paragraph). render.js builds the description: intro, tool link, facts, about, source, playlist link, tools hub, hashtags.
+- publish.js sends `snippetBody`; Make step 13 sets Hindi as video and audio language after upload.
+- One-off YouTube settings (channel About, playlist descriptions, fixes on old videos): put the calls in `seo/<name>.json` and run the "YouTube settings" workflow with that file. Replies land in `seo/replies/`.
