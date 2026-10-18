@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   sample:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04 # pinned: ubuntu-latest moves to 26 from 19 Oct 2026, Playwright deps may lag
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
