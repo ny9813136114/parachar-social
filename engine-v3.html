@@ -102,7 +102,9 @@ em{font-style:normal;background:linear-gradient(100deg,var(--sun) 10%,var(--sun2
 #stage .note em,#stage .sub em,#stage .biglabel em{color:var(--hl);background:none;-webkit-background-clip:initial;background-clip:initial}
 #stage.footage,#stage.footage~*{background:transparent}
 html.footage,html.footage body{background:transparent}
-.scrim{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(0,0,0,.62) 0%,rgba(0,0,0,.18) 26%,rgba(0,0,0,.22) 60%,rgba(0,0,0,.78) 100%)}
+.scrim{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(0,0,0,.62) 0%,rgba(0,0,0,.34) 20%,rgba(0,0,0,.30) 60%,rgba(0,0,0,.8) 100%)}
+/* over footage, free-standing text gets a dark halo so busy backgrounds (signs, crowds) never fight it */
+#stage.footage:not(.look-creator):not(.look-tvnews) :is(.h1,.h2,.ctaline,.sub,.biglabel,.note,.ctasub,.big){text-shadow:0 4px 18px rgba(0,0,0,.95),0 0 3px rgba(0,0,0,.9),0 0 40px rgba(0,0,0,.6)}
 .scene,.brand,.trust,.prog,.caption{z-index:5}
 .paper{position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E")}
 .ticker{position:absolute;left:0;right:0;top:1560px;height:76px;display:none;z-index:6;overflow:hidden;background:#fff;color:#111;font:600 40px/76px 'Teko',sans-serif;letter-spacing:1px;white-space:nowrap}

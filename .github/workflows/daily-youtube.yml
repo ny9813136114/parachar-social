@@ -36,8 +36,9 @@ jobs:
       IN_COUNT: ${{ github.event.inputs.count }}
       IN_DATE: ${{ github.event.inputs.date }}
       PRIVATE_ONLY: ${{ github.event.inputs.private_only || 'false' }}
-      # Look and sound: premium template, Hindi voice (Madhur), generated background music.
-      ENGINE_STYLE: v2
+      # Look and sound: v3 engine (a different look per video over real Pexels footage), Hindi voice (Madhur), music.
+      ENGINE_STYLE: v3
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       MUSIC: "on"
       TTS_ENGINE: edge
       TTS_VOICE: hi-IN-MadhurNeural

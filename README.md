@@ -33,3 +33,14 @@ Rules: numbers sirf tested calculator maths se; har video par source + jaanch ki
 - Daily run uses the premium template (`engine-v2.html`), Madhur Hindi voice (edge-tts, each scene's `say` line) and generated background music (`music.py`). Set in `.github/workflows/daily-youtube.yml`.
 - Every new spec needs `"playlist"`: one of the names in `playlists.json`. Make adds the Short to that playlist after upload.
 - Monday 08:30 IST: `youtube-report.yml` saves views/likes/comments to the `reports` branch (`reports/<date>.md`).
+
+## Engine v3: real footage, a different look per video (18 Oct 2026)
+
+- The daily run uses `ENGINE_STYLE=v3` (engine-v3.html). Each video gets one of 7 looks (creator, akhbaar, notebook,
+  tvnews, glass, poster, fintech) from its file name (date + slot), so 7 videos in a row never share a design;
+  the colour palette also varies. Force one with `"look": "<name>"` in a spec.
+- Backgrounds are real stock clips from Pexels (free licence, secret `PEXELS_API_KEY`), one per scene, chosen by the
+  spec's `"broll"` list of English search terms (one per scene; else the playlist's defaults in bg.js). Clips get a
+  slow push-in, slight hand-held sway, the look's colour grade and grain. If Pexels fails, the look's own background is used.
+- `look-samples.yml` renders the next 3 queued videos to the `looks` branch for checking.
+- The repo is public (free Actions minutes); keep every key in GitHub secrets, never in files.
