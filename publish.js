@@ -25,7 +25,8 @@ async function signedUrl(assets, name) {
   return loc;
 }
 
-const publishAt = slot => new Date(`${date}T${slot}:00+05:30`).toISOString();
+// A slot that has already passed (late run) goes out 15 minutes from now instead.
+const publishAt = slot => new Date(Math.max(Date.parse(`${date}T${slot}:00+05:30`), Date.now() + 15 * 60e3)).toISOString();
 
 (async () => {
   let failed = 0, assets = [];
