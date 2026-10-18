@@ -1,0 +1,1046 @@
+{
+  "channel": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#channel",
+      "etag": "zPCym6idTZAHC2W73hkBY1t3QDg",
+      "id": "UCdqRVpQKsb5huTo6__pTpuA",
+      "brandingSettings": {
+        "channel": {
+          "title": "Parachar",
+          "description": "Parachar: सरकारी योजना, लोन, सब्सिडी, इनकम टैक्स, पेंशन और बचत का सीधा ₹ हिसाब, हिंदी में 60 सेकंड के Shorts।\n\nहर दिन 3 नए Shorts: PMEGP, मुद्रा लोन, CGTMSE (बिना गारंटी लोन), PM सूर्य घर सोलर सब्सिडी, अटल पेंशन योजना, ग्रेच्युटी, इनकम टैक्स, UPI लिमिट, पोस्ट ऑफिस ब्याज दरें, FASTag और चेक बाउंस जैसे रोज़ के नियम। हर वीडियो में असली ₹ हिसाब, सरकारी स्रोत और जाँच की तारीख।\n\n✅ 100+ फ्री कैलकुलेटर: बिना लॉगिन, बिना फ़ोन नंबर\n✅ नियम सरकारी वेबसाइट से जाँचे हुए\n⚠️ हमारे हिसाब अनुमान हैं, लोन की मंज़ूरी नहीं। आवेदन हमेशा सरकारी पोर्टल पर, फ्री। एजेंट को पैसे न दें।\n\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\nFree Hindi calculators for Indian government schemes, business loans, subsidies, income tax, pension and savings. 3 new Shorts every day.\n",
+          "keywords": "\"सरकारी योजना\" \"sarkari yojana\" PMEGP \"मुद्रा लोन\" CGTMSE \"subsidy calculator\" \"loan calculator\" \"income tax calculator\" \"अटल पेंशन योजना\" \"post office scheme\" \"UPI limit\" gratuity MSME Udyam \"हिंदी कैलकुलेटर\" parachar",
+          "defaultLanguage": "hi",
+          "country": "IN"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.googleusercontent.com/VdpK19vH4pwb4MRFpnOzlsYjLYYQE-8qaq6zBfGCM7HvYbdlwP5S9A5wdPKYMjVM6oXkdv-ni_Q"
+        }
+      }
+    }
+  },
+  "pl-PLGm-6VpY_nWE": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#playlist",
+      "etag": "QDr_BkdhIw90keqjbQF3kQoN-oo",
+      "id": "PLGm-6VpY_nWE",
+      "snippet": {
+        "publishedAt": "2026-10-17T17:20:07Z",
+        "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+        "title": "रोज़ के नियम और क़ानून",
+        "description": "रोज़ के नियम और क़ानून आसान हिंदी में: चेक बाउंस केस (Section 138), FASTag एनुअल पास, ट्रैफ़िक चालान, किराया एग्रीमेंट, उपभोक्ता शिकायत जैसे नियम, हर Short में तारीख़ें, सज़ा और ₹ हिसाब। सरकारी स्रोत से जाँचे हुए। अपना हिसाब फ्री कैलकुलेटर से: https://parachar.com/tools/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Parachar",
+        "defaultLanguage": "hi",
+        "localized": {
+          "title": "रोज़ के नियम और क़ानून",
+          "description": "रोज़ के नियम और क़ानून आसान हिंदी में: चेक बाउंस केस (Section 138), FASTag एनुअल पास, ट्रैफ़िक चालान, किराया एग्रीमेंट, उपभोक्ता शिकायत जैसे नियम, हर Short में तारीख़ें, सज़ा और ₹ हिसाब। सरकारी स्रोत से जाँचे हुए। अपना हिसाब फ्री कैलकुलेटर से: https://parachar.com/tools/"
+        }
+      }
+    }
+  },
+  "pl-PLHve-MXNo9TA": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#playlist",
+      "etag": "PclyRfw52KqR7umcGTwRfdjywzc",
+      "id": "PLHve-MXNo9TA",
+      "snippet": {
+        "publishedAt": "2026-10-17T17:20:07Z",
+        "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+        "title": "पेंशन और रिटायरमेंट",
+        "description": "पेंशन और रिटायरमेंट प्लानिंग हिंदी में: अटल पेंशन योजना चार्ट, NPS कैलकुलेटर, EPS पेंशन, ग्रेच्युटी, PF निकासी और वरिष्ठ नागरिक बचत योजना (SCSS)। उम्र के हिसाब से कितना जमा करें और कितनी पेंशन मिलेगी, असली ₹ उदाहरण के साथ। फ्री कैलकुलेटर: https://parachar.com/tools/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Parachar",
+        "defaultLanguage": "hi",
+        "localized": {
+          "title": "पेंशन और रिटायरमेंट",
+          "description": "पेंशन और रिटायरमेंट प्लानिंग हिंदी में: अटल पेंशन योजना चार्ट, NPS कैलकुलेटर, EPS पेंशन, ग्रेच्युटी, PF निकासी और वरिष्ठ नागरिक बचत योजना (SCSS)। उम्र के हिसाब से कितना जमा करें और कितनी पेंशन मिलेगी, असली ₹ उदाहरण के साथ। फ्री कैलकुलेटर: https://parachar.com/tools/"
+        }
+      }
+    }
+  },
+  "pl-PLDBOcuU_Prr4": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#playlist",
+      "etag": "-7HWr6cy2sIBwnYHjgt2hgfs8kQ",
+      "id": "PLDBOcuU_Prr4",
+      "snippet": {
+        "publishedAt": "2026-10-17T17:20:06Z",
+        "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+        "title": "बैंक, UPI और बचत योजनाएँ",
+        "description": "बैंक, UPI और बचत योजनाएँ: UPI लिमिट, मिनिमम बैलेंस चार्ज, पोस्ट ऑफिस ब्याज दरें (NSC, PPF, MIS, KVP, सुकन्या), FD और RD का हिसाब। हर Short में नई दरें, सरकारी या RBI स्रोत और ₹1 लाख पर कितना मिलेगा। अपनी रकम पर फ्री कैलकुलेटर: https://parachar.com/tools/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/txYlY3BJIko/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/txYlY3BJIko/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/txYlY3BJIko/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/txYlY3BJIko/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/txYlY3BJIko/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Parachar",
+        "defaultLanguage": "hi",
+        "localized": {
+          "title": "बैंक, UPI और बचत योजनाएँ",
+          "description": "बैंक, UPI और बचत योजनाएँ: UPI लिमिट, मिनिमम बैलेंस चार्ज, पोस्ट ऑफिस ब्याज दरें (NSC, PPF, MIS, KVP, सुकन्या), FD और RD का हिसाब। हर Short में नई दरें, सरकारी या RBI स्रोत और ₹1 लाख पर कितना मिलेगा। अपनी रकम पर फ्री कैलकुलेटर: https://parachar.com/tools/"
+        }
+      }
+    }
+  },
+  "pl-PLFBDdDjKFXrU": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#playlist",
+      "etag": "60DbYSx-Vv1aFc6B2HDHJ2SqATg",
+      "id": "PLFBDdDjKFXrU",
+      "snippet": {
+        "publishedAt": "2026-10-17T17:20:06Z",
+        "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+        "title": "इनकम टैक्स और सैलरी",
+        "description": "इनकम टैक्स और सैलरी हिंदी में: नई vs पुरानी टैक्स रिजीम, TDS रेट, HRA, ग्रेच्युटी कैलकुलेटर (15/26 फ़ॉर्मूला), इन-हैंड सैलरी और टैक्स बचत के तरीके। FY 2026-27 के नियम, असली ₹ उदाहरण के साथ। अपना टैक्स फ्री में देखें: https://parachar.com/tools/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/20qvF8APVjQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/20qvF8APVjQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/20qvF8APVjQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/20qvF8APVjQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/20qvF8APVjQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Parachar",
+        "defaultLanguage": "hi",
+        "localized": {
+          "title": "इनकम टैक्स और सैलरी",
+          "description": "इनकम टैक्स और सैलरी हिंदी में: नई vs पुरानी टैक्स रिजीम, TDS रेट, HRA, ग्रेच्युटी कैलकुलेटर (15/26 फ़ॉर्मूला), इन-हैंड सैलरी और टैक्स बचत के तरीके। FY 2026-27 के नियम, असली ₹ उदाहरण के साथ। अपना टैक्स फ्री में देखें: https://parachar.com/tools/"
+        }
+      }
+    }
+  },
+  "pl-PLJ_UkZibrHEI": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#playlist",
+      "etag": "6b7QyUF-Ont4kVEJfaTKy4llE2Q",
+      "id": "PLJ_UkZibrHEI",
+      "snippet": {
+        "publishedAt": "2026-10-17T17:20:05Z",
+        "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+        "title": "सरकारी सब्सिडी योजनाएँ",
+        "description": "सरकारी सब्सिडी योजनाएँ: PM सूर्य घर सोलर सब्सिडी, PM कुसुम, PMFME, PM विश्वकर्मा, PM SVANidhi और राज्यों की सब्सिडी। किसे मिलेगी, कितनी मिलेगी और आवेदन कैसे करें, 60 सेकंड में। हिसाब अनुमान है, आवेदन सरकारी पोर्टल पर फ्री। सब्सिडी कैलकुलेटर: https://parachar.com/tools/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pxqf95m7lq4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pxqf95m7lq4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pxqf95m7lq4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/pxqf95m7lq4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/pxqf95m7lq4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Parachar",
+        "defaultLanguage": "hi",
+        "localized": {
+          "title": "सरकारी सब्सिडी योजनाएँ",
+          "description": "सरकारी सब्सिडी योजनाएँ: PM सूर्य घर सोलर सब्सिडी, PM कुसुम, PMFME, PM विश्वकर्मा, PM SVANidhi और राज्यों की सब्सिडी। किसे मिलेगी, कितनी मिलेगी और आवेदन कैसे करें, 60 सेकंड में। हिसाब अनुमान है, आवेदन सरकारी पोर्टल पर फ्री। सब्सिडी कैलकुलेटर: https://parachar.com/tools/"
+        }
+      }
+    }
+  },
+  "pl-PLUfR6hLrG7Kw": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#playlist",
+      "etag": "In1tbmaiKeTsaM3oGqznibVb22c",
+      "id": "PLUfR6hLrG7Kw",
+      "snippet": {
+        "publishedAt": "2026-10-11T15:43:29Z",
+        "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+        "title": "PMEGP",
+        "description": "PMEGP लोन और सब्सिडी हिंदी में: प्रधानमंत्री रोजगार सृजन कार्यक्रम में 15% से 35% सब्सिडी, ₹50 लाख तक प्रोजेक्ट, पात्रता, प्रोजेक्ट रिपोर्ट, आवेदन स्टेटस और EDP ट्रेनिंग। आपकी सब्सिडी कितनी बनेगी, फ्री PMEGP कैलकुलेटर से देखें: https://parachar.com/tools/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Parachar",
+        "defaultLanguage": "hi",
+        "localized": {
+          "title": "PMEGP",
+          "description": "PMEGP लोन और सब्सिडी हिंदी में: प्रधानमंत्री रोजगार सृजन कार्यक्रम में 15% से 35% सब्सिडी, ₹50 लाख तक प्रोजेक्ट, पात्रता, प्रोजेक्ट रिपोर्ट, आवेदन स्टेटस और EDP ट्रेनिंग। आपकी सब्सिडी कितनी बनेगी, फ्री PMEGP कैलकुलेटर से देखें: https://parachar.com/tools/"
+        }
+      }
+    }
+  },
+  "pl-PLJ9P9XfWlPSk": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#playlist",
+      "etag": "DHkWsyjZdp_VBsPfrFgssvI_r-Q",
+      "id": "PLJ9P9XfWlPSk",
+      "snippet": {
+        "publishedAt": "2026-10-11T15:43:18Z",
+        "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+        "title": "MSME / Udyam",
+        "description": "MSME और Udyam रजिस्ट्रेशन हिंदी में: Udyam सर्टिफिकेट फ्री कैसे बनाएँ, माइक्रो, स्मॉल, मीडियम की सीमा, MSME के फ़ायदे, 45 दिन में पेमेंट का नियम (43B(h)) और बिज़नेस लोन। छोटे व्यापारियों के लिए आसान ₹ हिसाब। फ्री टूल: https://parachar.com/tools/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PtVdVMx_8LM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PtVdVMx_8LM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PtVdVMx_8LM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/PtVdVMx_8LM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/PtVdVMx_8LM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Parachar",
+        "defaultLanguage": "hi",
+        "localized": {
+          "title": "MSME / Udyam",
+          "description": "MSME और Udyam रजिस्ट्रेशन हिंदी में: Udyam सर्टिफिकेट फ्री कैसे बनाएँ, माइक्रो, स्मॉल, मीडियम की सीमा, MSME के फ़ायदे, 45 दिन में पेमेंट का नियम (43B(h)) और बिज़नेस लोन। छोटे व्यापारियों के लिए आसान ₹ हिसाब। फ्री टूल: https://parachar.com/tools/"
+        }
+      }
+    }
+  },
+  "pl-PLA9Nr1xjE3d8": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#playlist",
+      "etag": "PmbkC44NPOQ6FgBdAiOAoXVWy6Y",
+      "id": "PLA9Nr1xjE3d8",
+      "snippet": {
+        "publishedAt": "2026-10-11T15:43:06Z",
+        "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+        "title": "राज्य की स्वरोजगार योजनाएँ",
+        "description": "राज्य की स्वरोजगार योजनाएँ: CMEGP महाराष्ट्र, मुख्यमंत्री युवा उद्यमी योजना UP, बिहार उद्यमी योजना, MP, राजस्थान और झारखंड की लोन व सब्सिडी योजनाएँ। पात्रता, सब्सिडी कितनी और आवेदन कैसे करें, हिंदी में। फ्री कैलकुलेटर: https://parachar.com/tools/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Parachar",
+        "defaultLanguage": "hi",
+        "localized": {
+          "title": "राज्य की स्वरोजगार योजनाएँ",
+          "description": "राज्य की स्वरोजगार योजनाएँ: CMEGP महाराष्ट्र, मुख्यमंत्री युवा उद्यमी योजना UP, बिहार उद्यमी योजना, MP, राजस्थान और झारखंड की लोन व सब्सिडी योजनाएँ। पात्रता, सब्सिडी कितनी और आवेदन कैसे करें, हिंदी में। फ्री कैलकुलेटर: https://parachar.com/tools/"
+        }
+      }
+    }
+  },
+  "pl-PLPN9s94sdE5k": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#playlist",
+      "etag": "5KEVHS78-enCrfjs2oj0piP9B1Q",
+      "id": "PLPN9s94sdE5k",
+      "snippet": {
+        "publishedAt": "2026-10-11T15:42:52Z",
+        "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+        "title": "CGTMSE: बिना गारंटी लोन",
+        "description": "CGTMSE: बिना गारंटी बिज़नेस लोन हिंदी में। ₹10 करोड़ तक कोलैटरल-फ़्री लोन, गारंटी फ़ीस कितनी लगेगी, कौन से बैंक देते हैं और आवेदन कैसे करें। MSME के लिए असली ₹ हिसाब के साथ। CGTMSE फ़ीस कैलकुलेटर फ्री: https://parachar.com/tools/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ps3r2Ssu-Fo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ps3r2Ssu-Fo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ps3r2Ssu-Fo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ps3r2Ssu-Fo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ps3r2Ssu-Fo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Parachar",
+        "defaultLanguage": "hi",
+        "localized": {
+          "title": "CGTMSE: बिना गारंटी लोन",
+          "description": "CGTMSE: बिना गारंटी बिज़नेस लोन हिंदी में। ₹10 करोड़ तक कोलैटरल-फ़्री लोन, गारंटी फ़ीस कितनी लगेगी, कौन से बैंक देते हैं और आवेदन कैसे करें। MSME के लिए असली ₹ हिसाब के साथ। CGTMSE फ़ीस कैलकुलेटर फ्री: https://parachar.com/tools/"
+        }
+      }
+    }
+  },
+  "pl-PLG9rKSzcxjrQ": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#playlist",
+      "etag": "ttX0bmuKZwL6n6_wK8DfrLNmy74",
+      "id": "PLG9rKSzcxjrQ",
+      "snippet": {
+        "publishedAt": "2026-10-11T15:40:56Z",
+        "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+        "title": "मुद्रा लोन",
+        "description": "मुद्रा लोन हिंदी में: PM मुद्रा योजना शिशु, किशोर, तरुण और तरुण प्लस (₹20 लाख तक), बिना गारंटी लोन, EMI, ब्याज दर, पात्रता और आवेदन कैसे करें। हर Short में असली ₹ हिसाब। अपनी मुद्रा लोन EMI फ्री कैलकुलेटर से देखें: https://parachar.com/tools/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VLNtOHqncYU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VLNtOHqncYU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VLNtOHqncYU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/VLNtOHqncYU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/VLNtOHqncYU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Parachar",
+        "defaultLanguage": "hi",
+        "localized": {
+          "title": "मुद्रा लोन",
+          "description": "मुद्रा लोन हिंदी में: PM मुद्रा योजना शिशु, किशोर, तरुण और तरुण प्लस (₹20 लाख तक), बिना गारंटी लोन, EMI, ब्याज दर, पात्रता और आवेदन कैसे करें। हर Short में असली ₹ हिसाब। अपनी मुद्रा लोन EMI फ्री कैलकुलेटर से देखें: https://parachar.com/tools/"
+        }
+      }
+    }
+  },
+  "videos": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#videoListResponse",
+      "etag": "ukyqw8B6aQYKh1S9aRNV6tYMlm0",
+      "items": [
+        {
+          "kind": "youtube#video",
+          "etag": "Gv1pS0NQVEr5JcproU4lV8jf2xU",
+          "id": "20qvF8APVjQ",
+          "snippet": {
+            "publishedAt": "2026-10-18T14:00:08Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "₹15 लाख सैलरी: New vs Old Tax Regime, कौन सस्ता? FY 2026-27 Income Tax #shorts",
+            "description": "₹15 लाख सैलरी, 80C ₹1.5 लाख और 80D ₹25,000: नई टैक्स व्यवस्था में टैक्स ₹97,500, पुरानी में ₹2,02,800 (4% सेस समेत)। नई में ₹1,05,300 कम। ₹2 लाख होम लोन ब्याज हो तब भी नई सस्ती। अपनी सैलरी पर दोनों का हिसाब, फ्री:\nhttps://parachar.com/income-tax-calculator-hindi/\n\n#IncomeTax #NewTaxRegime #OldVsNewRegime #TaxSaving #SalaryIndia",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/20qvF8APVjQ/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/20qvF8APVjQ/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/20qvF8APVjQ/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/20qvF8APVjQ/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/20qvF8APVjQ/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "15 lakh salary tax",
+              "income tax calculator 2026-27",
+              "income tax slab fy 2026-27",
+              "new vs old tax regime",
+              "which tax regime is better",
+              "इनकम टैक्स कैलकुलेटर",
+              "नई टैक्स व्यवस्था",
+              "पुरानी टैक्स व्यवस्था"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "₹15 लाख सैलरी: New vs Old Tax Regime, कौन सस्ता? FY 2026-27 Income Tax #shorts",
+              "description": "₹15 लाख सैलरी, 80C ₹1.5 लाख और 80D ₹25,000: नई टैक्स व्यवस्था में टैक्स ₹97,500, पुरानी में ₹2,02,800 (4% सेस समेत)। नई में ₹1,05,300 कम। ₹2 लाख होम लोन ब्याज हो तब भी नई सस्ती। अपनी सैलरी पर दोनों का हिसाब, फ्री:\nhttps://parachar.com/income-tax-calculator-hindi/\n\n#IncomeTax #NewTaxRegime #OldVsNewRegime #TaxSaving #SalaryIndia"
+            },
+            "defaultAudioLanguage": "en-US"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": false,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "D-P2iKD3Ov1CNTkcG70-lVf_BZc",
+          "id": "txYlY3BJIko",
+          "snippet": {
+            "publishedAt": "2026-10-18T07:30:16Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Minimum Balance Fine: बैंक खाता माइनस कर सकता है? ❌ RBI नियम जानिए #shorts",
+            "description": "मिनिमम बैलेंस न रखने पर बैंक मनमाना फ़ाइन नहीं काट सकता: RBI के नियम से फ़ाइन कमी के हिसाब से होता है और खाता माइनस में नहीं जा सकता। SBI समेत 10 सरकारी बैंकों में बचत खाते पर फ़ाइन नहीं, Jan Dhan / BSBD खाता ज़ीरो बैलेंस। अपने बैंक का फ़ाइन 1 मिनट में देखें:\nhttps://parachar.com/minimum-balance-charges-kitne-lagte-hain/\n\n#MinimumBalance #BankCharges #RBI #SavingsAccount #MoneyTips",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/txYlY3BJIko/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/txYlY3BJIko/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/txYlY3BJIko/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/txYlY3BJIko/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/txYlY3BJIko/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "bank account minus balance",
+              "hdfc minimum balance",
+              "minimum balance charges",
+              "minimum balance penalty",
+              "rbi minimum balance rule",
+              "sbi minimum balance",
+              "बैंक फ़ाइन कैसे बचें",
+              "मिनिमम बैलेंस चार्ज"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "Minimum Balance Fine: बैंक खाता माइनस कर सकता है? ❌ RBI नियम जानिए #shorts",
+              "description": "मिनिमम बैलेंस न रखने पर बैंक मनमाना फ़ाइन नहीं काट सकता: RBI के नियम से फ़ाइन कमी के हिसाब से होता है और खाता माइनस में नहीं जा सकता। SBI समेत 10 सरकारी बैंकों में बचत खाते पर फ़ाइन नहीं, Jan Dhan / BSBD खाता ज़ीरो बैलेंस। अपने बैंक का फ़ाइन 1 मिनट में देखें:\nhttps://parachar.com/minimum-balance-charges-kitne-lagte-hain/\n\n#MinimumBalance #BankCharges #RBI #SavingsAccount #MoneyTips"
+            },
+            "defaultAudioLanguage": "en-US"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": false,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "peFIEsOuNiSaQDjh2kO7hBg_HWU",
+          "id": "pxqf95m7lq4",
+          "snippet": {
+            "publishedAt": "2026-10-18T04:06:26Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "PM Surya Ghar: 3 kW सोलर पर ₹78,000 सब्सिडी | Rooftop Solar Subsidy Calculator #shorts",
+            "description": "PM सूर्य घर योजना में छत पर 3 kW सोलर लगाने पर केंद्र सरकार की सब्सिडी ₹78,000 (₹30,000 प्रति kW पहले 2 kW पर + ₹18,000 तीसरे kW पर)। ₹60,000/kW के अनुमानित ख़र्च पर आपकी जेब से करीब ₹1,02,000, बचत करीब ₹2,520 महीना। अपने राज्य की मदद समेत हिसाब देखें, फ्री:\nhttps://parachar.com/pm-surya-ghar-subsidy-kitni-milegi/\n\n#PMSuryaGhar #SolarSubsidy #RooftopSolar #SarkariYojana #BijliBill",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/pxqf95m7lq4/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/pxqf95m7lq4/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/pxqf95m7lq4/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/pxqf95m7lq4/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/pxqf95m7lq4/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "3 kw solar subsidy",
+              "free bijli yojana",
+              "pm surya ghar yojana",
+              "rooftop solar subsidy 2026",
+              "solar subsidy calculator",
+              "solar subsidy kitni milegi",
+              "सूर्य घर योजना सब्सिडी",
+              "सोलर पैनल सब्सिडी"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "PM Surya Ghar: 3 kW सोलर पर ₹78,000 सब्सिडी | Rooftop Solar Subsidy Calculator #shorts",
+              "description": "PM सूर्य घर योजना में छत पर 3 kW सोलर लगाने पर केंद्र सरकार की सब्सिडी ₹78,000 (₹30,000 प्रति kW पहले 2 kW पर + ₹18,000 तीसरे kW पर)। ₹60,000/kW के अनुमानित ख़र्च पर आपकी जेब से करीब ₹1,02,000, बचत करीब ₹2,520 महीना। अपने राज्य की मदद समेत हिसाब देखें, फ्री:\nhttps://parachar.com/pm-surya-ghar-subsidy-kitni-milegi/\n\n#PMSuryaGhar #SolarSubsidy #RooftopSolar #SarkariYojana #BijliBill"
+            },
+            "defaultAudioLanguage": "en-US"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": false,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "R-oCXhozlKVutkHGmVcGYkXKXQo",
+          "id": "sDqhUIUathY",
+          "snippet": {
+            "publishedAt": "2026-10-18T07:06:15Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "CMEGP Maharashtra: ₹25 लाख प्रोजेक्ट पर ₹8.75 लाख सब्सिडी (महिला, गाँव) #shorts",
+            "description": "महाराष्ट्र की CMEGP योजना: ₹25 लाख का मैन्युफैक्चरिंग प्रोजेक्ट, गाँव में, महिला आवेदक: आपका हिस्सा 5% = ₹1.25 लाख, सब्सिडी 35% = ₹8.75 लाख। अपना हिसाब और PMEGP से तुलना, फ्री:\nhttps://parachar.com/cmegp-subsidy-calculator/\n\n#CMEGP #Maharashtra #Subsidy #MahilaUdyami #BusinessLoan",
+            "thumbnails": {
+              "default": {
+                "url": "https://i9.ytimg.com/vi/sDqhUIUathY/default.jpg?sqp=CJCr09YG&rs=AOn4CLCMSdeDSawSI_g6QPLDD1-gY6USsA",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i9.ytimg.com/vi/sDqhUIUathY/mqdefault.jpg?sqp=CJCr09YG&rs=AOn4CLBUZH1bnmlkRnZdBMjtpfBNJ_MdiQ",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i9.ytimg.com/vi/sDqhUIUathY/hqdefault.jpg?sqp=CJCr09YG&rs=AOn4CLBkkldNKamSOzSA80FJQkja-GDdpw",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i9.ytimg.com/vi/sDqhUIUathY/sddefault.jpg?sqp=CJCr09YG&rs=AOn4CLD75vEIKGwfc7f9c2A5RQOATTXXsg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i9.ytimg.com/vi/sDqhUIUathY/maxresdefault.jpg?sqp=CJCr09YG&rs=AOn4CLD0ydxeYO2ypEX44MP9e2kNYdJpOw",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "BusinessLoan",
+              "CMEGP",
+              "Maharashtra",
+              "MahilaUdyami",
+              "Subsidy"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "CMEGP Maharashtra: ₹25 लाख प्रोजेक्ट पर ₹8.75 लाख सब्सिडी (महिला, गाँव) #shorts",
+              "description": "महाराष्ट्र की CMEGP योजना: ₹25 लाख का मैन्युफैक्चरिंग प्रोजेक्ट, गाँव में, महिला आवेदक: आपका हिस्सा 5% = ₹1.25 लाख, सब्सिडी 35% = ₹8.75 लाख। अपना हिसाब और PMEGP से तुलना, फ्री:\nhttps://parachar.com/cmegp-subsidy-calculator/\n\n#CMEGP #Maharashtra #Subsidy #MahilaUdyami #BusinessLoan"
+            },
+            "defaultAudioLanguage": "en-US"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "private",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": false,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "MpixC-CBfHZCkO0XJrXGEEDtKlk",
+          "id": "PtVdVMx_8LM",
+          "snippet": {
+            "publishedAt": "2026-10-14T07:30:09Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "MSME नई लिमिट: ₹10 करोड़ टर्नओवर तक भी आप Micro! Micro, Small या Medium? #shorts",
+            "description": "1 अप्रैल 2025 से MSME की लिमिट बढ़ गई: Micro = निवेश ₹2.5 करोड़ / टर्नओवर ₹10 करोड़ तक, Small = ₹25 करोड़ / ₹100 करोड़, Medium = ₹125 करोड़ / ₹500 करोड़। Udyam रजिस्ट्रेशन फ्री है। अपनी कैटेगरी 1 मिनट में चेक करें:\n\nhttps://parachar.com/udyam-registration-readiness-checker-free-tool/\n\n#MSME #Udyam #UdyamRegistration #SmallBusinessIndia #MSMELimit",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/PtVdVMx_8LM/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/PtVdVMx_8LM/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/PtVdVMx_8LM/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/PtVdVMx_8LM/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/PtVdVMx_8LM/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "MSME new limit",
+              "MSME classification 2025",
+              "micro small medium enterprise",
+              "MSME turnover limit",
+              "एमएसएमई लिमिट",
+              "Udyam registration",
+              "MSME definition",
+              "micro enterprise limit"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "MSME नई लिमिट: ₹10 करोड़ टर्नओवर तक भी आप Micro! Micro, Small या Medium? #shorts",
+              "description": "1 अप्रैल 2025 से MSME की लिमिट बढ़ गई: Micro = निवेश ₹2.5 करोड़ / टर्नओवर ₹10 करोड़ तक, Small = ₹25 करोड़ / ₹100 करोड़, Medium = ₹125 करोड़ / ₹500 करोड़। Udyam रजिस्ट्रेशन फ्री है। अपनी कैटेगरी 1 मिनट में चेक करें:\n\nhttps://parachar.com/udyam-registration-readiness-checker-free-tool/\n\n#MSME #Udyam #UdyamRegistration #SmallBusinessIndia #MSMELimit"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "2mh8FcyNJTLN-zyex-Te-kghBiU",
+          "id": "7jusIH4Dmd0",
+          "snippet": {
+            "publishedAt": "2026-10-14T00:45:32Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Udyam Registration की फ़ीस लगती है? ❌ सच जानिए | Free MSME Checker #shorts #businessloan #loan",
+            "description": "उद्यम रजिस्ट्रेशन बिल्कुल फ्री है, सरकारी साइट udyamregistration.gov.in पर, आधार और PAN से। पैसे माँगने वाली साइट से बचें। अपनी MSME कैटेगरी और डॉक्यूमेंट 1 मिनट में चेक करें:\n\nhttps://parachar.com/udyam-registration-readiness-checker-free-tool/?utm_source=youtube&utm_medium=short&utm_campaign=udyam-myth\n\n#Udyam #UdyamRegistration #MSME #ScamAlert #SmallBusinessIndia",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/7jusIH4Dmd0/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/7jusIH4Dmd0/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/7jusIH4Dmd0/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/7jusIH4Dmd0/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/7jusIH4Dmd0/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "Udyam registration",
+              "उद्यम रजिस्ट्रेशन",
+              "Udyam registration free",
+              "MSME registration",
+              "Udyam certificate",
+              "udyam registration fees",
+              "MSME scam",
+              "udyamregistration.gov.in"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "Udyam Registration की फ़ीस लगती है? ❌ सच जानिए | Free MSME Checker #shorts #businessloan #loan",
+              "description": "उद्यम रजिस्ट्रेशन बिल्कुल फ्री है, सरकारी साइट udyamregistration.gov.in पर, आधार और PAN से। पैसे माँगने वाली साइट से बचें। अपनी MSME कैटेगरी और डॉक्यूमेंट 1 मिनट में चेक करें:\n\nhttps://parachar.com/udyam-registration-readiness-checker-free-tool/?utm_source=youtube&utm_medium=short&utm_campaign=udyam-myth\n\n#Udyam #UdyamRegistration #MSME #ScamAlert #SmallBusinessIndia"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "cNsNJ2kKieGNNqKfy1HFu--pLr8",
+          "id": "VLNtOHqncYU",
+          "snippet": {
+            "publishedAt": "2026-10-13T15:13:52Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "PM SVANidhi 2.0: ₹15,000 → ₹25,000 → ₹50,000 लोन, 2030 तक | रेहड़ी-पटरी #shorts#business#cgtmse #job",
+            "description": "PM SVANidhi अब 31 मार्च 2030 तक। रेहड़ी-पटरी वालों को पहला लोन ₹15,000, दूसरा ₹25,000, तीसरा ₹50,000, साथ में UPI से जुड़ा RuPay क्रेडिट कार्ड। पूरी जानकारी:\n\nhttps://parachar.com/pm-svanidhi-2-0-2030/?utm_source=youtube&utm_medium=short&utm_campaign=svanidhi-2\n\n#PMSVANidhi #StreetVendor #SarkariYojana #Loan #UPI",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/VLNtOHqncYU/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/VLNtOHqncYU/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/VLNtOHqncYU/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/VLNtOHqncYU/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/VLNtOHqncYU/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "PM SVANidhi 2.0: ₹15,000 → ₹25,000 → ₹50,000 लोन, 2030 तक | रेहड़ी-पटरी #shorts#business#cgtmse #job",
+              "description": "PM SVANidhi अब 31 मार्च 2030 तक। रेहड़ी-पटरी वालों को पहला लोन ₹15,000, दूसरा ₹25,000, तीसरा ₹50,000, साथ में UPI से जुड़ा RuPay क्रेडिट कार्ड। पूरी जानकारी:\n\nhttps://parachar.com/pm-svanidhi-2-0-2030/?utm_source=youtube&utm_medium=short&utm_campaign=svanidhi-2\n\n#PMSVANidhi #StreetVendor #SarkariYojana #Loan #UPI"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "Ga4efW4gPEbCWSPsgRE0O7T3_bQ",
+          "id": "SdNYfjnhYxI",
+          "snippet": {
+            "publishedAt": "2026-10-12T16:34:20Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Mudra Loan 2026: शिशु, किशोर, तरुण, तरुण प्लस | ₹20 लाख तक बिना गारंटी #shorts",
+            "description": "मुद्रा लोन में छोटे कारोबार को ₹20 लाख तक बिना गारंटी लोन: शिशु ₹50,000 तक, किशोर ₹5 लाख तक, तरुण ₹10 लाख तक, तरुण प्लस ₹10–20 लाख (तरुण लोन चुकाने के बाद)। अपनी कैटेगरी और EMI देखें, फ्री:\nhttps://parachar.com/mudra-loan-calculator/?utm_source=youtube&utm_medium=short&utm_campaign=mudra\n\n#MudraLoan #PMMY #BusinessLoan #SarkariYojana #SmallBusiness",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/SdNYfjnhYxI/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/SdNYfjnhYxI/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/SdNYfjnhYxI/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/SdNYfjnhYxI/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/SdNYfjnhYxI/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "Mudra loan",
+              "मुद्रा लोन",
+              "PMMY",
+              "Shishu Kishor Tarun",
+              "Tarun Plus",
+              "बिना गारंटी लोन",
+              "business loan",
+              "Mudra loan EMI"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "Mudra Loan 2026: शिशु, किशोर, तरुण, तरुण प्लस | ₹20 लाख तक बिना गारंटी #shorts",
+              "description": "मुद्रा लोन में छोटे कारोबार को ₹20 लाख तक बिना गारंटी लोन: शिशु ₹50,000 तक, किशोर ₹5 लाख तक, तरुण ₹10 लाख तक, तरुण प्लस ₹10–20 लाख (तरुण लोन चुकाने के बाद)। अपनी कैटेगरी और EMI देखें, फ्री:\nhttps://parachar.com/mudra-loan-calculator/?utm_source=youtube&utm_medium=short&utm_campaign=mudra\n\n#MudraLoan #PMMY #BusinessLoan #SarkariYojana #SmallBusiness"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "lUW47KcHbcftQ7SdtOQtZ12yIfI",
+          "id": "ps3r2Ssu-Fo",
+          "snippet": {
+            "publishedAt": "2026-10-11T18:30:10Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "CGTMSE Loan: ₹25 लाख बिना Collateral? Guarantee Cover और Fee Calculator #shorts #money #bank",
+            "description": "बैंक प्रॉपर्टी के कागज़ माँग रहा है? CGTMSE में माइक्रो और स्मॉल बिज़नेस को ₹10 करोड़ तक बिना गारंटी लोन मिल सकता है। ₹25 लाख के लोन पर 75% कवर = ₹18.75 लाख, सालाना फ़ीस 0.55% = ₹13,750। अपना कवर और फ़ीस चेक करें, फ्री:\n\n   https://parachar.com/cgtmse-calculator/?utm_source=youtube&utm_medium=short&utm_campaign=cgtmse\n\n   #CGTMSE #MSMELoan #BusinessLoan #CollateralFreeLoan #Udyam",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/ps3r2Ssu-Fo/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/ps3r2Ssu-Fo/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/ps3r2Ssu-Fo/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/ps3r2Ssu-Fo/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/ps3r2Ssu-Fo/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "CGTMSE loan",
+              "बिना गारंटी लोन",
+              "collateral free loan",
+              "MSME loan",
+              "business loan without collateral",
+              "CGTMSE fee",
+              "CGTMSE calculator",
+              "CGTMSE"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "CGTMSE Loan: ₹25 लाख बिना Collateral? Guarantee Cover और Fee Calculator #shorts #money #bank",
+              "description": "बैंक प्रॉपर्टी के कागज़ माँग रहा है? CGTMSE में माइक्रो और स्मॉल बिज़नेस को ₹10 करोड़ तक बिना गारंटी लोन मिल सकता है। ₹25 लाख के लोन पर 75% कवर = ₹18.75 लाख, सालाना फ़ीस 0.55% = ₹13,750। अपना कवर और फ़ीस चेक करें, फ्री:\n\n   https://parachar.com/cgtmse-calculator/?utm_source=youtube&utm_medium=short&utm_campaign=cgtmse\n\n   #CGTMSE #MSMELoan #BusinessLoan #CollateralFreeLoan #Udyam"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          }
+        }
+      ],
+      "pageInfo": {
+        "totalResults": 9,
+        "resultsPerPage": 9
+      }
+    }
+  }
+}
