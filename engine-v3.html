@@ -112,6 +112,13 @@ html.footage,html.footage body{background:transparent}
 .doodle{position:absolute;pointer-events:none;z-index:4;overflow:visible}
 .doodle path{fill:none;stroke:var(--hl);stroke-width:9;stroke-linecap:round;stroke-linejoin:round}
 
+/* layouts differ per look too: centred (creator, poster), lower third (tvnews), left (others) */
+.look-creator .scene,.look-poster .scene{text-align:center;align-items:center}
+.look-creator .chip,.look-poster .chip{align-self:center}
+.look-creator .scene>*,.look-poster .scene>*{max-width:100%}
+.look-creator .card,.look-creator .alert,.look-creator .items,.look-creator .bars,.look-poster .card,.look-poster .alert,.look-poster .items,.look-poster .bars{width:100%;text-align:left}
+.look-tvnews .scene{justify-content:flex-end;padding-bottom:40px}
+.look-akhbaar .scene{top:300px}
 /* 1. creator: bold sticker type with outline, like a creator's own edit */
 .look-creator{--hl:#FFE14D;--acc:#FF3D5A;font-family:'Baloo 2','Mukta',sans-serif}
 .look-creator .h1,.look-creator .h2,.look-creator .ctaline,.look-creator .big{-webkit-text-stroke:16px #000;paint-order:stroke fill;text-shadow:0 10px 0 #000}
@@ -157,7 +164,7 @@ html.footage,html.footage body{background:transparent}
 .look-notebook .h1,.look-notebook .h2,.look-notebook .ctaline{font-family:'Kalam',cursive;font-weight:700;letter-spacing:0;text-shadow:0 5px 22px rgba(0,0,0,.75)}
 .look-notebook .h1{font-size:100px;line-height:1.24}
 .look-notebook em{background:none;-webkit-background-clip:initial;background-clip:initial;color:#fff}
-.look-notebook .h1 .mk:after,.look-notebook .h2 .mk:after,.look-notebook .ctaline .mk:after{background:rgba(255,213,0,.75);height:34px;bottom:14px;border-radius:4px;transform:scaleX(var(--mk,0)) skewX(-8deg)}
+.look-notebook .h1 .mk:after,.look-notebook .h2 .mk:after,.look-notebook .ctaline .mk:after{background:rgba(255,213,0,.75);top:14%;bottom:4%;height:auto;border-radius:6px;transform:scaleX(var(--mk,0)) skewX(-6deg)}
 .look-notebook .h1 em,.look-notebook .h2 em{color:#111;text-shadow:none}
 .look-notebook .card,.look-notebook .alert,.look-notebook .item,.look-notebook .callout{background:#FFFDF6 repeating-linear-gradient(180deg,transparent 0 62px,#BFD3F2 62px 64px);color:#1A2340;border:0;border-radius:10px;box-shadow:0 28px 60px rgba(0,0,0,.5);font-family:'Kalam',cursive}
 .look-notebook .card,.look-notebook .alert{padding-left:110px;background-image:linear-gradient(90deg,transparent 78px,#F28B8B 78px 82px,transparent 82px),repeating-linear-gradient(180deg,transparent 0 62px,#BFD3F2 62px 64px)}
