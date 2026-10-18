@@ -72,5 +72,12 @@
       "button": "फ्री चेक करें",
       "say": "अपनी तारीख़ें देखिए, लिंक डिस्क्रिप्शन में।"
     }
+  ],
+  "broll": [
+    "signing cheque",
+    "bank documents",
+    "indian court",
+    "lawyer documents",
+    "indian bank"
   ]
 }

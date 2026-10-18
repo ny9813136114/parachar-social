@@ -64,5 +64,11 @@
       "button": "फ्री चेक करें",
       "say": "अपनी लिमिट चेक कीजिए, लिंक डिस्क्रिप्शन में।"
     }
+  ],
+  "broll": [
+    "upi payment phone",
+    "scanning qr code payment",
+    "indian shop payment",
+    "mobile banking"
   ]
 }
