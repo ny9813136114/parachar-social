@@ -1,7 +1,7 @@
 name: YouTube settings
 
 # Run one-off YouTube API calls from a file in seo/ (playlist descriptions, channel settings, language fixes).
-# Replies are saved to seo/out/ so they can be checked.
+# Replies are saved to seo/replies/ so they can be checked.
 
 on:
   workflow_dispatch:
@@ -31,5 +31,5 @@ jobs:
       - name: Save replies
         run: |
           git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add seo/out
+          git add seo/replies
           git diff --cached --quiet || { git commit -qm "YouTube API replies" && git pull -q --rebase && git push -q; }
