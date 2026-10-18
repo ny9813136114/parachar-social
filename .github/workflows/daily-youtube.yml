@@ -103,5 +103,6 @@ jobs:
         run: |
           mkdir -p videos/published
           for f in ${{ steps.pick.outputs.files }}; do git mv "$f" videos/published/; done
+          git add videos/published
           git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -qm "Published to YouTube on ${{ steps.pick.outputs.date }}" && git push

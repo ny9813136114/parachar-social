@@ -40,13 +40,29 @@ const publishAt = slot => new Date(Math.max(Date.parse(`${date}T${slot}:00+05:30
     const slot = SLOTS_IST[i % SLOTS_IST.length];
     const at = process.env.PRIVATE_ONLY === 'true' ? '' : publishAt(slot); // test runs stay Private, never auto-publish
     if (!hook) { console.log(`[dry run, no MAKE_WEBHOOK_URL] ${meta.id} -> ${at} (${slot} IST)`); continue; }
+    // Hindi subtitles: a ready multipart body for YouTube captions.insert; Make swaps in the new video's id.
+    const srtFile = path.join(dir, 'captions.srt');
+    const captionBody = fs.existsSync(srtFile) ? ['--parachar_srt', 'Content-Type: application/json; charset=UTF-8', '',
+      JSON.stringify({ snippet: { videoId: '__VIDEO_ID__', language: 'hi', name: 'हिन्दी', isDraft: false } }),
+      '--parachar_srt', 'Content-Type: application/octet-stream', '', fs.readFileSync(srtFile, 'utf8'), '--parachar_srt--', ''].join('\r\n') : '';
     const res = await fetch(hook, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ ...meta, publishAt: at, fileName: meta.id + '.mp4', videoUrl: await signedUrl(assets, meta.id + '.mp4') }),
+      body: JSON.stringify({ ...meta, publishAt: at, fileName: meta.id + '.mp4', videoUrl: await signedUrl(assets, meta.id + '.mp4'), captionBody }),
     });
     const text = (await res.text()).slice(0, 300);
     if (!res.ok) { console.error(`::error::${meta.id}: webhook ${res.status} ${text}`); failed++; continue; }
+    // Remember the YouTube id so comment.js can post the free-tool comment once the Short is live.
+    try {
+      const { videoId } = JSON.parse(text);
+      if (videoId && at) {
+        const log = path.join(__dirname, 'videos', 'published', 'youtube.json');
+        const all = fs.existsSync(log) ? JSON.parse(fs.readFileSync(log, 'utf8')) : {};
+        all[meta.id] = { videoId, publishAt: at, comment: meta.comment, commented: false };
+        fs.mkdirSync(path.dirname(log), { recursive: true });
+        fs.writeFileSync(log, JSON.stringify(all, null, 2) + '\n');
+      }
+    } catch (e) { console.log(`::warning::${meta.id}: no video id in Make's reply`); }
     console.log(`${meta.id}: sent, ${at ? `publishes ${at} (${slot} IST)` : 'Private (no publish time)'} · ${text}`);
   }
   process.exit(failed ? 1 : 0);

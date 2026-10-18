@@ -1,0 +1,37 @@
+name: YouTube comments
+
+# Shortly after each slot (09:00, 13:00, 19:30 IST), post the free-tool comment on the Shorts that just went live.
+# Pinning it stays manual (the YouTube API can't pin).
+
+on:
+  schedule:
+    - cron: "45 3,7 * * *" # 09:15 / 13:15 IST
+    - cron: "15 14 * * *" # 19:45 IST
+    - cron: "30 17 * * *" # 23:00 IST, retries anything missed
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: youtube-comments
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Post comments
+        run: node comment.js
+      - name: Save which comments are done
+        run: |
+          [ -f videos/published/youtube.json ] || exit 0
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add videos/published/youtube.json
+          git diff --cached --quiet || { git commit -qm "Comments posted" && git pull -q --rebase && git push -q; }
