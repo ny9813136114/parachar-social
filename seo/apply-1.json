@@ -1,0 +1,157 @@
+[
+ {
+  "name": "channel",
+  "method": "PUT",
+  "path": "/v3/channels?part=brandingSettings",
+  "body": {
+   "id": "UCdqRVpQKsb5huTo6__pTpuA",
+   "brandingSettings": {
+    "channel": {
+     "title": "Parachar",
+     "description": "Parachar: सरकारी योजना, लोन, सब्सिडी, इनकम टैक्स, पेंशन और बचत का सीधा ₹ हिसाब, हिंदी में 60 सेकंड के Shorts।\n\nहर दिन 3 नए Shorts: PMEGP, मुद्रा लोन, CGTMSE (बिना गारंटी लोन), PM सूर्य घर सोलर सब्सिडी, अटल पेंशन योजना, ग्रेच्युटी, इनकम टैक्स, UPI लिमिट, पोस्ट ऑफिस ब्याज दरें, FASTag और चेक बाउंस जैसे रोज़ के नियम। हर वीडियो में असली ₹ हिसाब, सरकारी स्रोत और जाँच की तारीख।\n\n✅ 100+ फ्री कैलकुलेटर: बिना लॉगिन, बिना फ़ोन नंबर\n✅ नियम सरकारी वेबसाइट से जाँचे हुए\n⚠️ हमारे हिसाब अनुमान हैं, लोन की मंज़ूरी नहीं। आवेदन हमेशा सरकारी पोर्टल पर, फ्री। एजेंट को पैसे न दें।\n\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\nFree Hindi calculators for Indian government schemes, business loans, subsidies, income tax, pension and savings. 3 new Shorts every day.\n",
+     "keywords": "\"सरकारी योजना\" \"sarkari yojana\" PMEGP \"मुद्रा लोन\" CGTMSE \"subsidy calculator\" \"loan calculator\" \"income tax calculator\" \"अटल पेंशन योजना\" \"post office scheme\" \"UPI limit\" gratuity MSME Udyam \"हिंदी कैलकुलेटर\" parachar",
+     "country": "IN",
+     "defaultLanguage": "hi"
+    },
+    "image": {
+     "bannerExternalUrl": "https://yt3.googleusercontent.com/VdpK19vH4pwb4MRFpnOzlsYjLYYQE-8qaq6zBfGCM7HvYbdlwP5S9A5wdPKYMjVM6oXkdv-ni_Q"
+    }
+   }
+  }
+ },
+ {
+  "name": "pl-PLGm-6VpY_nWE",
+  "method": "PUT",
+  "path": "/v3/playlists?part=snippet",
+  "body": {
+   "id": "PLGm-6VpY_nWE",
+   "snippet": {
+    "title": "रोज़ के नियम और क़ानून",
+    "description": "रोज़ के नियम और क़ानून आसान हिंदी में: चेक बाउंस केस (Section 138), FASTag एनुअल पास, ट्रैफ़िक चालान, किराया एग्रीमेंट, उपभोक्ता शिकायत जैसे नियम, हर Short में तारीख़ें, सज़ा और ₹ हिसाब। सरकारी स्रोत से जाँचे हुए। अपना हिसाब फ्री कैलकुलेटर से: https://parachar.com/tools/",
+    "defaultLanguage": "hi"
+   }
+  }
+ },
+ {
+  "name": "pl-PLHve-MXNo9TA",
+  "method": "PUT",
+  "path": "/v3/playlists?part=snippet",
+  "body": {
+   "id": "PLHve-MXNo9TA",
+   "snippet": {
+    "title": "पेंशन और रिटायरमेंट",
+    "description": "पेंशन और रिटायरमेंट प्लानिंग हिंदी में: अटल पेंशन योजना चार्ट, NPS कैलकुलेटर, EPS पेंशन, ग्रेच्युटी, PF निकासी और वरिष्ठ नागरिक बचत योजना (SCSS)। उम्र के हिसाब से कितना जमा करें और कितनी पेंशन मिलेगी, असली ₹ उदाहरण के साथ। फ्री कैलकुलेटर: https://parachar.com/tools/",
+    "defaultLanguage": "hi"
+   }
+  }
+ },
+ {
+  "name": "pl-PLDBOcuU_Prr4",
+  "method": "PUT",
+  "path": "/v3/playlists?part=snippet",
+  "body": {
+   "id": "PLDBOcuU_Prr4",
+   "snippet": {
+    "title": "बैंक, UPI और बचत योजनाएँ",
+    "description": "बैंक, UPI और बचत योजनाएँ: UPI लिमिट, मिनिमम बैलेंस चार्ज, पोस्ट ऑफिस ब्याज दरें (NSC, PPF, MIS, KVP, सुकन्या), FD और RD का हिसाब। हर Short में नई दरें, सरकारी या RBI स्रोत और ₹1 लाख पर कितना मिलेगा। अपनी रकम पर फ्री कैलकुलेटर: https://parachar.com/tools/",
+    "defaultLanguage": "hi"
+   }
+  }
+ },
+ {
+  "name": "pl-PLFBDdDjKFXrU",
+  "method": "PUT",
+  "path": "/v3/playlists?part=snippet",
+  "body": {
+   "id": "PLFBDdDjKFXrU",
+   "snippet": {
+    "title": "इनकम टैक्स और सैलरी",
+    "description": "इनकम टैक्स और सैलरी हिंदी में: नई vs पुरानी टैक्स रिजीम, TDS रेट, HRA, ग्रेच्युटी कैलकुलेटर (15/26 फ़ॉर्मूला), इन-हैंड सैलरी और टैक्स बचत के तरीके। FY 2026-27 के नियम, असली ₹ उदाहरण के साथ। अपना टैक्स फ्री में देखें: https://parachar.com/tools/",
+    "defaultLanguage": "hi"
+   }
+  }
+ },
+ {
+  "name": "pl-PLJ_UkZibrHEI",
+  "method": "PUT",
+  "path": "/v3/playlists?part=snippet",
+  "body": {
+   "id": "PLJ_UkZibrHEI",
+   "snippet": {
+    "title": "सरकारी सब्सिडी योजनाएँ",
+    "description": "सरकारी सब्सिडी योजनाएँ: PM सूर्य घर सोलर सब्सिडी, PM कुसुम, PMFME, PM विश्वकर्मा, PM SVANidhi और राज्यों की सब्सिडी। किसे मिलेगी, कितनी मिलेगी और आवेदन कैसे करें, 60 सेकंड में। हिसाब अनुमान है, आवेदन सरकारी पोर्टल पर फ्री। सब्सिडी कैलकुलेटर: https://parachar.com/tools/",
+    "defaultLanguage": "hi"
+   }
+  }
+ },
+ {
+  "name": "pl-PLUfR6hLrG7Kw",
+  "method": "PUT",
+  "path": "/v3/playlists?part=snippet",
+  "body": {
+   "id": "PLUfR6hLrG7Kw",
+   "snippet": {
+    "title": "PMEGP",
+    "description": "PMEGP लोन और सब्सिडी हिंदी में: प्रधानमंत्री रोजगार सृजन कार्यक्रम में 15% से 35% सब्सिडी, ₹50 लाख तक प्रोजेक्ट, पात्रता, प्रोजेक्ट रिपोर्ट, आवेदन स्टेटस और EDP ट्रेनिंग। आपकी सब्सिडी कितनी बनेगी, फ्री PMEGP कैलकुलेटर से देखें: https://parachar.com/tools/",
+    "defaultLanguage": "hi"
+   }
+  }
+ },
+ {
+  "name": "pl-PLJ9P9XfWlPSk",
+  "method": "PUT",
+  "path": "/v3/playlists?part=snippet",
+  "body": {
+   "id": "PLJ9P9XfWlPSk",
+   "snippet": {
+    "title": "MSME / Udyam",
+    "description": "MSME और Udyam रजिस्ट्रेशन हिंदी में: Udyam सर्टिफिकेट फ्री कैसे बनाएँ, माइक्रो, स्मॉल, मीडियम की सीमा, MSME के फ़ायदे, 45 दिन में पेमेंट का नियम (43B(h)) और बिज़नेस लोन। छोटे व्यापारियों के लिए आसान ₹ हिसाब। फ्री टूल: https://parachar.com/tools/",
+    "defaultLanguage": "hi"
+   }
+  }
+ },
+ {
+  "name": "pl-PLA9Nr1xjE3d8",
+  "method": "PUT",
+  "path": "/v3/playlists?part=snippet",
+  "body": {
+   "id": "PLA9Nr1xjE3d8",
+   "snippet": {
+    "title": "राज्य की स्वरोजगार योजनाएँ",
+    "description": "राज्य की स्वरोजगार योजनाएँ: CMEGP महाराष्ट्र, मुख्यमंत्री युवा उद्यमी योजना UP, बिहार उद्यमी योजना, MP, राजस्थान और झारखंड की लोन व सब्सिडी योजनाएँ। पात्रता, सब्सिडी कितनी और आवेदन कैसे करें, हिंदी में। फ्री कैलकुलेटर: https://parachar.com/tools/",
+    "defaultLanguage": "hi"
+   }
+  }
+ },
+ {
+  "name": "pl-PLPN9s94sdE5k",
+  "method": "PUT",
+  "path": "/v3/playlists?part=snippet",
+  "body": {
+   "id": "PLPN9s94sdE5k",
+   "snippet": {
+    "title": "CGTMSE: बिना गारंटी लोन",
+    "description": "CGTMSE: बिना गारंटी बिज़नेस लोन हिंदी में। ₹10 करोड़ तक कोलैटरल-फ़्री लोन, गारंटी फ़ीस कितनी लगेगी, कौन से बैंक देते हैं और आवेदन कैसे करें। MSME के लिए असली ₹ हिसाब के साथ। CGTMSE फ़ीस कैलकुलेटर फ्री: https://parachar.com/tools/",
+    "defaultLanguage": "hi"
+   }
+  }
+ },
+ {
+  "name": "pl-PLG9rKSzcxjrQ",
+  "method": "PUT",
+  "path": "/v3/playlists?part=snippet",
+  "body": {
+   "id": "PLG9rKSzcxjrQ",
+   "snippet": {
+    "title": "मुद्रा लोन",
+    "description": "मुद्रा लोन हिंदी में: PM मुद्रा योजना शिशु, किशोर, तरुण और तरुण प्लस (₹20 लाख तक), बिना गारंटी लोन, EMI, ब्याज दर, पात्रता और आवेदन कैसे करें। हर Short में असली ₹ हिसाब। अपनी मुद्रा लोन EMI फ्री कैलकुलेटर से देखें: https://parachar.com/tools/",
+    "defaultLanguage": "hi"
+   }
+  }
+ },
+ {
+  "name": "videos",
+  "method": "GET",
+  "path": "/v3/videos?part=snippet,status&id=20qvF8APVjQ,txYlY3BJIko,pxqf95m7lq4,sDqhUIUathY,doTmv8DERMg,PtVdVMx_8LM,7jusIH4Dmd0,VLNtOHqncYU,SdNYfjnhYxI,ps3r2Ssu-Fo"
+ }
+]
