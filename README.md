@@ -44,3 +44,11 @@ Rules: numbers sirf tested calculator maths se; har video par source + jaanch ki
   slow push-in, slight hand-held sway, the look's colour grade and grain. If Pexels fails, the look's own background is used.
 - `look-samples.yml` renders the next 3 queued videos to the `looks` branch for checking.
 - The repo is public (free Actions minutes); keep every key in GitHub secrets, never in files.
+
+## Schedule (18 Oct 2026)
+
+- Daily Shorts run at 21:00 IST (backups 23:00 and 02:00) and schedule the NEXT day's three videos for 09:00, 13:00
+  and 19:30 IST. GitHub starts scheduled runs hours late, so the evening run leaves plenty of slack.
+- Each upload also gets Hindi subtitles (captions.srt, via the Make scenario). `youtube-comments.yml` runs hourly and
+  posts "फ्री कैलकुलेटर: <link>" on every Short that is already live (ids in videos/published/youtube.json). Pin it by hand.
+- Runners are pinned to ubuntu-24.04.
