@@ -1,13 +1,16 @@
 name: Daily YouTube Shorts
 
-# Every morning: take the next 3 videos from videos/queue/, render them, and send them to Make,
-# which uploads them to YouTube as Private and scheduled for 9:00, 13:00 and 19:30 IST that day.
+# Every evening: take the next day's 3 videos from videos/queue/, render them, and send them to Make,
+# which uploads them to YouTube as Private and scheduled for 9:00, 13:00 and 19:30 IST on that day.
 # Published specs move to videos/published/. Pause by setting repo variable AUTO_PUBLISH=off.
 
 on:
   schedule:
-    - cron: "30 0 * * *" # 06:00 IST
-    - cron: "15 1 * * *" # 06:45 IST backup, GitHub sometimes skips a scheduled run; finds nothing if the first one ran
+    # Runs the evening before and schedules the next day's videos, because GitHub often starts scheduled runs
+    # hours late (18 Oct: the 06:00 run started at 10:21). Backups find nothing if an earlier run already did it.
+    - cron: "30 15 * * *" # 21:00 IST
+    - cron: "30 17 * * *" # 23:00 IST backup
+    - cron: "30 20 * * *" # 02:00 IST backup
   workflow_dispatch:
     inputs:
       count:
@@ -52,7 +55,9 @@ jobs:
             echo "Auto-publish is not set up or is paused; nothing to do."; echo "files=" >> "$GITHUB_OUTPUT"; exit 0
           fi
           N="${IN_COUNT:-3}"; case "$N" in [1-3]) ;; *) N=3;; esac
-          DATE="${IN_DATE:-$(TZ=Asia/Kolkata date +%F)}"; [[ "$DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] || { echo "bad date"; exit 1; }
+          # Target day = IST now + 9 h: an evening run (21:00-23:59) prepares tomorrow, a run after midnight
+          # or in the morning prepares today. Past slots move to now + 15 min (publish.js).
+          DATE="${IN_DATE:-$(TZ=Asia/Kolkata date -d '+9 hours' +%F)}"; [[ "$DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] || { echo "bad date"; exit 1; }
           # Only that day's specs (file names start with the date), so a second run on the same day uploads nothing twice.
           FILES=$(ls videos/queue/"$DATE"-*.json 2>/dev/null | sort | head -n "$N" | tr '\n' ' ')
           echo "files=$FILES" >> "$GITHUB_OUTPUT"; echo "date=$DATE" >> "$GITHUB_OUTPUT"

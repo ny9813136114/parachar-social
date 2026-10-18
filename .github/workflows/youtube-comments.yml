@@ -1,13 +1,11 @@
 name: YouTube comments
 
-# Shortly after each slot (09:00, 13:00, 19:30 IST), post the free-tool comment on the Shorts that just went live.
+# Every hour, post the free-tool comment on the Shorts that just went live.
 # Pinning it stays manual (the YouTube API can't pin).
 
 on:
   schedule:
-    - cron: "45 3,7 * * *" # 09:15 / 13:15 IST
-    - cron: "15 14 * * *" # 19:45 IST
-    - cron: "30 17 * * *" # 23:00 IST, retries anything missed
+    - cron: "20 * * * *" # hourly: GitHub starts scheduled runs late, so check often; only live Shorts get a comment
   workflow_dispatch:
 
 permissions:
