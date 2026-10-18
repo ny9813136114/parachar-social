@@ -1,0 +1,77 @@
+[
+ {
+  "name": "20qvF8APVjQ",
+  "method": "PUT",
+  "path": "/v3/videos?part=snippet",
+  "body": {
+   "id": "20qvF8APVjQ",
+   "snippet": {
+    "title": "₹15 लाख सैलरी: New vs Old Tax Regime, कौन सस्ता? FY 2026-27 Income Tax #shorts",
+    "description": "₹15 लाख सैलरी, 80C ₹1.5 लाख और 80D ₹25,000: नई टैक्स व्यवस्था में टैक्स ₹97,500, पुरानी में ₹2,02,800 (4% सेस समेत)। नई में ₹1,05,300 कम। ₹2 लाख होम लोन ब्याज हो तब भी नई सस्ती। अपनी सैलरी पर दोनों का हिसाब, फ्री:\nhttps://parachar.com/income-tax-calculator-hindi/\n\n#IncomeTax #NewTaxRegime #OldVsNewRegime #TaxSaving #SalaryIndia",
+    "categoryId": "27",
+    "tags": [
+     "15 lakh salary tax",
+     "income tax calculator 2026-27",
+     "income tax slab fy 2026-27",
+     "new vs old tax regime",
+     "which tax regime is better",
+     "इनकम टैक्स कैलकुलेटर",
+     "नई टैक्स व्यवस्था",
+     "पुरानी टैक्स व्यवस्था"
+    ],
+    "defaultLanguage": "hi",
+    "defaultAudioLanguage": "hi"
+   }
+  }
+ },
+ {
+  "name": "txYlY3BJIko",
+  "method": "PUT",
+  "path": "/v3/videos?part=snippet",
+  "body": {
+   "id": "txYlY3BJIko",
+   "snippet": {
+    "title": "Minimum Balance Fine: बैंक खाता माइनस कर सकता है? ❌ RBI नियम जानिए #shorts",
+    "description": "मिनिमम बैलेंस न रखने पर बैंक मनमाना फ़ाइन नहीं काट सकता: RBI के नियम से फ़ाइन कमी के हिसाब से होता है और खाता माइनस में नहीं जा सकता। SBI समेत 10 सरकारी बैंकों में बचत खाते पर फ़ाइन नहीं, Jan Dhan / BSBD खाता ज़ीरो बैलेंस। अपने बैंक का फ़ाइन 1 मिनट में देखें:\nhttps://parachar.com/minimum-balance-charges-kitne-lagte-hain/\n\n#MinimumBalance #BankCharges #RBI #SavingsAccount #MoneyTips",
+    "categoryId": "27",
+    "tags": [
+     "bank account minus balance",
+     "hdfc minimum balance",
+     "minimum balance charges",
+     "minimum balance penalty",
+     "rbi minimum balance rule",
+     "sbi minimum balance",
+     "बैंक फ़ाइन कैसे बचें",
+     "मिनिमम बैलेंस चार्ज"
+    ],
+    "defaultLanguage": "hi",
+    "defaultAudioLanguage": "hi"
+   }
+  }
+ },
+ {
+  "name": "pxqf95m7lq4",
+  "method": "PUT",
+  "path": "/v3/videos?part=snippet",
+  "body": {
+   "id": "pxqf95m7lq4",
+   "snippet": {
+    "title": "PM Surya Ghar: 3 kW सोलर पर ₹78,000 सब्सिडी | Rooftop Solar Subsidy Calculator #shorts",
+    "description": "PM सूर्य घर योजना में छत पर 3 kW सोलर लगाने पर केंद्र सरकार की सब्सिडी ₹78,000 (₹30,000 प्रति kW पहले 2 kW पर + ₹18,000 तीसरे kW पर)। ₹60,000/kW के अनुमानित ख़र्च पर आपकी जेब से करीब ₹1,02,000, बचत करीब ₹2,520 महीना। अपने राज्य की मदद समेत हिसाब देखें, फ्री:\nhttps://parachar.com/pm-surya-ghar-subsidy-kitni-milegi/\n\n#PMSuryaGhar #SolarSubsidy #RooftopSolar #SarkariYojana #BijliBill",
+    "categoryId": "27",
+    "tags": [
+     "3 kw solar subsidy",
+     "free bijli yojana",
+     "pm surya ghar yojana",
+     "rooftop solar subsidy 2026",
+     "solar subsidy calculator",
+     "solar subsidy kitni milegi",
+     "सूर्य घर योजना सब्सिडी",
+     "सोलर पैनल सब्सिडी"
+    ],
+    "defaultLanguage": "hi",
+    "defaultAudioLanguage": "hi"
+   }
+  }
+ }
+]
