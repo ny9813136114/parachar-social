@@ -17,11 +17,12 @@ jobs:
     timeout-minutes: 10
     env:
       # Read-only Make webhook: returns this channel's video stats and playlists.
-      REPORT_HOOK: https://hook.us2.make.com/t1redwz8q5ogmcnv85qbp4rtxanjjyym
+      REPORT_HOOK: ${{ secrets.REPORT_HOOK }} # Make webhook of the report scenario, kept secret since the repo is public
     steps:
       - uses: actions/checkout@v4
       - name: Fetch stats and write the report
         run: |
+          [ -n "$REPORT_HOOK" ] || { echo "::warning::REPORT_HOOK secret is not set, no report this week"; exit 0; }
           D=$(TZ=Asia/Kolkata date +%F)
           cp report.js /tmp/report.js
           curl -sS --fail -m 120 -X POST -H 'Content-Type: application/json' -d '{"kind":"weekly"}' "$REPORT_HOOK" -o /tmp/r.json
