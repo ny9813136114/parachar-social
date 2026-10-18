@@ -1,0 +1,58 @@
+name: Look samples
+
+# Renders queued videos with the v3 engine (real footage + a different look each), with voice and music,
+# and pushes the MP4s to the "looks" branch so the designs can be checked before the daily run uses them.
+
+on:
+  workflow_dispatch:
+    inputs:
+      specs:
+        description: "Space-separated spec paths (empty = the next 3 in the queue)"
+        default: ""
+      looks:
+        description: "Space-separated looks, one per spec (empty = automatic)"
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  samples:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+      ENGINE_STYLE: v3
+      MUSIC: "on"
+      TTS_ENGINE: edge
+      TTS_VOICE: hi-IN-MadhurNeural
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install ffmpeg, Playwright, Chromium and the voice
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+          python3 -m pip install -q edge-tts
+      - name: Render
+        env:
+          SPECS: ${{ github.event.inputs.specs }}
+          LOOKS_IN: ${{ github.event.inputs.looks }}
+        run: |
+          [ -n "$PEXELS_API_KEY" ] || echo "::warning::PEXELS_API_KEY is not set, samples use the looks' own backgrounds"
+          [ -n "$SPECS" ] || SPECS=$(ls videos/queue/*.json | sort | head -n 3 | tr '\n' ' ')
+          read -ra L <<< "$LOOKS_IN"; i=0; mkdir -p looks
+          for f in $SPECS; do
+            ID=$(node -p "require('./$f').id")
+            LOOK="${L[$i]:-}" node render.js "$f"
+            cp "out/$ID/$ID.mp4" "looks/$ID.mp4"; cp "out/$ID/cover.png" "looks/$ID.png"; i=$((i+1))
+          done
+          ls -la looks
+      - name: Push to the looks branch
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan looks-tmp && git rm -rfq --cached . && git add looks/
+          git commit -qm "Look samples" && git push -f origin looks-tmp:looks

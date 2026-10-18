@@ -31,20 +31,41 @@ if (tts) {
   });
 }
 
+// v3: pick a look so videos side by side never share a design. Specs named YYYY-MM-DD-<slot>-... rotate
+// through the looks day by day and slot by slot (7 looks, so 7 videos in a row all differ); others hash the id.
+const LOOKS = ['creator', 'akhbaar', 'notebook', 'tvnews', 'glass', 'poster', 'fintech'];
+function pickLook() {
+  const m = path.basename(specPath).match(/^(\d{4}-\d{2}-\d{2})-(\d)-/);
+  if (m) return LOOKS[(Math.round(Date.parse(m[1]) / 864e5) * 3 + Number(m[2]) - 1) % LOOKS.length];
+  return LOOKS[[...spec.id].reduce((h, c) => (h * 31 + c.codePointAt(0)) >>> 0, 7) % LOOKS.length];
+}
+
 (async () => {
+  const style = process.env.ENGINE_STYLE || spec.style || 'v1';
+  let clips = null;
+  if (style === 'v3') {
+    spec.look = process.env.LOOK || spec.look || pickLook();
+    if (process.env.TEST_CLIPS) clips = process.env.TEST_CLIPS.split(',').map(file => ({ file, credit: 'test' }));
+    else if (!previewOnly) {
+      try { clips = await require('./bg.js')(spec, path.join(out, 'clips')); }
+      catch (e) { console.log(`::warning::footage failed for ${spec.id} (${e.message}), using the look's own background`); }
+    }
+    spec.footage = !!clips;
+  }
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
-  // ENGINE_STYLE=v2 (or spec.style) picks the premium template in engine-v2.html.
-  const style = process.env.ENGINE_STYLE || spec.style || 'v1';
-  await page.goto('file://' + path.join(__dirname, style === 'v2' ? 'engine-v2.html' : 'engine.html'));
-  const { duration, cues } = await page.evaluate(s => window.build(s), spec);
+  // ENGINE_STYLE=v2 / v3 (or spec.style) picks engine-v2.html / engine-v3.html.
+  await page.goto('file://' + path.join(__dirname, { v2: 'engine-v2.html', v3: 'engine-v3.html' }[style] || 'engine.html'));
+  await page.evaluate(() => window.preload && window.preload());
+  const { duration, cues, look } = await page.evaluate(s => window.build(s), spec);
+  if (look) console.log(`${spec.id}: look ${look}${clips ? `, footage: ${clips.map(c => c.credit).join('; ')}` : ', no footage'}`);
   await page.evaluate(() => document.fonts.ready);
   await page.waitForTimeout(300);
 
   // cover = end of the hook scene (what people see in the grid / Shorts shelf)
   const coverT = spec.scenes[0].dur - 0.4;
   await page.evaluate(t => window.seek(t), coverT);
-  await page.screenshot({ path: path.join(out, 'cover.png') });
+  if (!clips) await page.screenshot({ path: path.join(out, 'cover.png') }); // with footage, taken from the MP4 below
 
   if (previewOnly) {
     let t = 0;
@@ -55,15 +76,33 @@ if (tts) {
     }
   } else {
     const mp4 = path.join(out, spec.id + '.mp4'), silent = path.join(out, 'video-only.mp4');
+    // With footage the page is rendered transparent (PNG) and laid over the clips: one clip per scene, cut on the
+    // scene change, with a slow push-in, a little hand-held sway, the look's colour grade and film grain.
+    const vin = [], vf = [];
+    if (clips) {
+      const grade = { akhbaar: 'eq=contrast=1.05:saturation=0.75:brightness=-0.03,colorchannelmixer=.95:.1:.05:0:.05:.95:.05:0:.05:.1:.85',
+        tvnews: 'eq=contrast=1.12:saturation=1.05:brightness=-0.05', poster: 'eq=contrast=1.08:saturation=1.3:brightness=-0.04',
+        notebook: 'eq=saturation=0.9:brightness=-0.02', creator: 'eq=contrast=1.1:saturation=1.25:brightness=-0.03' }[spec.look] || 'eq=saturation=1.05:brightness=-0.05';
+      spec.scenes.forEach((s, i) => {
+        vin.push('-stream_loop', '-1', '-t', String(s.dur), '-i', clips[i].file);
+        const dx = i % 2 ? -1 : 1;
+        vf.push(`[${i + 1}:v]fps=${fps},scale=1188:2112:force_original_aspect_ratio=increase,crop=1188:2112,` +
+          `crop=1080:1920:x='54+${dx}*40*t/${s.dur}+6*sin(t*1.3)':y='96-60*t/${s.dur}+5*sin(t*1.7+1)',setsar=1,${grade},trim=duration=${s.dur},setpts=PTS-STARTPTS[c${i}]`);
+      });
+      vf.push(`${spec.scenes.map((_, i) => `[c${i}]`).join('')}concat=n=${spec.scenes.length}:v=1:a=0,noise=alls=7:allf=t[bgv]`,
+        `[0:v]format=rgba[fg]`, `[bgv][fg]overlay=0:0:format=auto,format=yuv420p[v]`);
+    }
+    const an = clips ? spec.scenes.length + 1 : 1;
     const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error',
-      '-f', 'image2pipe', '-framerate', String(fps), '-c:v', 'mjpeg', '-i', '-',
+      '-f', 'image2pipe', '-framerate', String(fps), '-c:v', clips ? 'png' : 'mjpeg', '-i', '-', ...vin,
       '-f', 'lavfi', '-i', 'anullsrc=channel_layout=stereo:sample_rate=44100',
-      '-shortest', '-c:v', 'libx264', '-preset', 'medium', '-crf', '20', '-pix_fmt', 'yuv420p',
+      ...(clips ? ['-filter_complex', vf.join(';'), '-map', '[v]', '-map', `${an}:a`] : []),
+      '-shortest', '-t', duration.toFixed(2), '-c:v', 'libx264', '-preset', 'medium', '-crf', '20', '-pix_fmt', 'yuv420p',
       '-c:a', 'aac', '-b:a', '128k', '-movflags', '+faststart', (tts || music) ? silent : mp4], { stdio: ['pipe', 'inherit', 'inherit'] });
     const n = Math.ceil(duration * fps);
     for (let f = 0; f < n; f++) {
       await page.evaluate(t => window.seek(t), f / fps);
-      const buf = await page.screenshot({ type: 'jpeg', quality: 92 });
+      const buf = await page.screenshot(clips ? { type: 'png', omitBackground: true } : { type: 'jpeg', quality: 92 });
       if (!ff.stdin.write(buf)) await new Promise(r => ff.stdin.once('drain', r));
     }
     ff.stdin.end();
@@ -88,6 +127,7 @@ if (tts) {
         '-c:v', 'copy', '-c:a', 'aac', '-b:a', '160k', '-ar', '44100', '-ac', '2', '-t', duration.toFixed(2), '-movflags', '+faststart', mp4]);
       fs.rmSync(silent);
     }
+    if (clips) run('ffmpeg', ['-y', '-loglevel', 'error', '-ss', coverT.toFixed(2), '-i', mp4, '-frames:v', '1', path.join(out, 'cover.png')]);
   }
   await browser.close();
 
