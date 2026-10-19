@@ -1,0 +1,5 @@
+[
+  { "name": "videos", "method": "GET", "path": "/v3/videos?part=snippet,status,statistics,contentDetails&id=e74nBq9KfNM,959Rb1ZnR34,CSgkFp0O1AE,nsxFc62NNhU,20qvF8APVjQ,txYlY3BJIko,pxqf95m7lq4,sDqhUIUathY,doTmv8DERMg,PtVdVMx_8LM,7jusIH4Dmd0,VLNtOHqncYU,SdNYfjnhYxI,ps3r2Ssu-Fo" },
+  { "name": "comments", "method": "GET", "path": "/v3/commentThreads?part=snippet&allThreadsRelatedToChannelId=UCdqRVpQKsb5huTo6__pTpuA&maxResults=100" },
+  { "name": "playlists", "method": "GET", "path": "/v3/playlists?part=snippet,contentDetails&mine=true&maxResults=50" }
+]
