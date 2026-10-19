@@ -24,7 +24,9 @@ const tts = process.env.TTS_ENGINE && process.env.TTS_ENGINE !== 'off' && !previ
 const music = process.env.MUSIC === 'on' && !previewOnly;
 const voiceDir = path.join(out, 'voice');
 if (tts) {
-  run('python3', [path.join(__dirname, 'tts.py'), voiceDir], { input: JSON.stringify(spec.scenes.map(s => s.say || '')) });
+  // A spec can pick its own narrator ("voice": "hi-IN-SwaraNeural") so the channel doesn't sound the same every time.
+  const env = spec.voice ? { ...process.env, TTS_VOICE: spec.voice } : process.env;
+  run('python3', [path.join(__dirname, 'tts.py'), voiceDir], { input: JSON.stringify(spec.scenes.map(s => s.say || '')), env });
   spec.scenes.forEach((s, i) => {
     const f = path.join(voiceDir, `scene-${i}.wav`);
     if (fs.existsSync(f)) { s.voice = f; s.dur = Math.max(s.dur, +(audioLen(f) + 0.5).toFixed(2)); }
