@@ -1,0 +1,4 @@
+[
+  { "name": "a1", "method": "GET", "path": "/analytics/v2/reports?ids=channel==MINE&startDate=2026-10-01&endDate=2026-10-19&metrics=views,averageViewPercentage,averageViewDuration,likes,comments,shares,subscribersGained&dimensions=video&sort=-views&maxResults=25" },
+  { "name": "a2", "method": "GET", "path": "/../../youtubeanalytics/v2/reports?ids=channel==MINE&startDate=2026-10-01&endDate=2026-10-19&metrics=views&dimensions=insightTrafficSourceType" }
+]
