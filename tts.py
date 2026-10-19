@@ -43,8 +43,6 @@ async def edge():
             try:
                 await say(edge_tts, text, voice, rate, mp3, i)
             except Exception:
-                if len(text) <= 120:
-                    raise
                 parts = [p.strip() for p in re.split(r'(?<=,)\s+', text) if p.strip()]
         if len(parts) > 1:
             files = []
@@ -55,12 +53,14 @@ async def edge():
                     files.append(f)
                 except Exception:
                     pieces = [p.strip() for p in re.split(r'(?<=,)\s+', part) if p.strip()]
-                    if len(pieces) < 2:
-                        raise
                     for m, piece in enumerate(pieces):
                         g = os.path.join(out, f'scene-{i}-{k}-{m}.mp3')
-                        await say(edge_tts, piece, voice, rate, g, f'{i}.{k}.{m}')
-                        files.append(g)
+                        try:
+                            await say(edge_tts, piece, voice, rate, g, f'{i}.{k}.{m}')
+                            files.append(g)
+                        except Exception:
+                            # Last resort: leave this phrase silent (on screen it is still shown) rather than lose the video.
+                            print(f'::warning::voice skipped a phrase in line {i}: {piece}')
             lst = os.path.join(out, f'scene-{i}.txt')
             with open(lst, 'w') as fh:
                 fh.write(''.join(f"file '{f}'\n" for f in files))
