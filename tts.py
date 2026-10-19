@@ -3,7 +3,7 @@
 # Writes scene-<n>.wav for every non-empty line (n = scene index). Engines:
 #   edge  : Microsoft Edge neural voice (pip install edge-tts), voice from TTS_VOICE (default hi-IN-SwaraNeural)
 #   piper : offline Piper voice (pip install piper-tts), model hi_IN-pratham-medium downloaded on first use
-import asyncio, json, os, subprocess, sys, urllib.request
+import asyncio, json, os, re, subprocess, sys, urllib.request
 
 out = sys.argv[1]
 os.makedirs(out, exist_ok=True)
@@ -15,6 +15,19 @@ def to_wav(src, dst):
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', src, '-ar', '44100', '-ac', '1', dst], check=True)
 
 
+async def say(edge_tts, text, voice, rate, mp3, tag):
+    # The service sometimes drops a request ("No audio was received"); retry before giving up.
+    for attempt in range(4):
+        try:
+            await edge_tts.Communicate(text, voice, rate=rate).save(mp3)
+            return
+        except Exception as e:
+            print(f'tts line {tag} attempt {attempt + 1} failed: {e!r} ({text[:80]})', file=sys.stderr)
+            if attempt == 3:
+                raise
+            await asyncio.sleep(3 * (attempt + 1))
+
+
 async def edge():
     import edge_tts
     voice = os.environ.get('TTS_VOICE', 'hi-IN-SwaraNeural')
@@ -23,16 +36,20 @@ async def edge():
         if not text:
             continue
         mp3 = os.path.join(out, f'scene-{i}.mp3')
-        # The service sometimes drops a request ("No audio was received"); retry before giving up.
-        for attempt in range(4):
-            try:
-                await edge_tts.Communicate(text, voice, rate=rate).save(mp3)
-                break
-            except Exception as e:
-                print(f'tts line {i} attempt {attempt + 1} failed: {e!r} ({text[:60]})', file=sys.stderr)
-                if attempt == 3:
-                    raise
-                await asyncio.sleep(3 * (attempt + 1))
+        # Long lines (long-form videos) go sentence by sentence, then join: shorter requests fail less often.
+        parts = [p.strip() for p in re.split(r'(?<=[।?.!])\s+', text) if p.strip()] if len(text) > 300 else [text]
+        if len(parts) == 1:
+            await say(edge_tts, text, voice, rate, mp3, i)
+        else:
+            files = []
+            for k, part in enumerate(parts):
+                f = os.path.join(out, f'scene-{i}-{k}.mp3')
+                await say(edge_tts, part, voice, rate, f, f'{i}.{k}')
+                files.append(f)
+            lst = os.path.join(out, f'scene-{i}.txt')
+            with open(lst, 'w') as fh:
+                fh.write(''.join(f"file '{f}'\n" for f in files))
+            subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', lst, mp3], check=True)
         to_wav(mp3, os.path.join(out, f'scene-{i}.wav'))
 
 
