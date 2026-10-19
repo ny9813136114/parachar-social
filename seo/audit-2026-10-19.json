@@ -1,0 +1,4 @@
+[
+  { "name": "channel", "method": "GET", "path": "/v3/channels?part=id,contentDetails,statistics&mine=true" },
+  { "name": "mine", "method": "GET", "path": "/v3/search?part=id&forMine=true&type=video&maxResults=50" }
+]
