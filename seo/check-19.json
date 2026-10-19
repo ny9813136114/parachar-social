@@ -1,0 +1,6 @@
+[
+  { "name": "videos", "method": "GET", "path": "/v3/videos?part=snippet,contentDetails,status&id=nsxFc62NNhU,CSgkFp0O1AE,959Rb1ZnR34" },
+  { "name": "cap-nsxFc62NNhU", "method": "GET", "path": "/v3/captions?part=snippet&videoId=nsxFc62NNhU" },
+  { "name": "cap-CSgkFp0O1AE", "method": "GET", "path": "/v3/captions?part=snippet&videoId=CSgkFp0O1AE" },
+  { "name": "cap-959Rb1ZnR34", "method": "GET", "path": "/v3/captions?part=snippet&videoId=959Rb1ZnR34" }
+]
