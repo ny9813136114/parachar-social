@@ -1,0 +1,226 @@
+{
+  "recent": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#searchListResponse",
+      "etag": "nQsxO6bMBCZbHKplbdtPS0JrqXE",
+      "nextPageToken": "KAUyUQHVuS7kWyvE3BLxw0kNbfuo6TJSZdiImW5YPG4HNl8tIC_HkhE9DIOnMTNTM5phRVYBF_59cDH7erW1HcCEOUPfqY9Snn6d7ZTu7hceuWJQwQ",
+      "pageInfo": {
+        "totalResults": 14,
+        "resultsPerPage": 5
+      },
+      "items": [
+        {
+          "kind": "youtube#searchResult",
+          "etag": "a0RdVS3jyYWbuNkALGKvZL0pvSw",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "e74nBq9KfNM"
+          },
+          "snippet": {
+            "publishedAt": "2026-10-19T08:08:56Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Post Office Scheme 2026: ₹1 लाख कहाँ लगाएँ? NSC, PPF, SCSS, MIS, KVP, सुकन्या, RD की पूरी तुलना",
+            "description": "Post Office Scheme 2026 हिंदी में: अक्टूबर-दिसंबर 2026 की ब्याज दरें और ₹1 लाख पर हर स्कीम में कितना मिलेगा\n👉 फ्री कैलकुलेटर: https://parachar.com/post-office-scheme-calculator/\n\nपोस्ट ऑफिस की 9 बचत योजनाएँ एक वीडियो में: अक्टूबर-दिसंबर 2026 की ब्याज दरें (SCSS और सुकन्या 8.2%, NSC 7.7%, KVP और TD 5 साल 7.5%, MIS 7.4%, PPF 7.1%, RD 6.7%), ₹1 लाख एक बार लगाने पर NSC, TD और KVP में कितना बनेगा, हर महीने आमदनी के लिए MIS या SCSS, लंबी बचत के लिए PPF और सुकन्या, और ₹1,000 की RD। आख़िर में आसान गाइड: आपके लिए कौन सी स्कीम सही है।\n\n⏱ इस वीडियो में:\n0:00 शुरुआत\n0:30 नई ब्याज दरें\n1:19 एक बार ₹1 लाख: NSC, TD, KVP\n2:32 हर महीने आमदनी: MIS और SCSS\n3:41 लंबी बचत: PPF और सुकन्या\n4:48 छोटी बचत: RD\n5:26 आपके लिए कौन सी स्कीम?\n\n🔗 वीडियो में दिखाए गए फ्री टूल:\n• पोस्ट ऑफिस स्कीम कैलकुलेटर: https://parachar.com/post-office-scheme-calculator/\n• सुकन्या समृद्धि कैलकुलेटर: https://parachar.com/sukanya-samriddhi-yojana-calculator/\n\npost office scheme calculator से अपनी रकम पर हिसाब देखें: post office interest rate 2026, NSC kitna milega, MIS monthly income kitni hogi, PPF 15 saal me kitna banega और sukanya samriddhi yojana calculator. सभी आँकड़े पोस्ट ऑफिस की मौजूदा दरों पर हमारे फ्री कैलकुलेटर से निकाले गए हैं।\n\nस्रोत: वित्त मंत्रालय, 30 सितंबर 2026 (अक्टूबर-दिसंबर 2026 की दरें) · जाँच: 19 अक्टूबर 2026 · हिसाब अनुमान है, निवेश की सलाह नहीं\n\n▶ ऐसे और वीडियो (बैंक, UPI और बचत योजनाएँ): https://www.youtube.com/playlist?list=PLDBOcuU_Prr4\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#PostOffice #PostOfficeScheme #PPF #SukanyaSamriddhi #SmallSavings",
+            "thumbnails": {
+              "default": {
+                "url": "https://i9.ytimg.com/vi/e74nBq9KfNM/default.jpg?sqp=CNig19YG&rs=AOn4CLANYSpxVlASRhbIHliYC02RB9zw7g",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i9.ytimg.com/vi/e74nBq9KfNM/mqdefault.jpg?sqp=CNig19YG&rs=AOn4CLBsrG7e8Ss54f6cxf83FLQMI84XQw",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i9.ytimg.com/vi/e74nBq9KfNM/hqdefault.jpg?sqp=CNig19YG&rs=AOn4CLDuHAwpQy3GL3TzkDTLYCPLI-pfaw",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "Parachar",
+            "liveBroadcastContent": "none",
+            "publishTime": "2026-10-19T08:08:56Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "DbgtXYnObJPeNbXOmnc0v7CYIvM",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "959Rb1ZnR34"
+          },
+          "snippet": {
+            "publishedAt": "2026-10-18T18:22:35Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "FASTag Annual Pass अब ₹3,075: 200 Trip, फ़ायदा या नुकसान? Toll Calculator #shorts",
+            "description": "FASTag Annual Pass 2026: ₹3,075 में 200 टोल ट्रिप, फ़ायदा है या नहीं?\n👉 फ्री कैलकुलेटर: https://parachar.com/fastag-annual-pass-kya-fayde-ka-hai/\n\n1 अप्रैल 2026 से FASTag सालाना पास ₹3,075 (पहले ₹3,000): 200 टोल क्रॉसिंग या 1 साल, सिर्फ़ प्राइवेट कार/जीप/वैन, सिर्फ़ NH और एक्सप्रेसवे पर। महीने में 10 NH क्रॉसिंग, ₹100 औसत टोल: साल का ₹12,000 टोल, पास से ₹8,925 की बचत। अपने ट्रिप डालकर देखें, फ्री:\nhttps://parachar.com/fastag-annual-pass-kya-fayde-ka-hai/\n\nFASTag सालाना पास कैसे लें (fastag annual pass kaise le): Rajmarg Yatra ऐप या NHAI वेबसाइट से, सिर्फ़ प्राइवेट कार, जीप, वैन के लिए। 200 ट्रिप या 1 साल, जो पहले हो। हर महीने NH पर कितना टोल देते हैं, उससे देखें पास से कितनी बचत होगी।\n\nस्रोत: NHAI / MoRTH, 15 मार्च 2026 (आकाशवाणी) · जाँच: 17 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं\n\n▶ ऐसे और Shorts (रोज़ के नियम और क़ानून): https://www.youtube.com/playlist?list=PLGm-6VpY_nWE\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#FASTag #AnnualPass #Toll #NHAI #RoadTrip",
+            "thumbnails": {
+              "default": {
+                "url": "https://i9.ytimg.com/vi/959Rb1ZnR34/default.jpg?sqp=CNig19YG&rs=AOn4CLAW0FP5yIn1K-1bM_axVoqm5UU-AQ",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i9.ytimg.com/vi/959Rb1ZnR34/mqdefault.jpg?sqp=CNig19YG&rs=AOn4CLCteqd3gmTIwW9jxlQHAZ2rcJTmjQ",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i9.ytimg.com/vi/959Rb1ZnR34/hqdefault.jpg?sqp=CNig19YG&rs=AOn4CLC6AjElxtVovfYylLIfI38bq8DCbQ",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i9.ytimg.com/vi/959Rb1ZnR34/sddefault.jpg?sqp=CNig19YG&rs=AOn4CLAA0k1Y_YQYMxnMwJSthiNjg1uEOg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i9.ytimg.com/vi/959Rb1ZnR34/maxresdefault.jpg?sqp=CNig19YG&rs=AOn4CLDxBBYPTHg5wBlv88G5INJOryW34A",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "liveBroadcastContent": "none",
+            "publishTime": "2026-10-18T18:22:35Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "gYGZpt-CyPB2AYi29HIZ_6TeLzE",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "CSgkFp0O1AE"
+          },
+          "snippet": {
+            "publishedAt": "2026-10-18T18:22:29Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Cheque Bounce Case: 30-15-30 दिन का नियम, सज़ा 2 साल | Section 138 NI Act #shorts",
+            "description": "Cheque Bounce Case 2026: Section 138 NI Act नोटिस टाइम लिमिट और सज़ा\n👉 फ्री कैलकुलेटर: https://parachar.com/cheque-bounce-case-saza-timeline/\n\nचेक बाउंस हुआ? बैंक मेमो मिलने के 30 दिन में लीगल नोटिस, नोटिस के बाद सामने वाले को 15 दिन, फिर 1 महीने में कोर्ट में केस (धारा 138, 142)। सज़ा 2 साल तक और/या चेक का दोगुना जुर्माना। अपनी आख़िरी तारीख़ें देखें, फ्री:\nhttps://parachar.com/cheque-bounce-case-saza-timeline/\n\nचेक बाउंस होने पर क्या करें (cheque bounce kya kare): 30 दिन में लीगल नोटिस, 15 दिन का इंतज़ार, फिर 1 महीने में केस। चेक 3 महीने तक वैध रहता है। cheque bounce punishment 2 साल तक की जेल या दोगुना जुर्माना। आपकी तारीख़ें कैलकुलेटर से निकालें।\n\nस्रोत: NI Act धारा 138, 142 · RBI (चेक 3 महीने वैध) · जाँच: 17 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं\n\n▶ ऐसे और Shorts (रोज़ के नियम और क़ानून): https://www.youtube.com/playlist?list=PLGm-6VpY_nWE\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#ChequeBounce #Section138 #LegalNotice #KanoonJaniye #MoneyTips",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/CSgkFp0O1AE/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/CSgkFp0O1AE/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/CSgkFp0O1AE/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/CSgkFp0O1AE/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/CSgkFp0O1AE/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "liveBroadcastContent": "none",
+            "publishTime": "2026-10-18T18:22:29Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "gz_8YX7VJRgQ57ZL2JsTi1Xevto",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "nsxFc62NNhU"
+          },
+          "snippet": {
+            "publishedAt": "2026-10-18T18:22:22Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Gratuity Calculator: 10 साल 7 महीने नौकरी पर ₹2.54 लाख ग्रेच्युटी | 15/26 Formula #shorts",
+            "description": "Gratuity Calculator 2026: ग्रेच्युटी कितनी मिलेगी, 15/26 फ़ॉर्मूला से पूरा हिसाब\n👉 फ्री कैलकुलेटर: https://parachar.com/gratuity-kitni-milegi-calculator/\n\nबेसिक + DA ₹40,000, नौकरी 10 साल 7 महीने: 6 महीने से ज़्यादा होने पर 11 साल गिने जाते हैं, ग्रेच्युटी = ₹40,000 × 15/26 × 11 = ₹2,53,846। 10 साल 5 महीने पर सिर्फ़ ₹2,30,769। कंपनी 30 दिन में न दे तो ब्याज भी देना होगा। अपनी ग्रेच्युटी देखें, फ्री:\nhttps://parachar.com/gratuity-kitni-milegi-calculator/\n\nग्रेच्युटी कैसे निकालें (gratuity kaise calculate kare): आख़िरी बेसिक + DA × 15/26 × नौकरी के साल। 5 साल की नौकरी पर हक़ बनता है, इस्तीफ़े (resignation) के बाद भी मिलती है, और 6 महीने से ज़्यादा का हिस्सा पूरा साल गिना जाता है। प्राइवेट नौकरी वालों के लिए gratuity rules 2026 आसान भाषा में।\n\nस्रोत: सामाजिक सुरक्षा संहिता 2020 (धारा 53, 56) · जाँच: 17 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं\n\n▶ ऐसे और Shorts (इनकम टैक्स और सैलरी): https://www.youtube.com/playlist?list=PLFBDdDjKFXrU\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#Gratuity #GratuityCalculator #Naukri #SalaryIndia #EmployeeRights",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/nsxFc62NNhU/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/nsxFc62NNhU/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/nsxFc62NNhU/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/nsxFc62NNhU/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/nsxFc62NNhU/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "liveBroadcastContent": "none",
+            "publishTime": "2026-10-18T18:22:22Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "V52-itkL8-LqV5H95BqQIcmqJYo",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "20qvF8APVjQ"
+          },
+          "snippet": {
+            "publishedAt": "2026-10-18T03:51:02Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "₹15 लाख सैलरी: New vs Old Tax Regime, कौन सस्ता? FY 2026-27 Income Tax #shorts",
+            "description": "₹15 लाख सैलरी, 80C ₹1.5 लाख और 80D ₹25,000: नई टैक्स व्यवस्था में टैक्स ₹97,500, पुरानी में ₹2,02,800 (4% सेस समेत)। नई में ₹1,05,300 कम। ₹2 लाख होम लोन ब्याज हो तब भी नई सस्ती। अपनी सैलरी पर दोनों का हिसाब, फ्री:\nhttps://parachar.com/income-tax-calculator-hindi/\n\n#IncomeTax #NewTaxRegime #OldVsNewRegime #TaxSaving #SalaryIndia",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/20qvF8APVjQ/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/20qvF8APVjQ/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/20qvF8APVjQ/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/20qvF8APVjQ/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/20qvF8APVjQ/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "liveBroadcastContent": "none",
+            "publishTime": "2026-10-18T03:51:02Z"
+          }
+        }
+      ]
+    }
+  }
+}
