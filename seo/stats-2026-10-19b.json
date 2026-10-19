@@ -1,0 +1,3 @@
+[
+  { "name": "stats", "method": "GET", "path": "/v3/videos?part=snippet,statistics,status&id=959Rb1ZnR34,CSgkFp0O1AE,nsxFc62NNhU,20qvF8APVjQ,txYlY3BJIko,pxqf95m7lq4,sDqhUIUathY,doTmv8DERMg,PtVdVMx_8LM,7jusIH4Dmd0,VLNtOHqncYU,SdNYfjnhYxI,ps3r2Ssu-Fo" }
+]
