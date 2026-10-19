@@ -1,0 +1,8 @@
+[
+  { "name": "nsxFc62NNhU", "method": "DELETE", "path": "/v3/captions?id=AUieDabMlZ_es32vbehMNqEv1-ja0mRerdBKcQ7JXBhSnEnvVwg7JeFmxO7KUXQCud_Nopw" },
+  { "name": "CSgkFp0O1AE", "method": "DELETE", "path": "/v3/captions?id=AUieDabqt89z7uxI_UuLyMCxZxo6hN5tLQdNG6zvl9c2jXMmfhIbVYyJOu1kpi8aWe8cZeA" },
+  { "name": "959Rb1ZnR34", "method": "DELETE", "path": "/v3/captions?id=AUieDaauxNawRsJ-Gk32wPKDRj4DvoRwa_si5YKwsCPBdvLVP6ff3S5MZlqVRgbUUmFfeRk" },
+  { "name": "check-nsx", "method": "GET", "path": "/v3/captions?part=snippet&videoId=nsxFc62NNhU" },
+  { "name": "check-CSg", "method": "GET", "path": "/v3/captions?part=snippet&videoId=CSgkFp0O1AE" },
+  { "name": "check-959", "method": "GET", "path": "/v3/captions?part=snippet&videoId=959Rb1ZnR34" }
+]

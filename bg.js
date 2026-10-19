@@ -42,7 +42,8 @@ module.exports = async function footage(spec, dir) {
   fs.mkdirSync(dir, { recursive: true });
   const cache = {};
   for (let i = 0; i < n; i++) {
-    const q = qs[i % qs.length];
+    // Audience is Indian: every search names India so the people on screen look like the viewer.
+    const q = /india/i.test(qs[i % qs.length]) ? qs[i % qs.length] : `indian ${qs[i % qs.length]}`;
     cache[q] = cache[q] || (await search(q, key)).filter(v => v.duration >= 4 && pickFile(v));
     const pool = cache[q].filter(v => !used.has(v.id));
     if (!pool.length) { clips.push(clips[clips.length - 1] || null); continue; }

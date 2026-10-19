@@ -85,9 +85,9 @@ function pickLook() {
         notebook: 'eq=saturation=0.9:brightness=-0.02', creator: 'eq=contrast=1.1:saturation=1.25:brightness=-0.03' }[spec.look] || 'eq=saturation=1.05:brightness=-0.05';
       spec.scenes.forEach((s, i) => {
         vin.push('-stream_loop', '-1', '-t', String(s.dur), '-i', clips[i].file);
-        const dx = i % 2 ? -1 : 1;
+        const dx = i % 2 ? -1 : 1; // the end screen's footage is blurred and darkened so faces never fight the phone card
         vf.push(`[${i + 1}:v]fps=${fps},scale=1188:2112:force_original_aspect_ratio=increase,crop=1188:2112,` +
-          `crop=1080:1920:x='54+${dx}*40*t/${s.dur}+6*sin(t*1.3)':y='96-60*t/${s.dur}+5*sin(t*1.7+1)',setsar=1,${grade},trim=duration=${s.dur},setpts=PTS-STARTPTS[c${i}]`);
+          `crop=1080:1920:x='54+${dx}*40*t/${s.dur}+6*sin(t*1.3)':y='96-60*t/${s.dur}+5*sin(t*1.7+1)',setsar=1,${grade}${s.type === 'cta' ? ',gblur=sigma=18,eq=brightness=-0.18' : ''},trim=duration=${s.dur},setpts=PTS-STARTPTS[c${i}]`);
       });
       vf.push(`${spec.scenes.map((_, i) => `[c${i}]`).join('')}concat=n=${spec.scenes.length}:v=1:a=0,noise=alls=7:allf=t[bgv]`,
         `[0:v]format=rgba[fg]`, `[bgv][fg]overlay=0:0:format=auto,format=yuv420p[v]`);
