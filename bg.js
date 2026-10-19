@@ -51,7 +51,8 @@ module.exports = async function footage(spec, dir, opts = {}) {
     cache[q] = cache[q] || (await search(q, key, orientation)).filter(v => v.duration >= 4 && pickFile(v, orientation));
     const pool = cache[q].filter(v => !used.has(v.id));
     if (!pool.length) { clips.push(clips[clips.length - 1] || null); continue; }
-    const v = pool[hash(spec.id + i) % Math.min(pool.length, 8)];
+    // Landscape searches drift off-topic fast (non-Indian people), so long videos stay within the top 3 results.
+    const v = pool[hash(spec.id + i) % Math.min(pool.length, orientation === 'landscape' ? 3 : 8)];
     used.add(v.id);
     const f = pickFile(v, orientation), dst = path.join(dir, `clip-${i}.mp4`);
     const r = await fetch(f.link);

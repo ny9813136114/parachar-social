@@ -120,7 +120,12 @@ if (tts) {
   await page.evaluate(() => document.fonts.ready);
   const thPage = path.join(out, 'thumb-layer.png'), thumb = path.join(out, 'thumbnail.png');
   await page.screenshot({ path: thPage, omitBackground: !!clips });
-  if (clips) run('ffmpeg', ['-y', '-loglevel', 'error', '-ss', '1', '-i', clips[0].file, '-i', thPage, '-filter_complex',
+  let thumbClip = clips && clips[0].file;
+  if (clips && spec.thumb && spec.thumb.broll) {
+    try { const t = await require('./bg.js')({ id: spec.id + '-thumb' }, path.join(out, 'clips-thumb'), { orientation: 'landscape', queries: [spec.thumb.broll] });
+      if (t) thumbClip = t[0].file; } catch (e) { console.log(`::warning::thumbnail footage failed (${e.message})`); }
+  }
+  if (clips) run('ffmpeg', ['-y', '-loglevel', 'error', '-ss', '1', '-i', thumbClip, '-i', thPage, '-filter_complex',
     '[0:v]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080[b];[b][1:v]overlay=0:0,scale=1280:720', '-frames:v', '1', thumb]);
   else run('ffmpeg', ['-y', '-loglevel', 'error', '-i', thPage, '-vf', 'scale=1280:720', thumb]);
   fs.rmSync(thPage);

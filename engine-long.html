@@ -54,6 +54,9 @@ em{font-style:normal;color:var(--hl)}
 .dense .h2{font-size:52px;margin-bottom:18px}
 .dense .row{padding:10px 0;font-size:31px}
 .dense .row.hi{padding:10px 36px}
+.dense .items{gap:12px}
+.dense .item{padding:12px 24px;font-size:33px}
+.dense .item .n{width:48px;height:48px;font-size:27px}
 .row span{color:var(--mut);font-weight:500}
 .row b{font-weight:800;text-align:right}
 .row b+b{min-width:260px}
@@ -115,7 +118,7 @@ const SLIDES={
     (s.lines||[]).forEach((l,i)=>pop(el('div',null,rich(l),h),t0+.2+i*.35));if(s.sub)pop(el('div','sub',rich(s.sub),r),t0+.9);},
   chapter(s,r,t0,ctx){r.classList.add('center');pop(el('div','chno',String(ctx.n).padStart(2,'0'),r),t0);
     pop(el('div','chti',rich(s.title||ctx.title),r),t0+.25);if(s.sub)pop(el('div','sub',rich(s.sub),r),t0+.6);},
-  points(s,r,t0){if(s.heading)pop(el('div','h2',rich(s.heading),r),t0);const it=el('div','items',null,r),at=spread(s,s.items.length,t0);
+  points(s,r,t0){if(s.items.length>4)r.classList.add('dense');if(s.heading)pop(el('div','h2',rich(s.heading),r),t0);const it=el('div','items',null,r),at=spread(s,s.items.length,t0);
     s.items.forEach((x,i)=>{const m=/^([✓✕])\s*/.exec(x);const row=el('div','item'+(m?(m[1]==='✓'?' tick':' cross'):''),`<div class="n">${m?m[1]:i+1}</div><div>${rich(m?x.slice(m[0].length):x)}</div>`,it);slideIn(row,at(i));});},
   steps(s,r,t0){SLIDES.points(s,r,t0)},
   table(s,r,t0){if(s.rows.length>5)r.classList.add('dense');if(s.heading)pop(el('div','h2',rich(s.heading),r),t0);const tb=el('div','tbl',null,r);pop(tb,t0+.15);
