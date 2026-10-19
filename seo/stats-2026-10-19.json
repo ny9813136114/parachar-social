@@ -1,0 +1,3 @@
+[
+  { "name": "recent", "method": "GET", "path": "/v3/search?part=id&forMine=true&type=video&order=date&maxResults=25" }
+]
