@@ -67,7 +67,10 @@ jobs:
 
       - name: Render
         if: steps.pick.outputs.file != ''
-        run: node render-long.js "${{ steps.pick.outputs.file }}"
+        # The error goes into an annotation too, so it can be read without the job log.
+        run: |
+          set +e; node render-long.js "${{ steps.pick.outputs.file }}" 2>&1 | tee render.log; s=${PIPESTATUS[0]}
+          [ "$s" = 0 ] || { echo "::error::$(tail -c 1500 render.log | tr '\n' ' ')"; exit 1; }
 
       - name: Keep a release (Make downloads the MP4; the thumbnail is for Studio)
         if: steps.pick.outputs.file != ''
