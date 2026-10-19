@@ -23,7 +23,16 @@ async def edge():
         if not text:
             continue
         mp3 = os.path.join(out, f'scene-{i}.mp3')
-        await edge_tts.Communicate(text, voice, rate=rate).save(mp3)
+        # The service sometimes drops a request ("No audio was received"); retry before giving up.
+        for attempt in range(4):
+            try:
+                await edge_tts.Communicate(text, voice, rate=rate).save(mp3)
+                break
+            except Exception as e:
+                print(f'tts line {i} attempt {attempt + 1} failed: {e!r} ({text[:60]})', file=sys.stderr)
+                if attempt == 3:
+                    raise
+                await asyncio.sleep(3 * (attempt + 1))
         to_wav(mp3, os.path.join(out, f'scene-{i}.wav'))
 
 
