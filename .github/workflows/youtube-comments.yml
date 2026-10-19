@@ -5,7 +5,7 @@ name: YouTube comments
 
 on:
   schedule:
-    - cron: "20 * * * *" # hourly: GitHub starts scheduled runs late, so check often; only live Shorts get a comment
+    - cron: "*/15 * * * *" # every 15 min: GitHub skips many scheduled runs (19 Oct: none from 10:54 to 15:30 UTC). A run with nothing due costs no Make ops.
   workflow_dispatch:
 
 permissions:
