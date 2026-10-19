@@ -1,0 +1,123 @@
+{
+  "id": "udyogini-3-lakh-90000",
+  "template": "T1 kitna-milega",
+  "theme": "navy",
+  "trust": "स्रोत: KSWDC उद्योगिनी नियम, कर्नाटक सरकार (vikaspedia, myscheme) · जाँच: 19 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं",
+  "url": "https://parachar.com/udyogini-scheme-calculator/",
+  "search": "parachar udyogini",
+  "question": "आप किस काम के लिए लोन लेना चाहती हैं? कमेंट में लिखिए 👇",
+  "campaign": "udyogini",
+  "playlist": "राज्य की स्वरोजगार योजनाएँ",
+  "title": "Udyogini Scheme: ₹3 लाख के लोन पर ₹90,000 सब्सिडी, कर्नाटक की महिलाएँ | Calculator #shorts",
+  "seoIntro": "Udyogini Scheme 2026: कर्नाटक की महिलाओं को ₹3 लाख लोन पर 30-50% सब्सिडी",
+  "description": "उद्योगिनी योजना (KSWDC, सिर्फ़ कर्नाटक): ₹3 लाख तक की यूनिट पर सामान्य वर्ग की महिला को 30% (₹90,000 तक), SC/ST महिला को 50% (₹1,50,000 तक) सब्सिडी। उम्र 18-55, परिवार की आय ₹1.5 लाख (SC/ST ₹2 लाख) तक, विधवा/दिव्यांग पर सीमा नहीं। ₹3 लाख पर ₹90,000 सब्सिडी के बाद ₹2,10,000 का लोन, 11% पर 5 साल की EMI करीब ₹4,566। 2026-27 आवेदन Seva Sindhu पर। अपनी सब्सिडी और EMI, फ्री:",
+  "about": "Udyogini scheme कर्नाटक महिला विकास निगम (KSWDC) की योजना है, दूसरे राज्यों में नहीं मिलती। udyogini scheme calculator में यूनिट की लागत, वर्ग और आय डालकर देखें कि subsidy kitni milegi और EMI कितनी बनेगी। कुछ नियमों पर सूत्रों में फ़र्क है, इसलिए ज़िले के WCD दफ़्तर से पुष्टि करें।",
+  "hashtags": [
+    "#UdyoginiScheme",
+    "#WomenEntrepreneurs",
+    "#Karnataka",
+    "#BusinessLoan",
+    "#Subsidy"
+  ],
+  "tags": [
+    "udyogini scheme",
+    "udyogini scheme calculator",
+    "उद्योगिनी योजना",
+    "udyogini scheme subsidy amount",
+    "women business loan subsidy",
+    "महिला बिज़नेस लोन सब्सिडी",
+    "udyogini loan kaise milega",
+    "udyogini scheme eligibility"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "chip": "कर्नाटक की महिलाएँ",
+      "lines": [
+        "₹3 लाख के बिज़नेस पर",
+        "*₹90,000* सब्सिडी"
+      ],
+      "sub": "उद्योगिनी योजना का हिसाब 👇",
+      "say": "तीन लाख के बिज़नेस पर नब्बे हज़ार सब्सिडी, अगर आप कर्नाटक की महिला हैं।"
+    },
+    {
+      "type": "inputs",
+      "dur": 5,
+      "heading": "लक्ष्मी, मैसूरु",
+      "rows": [
+        [
+          "उम्र",
+          "32 साल"
+        ],
+        [
+          "काम",
+          "सिलाई यूनिट, ₹3 लाख"
+        ],
+        [
+          "परिवार की आय",
+          "₹1.4 लाख/साल"
+        ],
+        [
+          "वर्ग",
+          "सामान्य (30%)"
+        ]
+      ],
+      "say": "मैसूरु की लक्ष्मी, बत्तीस साल, तीन लाख की सिलाई यूनिट, परिवार की आय एक लाख चालीस हज़ार।"
+    },
+    {
+      "type": "split",
+      "dur": 4.6,
+      "heading": "₹3 लाख का लोन",
+      "segments": [
+        {
+          "label": "सब्सिडी (KSWDC)",
+          "value": 90000,
+          "color": "#00D09C"
+        },
+        {
+          "label": "बाकी चुकाना",
+          "value": 210000,
+          "color": "#FFB020"
+        }
+      ],
+      "callout": "सब्सिडी KSWDC सीधे *बैंक* को देता है",
+      "say": "नब्बे हज़ार सब्सिडी, चुकाना सिर्फ़ दो लाख दस हज़ार।"
+    },
+    {
+      "type": "count",
+      "dur": 4.4,
+      "chip": "11% ब्याज, 5 साल मानकर",
+      "label": "महीने की EMI",
+      "value": 4566,
+      "note": "बिना सब्सिडी ₹6,523 · ब्याज बैंक तय करता है",
+      "say": "ग्यारह प्रतिशत पर किस्त करीब चार हज़ार पाँच सौ छियासठ रुपये महीना।"
+    },
+    {
+      "type": "list",
+      "dur": 5.6,
+      "heading": "ये भी जानिए",
+      "items": [
+        "SC/ST महिला: *50%*, ₹1.5 लाख तक",
+        "उम्र 18-55, सिर्फ़ *कर्नाटक* निवासी",
+        "आवेदन *Seva Sindhu* पोर्टल पर"
+      ],
+      "say": "SC ST महिलाओं को पचास प्रतिशत, डेढ़ लाख तक। आवेदन सेवा सिंधु पोर्टल पर होता है, तारीख़ वहीं देख लीजिए।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "line": "आपके काम पर कितनी सब्सिडी?<br><em>EMI भी साथ में</em>",
+      "tool": "Udyogini कैलकुलेटर",
+      "say": "Google में parachar udyogini लिखिए, अपनी सब्सिडी और किस्त निकालिए।"
+    }
+  ],
+  "broll": [
+    "indian woman tailoring",
+    "mysore palace",
+    "indian woman sewing machine",
+    "indian bank counter",
+    "indian rupee notes",
+    "indian woman using phone"
+  ]
+}

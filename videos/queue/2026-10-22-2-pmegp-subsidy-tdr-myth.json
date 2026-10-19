@@ -1,0 +1,101 @@
+{
+  "id": "pmegp-subsidy-tdr-myth",
+  "template": "T2 myth-vs-sach",
+  "theme": "navy",
+  "trust": "स्रोत: PMEGP दिशानिर्देश 2021-26 (KVIC), नई अवधि अभी अधिसूचित नहीं · जाँच: 19 अक्टूबर 2026 · यह जानकारी है, मंज़ूरी नहीं",
+  "url": "https://parachar.com/pmegp-application-status-kaise-check-kare-matlab/",
+  "search": "parachar pmegp status",
+  "question": "आपकी PMEGP फ़ाइल अभी किस स्टेटस पर है? कमेंट में स्टेटस लिखिए, हम मतलब बताएँगे 👇",
+  "campaign": "pmegp-status",
+  "playlist": "PMEGP",
+  "voice": "hi-IN-SwaraNeural",
+  "title": "PMEGP Subsidy सीधे खाते में आती है? ❌ 3 साल की TDR में रहती है | ₹2.5 लाख का सच #shorts",
+  "seoIntro": "PMEGP Subsidy 2026: सब्सिडी खाते में कब आती है, मार्जिन मनी TDR और 3 साल लॉक-इन",
+  "description": "PMEGP की सब्सिडी (मार्जिन मनी) आपके खाते में नकद नहीं आती। KVIC इसे बैंक को भेजता है, बैंक इसे 3 साल की TDR (सावधि जमा) में रखता है और इस हिस्से पर ब्याज नहीं लगाता। 3 साल इकाई चलने और सत्यापन के बाद यह लोन में समायोजित होती है। उदाहरण: ₹10 लाख का प्रोजेक्ट, गाँव, सामान्य वर्ग: सब्सिडी 25% = ₹2.5 लाख। इकाई बंद या लोन NPA हुआ तो सब्सिडी वापस ली जा सकती है। अपना स्टेटस समझें, फ्री:",
+  "about": "PMEGP subsidy kab milegi, यह सवाल लोन मिलने के बाद सबसे ज़्यादा पूछा जाता है। मार्जिन मनी सब्सिडी बैंक में TDR बनकर 3 साल रहती है, फिर लोन में जुड़ती है। pmegp status check करके देखें कि आपकी फ़ाइल कहाँ है और अगला कदम क्या है।",
+  "hashtags": [
+    "#PMEGP",
+    "#PMEGPSubsidy",
+    "#KVIC",
+    "#BusinessLoan",
+    "#SarkariYojana"
+  ],
+  "tags": [
+    "pmegp subsidy kab milegi",
+    "pmegp status check",
+    "पीएमईजीपी सब्सिडी",
+    "pmegp margin money tdr",
+    "pmegp subsidy account me kab aayegi",
+    "pmegp lock in period",
+    "पीएमईजीपी स्टेटस",
+    "pmegp loan subsidy 2026"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "chip": "PMEGP सब्सिडी",
+      "lines": [
+        "₹2.5 लाख सब्सिडी",
+        "*खाते में* नहीं आएगी?"
+      ],
+      "sub": "कहाँ जाती है, जानिए 👇",
+      "say": "PMEGP की ढाई लाख सब्सिडी आपके खाते में नहीं आती। फिर कहाँ जाती है?"
+    },
+    {
+      "type": "myth",
+      "dur": 5.6,
+      "myth": "सब्सिडी नकद सीधे खाते में",
+      "fact": "बैंक में *3 साल की TDR* बनकर रहती है",
+      "sub": "इस हिस्से पर बैंक ब्याज नहीं लगाता · 3 साल बाद लोन में जुड़ती है",
+      "say": "बैंक इसे तीन साल की FD जैसी TDR में रखता है, और इस हिस्से पर ब्याज नहीं लगता।"
+    },
+    {
+      "type": "inputs",
+      "dur": 5,
+      "heading": "उदाहरण: गाँव, सामान्य वर्ग",
+      "rows": [
+        [
+          "प्रोजेक्ट",
+          "₹10,00,000"
+        ],
+        [
+          "आपका हिस्सा (10%)",
+          "₹1,00,000"
+        ],
+        [
+          "सब्सिडी (25%)",
+          "₹2,50,000 TDR में"
+        ],
+        [
+          "लोन में जुड़ेगी",
+          "3 साल बाद"
+        ]
+      ],
+      "say": "दस लाख के प्रोजेक्ट पर ढाई लाख सब्सिडी, तीन साल बाद लोन में जुड़ेगी।"
+    },
+    {
+      "type": "warn",
+      "dur": 4.6,
+      "icon": "⚠️",
+      "text": "3 साल में यूनिट बंद हुई तो सब्सिडी वापस",
+      "sub": "लोन NPA होने पर भी · EMI समय पर दें, बैंक से TDR की रसीद लें",
+      "say": "तीन साल में यूनिट बंद हुई या लोन NPA हुआ, तो सब्सिडी वापस जा सकती है।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "line": "आपका स्टेटस क्या कहता है?<br><em>हर स्टेटस का मतलब</em>",
+      "tool": "PMEGP स्टेटस डिकोडर",
+      "button": "फ्री चेक करें",
+      "say": "अपने स्टेटस का मतलब जानना है? Google पर parachar pmegp status लिखिए।"
+    }
+  ],
+  "broll": [
+    "indian bank branch",
+    "indian small manufacturing unit",
+    "indian woman tailoring business",
+    "indian bank passbook",
+    "indian village workshop"
+  ]
+}

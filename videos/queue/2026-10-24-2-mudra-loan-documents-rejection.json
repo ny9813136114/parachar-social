@@ -1,0 +1,89 @@
+{
+  "id": "mudra-loan-documents-rejection",
+  "template": "T2 myth-vs-sach",
+  "theme": "navy",
+  "trust": "स्रोत: myScheme (PMMY), NCGTC FAQ, PIB फ़ैक्ट चेक · जाँच: 19 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं",
+  "url": "https://parachar.com/mudra-loan-hindi/",
+  "search": "parachar mudra loan",
+  "question": "आप मुद्रा लोन किस काम के लिए चाहते हैं: दुकान, डेयरी या सैलून? कमेंट करें 👇",
+  "campaign": "mudra-loan",
+  "playlist": "मुद्रा लोन",
+  "title": "Mudra Loan Documents: ये 6 कागज़ और रिजेक्ट होने की 3 वजह | ₹20 लाख तक बिना गारंटी #shorts",
+  "seoIntro": "Mudra Loan Documents 2026: ज़रूरी कागज़, रिजेक्ट होने की वजह और फ़र्ज़ी फ़ीस",
+  "description": "मुद्रा लोन (₹20 लाख तक, बिना गारंटी) के लिए साथ रखें: आधार, PAN, फ़ोटो, पते का प्रमाण, मशीन/सामान का कोटेशन और छोटी बिज़नेस प्लान; उद्यम रजिस्ट्रेशन (मुफ़्त) से आसानी होती है। मना होने की आम वजह: सीधी फ़सल खेती या निजी ख़र्च के लिए माँगना, पुराना लोन डिफ़ॉल्ट या बहुत ख़राब CIBIL, कोटेशन/प्रोजेक्ट रिपोर्ट के बिना जाना। ₹350 'अप्रूवल फ़ीस' वाले मैसेज धोखा हैं। अपनी EMI और कैटेगरी देखें, फ्री:",
+  "about": "mudra loan documents में आधार, PAN, कोटेशन और बिज़नेस प्लान सबसे ज़रूरी हैं। mudra loan reject kyon hota hai, ज़्यादातर गलत काम, ख़राब CIBIL या अधूरे कागज़ से। mudra loan kaise le, बैंक शाखा या JanSamarth पोर्टल से, बिना किसी एजेंट फ़ीस के।",
+  "hashtags": [
+    "#MudraLoan",
+    "#PMMudraYojana",
+    "#BusinessLoan",
+    "#SarkariYojana",
+    "#SmallBusiness"
+  ],
+  "tags": [
+    "mudra loan documents",
+    "mudra loan reject kyon hota hai",
+    "मुद्रा लोन के लिए दस्तावेज़",
+    "mudra loan kaise le",
+    "mudra loan apply 2026",
+    "मुद्रा लोन कैसे मिलेगा",
+    "pm mudra yojana",
+    "mudra loan cibil score"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "chip": "मुद्रा लोन",
+      "lines": [
+        "₹20&nbsp;लाख तक बिना गारंटी,",
+        "फिर भी *रिजेक्ट?*"
+      ],
+      "sub": "कागज़ और 3 वजह 👇",
+      "say": "बीस लाख तक बिना गारंटी, फिर भी फ़ाइल रिजेक्ट? वजह जानिए।"
+    },
+    {
+      "type": "list",
+      "dur": 5.6,
+      "heading": "बैंक जाने से पहले साथ रखें",
+      "items": [
+        "आधार, PAN, फ़ोटो, पते का प्रमाण",
+        "मशीन / सामान का *कोटेशन*",
+        "छोटी *बिज़नेस प्लान* + उद्यम रजिस्ट्रेशन"
+      ],
+      "say": "आधार, PAN, फ़ोटो के साथ सामान का कोटेशन और छोटा बिज़नेस प्लान ज़रूर ले जाइए।"
+    },
+    {
+      "type": "list",
+      "dur": 5.8,
+      "heading": "ज़्यादातर फ़ाइल यहाँ अटकती है",
+      "items": [
+        "*फ़सल खेती* / निजी ख़र्च के लिए माँगा",
+        "पुराना *डिफ़ॉल्ट*, ख़राब CIBIL",
+        "ज़रूरत से *ज़्यादा रकम* माँगी"
+      ],
+      "say": "खेती या शादी के लिए माँगा, पुराना लोन डूबा हुआ है, या पहली बार में ही बड़ी रकम माँग ली।"
+    },
+    {
+      "type": "myth",
+      "dur": 5.2,
+      "myth": "₹350 फ़ाइल चार्ज भरो, तभी मंज़ूरी",
+      "fact": "मुद्रा में *कोई सरकारी फ़ीस नहीं*",
+      "sub": "ऐसे अप्रूवल लेटर नक़ली हैं (PIB फ़ैक्ट चेक)",
+      "say": "कोई एजेंट तीन सौ पचास रुपये फ़ाइल चार्ज माँगे, तो समझिए धोखा है।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "line": "आपकी कैटेगरी और EMI?<br><em>शिशु, किशोर या तरुण</em>",
+      "tool": "मुद्रा लोन कैलकुलेटर",
+      "say": "शुरुआत छोटे लोन से करें। पूरा हिसाब Google पर parachar mudra loan में मिलेगा।"
+    }
+  ],
+  "broll": [
+    "indian bank counter",
+    "indian shopkeeper",
+    "indian street vendor",
+    "indian documents aadhaar card",
+    "indian woman tailor shop"
+  ]
+}

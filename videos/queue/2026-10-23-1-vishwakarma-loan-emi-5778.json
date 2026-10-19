@@ -1,0 +1,122 @@
+{
+  "id": "vishwakarma-loan-emi-5778",
+  "template": "T1 kitna-milega",
+  "theme": "amber",
+  "trust": "स्रोत: PIB, myScheme (PM विश्वकर्मा) · जाँच: 19 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं",
+  "url": "https://parachar.com/pm-vishwakarma-loan-calculator/",
+  "search": "parachar vishwakarma loan",
+  "question": "आप कौन सा काम करते हैं: बढ़ई, दर्ज़ी, नाई या कुम्हार? कमेंट में लिखिए 👇",
+  "campaign": "pm-vishwakarma",
+  "playlist": "सरकारी सब्सिडी योजनाएँ",
+  "title": "PM Vishwakarma Loan: ₹1 लाख पर EMI ₹5,778, ब्याज सिर्फ़ 5% | EMI Calculator #shorts",
+  "seoIntro": "PM Vishwakarma Loan 2026: ₹1 लाख और ₹2 लाख पर 5% ब्याज, EMI और टूलकिट",
+  "description": "PM विश्वकर्मा योजना: पहली किस्त ₹1 लाख, 18 महीने, 5% ब्याज पर EMI करीब ₹5,778 (कुल ब्याज ₹4,005)। दूसरी किस्त ₹2 लाख, 30 महीने, EMI करीब ₹7,106 (कुल ब्याज ₹13,176)। बिना गारंटी; बाकी 8% तक ब्याज सरकार बैंक को देती है। ऊपर से ₹15,000 का टूलकिट ई-वाउचर और ट्रेनिंग में ₹500 रोज़ भत्ता। अपनी EMI देखें, फ्री:",
+  "about": "PM Vishwakarma loan में 18 पारंपरिक कामों के कारीगरों को बिना गारंटी लोन 5% ब्याज पर मिलता है। vishwakarma loan EMI कितनी बनेगी, टूलकिट ₹15,000 कैसे मिलेगा और दूसरी किस्त ₹2 लाख की शर्त क्या है, यह कैलकुलेटर में देखें। pm vishwakarma yojana kya hai, यह भी पेज पर आसान भाषा में।",
+  "hashtags": [
+    "#PMVishwakarma",
+    "#VishwakarmaYojana",
+    "#SarkariYojana",
+    "#Loan",
+    "#Karigar"
+  ],
+  "tags": [
+    "pm vishwakarma loan",
+    "pm vishwakarma yojana",
+    "पीएम विश्वकर्मा योजना",
+    "vishwakarma loan emi",
+    "pm vishwakarma toolkit 15000",
+    "vishwakarma loan interest rate",
+    "विश्वकर्मा योजना लोन कितना मिलेगा",
+    "pm vishwakarma yojana kya hai"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "chip": "PM विश्वकर्मा लोन",
+      "lines": [
+        "₹1&nbsp;लाख का लोन,",
+        "EMI सिर्फ़ *₹5,778*"
+      ],
+      "sub": "ब्याज 5%, बिना गारंटी 👇",
+      "say": "एक लाख का लोन, EMI सिर्फ़ पाँच हज़ार सात सौ अठहत्तर।"
+    },
+    {
+      "type": "inputs",
+      "dur": 4.8,
+      "heading": "मान लीजिए: रमेश, 38, बढ़ई, सहारनपुर",
+      "rows": [
+        [
+          "लोन",
+          "पहली किस्त ₹1&nbsp;लाख"
+        ],
+        [
+          "चुकाना",
+          "18 महीने में"
+        ],
+        [
+          "ब्याज (आपकी जेब से)",
+          "5% सालाना"
+        ],
+        [
+          "गारंटी",
+          "कोई नहीं"
+        ]
+      ],
+      "say": "सहारनपुर के रमेश बढ़ई हैं। पहली किस्त में एक लाख लेते हैं, अठारह महीने के लिए।"
+    },
+    {
+      "type": "split",
+      "dur": 5,
+      "heading": "18 महीने में कुल ₹1,04,005",
+      "segments": [
+        {
+          "label": "मूल रकम",
+          "value": 100000,
+          "color": "#14b8a6"
+        },
+        {
+          "label": "ब्याज",
+          "value": 4005,
+          "color": "#f59e0b"
+        }
+      ],
+      "callout": "ब्याज सिर्फ़ ₹4,005 · बाकी 8% तक ब्याज सरकार भरती है",
+      "say": "पूरे लोन पर ब्याज बस चार हज़ार पाँच रुपये। बाकी ब्याज सरकार बैंक को देती है।"
+    },
+    {
+      "type": "list",
+      "dur": 5.4,
+      "heading": "लोन के अलावा",
+      "items": [
+        "टूलकिट ई-वाउचर: *₹15,000*",
+        "ट्रेनिंग में भत्ता: *₹500* रोज़",
+        "दूसरी किस्त: *₹2&nbsp;लाख*, EMI ≈ ₹7,106"
+      ],
+      "say": "साथ में पंद्रह हज़ार का टूलकिट, ट्रेनिंग में पाँच सौ रोज़, और बाद में दो लाख की दूसरी किस्त।"
+    },
+    {
+      "type": "warn",
+      "dur": 4.6,
+      "icon": "⚠️",
+      "text": "इन्हें लाभ नहीं मिलता",
+      "sub": "परिवार में सरकारी नौकरी · परिवार से कोई और पहले जुड़ा · 5 साल में PMEGP / मुद्रा / SVANidhi लोन",
+      "say": "ध्यान रहे, घर में सरकारी नौकरी है या पिछले पाँच साल में PMEGP लिया है, तो दिक्कत होगी।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "line": "आपकी किस्त पर कितनी EMI?<br><em>रकम डालकर देखें</em>",
+      "tool": "विश्वकर्मा लोन कैलकुलेटर",
+      "say": "अपनी EMI जाननी है? Google में parachar vishwakarma loan टाइप कीजिए।"
+    }
+  ],
+  "broll": [
+    "indian carpenter workshop",
+    "indian potter wheel",
+    "indian tailor sewing machine",
+    "indian rupee notes",
+    "indian blacksmith",
+    "indian artisan using phone"
+  ]
+}

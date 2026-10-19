@@ -1,0 +1,123 @@
+{
+  "id": "mudra-kishore-5-lakh-emi",
+  "template": "T1 kitna-milega",
+  "theme": "amber",
+  "trust": "स्रोत: PMMY (mudra.org.in, myscheme.gov.in), EMI फ़ॉर्मूला · जाँच: 19 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं",
+  "url": "https://parachar.com/mudra-loan-calculator/",
+  "search": "parachar mudra loan",
+  "question": "आपको कितने का मुद्रा लोन चाहिए और किस काम के लिए? कमेंट में रक़म लिखिए 👇",
+  "campaign": "mudra",
+  "playlist": "मुद्रा लोन",
+  "voice": "hi-IN-SwaraNeural",
+  "title": "Mudra Loan EMI: ₹5 लाख किशोर लोन पर ₹10,624 महीना | 3 साल चुनें तो ₹56,602 बचत #shorts",
+  "seoIntro": "Mudra Loan EMI 2026: ₹5 लाख किशोर लोन पर 5 साल या 3 साल, कितनी EMI और कितना ब्याज",
+  "description": "मुद्रा किशोर लोन ₹5 लाख, 10% ब्याज: 5 साल में EMI करीब ₹10,624, कुल ब्याज ₹1,37,411। 3 साल चुनें तो EMI ₹16,134 पर ब्याज सिर्फ़ ₹80,809, यानी ₹56,602 की बचत। 9% पर 5 साल की EMI ₹10,379, 12% पर ₹11,122। ब्याज दर बैंक तय करता है, कोई गारंटी नहीं चाहिए। मंज़ूरी के नाम पर फ़ीस माँगने वाले मैसेज नक़ली हैं (PIB फ़ैक्ट चेक)। अपनी रक़म की EMI देखें, फ्री:",
+  "about": "मुद्रा लोन EMI कितनी आएगी, यह रक़म, ब्याज दर और समय से तय होता है। किशोर श्रेणी में ₹50,000 से ₹5 लाख तक का mudra loan बिना गारंटी मिलता है। mudra loan emi calculator में अपनी रक़म डालकर देखें कि 3 साल और 5 साल में कितना ब्याज लगेगा, और mudra loan kaise milega यह भी जानें।",
+  "hashtags": [
+    "#MudraLoan",
+    "#MudraLoanEMI",
+    "#PMMY",
+    "#BusinessLoan",
+    "#SmallBusiness"
+  ],
+  "tags": [
+    "mudra loan emi calculator",
+    "mudra loan 5 lakh emi",
+    "मुद्रा लोन EMI",
+    "kishore mudra loan",
+    "मुद्रा लोन किशोर",
+    "mudra loan interest rate 2026",
+    "mudra loan kaise milega",
+    "बिना गारंटी लोन"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "chip": "मुद्रा लोन: किशोर",
+      "lines": [
+        "₹5&nbsp;लाख का लोन,",
+        "EMI *₹10,624* महीना"
+      ],
+      "sub": "पर ब्याज कितना जाएगा? 👇",
+      "say": "पाँच लाख का किशोर मुद्रा लोन, EMI दस हज़ार छह सौ चौबीस महीना।"
+    },
+    {
+      "type": "inputs",
+      "dur": 4.6,
+      "heading": "रमेश, 34, कानपुर",
+      "rows": [
+        [
+          "काम",
+          "किराना दुकान"
+        ],
+        [
+          "लोन",
+          "₹5,00,000 (किशोर)"
+        ],
+        [
+          "ब्याज (मान लें)",
+          "10% सालाना"
+        ],
+        [
+          "समय",
+          "5 साल"
+        ]
+      ],
+      "say": "कानपुर के रमेश को दुकान के लिए पाँच लाख चाहिए, दस प्रतिशत ब्याज, पाँच साल।"
+    },
+    {
+      "type": "split",
+      "dur": 5.6,
+      "heading": "5 साल में कुल ₹6.37 लाख",
+      "segments": [
+        {
+          "label": "लोन (मूल)",
+          "short": "मूल",
+          "value": 500000,
+          "color": "#1F4E79"
+        },
+        {
+          "label": "ब्याज",
+          "short": "ब्याज",
+          "value": 137411,
+          "color": "#F59E0B"
+        }
+      ],
+      "callout": "सिर्फ़ ब्याज में *₹1,37,411* जाएँगे",
+      "say": "पाँच साल में सिर्फ़ ब्याज ही एक लाख सैंतीस हज़ार बनता है।"
+    },
+    {
+      "type": "count",
+      "dur": 4.8,
+      "chip": "3 साल चुनें तो",
+      "label": "ब्याज में बचत",
+      "value": 56602,
+      "note": "EMI ₹16,134 · कुल ब्याज ₹80,809 · *EMI भर सकें तभी*",
+      "say": "तीन साल का लोन लें तो EMI सोलह हज़ार, पर छप्पन हज़ार ब्याज बचता है।"
+    },
+    {
+      "type": "warn",
+      "dur": 4.4,
+      "icon": "🚫",
+      "text": "मंज़ूरी की फ़ीस माँगे तो धोखा",
+      "sub": "“₹350 भरो, लोन पाओ” वाले लेटर नक़ली (PIB फ़ैक्ट चेक) · आवेदन सीधे बैंक में",
+      "say": "कोई मंज़ूरी के नाम पर पैसे माँगे, तो समझिए धोखा है।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "line": "आपकी रक़म पर EMI कितनी?<br><em>3 साल बनाम 5 साल देखें</em>",
+      "tool": "मुद्रा लोन EMI कैलकुलेटर",
+      "say": "अपनी EMI जाननी है? Google में parachar mudra loan टाइप कीजिए।"
+    }
+  ],
+  "broll": [
+    "indian grocery shop owner",
+    "indian bank counter",
+    "indian rupee notes counting",
+    "indian shopkeeper calculator",
+    "indian man reading phone message",
+    "indian street market shop"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "surya-ghar-2kw-payback",
+  "template": "T1 kitna-milega",
+  "theme": "teal",
+  "trust": "स्रोत: MNRE PM Surya Ghar दिशानिर्देश (संशोधित जुलाई 2025) · ख़र्च, यूनिट, ₹7/यूनिट अनुमान · जाँच: 19 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं",
+  "url": "https://parachar.com/pm-surya-ghar-subsidy-kitni-milegi/",
+  "search": "parachar surya ghar",
+  "question": "आपका महीने का बिजली बिल कितनी यूनिट आता है? कमेंट में यूनिट लिखिए 👇",
+  "campaign": "surya-ghar",
+  "playlist": "सरकारी सब्सिडी योजनाएँ",
+  "title": "PM Surya Ghar 2 kW: ₹60,000 सब्सिडी, करीब 3 साल में पैसा वसूल | Solar Payback #shorts",
+  "seoIntro": "PM Surya Ghar 2 kW Solar 2026: सब्सिडी ₹60,000, बचत और पैसा कितने साल में वसूल",
+  "description": "PM सूर्य घर में 2 kW सोलर पर केंद्र की सब्सिडी ₹60,000 (₹30,000 प्रति kW)। ₹60,000/kW के अनुमानित ख़र्च पर कुल ₹1,20,000, आपकी जेब से करीब ₹60,000। 2 kW से करीब 240 यूनिट महीना बनती है; ₹7/यूनिट पर बचत ₹1,680 महीना, ₹20,160 साल, यानी पैसा करीब 3 साल में वसूल। राजस्थान में 150 यूनिट मुफ़्त बिजली के लिए कम से कम 1.1 kW छत सोलर ज़रूरी। अपना हिसाब देखें, फ्री:",
+  "about": "2 kW solar subsidy कितनी मिलेगी और पैसा कितने साल में वसूल होगा, यह ख़र्च और बिजली दर पर निर्भर है। PM Surya Ghar yojana में 2 kW तक ₹30,000 प्रति kW सब्सिडी है। solar subsidy calculator में अपनी यूनिट और राज्य डालकर देखें, और free bijli yojana का फ़ायदा भी जानें।",
+  "hashtags": [
+    "#PMSuryaGhar",
+    "#SolarSubsidy",
+    "#RooftopSolar",
+    "#BijliBill",
+    "#SarkariYojana"
+  ],
+  "tags": [
+    "2 kw solar subsidy",
+    "pm surya ghar yojana",
+    "सूर्य घर योजना 2 किलोवाट",
+    "solar payback period",
+    "solar subsidy calculator",
+    "सोलर से बिजली बिल बचत",
+    "free bijli yojana",
+    "rooftop solar subsidy 2026"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "chip": "PM Surya Ghar: 2 kW",
+      "lines": [
+        "छत का सोलर, पैसा",
+        "करीब *3 साल* में वसूल?"
+      ],
+      "sub": "2 kW का पूरा हिसाब 👇",
+      "say": "दो किलोवाट सोलर का पैसा करीब तीन साल में वसूल। कैसे? देखिए।"
+    },
+    {
+      "type": "split",
+      "dur": 5.6,
+      "heading": "₹1.2 लाख कौन देगा?",
+      "segments": [
+        {
+          "label": "केंद्र की सब्सिडी",
+          "short": "सब्सिडी",
+          "value": 60000,
+          "color": "#F59E0B"
+        },
+        {
+          "label": "आपकी जेब से",
+          "short": "आपकी जेब",
+          "value": 60000,
+          "color": "#1F4E79"
+        }
+      ],
+      "callout": "₹30,000 प्रति kW · ख़र्च *₹60,000/kW* मान लिया",
+      "say": "एक लाख बीस हज़ार ख़र्च में साठ हज़ार सरकार देगी, साठ हज़ार आप।"
+    },
+    {
+      "type": "count",
+      "dur": 4.8,
+      "chip": "भोपाल का एक घर, 240 यूनिट",
+      "label": "हर साल बिल में बचत",
+      "value": 20160,
+      "note": "240 यूनिट × ₹7 = ₹1,680 महीना · *अनुमान*",
+      "say": "दो सौ चालीस यूनिट महीना बनें, तो साल में बीस हज़ार एक सौ साठ बचत।"
+    },
+    {
+      "type": "warn",
+      "dur": 4.8,
+      "icon": "💡",
+      "text": "राजस्थान: 150 यूनिट मुफ़्त तभी, जब छत पर सोलर",
+      "sub": "कम से कम 1.1 kW सोलर ज़रूरी (अक्टूबर 2025 से)",
+      "say": "राजस्थान में डेढ़ सौ यूनिट मुफ़्त बिजली अब छत पर सोलर वालों को ही।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "line": "1 kW, 2 kW या 3 kW?<br><em>अपनी यूनिट से तय करें</em>",
+      "tool": "सूर्य घर सब्सिडी कैलकुलेटर",
+      "say": "आपके घर को कितना सोलर चाहिए, Google पर parachar surya ghar खोजकर देखिए।"
+    }
+  ],
+  "broll": [
+    "rooftop solar panels india",
+    "indian house rooftop",
+    "indian electricity meter",
+    "indian family at home",
+    "solar panel installation india"
+  ]
+}

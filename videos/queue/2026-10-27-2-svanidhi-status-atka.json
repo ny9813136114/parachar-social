@@ -1,0 +1,88 @@
+{
+  "id": "svanidhi-status-atka",
+  "template": "T2 myth-vs-sach",
+  "theme": "teal",
+  "trust": "स्रोत: MoHUA/SIDBI दिशानिर्देश, pmsvanidhi.mohua.gov.in · जाँच: 19 अक्टूबर 2026 · समय-सीमा अनुमान है, मंज़ूरी नहीं",
+  "url": "https://parachar.com/pm-svanidhi-status-check-kaise-kare-loan-kab-milega/",
+  "search": "parachar SVANidhi",
+  "question": "आपका SVANidhi स्टेटस क्या दिख रहा है: Submitted, Sanctioned या Returned? कमेंट करें 👇",
+  "campaign": "svanidhi-status",
+  "playlist": "सरकारी सब्सिडी योजनाएँ",
+  "voice": "hi-IN-SwaraNeural",
+  "title": "PM SVANidhi Status: 15 दिन से Submitted? मतलब और अगला कदम | Loan Kab Milega #shorts",
+  "seoIntro": "PM SVANidhi Status Check 2026: Submitted, LoR, Sanctioned, Returned का मतलब",
+  "description": "PM SVANidhi का स्टेटस pmsvanidhi.mohua.gov.in पर Applicant Login (आवेदन वाला मोबाइल + OTP) से दिखता है। Submitted = नगर निकाय (ULB) की जाँच बाक़ी, दिशानिर्देश से 15 दिन में LoR; LoR / Sent to bank = फ़ाइल बैंक में, 30 दिन में फ़ैसला; Sanctioned = 7-15 दिन में पैसा खाते में; Returned = कारण सुधारकर फिर आवेदन या दूसरा बैंक। किस्तें ₹15,000, ₹25,000, ₹50,000। हेल्पलाइन 1800-11-1979। अपने स्टेटस का मतलब और अगला कदम, फ्री:",
+  "about": "PM SVANidhi status kaise check kare: आवेदन वाले मोबाइल से pmsvanidhi.mohua.gov.in पर लॉगिन करके किस्त-वार स्टेटस देखें। SVANidhi loan kab milega, यह स्टेटस पर टिका है: Submitted पर नगर निगम, LoR पर बैंक। Returned by bank आए तो डैशबोर्ड पर कारण पढ़कर सुधार करें।",
+  "hashtags": [
+    "#PMSVANidhi",
+    "#StreetVendor",
+    "#SarkariYojana",
+    "#LoanStatus",
+    "#RehdiPatri"
+  ],
+  "tags": [
+    "pm svanidhi status check",
+    "svanidhi status kaise check kare",
+    "पीएम स्वनिधि स्टेटस",
+    "svanidhi loan kab milega",
+    "svanidhi returned by bank",
+    "svanidhi lor status",
+    "स्वनिधि लोन स्टेटस",
+    "pm svanidhi 2026"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "chip": "PM SVANidhi स्टेटस",
+      "lines": [
+        "15 दिन से ज़्यादा",
+        "*Submitted* पर अटका?"
+      ],
+      "sub": "हर स्टेटस का मतलब 👇",
+      "say": "पंद्रह दिन से ज़्यादा Submitted पर अटका है SVANidhi लोन? मतलब समझिए।"
+    },
+    {
+      "type": "list",
+      "dur": 6,
+      "heading": "स्टेटस का मतलब",
+      "items": [
+        "*Submitted*: नगर निगम में जाँच",
+        "*LoR / Sent to bank*: फ़ाइल बैंक में",
+        "*Sanctioned*: 7-15 दिन में खाते में"
+      ],
+      "say": "Submitted यानी नगर निगम की जाँच बाक़ी। LoR यानी फ़ाइल बैंक पहुँच गई। Sanctioned यानी पैसा जल्द खाते में।"
+    },
+    {
+      "type": "warn",
+      "dur": 5.2,
+      "icon": "⏰",
+      "text": "ULB 15 दिन, बैंक 30 दिन",
+      "sub": "देर हो तो नगर निगम का SVANidhi सेल या बैंक शाखा प्रबंधक · हेल्पलाइन 1800-11-1979",
+      "say": "मान लीजिए इंदौर की सीमा का आवेदन बीस दिन से Submitted है। तो सीधे नगर निगम के SVANidhi सेल जाइए।"
+    },
+    {
+      "type": "myth",
+      "dur": 6,
+      "myth": "Returned आया, अब लोन नहीं मिलेगा",
+      "fact": "कारण सुधारें, *फिर आवेदन* या दूसरा बैंक",
+      "sub": "आम कारण: आधार-खाता बेमेल, CIBIL, अधूरे दस्तावेज़ · 2 बार लौटे तो Disabled",
+      "say": "Returned by bank का मतलब ना नहीं है। डैशबोर्ड पर कारण पढ़िए, ठीक कीजिए, फिर से आवेदन कीजिए।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "line": "आपके स्टेटस का मतलब क्या?<br><em>अगला कदम जानिए</em>",
+      "tool": "SVANidhi स्टेटस चेकर",
+      "button": "स्टेटस समझें",
+      "say": "Google में parachar SVANidhi खोजिए, अपना स्टेटस चुनिए और अगला कदम पाइए।"
+    }
+  ],
+  "broll": [
+    "indian street vendor",
+    "indian municipal office",
+    "indian vegetable vendor cart",
+    "indian bank counter",
+    "indian street vendor using phone"
+  ]
+}

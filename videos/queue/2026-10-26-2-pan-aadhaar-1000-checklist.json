@@ -1,0 +1,97 @@
+{
+  "id": "pan-aadhaar-1000-checklist",
+  "template": "T5 list",
+  "theme": "amber",
+  "trust": "स्रोत: आयकर अधिनियम धारा 139AA, 234H, नियम 114AAA, incometax.gov.in · जाँच: 19 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं",
+  "url": "https://parachar.com/pan-aadhaar-link-status-check-kaise-kare-inoperative-fees-1000/",
+  "search": "parachar PAN aadhaar",
+  "question": "आपके PAN का स्टेटस क्या दिखता है: Linked, Pending या Not linked? कमेंट करें 👇",
+  "campaign": "pan-aadhaar",
+  "playlist": "रोज़ के नियम और क़ानून",
+  "voice": "hi-IN-SwaraNeural",
+  "title": "PAN Aadhaar Link नहीं? ₹1,000 फ़ीस, फिर ये 3 काम | PAN Inoperative Checklist #shorts",
+  "seoIntro": "PAN Aadhaar Link 2026: ₹1,000 फ़ीस कैसे भरें, PAN inoperative से कैसे निकलें",
+  "description": "PAN आधार से लिंक नहीं तो PAN inoperative: रिफ़ंड रुकता है (ब्याज भी नहीं), TDS ऊँची दर (20%) पर कटता है, बैंक/म्यूचुअल फ़ंड KYC में दिक़्क़त। उपाय: e-Pay Tax में Other Receipts (500) मद में ₹1,000 फ़ीस, 4-5 कार्यदिवस बाद Link Aadhaar में आधार OTP। लिंक के बाद PAN 30 दिन तक में चालू। 80+ उम्र, NRI, असम/J&K/मेघालय वालों को छूट। अपना स्टेटस चुनकर अगला कदम, फ्री:",
+  "about": "PAN aadhaar link status check करना 1 मिनट का काम है, incometax.gov.in पर या SMS से। PAN inoperative हो तो ₹1,000 फ़ीस भरकर PAN आधार लिंक कैसे करें, यह चेकलिस्ट में है। फ़ीस ग़लत मद में न भरें और दोबारा न भरें।",
+  "hashtags": [
+    "#PANAadhaarLink",
+    "#PANCard",
+    "#IncomeTax",
+    "#Aadhaar",
+    "#TDS"
+  ],
+  "tags": [
+    "pan aadhaar link",
+    "pan aadhaar link status check",
+    "पैन आधार लिंक",
+    "pan inoperative",
+    "pan aadhaar link fee 1000",
+    "पैन आधार लिंक कैसे करें",
+    "pan aadhaar link kaise kare",
+    "pan inoperative tds 20%"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "chip": "PAN inoperative?",
+      "lines": [
+        "PAN-आधार लिंक नहीं?",
+        "*₹1,000* फ़ीस, फिर 3 काम"
+      ],
+      "sub": "1 मिनट की चेकलिस्ट 👇",
+      "say": "PAN आधार से लिंक नहीं? हज़ार रुपये फ़ीस, फिर बस तीन काम।"
+    },
+    {
+      "type": "warn",
+      "dur": 4.6,
+      "icon": "🚫",
+      "text": "बिना लिंक PAN *inoperative*",
+      "sub": "रिफ़ंड रुकेगा (ब्याज भी नहीं) · TDS ऊँची दर 20% · बैंक, म्यूचुअल फ़ंड KYC अटकेगी",
+      "say": "बिना लिंक PAN बेकार माना जाता है। रिफ़ंड रुकेगा, और TDS बीस प्रतिशत कटेगा।"
+    },
+    {
+      "type": "list",
+      "dur": 6,
+      "heading": "चेकलिस्ट",
+      "items": [
+        "e-Pay Tax: *Other Receipts (500)* में ₹1,000",
+        "4-5 कार्यदिवस रुकें, चालान दिखे",
+        "Link Aadhaar → *आधार OTP* → Submit"
+      ],
+      "say": "e-Pay Tax में Other Receipts मद में फ़ीस भरिए, चार-पाँच दिन रुकिए, फिर Link Aadhaar में OTP डालिए।"
+    },
+    {
+      "type": "myth",
+      "dur": 5.6,
+      "myth": "फ़ीस भरते ही PAN चालू",
+      "fact": "लिंक के बाद *30 दिन* तक लगते हैं",
+      "sub": "अक्सर 7-15 दिन* · बीच में दोबारा फ़ीस न भरें",
+      "say": "फ़ीस भरते ही PAN चालू नहीं होता। तीस दिन तक लग सकते हैं, और दोबारा फ़ीस मत भरिए।"
+    },
+    {
+      "type": "warn",
+      "dur": 4.2,
+      "icon": "🛑",
+      "text": "लिंक सिर्फ़ *incometax.gov.in* पर",
+      "sub": "\"PAN बंद हो जाएगा\" वाले SMS, लिंक, APK धोखा हैं",
+      "say": "और हाँ, PAN बंद होने वाले SMS के लिंक धोखा हैं। सिर्फ़ इनकम टैक्स की साइट।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "line": "आपका स्टेटस क्या है?<br><em>अगला कदम जानें</em>",
+      "tool": "PAN-आधार लिंक चेकर",
+      "button": "फ्री चेक करें",
+      "say": "अपना स्टेटस चुनकर अगला कदम जानिए, Google पर parachar PAN aadhaar लिखकर।"
+    }
+  ],
+  "broll": [
+    "indian pan card",
+    "aadhaar card india",
+    "indian man laptop tax",
+    "indian bank counter",
+    "indian woman using phone",
+    "indian cyber cafe"
+  ]
+}

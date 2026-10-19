@@ -1,0 +1,112 @@
+{
+  "id": "sip-vs-fd-5000",
+  "template": "T4 kaun-sa-better",
+  "theme": "navy",
+  "trust": "स्रोत: AMFI SIP फ़ॉर्मूला, वित्त अधिनियम 2024 · SIP 12% और FD 7% सिर्फ़ मान लिए · जाँच: 19 अक्टूबर 2026 · यह अनुमान है, गारंटी नहीं",
+  "url": "https://parachar.com/sip-calculator-hindi/",
+  "search": "parachar sip calculator",
+  "question": "आप हर महीने कहाँ बचत करते हैं: SIP, FD या RD? कमेंट में एक शब्द लिखिए 👇",
+  "campaign": "sip-vs-fd",
+  "playlist": "बैंक, UPI और बचत योजनाएँ",
+  "title": "SIP vs FD: ₹5,000 महीना 10 साल, SIP ₹11.62 लाख vs FD ₹8.69 लाख (12% मानकर) #shorts",
+  "seoIntro": "SIP vs FD 2026: ₹5,000 हर महीने 10 साल में कहाँ कितना बनेगा, कौन सा बेहतर",
+  "description": "₹5,000 हर महीने, 10 साल (कुल ₹6 लाख जमा): इक्विटी SIP में 12% सालाना रिटर्न मानें तो करीब ₹11,61,695; हर महीने ₹5,000 की FD 7% (तिमाही चक्रवृद्धि) पर करीब ₹8,68,509। 12% पक्का नहीं है; 8% ही मिले तो SIP करीब ₹9,20,828। SIP एक साथ निकालने पर अनुमानित टैक्स ₹57,086 (12.5% LTCG, ₹1.25 लाख छूट); FD ब्याज पर स्लैब से टैक्स। अपनी रक़म पर हिसाब, फ्री:",
+  "about": "SIP vs FD में कौन सा बेहतर, यह रिटर्न और जोखिम दोनों से तय होता है। SIP में बाज़ार का जोखिम है, FD में तय ब्याज। sip calculator और fd calculator से अपनी रक़म पर देखें कि 10 साल में कितना बनेगा और टैक्स कितना लगेगा, फिर तय करें कि sip kaise shuru kare।",
+  "hashtags": [
+    "#SIP",
+    "#FD",
+    "#MutualFunds",
+    "#Bachat",
+    "#MoneyTips"
+  ],
+  "tags": [
+    "sip vs fd",
+    "sip calculator",
+    "एसआईपी या एफडी",
+    "fd calculator",
+    "5000 sip 10 years",
+    "sip vs fd which is better",
+    "sip kaise shuru kare",
+    "म्यूचुअल फंड या एफडी"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.6,
+      "chip": "₹5,000 महीना · 10 साल",
+      "lines": [
+        "SIP: *₹11.6&nbsp;लाख*",
+        "FD: ₹8.7&nbsp;लाख"
+      ],
+      "sub": "फ़र्क़ करीब ₹2.9 लाख 👇",
+      "say": "पाँच हज़ार महीना, दस साल: साढ़े ग्यारह लाख या पौने नौ लाख?"
+    },
+    {
+      "type": "inputs",
+      "dur": 4.8,
+      "heading": "अमित, 30, पुणे: मान लीजिए",
+      "rows": [
+        [
+          "हर महीने",
+          "₹5,000"
+        ],
+        [
+          "समय / कुल जमा",
+          "10 साल / ₹6 लाख"
+        ],
+        [
+          "SIP रिटर्न",
+          "12% (अनुमान)"
+        ],
+        [
+          "FD ब्याज",
+          "7% (मान लिया)"
+        ]
+      ],
+      "say": "पुणे के अमित हर महीने पाँच हज़ार लगाते हैं। SIP पर बारह प्रतिशत सिर्फ़ मान लिया है।"
+    },
+    {
+      "type": "split",
+      "dur": 5.6,
+      "heading": "10 साल बाद",
+      "segments": [
+        {
+          "label": "SIP (12% मानकर)",
+          "short": "SIP",
+          "value": 1161695,
+          "color": "#F59E0B"
+        },
+        {
+          "label": "FD (7%)",
+          "short": "FD",
+          "value": 868509,
+          "color": "#1F4E79"
+        }
+      ],
+      "callout": "SIP टैक्स ≈ ₹57,086 (एक साथ निकालें तो) · FD ब्याज पर *स्लैब से टैक्स*",
+      "say": "SIP में करीब ग्यारह लाख इकसठ हज़ार, FD में आठ लाख अड़सठ हज़ार।"
+    },
+    {
+      "type": "warn",
+      "dur": 5,
+      "icon": "📉",
+      "text": "12% रिटर्न पक्का नहीं",
+      "sub": "8% ही मिला तो SIP ≈ ₹9.2 लाख · कुछ सालों में घाटा भी · 2-3 साल की ज़रूरत का पैसा FD में",
+      "say": "पर बारह प्रतिशत की गारंटी नहीं। आठ प्रतिशत मिला तो सवा नौ लाख के आसपास।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "line": "आपकी रक़म पर कितना बनेगा?<br><em>SIP और FD दोनों देखें</em>",
+      "tool": "SIP कैलकुलेटर",
+      "say": "अपनी रक़म डालकर देखनी है? Google पर parachar sip calculator ढूँढिए।"
+    }
+  ],
+  "broll": [
+    "indian man using phone app",
+    "indian bank fixed deposit counter",
+    "mumbai stock exchange building",
+    "indian rupee notes",
+    "indian young couple planning finances"
+  ]
+}

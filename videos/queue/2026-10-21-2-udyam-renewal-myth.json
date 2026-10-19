@@ -1,0 +1,87 @@
+{
+  "id": "udyam-renewal-myth",
+  "template": "T2 myth-vs-sach",
+  "theme": "teal",
+  "trust": "स्रोत: udyamregistration.gov.in, MSME अधिसूचना 26 जून 2020 · जाँच: 19 अक्टूबर 2026 · यह जानकारी है, सरकारी सलाह नहीं",
+  "url": "https://parachar.com/udyam-registration-kaise-kare-free-documents-nic-code-certificate-download/",
+  "search": "parachar udyam",
+  "question": "आपका उद्यम रजिस्ट्रेशन किस साल का है, या पुराना उद्योग आधार है? कमेंट में साल लिखिए 👇",
+  "campaign": "udyam-myth",
+  "playlist": "MSME / Udyam",
+  "title": "Udyam Registration Renewal हर साल? ❌ एक बार ही, पर पुराना UAM 30 जून 2022 से अमान्य #shorts",
+  "seoIntro": "Udyam Registration Renewal 2026: हर साल renew करना ज़रूरी है या नहीं, सच जानिए",
+  "description": "उद्यम रजिस्ट्रेशन एक बार होता है, इसका कोई नवीनीकरण (renewal) नहीं; निवेश और टर्नओवर के आँकड़े हर साल ITR और GST से अपने-आप अपडेट होते हैं। पर पुराना उद्योग आधार (UAM) 30 जून 2022 के बाद अमान्य है, उसे udyamregistration.gov.in पर नए उद्यम नंबर में बदलना ज़रूरी है। Micro की सीमा: निवेश ₹2.5 करोड़, टर्नओवर ₹10 करोड़ तक। अपनी श्रेणी और कदम देखें, फ्री:",
+  "about": "बहुत से लोग पूछते हैं कि udyam registration renewal kaise kare, जबकि उद्यम रजिस्ट्रेशन में नवीनीकरण होता ही नहीं। जिनके पास पुराना उद्योग आधार है, उन्हें नया उद्यम नंबर लेना होगा। उद्यम रजिस्ट्रेशन कैसे करें, udyam certificate download और अपडेट के कदम फ्री टूल में देखें।",
+  "hashtags": [
+    "#Udyam",
+    "#UdyamRegistration",
+    "#MSME",
+    "#UdyogAadhaar",
+    "#SmallBusinessIndia"
+  ],
+  "tags": [
+    "udyam registration renewal",
+    "udyam registration kaise kare",
+    "उद्यम रजिस्ट्रेशन",
+    "udyog aadhaar to udyam",
+    "udyam certificate download",
+    "उद्योग आधार अमान्य",
+    "msme registration renewal",
+    "udyam registration update"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "chip": "❌ बड़ी ग़लतफ़हमी",
+      "lines": [
+        "Udyam रजिस्ट्रेशन",
+        "*हर साल* renew?"
+      ],
+      "sub": "renewal के पैसे मत दीजिए 👇",
+      "say": "उद्यम रजिस्ट्रेशन हर साल रिन्यू करना पड़ता है? बिल्कुल नहीं।"
+    },
+    {
+      "type": "myth",
+      "dur": 5.6,
+      "myth": "हर साल renewal कराना ज़रूरी",
+      "fact": "एक बार का रजिस्ट्रेशन, *कोई renewal नहीं*",
+      "sub": "निवेश, टर्नओवर हर साल ITR और GST से अपने-आप अपडेट",
+      "say": "रजिस्ट्रेशन एक ही बार होता है। आँकड़े हर साल ITR और GST से ख़ुद अपडेट होते हैं।"
+    },
+    {
+      "type": "warn",
+      "dur": 4.8,
+      "icon": "⏰",
+      "text": "पुराना उद्योग आधार (UAM) अब अमान्य",
+      "sub": "30 जून 2022 के बाद · उसे नए उद्यम नंबर में बदलना ज़रूरी",
+      "say": "हाँ, पुराना उद्योग आधार तीस जून दो हज़ार बाईस के बाद अमान्य है, उसे बदलना होगा।"
+    },
+    {
+      "type": "list",
+      "dur": 5.4,
+      "heading": "अपडेट कब करें?",
+      "items": [
+        "पता, बैंक या काम बदला: *Update Details*",
+        "दस्तावेज़ अपलोड *नहीं*, आधार OTP काफ़ी",
+        "सिर्फ़ *udyamregistration.gov.in* पर, मुफ़्त"
+      ],
+      "say": "पता, बैंक या काम बदले तो सरकारी साइट पर ख़ुद अपडेट कीजिए, बिना पैसे।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "line": "Micro या Small?<br><em>पूरे कदम देखें</em>",
+      "tool": "उद्यम रजिस्ट्रेशन चेकर",
+      "button": "फ्री चेक करें",
+      "say": "अपनी श्रेणी देखनी है तो Google पर parachar udyam सर्च कीजिए।"
+    }
+  ],
+  "broll": [
+    "indian small factory worker",
+    "indian man using laptop office",
+    "indian workshop tailoring",
+    "indian shopkeeper phone",
+    "indian small business owner"
+  ]
+}

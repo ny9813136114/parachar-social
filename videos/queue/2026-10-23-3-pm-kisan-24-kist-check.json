@@ -1,0 +1,87 @@
+{
+  "id": "pm-kisan-24-kist-check",
+  "template": "T3 kya-badla",
+  "theme": "navy",
+  "trust": "स्रोत: pmkisan.gov.in, PIB (22वीं किस्त) · जाँच: 19 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं",
+  "url": "https://parachar.com/pm-kisan-agli-kist-kab-aayegi/",
+  "search": "parachar pm kisan kist",
+  "question": "आपको आख़िरी किस्त कौन सी मिली: 22वीं या 23वीं? कमेंट में नंबर लिखिए 👇",
+  "campaign": "pm-kisan",
+  "playlist": "सरकारी सब्सिडी योजनाएँ",
+  "title": "PM Kisan 24वीं किस्त: ₹2,000 रुकेंगे? eKYC, Land Seeding, बैंक लिंक चेक करें #shorts",
+  "seoIntro": "PM Kisan 24th Installment 2026: ₹2,000 पाने के लिए 3 चीज़ें जाँचें, तारीख़ घोषित नहीं",
+  "description": "PM किसान में साल में ₹6,000 मिलते हैं: तीन किस्त, हर बार ₹2,000। 24वीं किस्त अगस्त-नवंबर 2026 अवधि की है; 19 अक्टूबर 2026 तक इसकी आधिकारिक तारीख़ घोषित नहीं हुई। 23वीं किस्त 20 जून 2026 को आई थी। किस्त तभी आती है जब eKYC, भूमि सत्यापन (Land Seeding) और आधार-बैंक NPCI लिंक तीनों पूरे हों। अपनी किस्त की स्थिति देखें, फ्री:",
+  "about": "pm kisan 24th installment की तारीख़ अभी घोषित नहीं है, इसलिए पक्की तारीख़ वाले मैसेज पर भरोसा न करें। pm kisan kist kyon nahi aayi, ज़्यादातर बार वजह eKYC, land seeding या आधार-बैंक लिंक होती है। pm kisan ekyc कैसे करें और अपनी अगली किस्त कितनी होगी, चेकर में देखें।",
+  "hashtags": [
+    "#PMKisan",
+    "#PMKisanYojana",
+    "#Kisan",
+    "#SarkariYojana",
+    "#Farmer"
+  ],
+  "tags": [
+    "pm kisan 24th installment",
+    "pm kisan agli kist kab aayegi",
+    "पीएम किसान 24वीं किस्त",
+    "pm kisan kist kyon nahi aayi",
+    "pm kisan ekyc",
+    "pm kisan land seeding",
+    "pm kisan status check",
+    "पीएम किसान किस्त"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "chip": "PM किसान 24वीं किस्त",
+      "lines": [
+        "₹2,000 आएँगे या",
+        "*रुकेंगे?*"
+      ],
+      "sub": "तारीख़ से पहले ये 3 चीज़ें देखें 👇",
+      "say": "चौबीसवीं किस्त के दो हज़ार आएँगे या रुकेंगे? पहले ये तीन चीज़ें देखिए।"
+    },
+    {
+      "type": "count",
+      "dur": 4.2,
+      "chip": "PM किसान",
+      "label": "हर साल मिलते हैं",
+      "value": 6000,
+      "note": "3 किस्त × ₹2,000 · 24वीं: अगस्त-नवंबर 2026 वाली",
+      "say": "साल में छह हज़ार, यानी तीन बार दो-दो हज़ार।"
+    },
+    {
+      "type": "list",
+      "dur": 5.8,
+      "heading": "किस्त इन्हीं से अटकती है",
+      "items": [
+        "*eKYC*: OTP से, मुफ़्त",
+        "*Land Seeding*: लेखपाल से",
+        "*आधार-बैंक NPCI लिंक*"
+      ],
+      "say": "eKYC, ज़मीन का सत्यापन, और बैंक खाते से आधार का NPCI लिंक। एक भी अधूरा, तो पैसा अटका।"
+    },
+    {
+      "type": "warn",
+      "dur": 5,
+      "icon": "📅",
+      "text": "24वीं किस्त की तारीख़ *अभी घोषित नहीं*",
+      "sub": "19 अक्टूबर 2026 तक · पक्की तारीख़ सिर्फ़ pmkisan.gov.in या PIB पर",
+      "say": "और हाँ, तारीख़ अभी तय नहीं हुई। पक्की तारीख़ वाले मैसेज पर भरोसा मत कीजिए।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "line": "आपकी अगली किस्त कितनी?<br><em>रुकी किस्तें भी गिनें</em>",
+      "tool": "PM किसान किस्त चेकर",
+      "say": "अपनी किस्त का हाल जानना है? Google पर parachar pm kisan kist लिखकर देखिए।"
+    }
+  ],
+  "broll": [
+    "indian farmer field",
+    "indian farmer using phone",
+    "indian village bank",
+    "indian wheat field",
+    "indian farmer smiling"
+  ]
+}
