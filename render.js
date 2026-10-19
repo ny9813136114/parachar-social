@@ -157,7 +157,8 @@ function pickLook() {
     tags: spec.tags || spec.hashtags.map(h => h.replace(/^#/, '')),
     playlist: spec.playlist || '',
     playlistId: plId,
-    comment: `फ्री कैलकुलेटर: ${link}`,
+    // The auto comment opens with a question to start a conversation; the link is copyable even if not clickable.
+    comment: `${spec.question ? spec.question + '\n\n' : ''}फ्री कैलकुलेटर: ${link}`,
   }, null, 2));
   fs.writeFileSync(path.join(out, 'post.md'), `# ${spec.id} (${duration.toFixed(1)} s)
 

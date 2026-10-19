@@ -339,7 +339,7 @@ const SCENES={
     A(hand,[{transform:'translate(0,0) scale(1)'},{transform:'translate(0,0) scale(.88)'},{transform:'translate(0,0) scale(1)'}],t0+1.5,.35,'ease-in-out',3);
     A(b,[{transform:'scale(1)'},{transform:'scale(.95)'},{transform:'scale(1.04)'},{transform:'scale(1)'}],t0+1.5,.35,'ease-in-out',3);
     A(rp,[{opacity:.8,transform:'scale(0)'},{opacity:0,transform:'scale(6)'}],t0+1.6,.5,'ease-out',3);
-    pop(el('div','ctasub',rich(s.sub||'लिंक डिस्क्रिप्शन में 👇'),root),t0+.8);
+    pop(el('div','ctasub',rich(s.sub),root),t0+.8);
   }
 };
 
@@ -410,6 +410,8 @@ window.build=function(spec){
     const inF=tr[0],outF=last?{transform:'none',filter:'blur(0)',clipPath:'inset(0 0 0 0)'}:tr[1];
     const full={transform:'none',filter:'blur(0)',clipPath:'inset(0 0 0 0)'};
     A(root,[{opacity:0,clipPath:'inset(0 0 0 0)',...inF,offset:0},{opacity:1,...full,offset:fin},{opacity:1,...full,offset:fout},{opacity:last?1:0,clipPath:'inset(0 0 0 0)',...outF,offset:1}],t,s.dur,'linear');
+    // Shorts links aren't clickable, so the end screen tells people what to type into Google instead.
+    if(s.type==='cta'&&!s.sub)s.sub=spec.search?'Google पर खोजें: *'+spec.search+'* 🔍':'parachar.com पर फ्री 🔍';
     SCENES[s.type](s,root,t);
     if(s.type==='count'){const b=root.querySelector('.big');if(b){ // shrink long numbers so they fit the width
       b.textContent=fmtINR(s.value);b.style.display='inline-block';b.style.whiteSpace='nowrap';

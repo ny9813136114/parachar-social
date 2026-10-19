@@ -4,6 +4,8 @@
   "theme": "navy",
   "trust": "स्रोत: RBI, PIB (सितंबर 2026) · जाँच: 17 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं",
   "url": "https://parachar.com/upi-limit-kitni-hai-per-day/",
+  "search": "parachar UPI limit",
+  "question": "आपका बैंक कौन सा है? कमेंट में बताइए, हम उसकी UPI लिमिट बताएँगे 👇",
   "campaign": "upi-limit",
   "playlist": "बैंक, UPI और बचत योजनाएँ",
   "voice": "hi-IN-SwaraNeural",
@@ -65,7 +67,7 @@
       "line": "आपकी पेमेंट पर लिमिट कितनी?<br><em>बैंक चुनकर देखें</em>",
       "tool": "UPI लिमिट चेकर",
       "button": "फ्री चेक करें",
-      "say": "अपनी लिमिट चेक कीजिए, लिंक डिस्क्रिप्शन में।"
+      "say": "Google पर parachar UPI limit लिखिए, अपने बैंक की लिमिट देखिए।"
     }
   ],
   "broll": [
