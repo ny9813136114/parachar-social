@@ -36,16 +36,31 @@ async def edge():
         if not text:
             continue
         mp3 = os.path.join(out, f'scene-{i}.mp3')
-        # Long lines (long-form videos) go sentence by sentence, then join: shorter requests fail less often.
-        parts = [p.strip() for p in re.split(r'(?<=[।?.!])\s+', text) if p.strip()] if len(text) > 300 else [text]
+        # Long lines (long-form videos) go sentence by sentence and are joined: shorter requests fail less often,
+        # and a sentence the service refuses ("No audio was received") is retried in comma-separated pieces.
+        parts = [p.strip() for p in re.split(r'(?<=[।?.!])\s+', text) if p.strip()] if len(text) > 120 else [text]
         if len(parts) == 1:
-            await say(edge_tts, text, voice, rate, mp3, i)
-        else:
+            try:
+                await say(edge_tts, text, voice, rate, mp3, i)
+            except Exception:
+                if len(text) <= 120:
+                    raise
+                parts = [p.strip() for p in re.split(r'(?<=,)\s+', text) if p.strip()]
+        if len(parts) > 1:
             files = []
             for k, part in enumerate(parts):
                 f = os.path.join(out, f'scene-{i}-{k}.mp3')
-                await say(edge_tts, part, voice, rate, f, f'{i}.{k}')
-                files.append(f)
+                try:
+                    await say(edge_tts, part, voice, rate, f, f'{i}.{k}')
+                    files.append(f)
+                except Exception:
+                    pieces = [p.strip() for p in re.split(r'(?<=,)\s+', part) if p.strip()]
+                    if len(pieces) < 2:
+                        raise
+                    for m, piece in enumerate(pieces):
+                        g = os.path.join(out, f'scene-{i}-{k}-{m}.mp3')
+                        await say(edge_tts, piece, voice, rate, g, f'{i}.{k}.{m}')
+                        files.append(g)
             lst = os.path.join(out, f'scene-{i}.txt')
             with open(lst, 'w') as fh:
                 fh.write(''.join(f"file '{f}'\n" for f in files))
