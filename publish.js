@@ -4,7 +4,8 @@
 // Slot times are IST (UTC+5:30); the n-th video gets the n-th slot.
 const fs = require('fs'), path = require('path');
 
-const SLOTS_IST = ['09:00', '13:00', '19:30'];
+// PUBLISH_SLOTS overrides them (the weekly long video goes out on Sunday at 11:00).
+const SLOTS_IST = (process.env.PUBLISH_SLOTS || '09:00,13:00,19:30').split(',');
 
 const [date, ...dirs] = process.argv.slice(2);
 const hook = process.env.MAKE_WEBHOOK_URL;
