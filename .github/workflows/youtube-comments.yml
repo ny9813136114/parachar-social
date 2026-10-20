@@ -17,7 +17,7 @@ concurrency:
 jobs:
   comment:
     runs-on: ubuntu-24.04 # pinned: ubuntu-latest moves to 26 from 19 Oct 2026, Playwright deps may lag
-    timeout-minutes: 10
+    timeout-minutes: 330 # may wait up to 5 h for the next Short to go live (see comment.js)
     env:
       MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
     steps:
@@ -26,7 +26,10 @@ jobs:
         with:
           node-version: 22
       - name: Post comments
-        run: node comment.js
+        # A queued run may start from an older commit; pull first so a comment is never posted twice.
+        run: git pull -q --rebase origin main && node comment.js
+        env:
+          WAIT_HOURS: "5"
       - name: Save which comments are done
         run: |
           [ -f videos/published/youtube.json ] || exit 0
