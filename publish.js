@@ -61,7 +61,7 @@ const publishAt = slot => new Date(Math.max(Date.parse(`${date}T${slot}:00+05:30
         fs.mkdirSync(path.dirname(log), { recursive: true });
         fs.writeFileSync(log, JSON.stringify(all, null, 2) + '\n');
       }
-    } catch (e) { console.log(`::warning::${meta.id}: no video id in the upload reply`); }
+    } catch (e) { console.error(`::error::${meta.id}: no video id in the upload reply (${text})`); failed++; continue; } // e.g. Make out of credits: queued, not uploaded
     console.log(`${meta.id}: sent, ${at ? `publishes ${at} (${slot} IST)` : 'Private (no publish time)'} · ${text}`);
   }
   process.exit(failed ? 1 : 0);
