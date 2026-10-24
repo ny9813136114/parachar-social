@@ -30,9 +30,20 @@ jobs:
         run: git pull -q --rebase origin main && node comment.js
         env:
           WAIT_HOURS: "5"
+      - name: Post Reels to Instagram and Facebook
+        # Free: Meta's Graph API straight from here, no Make ops. Off until the META_TOKEN secret exists,
+        # or when the repo variable META_PUBLISH is "off".
+        if: vars.META_PUBLISH != 'off'
+        continue-on-error: true
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          META_PAGE_ID: ${{ vars.META_PAGE_ID }}
+          META_IG_ID: ${{ vars.META_IG_ID }}
+        run: node meta.js
       - name: Save which comments are done
         run: |
           [ -f videos/published/youtube.json ] || exit 0
           git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add videos/published/youtube.json
+          [ -f videos/published/meta.json ] && git add videos/published/meta.json
           git diff --cached --quiet || { git commit -qm "Comments posted" && git pull -q --rebase && git push -q; }

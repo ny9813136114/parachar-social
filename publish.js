@@ -58,7 +58,8 @@ const publishAt = slot => new Date(Math.max(Date.parse(`${date}T${slot}:00+05:30
       if (videoId && at) {
         const log = path.join(__dirname, 'videos', 'published', 'youtube.json');
         const all = fs.existsSync(log) ? JSON.parse(fs.readFileSync(log, 'utf8')) : {};
-        all[meta.id] = { videoId, publishAt: at, comment: meta.comment, commented: false };
+        // release: meta.js posts the same MP4 to Instagram and Facebook from this public release.
+        all[meta.id] = { videoId, publishAt: at, comment: meta.comment, commented: false, release: process.env.RELEASE_TAG };
         fs.mkdirSync(path.dirname(log), { recursive: true });
         fs.writeFileSync(log, JSON.stringify(all, null, 2) + '\n');
       }
