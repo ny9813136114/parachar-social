@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       cmd:
-        description: "ids or test"
+        description: "ids, test or check"
         default: ids
       id:
         description: "spec id for test"

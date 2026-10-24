@@ -5,6 +5,7 @@
 // Usage: META_TOKEN=... [META_PAGE_ID=...] [META_IG_ID=...] node meta.js          post what is due
 //        META_TOKEN=... node meta.js ids                                         print the Page and Instagram ids
 //        META_TOKEN=... node meta.js test <spec id>                              post one already-live Short now
+//        META_TOKEN=... node meta.js check <spec id>                             show the live links of a recorded post
 const fs = require('fs'), path = require('path');
 
 const G = 'https://graph.facebook.com/v21.0';
@@ -87,6 +88,15 @@ async function postOne(key, v, acc, done) {
   const acc = await ids();
   const [cmd, arg] = process.argv.slice(2);
   if (cmd === 'ids') return console.log(JSON.stringify(acc));
+  if (cmd === 'check') { // confirm a recorded post is really live on both
+    const r = JSON.parse(fs.readFileSync(metaLog, 'utf8'))[arg] || {};
+    if (r.instagram) console.log('instagram', JSON.stringify(await graph('GET', `/${r.instagram}`, { fields: 'permalink,media_product_type,timestamp' })));
+    if (r.facebook) {
+      const { access_token: pt } = await graph('GET', `/${acc.page}`, { fields: 'access_token' });
+      console.log('facebook', JSON.stringify(await graph('GET', `/${r.facebook}`, { fields: 'permalink_url,status,published' }, pt)));
+    }
+    return;
+  }
   const yt = fs.existsSync(ytLog) ? JSON.parse(fs.readFileSync(ytLog, 'utf8')) : {};
   const done = fs.existsSync(metaLog) ? JSON.parse(fs.readFileSync(metaLog, 'utf8')) : {};
   const due = cmd === 'test' ? [[arg, yt[arg]]]
