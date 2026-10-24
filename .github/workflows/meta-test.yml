@@ -29,7 +29,8 @@ jobs:
         with:
           node-version: 22
       - name: Run meta.js
-        run: node meta.js "${{ inputs.cmd }}" "${{ inputs.id }}"
+        run: node meta.js "${{ inputs.cmd }}" "${{ inputs.id }}" 2>&1 | tee seo/replies/meta-test.txt; exit ${PIPESTATUS[0]}
+        shell: bash # the run log is not readable from Claude's cloud, so the output is committed (ids only, never the token)
         env:
           META_TOKEN: ${{ secrets.META_TOKEN }}
           META_PAGE_ID: ${{ vars.META_PAGE_ID }}
@@ -39,5 +40,5 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          [ -f videos/published/meta.json ] && git add videos/published/meta.json
+          git add seo/replies/meta-test.txt; [ -f videos/published/meta.json ] && git add videos/published/meta.json
           git diff --cached --quiet || { git commit -qm "Meta test post" && git pull -q --rebase && git push -q; }
