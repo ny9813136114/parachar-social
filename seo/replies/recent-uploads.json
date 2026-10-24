@@ -1,0 +1,368 @@
+{
+  "up": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#searchListResponse",
+      "etag": "ftEUgWYjDwOmj5UjIIlXeFMI4yE",
+      "nextPageToken": "KAgyUQHVuS7kZ4Gx9ZDSKcYiNGPCZDuOuvDlNhasC4Okx0hVnbgH9rwzIpJQGXuWm1S8-8CiLgWVK_lCDWQnUjq0qdD33M4hR8TNMIi91PvyqiJHjg",
+      "pageInfo": {
+        "totalResults": 33,
+        "resultsPerPage": 8
+      },
+      "items": [
+        {
+          "kind": "youtube#searchResult",
+          "etag": "HaS3uvNIKjHYCQRSuC7DS7gTnfw",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "MKpnvfdoCck"
+          },
+          "snippet": {
+            "publishedAt": "2026-10-24T16:27:10Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "8th Pay Commission Salary: ₹18,000 बेसिक पर ₹47,606? फ़िटमेंट 2.28 मानकर #shorts",
+            "description": "8th Pay Commission Salary Calculator 2026: फ़िटमेंट फ़ैक्टर तय नहीं, अनुमान कैसे लगाएँ\n👉 फ्री कैलकुलेटर: https://parachar.com/8th-pay-commission-salary-calculator-hindi/\n\n8वाँ वेतन आयोग 3 नवंबर 2025 को बना, रिपोर्ट करीब मध्य 2027 तक; फ़िटमेंट फ़ैक्टर अभी घोषित नहीं (कर्मचारी पक्ष की माँग 3.83)। अनुमान: बेसिक ₹18,000, DA 60%, Y शहर, फ़िटमेंट 2.28 मानें तो नया बेसिक ₹41,040 और कुल ₹32,400 से ₹47,606 (करीब 47% बढ़त), क्योंकि DA 0% से शुरू होता है। 2.57 पर ₹53,662। अपने बेसिक पर हर फ़िटमेंट, फ्री:\nhttps://parachar.com/8th-pay-commission-salary-calculator-hindi/\n\n8th pay commission में salary kitni badhegi, यह फ़िटमेंट फ़ैक्टर पर टिका है, जो अभी तय नहीं हुआ। 8वाँ वेतन आयोग सैलरी कैलकुलेटर में अपना बेसिक डालकर 1.92 से 2.86 तक हर fitment factor पर अनुमान देखें। DA शून्य से शुरू होने के कारण असली बढ़ोतरी फ़ैक्टर से कम दिखती है।\n\nस्रोत: 8वाँ वेतन आयोग (3 नवंबर 2025), 7वें आयोग का तरीका · जाँच: 19 अक्टूबर 2026 · फ़िटमेंट मान लिया है, घोषित नहीं\n\n▶ ऐसे और Shorts (इनकम टैक्स और सैलरी): https://www.youtube.com/playlist?list=PLFBDdDjKFXrU\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#8thPayCommission #Salary #CentralGovtEmployees #FitmentFactor #SarkariNaukri",
+            "thumbnails": {
+              "default": {
+                "url": "https://i9.ytimg.com/vi/MKpnvfdoCck/default.jpg?sqp=CNy389YG&rs=AOn4CLBKsk1GwckAifb38yP_7dHZNQ5POg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i9.ytimg.com/vi/MKpnvfdoCck/mqdefault.jpg?sqp=CNy389YG&rs=AOn4CLDIEDgWWMAd-3WeUBrTKOAUpXIRSw",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i9.ytimg.com/vi/MKpnvfdoCck/hqdefault.jpg?sqp=CNy389YG&rs=AOn4CLBcEIoWa-EF4aztZU26tn9k94DSoQ",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i9.ytimg.com/vi/MKpnvfdoCck/sddefault.jpg?sqp=CNy389YG&rs=AOn4CLBdUD59CjKzlbdyWKf5G4MI878-aA",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i9.ytimg.com/vi/MKpnvfdoCck/maxresdefault.jpg?sqp=CNy389YG&rs=AOn4CLDbVAud5xxsOLlAxHI26XjHdZuL9A",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "liveBroadcastContent": "none",
+            "publishTime": "2026-10-24T16:27:10Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "w_3VBC6S8z5uGG-6f9qpEzEgtaQ",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "5zXtMEqEeVc"
+          },
+          "snippet": {
+            "publishedAt": "2026-10-24T16:27:08Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Gratuity 5 साल से पहले? 4 साल 240 दिन पर ₹86,538 का दावा | Gratuity Rules #shorts",
+            "description": "Gratuity 5 साल से पहले 2026: 4 साल 240 दिन, कॉन्ट्रैक्ट और मौत/विकलांगता का नियम\n👉 फ्री कैलकुलेटर: https://parachar.com/gratuity-calculator-hindi/\n\nग्रेच्युटी के लिए सामान्यतः 5 साल की नौकरी चाहिए, पर 3 हालात अलग हैं: मौत या विकलांगता पर कोई न्यूनतम सेवा नहीं; 4 साल 240 दिन पर हाई कोर्ट फ़ैसलों के आधार पर दावा; फ़िक्स्ड-टर्म कॉन्ट्रैक्ट पर नए लेबर कोड में 1 साल। उदाहरण: बेसिक + DA ₹30,000, नौकरी 4 साल 8 महीने = 5 साल गिने जाएँ तो ₹86,538। कंपनी मना करे तो फ़ॉर्म I, फिर फ़ॉर्म N। अपना हिसाब, फ्री:\nhttps://parachar.com/gratuity-calculator-hindi/\n\nग्रेच्युटी 5 साल से पहले मिलती है या नहीं, यह नौकरी के प्रकार और दिनों पर निर्भर है। 4 साल 240 दिन gratuity rule हर कंपनी अपने-आप नहीं मानती, इसलिए लिखित दावा करें। gratuity calculator में साल और बेसिक डालकर देखें कि gratuity kitni milegi।\n\nस्रोत: ग्रेच्युटी अधिनियम 1972 (धारा 2A, 4), सामाजिक सुरक्षा संहिता 2020 · जाँच: 19 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं\n\n▶ ऐसे और Shorts (इनकम टैक्स और सैलरी): https://www.youtube.com/playlist?list=PLFBDdDjKFXrU\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#Gratuity #Salary #LabourCode #Naukri #EmployeeRights",
+            "thumbnails": {
+              "default": {
+                "url": "https://i9.ytimg.com/vi/5zXtMEqEeVc/default.jpg?sqp=CNy389YG&rs=AOn4CLAEB_T4beICrOZtCFpr5KAMDJflRw",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i9.ytimg.com/vi/5zXtMEqEeVc/mqdefault.jpg?sqp=CNy389YG&rs=AOn4CLALiC5kRzbOvgyAlixie1KpPA69OQ",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i9.ytimg.com/vi/5zXtMEqEeVc/hqdefault.jpg?sqp=CNy389YG&rs=AOn4CLB-9WkcKCH2rPJH8Mi_fIWRE143jg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i9.ytimg.com/vi/5zXtMEqEeVc/sddefault.jpg?sqp=CNy389YG&rs=AOn4CLBBBRUj6vhKEve61pQcTIxy_Vi31w",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i9.ytimg.com/vi/5zXtMEqEeVc/maxresdefault.jpg?sqp=CNy389YG&rs=AOn4CLAFoaPDAloxfy30m8e39_B-Hxh7Bw",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "liveBroadcastContent": "none",
+            "publishTime": "2026-10-24T16:27:08Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "8IkhtzbTyhh3T3tbghk7Q0HasdQ",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "X0_uOXSE4sU"
+          },
+          "snippet": {
+            "publishedAt": "2026-10-24T16:27:05Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Sukanya Samriddhi Yojana: ₹1,000 महीना जमा, 21 साल बाद ₹5.54 लाख | SSY Calculator #shorts",
+            "description": "Sukanya Samriddhi Yojana 2026: ₹1,000 महीना जमा करने पर 8.2% से कितना मिलेगा\n👉 फ्री कैलकुलेटर: https://parachar.com/sukanya-samriddhi-yojana-calculator/\n\nसुकन्या समृद्धि योजना: 2 साल की बेटी के लिए हर महीने ₹1,000 (15 साल, कुल ₹1,80,000) जमा करें तो 21 साल पूरे होने पर करीब ₹5,54,612 मिलेंगे, जिसमें ₹3,74,612 ब्याज है (8.2% पूरे 21 साल मानकर)। जमा सिर्फ़ 15 साल, खाता 21 साल पर पूरा। सालाना ₹250 से ₹1.5 लाख तक जमा। अपनी रकम पर साल-दर-साल हिसाब, फ्री:\nhttps://parachar.com/sukanya-samriddhi-yojana-calculator/\n\nसुकन्या समृद्धि योजना (SSY) में 10 साल तक की बेटी का खाता खुलता है और अभी 8.2% ब्याज है। sukanya samriddhi calculator से देखें कि ₹1,000 या अपनी रकम पर सुकन्या योजना में कितना पैसा मिलेगा। खाता बैंक या पोस्ट ऑफिस में खुलता है, सुकन्या खाता कैसे खोलें यह भी पेज पर है।\n\nस्रोत: सुकन्या समृद्धि योजना नियम 2019, वित्त मंत्रालय (8.2%) · जाँच: 19 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं\n\n▶ ऐसे और Shorts (बैंक, UPI और बचत योजनाएँ): https://www.youtube.com/playlist?list=PLDBOcuU_Prr4\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#SukanyaSamriddhiYojana #SSY #BetiBachao #Savings #SarkariYojana",
+            "thumbnails": {
+              "default": {
+                "url": "https://i9.ytimg.com/vi/X0_uOXSE4sU/default.jpg?sqp=CNy389YG&rs=AOn4CLA29Vdn_V1JICXYJrEONJRnvdyw5g",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i9.ytimg.com/vi/X0_uOXSE4sU/mqdefault.jpg?sqp=CNy389YG&rs=AOn4CLDGzPeEjqeVzjS_0c-L8S-DuS66dw",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i9.ytimg.com/vi/X0_uOXSE4sU/hqdefault.jpg?sqp=CNy389YG&rs=AOn4CLCocN9zFEMf-QMZo1_KKh4kMCyuWA",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i9.ytimg.com/vi/X0_uOXSE4sU/sddefault.jpg?sqp=CNy389YG&rs=AOn4CLA1VAXTHe0MUrUkDriBrZZRrmv2ng",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i9.ytimg.com/vi/X0_uOXSE4sU/maxresdefault.jpg?sqp=CNy389YG&rs=AOn4CLDKYfznli2NIcx7INuPcxQx_BVB1g",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "liveBroadcastContent": "none",
+            "publishTime": "2026-10-24T16:27:05Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "VkFjjIizZMoefjnsNr0RZLR2K44",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "58RRNLDI_Ao"
+          },
+          "snippet": {
+            "publishedAt": "2026-10-24T16:12:15Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Post Office Scheme 2026: ₹1 लाख कहाँ लगाएँ? NSC, PPF, SCSS, MIS, KVP, सुकन्या, RD की पूरी तुलना",
+            "description": "Post Office Scheme 2026 हिंदी में: अक्टूबर-दिसंबर 2026 की ब्याज दरें और ₹1 लाख पर हर स्कीम में कितना मिलेगा\n👉 फ्री कैलकुलेटर: https://parachar.com/post-office-scheme-calculator/\n\nपोस्ट ऑफिस की 9 बचत योजनाएँ एक वीडियो में: अक्टूबर-दिसंबर 2026 की ब्याज दरें (SCSS और सुकन्या 8.2%, NSC 7.7%, KVP और TD 5 साल 7.5%, MIS 7.4%, PPF 7.1%, RD 6.7%), ₹1 लाख एक बार लगाने पर NSC, TD और KVP में कितना बनेगा, हर महीने आमदनी के लिए MIS या SCSS, लंबी बचत के लिए PPF और सुकन्या, और ₹1,000 की RD। आख़िर में आसान गाइड: आपके लिए कौन सी स्कीम सही है।\n\n⏱ इस वीडियो में:\n0:00 शुरुआत\n0:30 नई ब्याज दरें\n1:19 एक बार ₹1 लाख: NSC, TD, KVP\n2:32 हर महीने आमदनी: MIS और SCSS\n3:41 लंबी बचत: PPF और सुकन्या\n4:48 छोटी बचत: RD\n5:26 आपके लिए कौन सी स्कीम?\n\n🔗 वीडियो में दिखाए गए फ्री टूल:\n• पोस्ट ऑफिस स्कीम कैलकुलेटर: https://parachar.com/post-office-scheme-calculator/\n• सुकन्या समृद्धि कैलकुलेटर: https://parachar.com/sukanya-samriddhi-yojana-calculator/\n\npost office scheme calculator से अपनी रकम पर हिसाब देखें: post office interest rate 2026, NSC kitna milega, MIS monthly income kitni hogi, PPF 15 saal me kitna banega और sukanya samriddhi yojana calculator. सभी आँकड़े पोस्ट ऑफिस की मौजूदा दरों पर हमारे फ्री कैलकुलेटर से निकाले गए हैं।\n\nस्रोत: वित्त मंत्रालय, 30 सितंबर 2026 (अक्टूबर-दिसंबर 2026 की दरें) · जाँच: 19 अक्टूबर 2026 · हिसाब अनुमान है, निवेश की सलाह नहीं\n\n▶ ऐसे और वीडियो (बैंक, UPI और बचत योजनाएँ): https://www.youtube.com/playlist?list=PLDBOcuU_Prr4\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#PostOffice #PostOfficeScheme #PPF #SukanyaSamriddhi #SmallSavings",
+            "thumbnails": {
+              "default": {
+                "url": "https://i9.ytimg.com/vi/58RRNLDI_Ao/default.jpg?sqp=CNy389YG&rs=AOn4CLBki5zOlIJZjKt_cwrwEBtLC66ARQ",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i9.ytimg.com/vi/58RRNLDI_Ao/mqdefault.jpg?sqp=CNy389YG&rs=AOn4CLArnNmHucXOi4h5orU3Ixwtc1ublA",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i9.ytimg.com/vi/58RRNLDI_Ao/hqdefault.jpg?sqp=CNy389YG&rs=AOn4CLCEPcQYsZRChJSWen7KpUHsQsUK-Q",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i9.ytimg.com/vi/58RRNLDI_Ao/sddefault.jpg?sqp=CNy389YG&rs=AOn4CLC6Yh4j-e7HrFmvqq-xvgDi-tqRXA",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i9.ytimg.com/vi/58RRNLDI_Ao/maxresdefault.jpg?sqp=CNy389YG&rs=AOn4CLDLzbG5SCUuMACUNpEnmfuCVnlkdA",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "liveBroadcastContent": "none",
+            "publishTime": "2026-10-24T16:12:15Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "juEAQItnPpXUaKUq85b1aBQkquE",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "-6WiFCbCLEM"
+          },
+          "snippet": {
+            "publishedAt": "2026-10-23T20:19:52Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Lakhpati Didi Yojana: ₹1 लाख नकद नहीं मिलता! कौन बनती है लखपति दीदी, क्या मिलता है #shorts",
+            "description": "Lakhpati Didi Yojana 2026: कौन पात्र, ₹1 लाख कमाई की शर्त और समूह को ₹20 लाख लोन\n👉 फ्री कैलकुलेटर: https://parachar.com/lakhpati-didi-yojana-checker/\n\nलखपति दीदी योजना में कोई नकद पैसा नहीं मिलता। लखपति दीदी वह SHG सदस्य है जिसके परिवार की कमाई साल में ₹1 लाख या ज़्यादा (औसत ₹10,000 महीना) हो और 4 फ़सल सीज़न तक बनी रहे। मदद: ट्रेनिंग, समूह को बैंक लोन (पहला बचत का 6 गुना या कम से कम ₹1.5 लाख, दूसरा 8 गुना या ₹3 लाख), ₹20 लाख तक बिना गारंटी, ₹3 लाख तक 7% ब्याज। कोई ऑनलाइन फ़ॉर्म या फ़ीस नहीं। अपनी कमाई जाँचें, फ्री:\nhttps://parachar.com/lakhpati-didi-yojana-checker/\n\nlakhpati didi yojana kya hai: ग्रामीण आजीविका मिशन का अभियान, जिसमें SHG की दीदियों की कमाई ₹1 लाख साल तक पहुँचाई जाती है। lakhpati didi yojana apply करने का कोई ऑनलाइन फ़ॉर्म नहीं, गाँव के समूह या CRP दीदी से जुड़ें। लखपति दीदी योजना में समूह को कितना लोन मिलेगा, चेकर में देखें।\n\nस्रोत: PIB (ग्रामीण विकास मंत्रालय), RBI DAY-NRLM सर्कुलर · जाँच: 19 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं\n\n▶ ऐसे और Shorts (सरकारी सब्सिडी योजनाएँ): https://www.youtube.com/playlist?list=PLJ_UkZibrHEI\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#LakhpatiDidi #SHG #WomenEmpowerment #SarkariYojana #NRLM",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/-6WiFCbCLEM/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/-6WiFCbCLEM/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/-6WiFCbCLEM/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/-6WiFCbCLEM/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/-6WiFCbCLEM/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "liveBroadcastContent": "none",
+            "publishTime": "2026-10-23T20:19:52Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "cy3flwnkHN81zZ6LRkYmy3dLnIM",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "Z0Y_O2TU6qc"
+          },
+          "snippet": {
+            "publishedAt": "2026-10-23T20:19:47Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Mudra Loan Documents: ये 6 कागज़ और रिजेक्ट होने की 3 वजह | ₹20 लाख तक बिना गारंटी #shorts",
+            "description": "Mudra Loan Documents 2026: ज़रूरी कागज़, रिजेक्ट होने की वजह और फ़र्ज़ी फ़ीस\n👉 फ्री कैलकुलेटर: https://parachar.com/mudra-loan-hindi/\n\nमुद्रा लोन (₹20 लाख तक, बिना गारंटी) के लिए साथ रखें: आधार, PAN, फ़ोटो, पते का प्रमाण, मशीन/सामान का कोटेशन और छोटी बिज़नेस प्लान; उद्यम रजिस्ट्रेशन (मुफ़्त) से आसानी होती है। मना होने की आम वजह: सीधी फ़सल खेती या निजी ख़र्च के लिए माँगना, पुराना लोन डिफ़ॉल्ट या बहुत ख़राब CIBIL, कोटेशन/प्रोजेक्ट रिपोर्ट के बिना जाना। ₹350 'अप्रूवल फ़ीस' वाले मैसेज धोखा हैं। अपनी EMI और कैटेगरी देखें, फ्री:\nhttps://parachar.com/mudra-loan-hindi/\n\nmudra loan documents में आधार, PAN, कोटेशन और बिज़नेस प्लान सबसे ज़रूरी हैं। mudra loan reject kyon hota hai, ज़्यादातर गलत काम, ख़राब CIBIL या अधूरे कागज़ से। mudra loan kaise le, बैंक शाखा या JanSamarth पोर्टल से, बिना किसी एजेंट फ़ीस के।\n\nस्रोत: myScheme (PMMY), NCGTC FAQ, PIB फ़ैक्ट चेक · जाँच: 19 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं\n\n▶ ऐसे और Shorts (मुद्रा लोन): https://www.youtube.com/playlist?list=PLG9rKSzcxjrQ\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#MudraLoan #PMMudraYojana #BusinessLoan #SarkariYojana #SmallBusiness",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/Z0Y_O2TU6qc/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/Z0Y_O2TU6qc/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/Z0Y_O2TU6qc/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/Z0Y_O2TU6qc/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/Z0Y_O2TU6qc/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "liveBroadcastContent": "none",
+            "publishTime": "2026-10-23T20:19:47Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "gFhK_JFo3B4R42XmuEXlIaT5a8Y",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "iRVUporPPm0"
+          },
+          "snippet": {
+            "publishedAt": "2026-10-23T20:19:42Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "KCC Loan Limit: 4 एकड़ गेहूं पर ₹1,58,400, ब्याज सिर्फ़ 4% | KCC Calculator #shorts",
+            "description": "KCC Loan Limit 2026: 4 एकड़ पर कितना लोन, 4% ब्याज और बिना गारंटी ₹2 लाख\n👉 फ्री कैलकुलेटर: https://parachar.com/kcc-loan-calculator-hindi/\n\nKCC लिमिट = स्केल ऑफ फाइनेंस × रकबा + 10% + 20% + फसल बीमा। उदाहरण: 4 एकड़ गेहूं, ₹30,000 प्रति एकड़ (ज़िले के हिसाब से अलग) पर पहले साल ₹1,58,400 और पाँचवें साल करीब ₹2,31,913। ₹3 लाख तक 7% ब्याज, समय पर चुकाने पर 4%: साल का ब्याज ₹6,336, जबकि 7% पर ₹11,088। ₹2 लाख तक बिना ज़मानत। अपनी लिमिट निकालें, फ्री:\nhttps://parachar.com/kcc-loan-calculator-hindi/\n\nkcc loan kitna milega, यह आपकी फसल के स्केल ऑफ फाइनेंस और एकड़ से तय होता है। KCC loan interest rate ₹3 लाख तक 7% है, समय पर चुकाने पर सिर्फ़ 4%। kcc loan calculator में अपनी फसल और ज़मीन डालकर 5 साल की लिमिट देखें।\n\nस्रोत: RBI KCC मास्टर सर्कुलर, PIB (MISS 2025-26) · जाँच: 19 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं\n\n▶ ऐसे और Shorts (सरकारी सब्सिडी योजनाएँ): https://www.youtube.com/playlist?list=PLJ_UkZibrHEI\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#KCC #KisanCreditCard #Kisan #FarmerLoan #SarkariYojana",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/iRVUporPPm0/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/iRVUporPPm0/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/iRVUporPPm0/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/iRVUporPPm0/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/iRVUporPPm0/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "liveBroadcastContent": "none",
+            "publishTime": "2026-10-23T20:19:42Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "LwGQYNLw3ds8CVbWI2-PRx7H9WI",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "7Ull8THbkbk"
+          },
+          "snippet": {
+            "publishedAt": "2026-10-22T21:41:58Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "PM Kisan 24वीं किस्त: ₹2,000 रुकेंगे? eKYC, Land Seeding, बैंक लिंक चेक करें #shorts",
+            "description": "PM Kisan 24th Installment 2026: ₹2,000 पाने के लिए 3 चीज़ें जाँचें, तारीख़ घोषित नहीं\n👉 फ्री कैलकुलेटर: https://parachar.com/pm-kisan-agli-kist-kab-aayegi/\n\nPM किसान में साल में ₹6,000 मिलते हैं: तीन किस्त, हर बार ₹2,000। 24वीं किस्त अगस्त-नवंबर 2026 अवधि की है; 19 अक्टूबर 2026 तक इसकी आधिकारिक तारीख़ घोषित नहीं हुई। 23वीं किस्त 20 जून 2026 को आई थी। किस्त तभी आती है जब eKYC, भूमि सत्यापन (Land Seeding) और आधार-बैंक NPCI लिंक तीनों पूरे हों। अपनी किस्त की स्थिति देखें, फ्री:\nhttps://parachar.com/pm-kisan-agli-kist-kab-aayegi/\n\npm kisan 24th installment की तारीख़ अभी घोषित नहीं है, इसलिए पक्की तारीख़ वाले मैसेज पर भरोसा न करें। pm kisan kist kyon nahi aayi, ज़्यादातर बार वजह eKYC, land seeding या आधार-बैंक लिंक होती है। pm kisan ekyc कैसे करें और अपनी अगली किस्त कितनी होगी, चेकर में देखें।\n\nस्रोत: pmkisan.gov.in, PIB (22वीं किस्त) · जाँच: 19 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं\n\n▶ ऐसे और Shorts (सरकारी सब्सिडी योजनाएँ): https://www.youtube.com/playlist?list=PLJ_UkZibrHEI\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#PMKisan #PMKisanYojana #Kisan #SarkariYojana #Farmer",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/7Ull8THbkbk/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/7Ull8THbkbk/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/7Ull8THbkbk/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/7Ull8THbkbk/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/7Ull8THbkbk/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "liveBroadcastContent": "none",
+            "publishTime": "2026-10-22T21:41:58Z"
+          }
+        }
+      ]
+    }
+  }
+}
