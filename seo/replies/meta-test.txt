@@ -1,2 +1,2 @@
-kcc-limit-4-acre-158400: instagram posted (18500484451100250)
-kcc-limit-4-acre-158400: facebook posted (2368356427328407)
+instagram {"id":"18500484451100250","media_product_type":"REELS","permalink":"https://www.instagram.com/reel/De3d1raEgUT/","timestamp":"2026-10-24T06:16:16+0000"}
+facebook {"permalink_url":"/reel/2368356427328407/","status":{"video_status":"ready","uploading_phase":{"status":"complete","bytes_transferred":43680915},"processing_phase":{"status":"complete"},"publishing_phase":{"status":"complete","publish_status":"published","publish_time":"2026-10-24T06:16:24+0000"},"copyright_check_status":{"status":"complete","matches_found":false}},"published":true,"id":"2368356427328407"}
