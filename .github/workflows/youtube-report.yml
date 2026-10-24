@@ -18,14 +18,21 @@ jobs:
     env:
       # Read-only Make webhook: returns this channel's video stats and playlists.
       REPORT_HOOK: ${{ secrets.REPORT_HOOK }} # Make webhook of the report scenario, kept secret since the repo is public
+      # Direct YouTube API (yt.js); without these the scripts fall back to the Make webhook.
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - name: Fetch stats and write the report
         run: |
-          [ -n "$REPORT_HOOK" ] || { echo "::warning::REPORT_HOOK secret is not set, no report this week"; exit 0; }
           D=$(TZ=Asia/Kolkata date +%F)
           cp report.js /tmp/report.js
-          curl -sS --fail -m 120 -X POST -H 'Content-Type: application/json' -d '{"kind":"weekly"}' "$REPORT_HOOK" -o /tmp/r.json
+          if [ -n "$YT_REFRESH_TOKEN" ]; then node yt.js report > /tmp/r.json
+          else
+            [ -n "$REPORT_HOOK" ] || { echo "::warning::no YT_* or REPORT_HOOK secret, no report this week"; exit 0; }
+            curl -sS --fail -m 120 -X POST -H 'Content-Type: application/json' -d '{"kind":"weekly"}' "$REPORT_HOOK" -o /tmp/r.json
+          fi
           git fetch origin reports && git checkout reports || git checkout --orphan reports
           git rm -rfq --cached . >/dev/null 2>&1 || true
           mkdir -p reports && cp /tmp/r.json "reports/$D.json"

@@ -1,8 +1,9 @@
-// Sends rendered videos to the Make webhook, which uploads them to YouTube as Private + scheduled.
-// Make downloads each MP4 from the GitHub release RELEASE_TAG via a short-lived signed URL.
+// Uploads rendered videos to YouTube as Private + scheduled: straight through the YouTube API when the YT_* secrets
+// are set (yt.js, no Make credits), otherwise via the Make webhook, which downloads each MP4 from the GitHub release
+// RELEASE_TAG via a short-lived signed URL.
 // Usage: MAKE_WEBHOOK_URL=... RELEASE_TAG=... GH_TOKEN=... node publish.js <date YYYY-MM-DD> <out/id1> [out/id2] [out/id3]
 // Slot times are IST (UTC+5:30); the n-th video gets the n-th slot.
-const fs = require('fs'), path = require('path');
+const fs = require('fs'), path = require('path'), yt = require('./yt');
 
 // PUBLISH_SLOTS overrides them (the weekly long video goes out on Sunday at 11:00).
 const SLOTS_IST = (process.env.PUBLISH_SLOTS || '09:00,13:00,19:30').split(',');
@@ -31,7 +32,7 @@ const publishAt = slot => new Date(Math.max(Date.parse(`${date}T${slot}:00+05:30
 
 (async () => {
   let failed = 0, assets = [];
-  if (hook) {
+  if (hook && !yt.direct) {
     const rel = await api(`/releases/tags/${process.env.RELEASE_TAG}`);
     if (!rel.ok) throw new Error(`release ${process.env.RELEASE_TAG}: ${rel.status}`);
     assets = (await rel.json()).assets;
@@ -40,16 +41,13 @@ const publishAt = slot => new Date(Math.max(Date.parse(`${date}T${slot}:00+05:30
     const meta = JSON.parse(fs.readFileSync(path.join(dir, 'upload.json'), 'utf8'));
     const slot = SLOTS_IST[i % SLOTS_IST.length];
     const at = process.env.PRIVATE_ONLY === 'true' ? '' : publishAt(slot); // test runs stay Private, never auto-publish
-    if (!hook) { console.log(`[dry run, no MAKE_WEBHOOK_URL] ${meta.id} -> ${at} (${slot} IST)`); continue; }
+    if (!hook && !yt.direct) { console.log(`[dry run, no MAKE_WEBHOOK_URL or YT_* secrets] ${meta.id} -> ${at} (${slot} IST)`); continue; }
     // No caption upload (owner, 19 Oct): the text is already on screen and YouTube adds its own auto captions.
     // Hindi as the video and audio language (the upload module can't set it): a ready videos.update body.
     const snippetBody = JSON.stringify({ id: '__VIDEO_ID__', snippet: { title: meta.title, description: meta.description,
       tags: meta.tags, categoryId: '27', defaultLanguage: meta.language || 'hi', defaultAudioLanguage: meta.language || 'hi' } });
-    const res = await fetch(hook, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ ...meta, publishAt: at, fileName: meta.id + '.mp4', videoUrl: await signedUrl(assets, meta.id + '.mp4'), snippetBody }),
-    });
+    const res = await yt.send({ ...meta, publishAt: at, fileName: meta.id + '.mp4', file: path.join(dir, meta.id + '.mp4'),
+      ...(yt.direct ? {} : { videoUrl: await signedUrl(assets, meta.id + '.mp4') }), snippetBody });
     const text = (await res.text()).slice(0, 300);
     if (!res.ok) { console.error(`::error::${meta.id}: webhook ${res.status} ${text}`); failed++; continue; }
     // Remember the YouTube id so comment.js can post the free-tool comment once the Short is live.
@@ -63,7 +61,7 @@ const publishAt = slot => new Date(Math.max(Date.parse(`${date}T${slot}:00+05:30
         fs.mkdirSync(path.dirname(log), { recursive: true });
         fs.writeFileSync(log, JSON.stringify(all, null, 2) + '\n');
       }
-    } catch (e) { console.log(`::warning::${meta.id}: no video id in Make's reply`); }
+    } catch (e) { console.log(`::warning::${meta.id}: no video id in the upload reply`); }
     console.log(`${meta.id}: sent, ${at ? `publishes ${at} (${slot} IST)` : 'Private (no publish time)'} · ${text}`);
   }
   process.exit(failed ? 1 : 0);

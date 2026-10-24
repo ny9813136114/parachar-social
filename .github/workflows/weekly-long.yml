@@ -30,6 +30,10 @@ jobs:
     timeout-minutes: 150
     env:
       MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
+      # Direct YouTube API (yt.js); without these the scripts fall back to the Make webhook.
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
       IN_FILE: ${{ github.event.inputs.file }}
       PRIVATE_ONLY: ${{ github.event.inputs.private_only || 'false' }}
       PUBLISH_SLOTS: "11:00"
