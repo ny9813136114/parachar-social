@@ -51,7 +51,19 @@ async function upload(m) {
   return { videoId: v.id, publishAt: v.status.publishAt || '', privacy: v.status.privacyStatus };
 }
 
+// Guard: the token must belong to the Parachar channel, never a personal one (24 Oct: first token was for the wrong channel).
+const CHANNEL = process.env.YT_CHANNEL_ID || 'UCdqRVpQKsb5huTo6__pTpuA';
+let checked;
+async function checkChannel() {
+  if (checked) return;
+  const r = await call('GET', '/v3/channels?part=snippet&mine=true');
+  const ch = (r.body.items || [])[0];
+  if (!ch || ch.id !== CHANNEL) throw new Error(`token is for channel ${ch ? ch.snippet.title + ' ' + ch.id : '(none)'}, not Parachar ${CHANNEL}`);
+  checked = true;
+}
+
 async function directReply(p) {
+  if (!(p.action === 'api' && p.method === 'GET')) await checkChannel(); // reads may run anywhere; writes only on Parachar
   if (p.action === 'comment') {
     const r = await call('POST', '/v3/commentThreads?part=snippet', p.commentBody);
     return { commented: r.body.id || '', status: String(r.status), ...(r.status === 200 ? {} : { error: r.body.error }) };
@@ -77,6 +89,7 @@ async function send(payload) {
 
 // The weekly report data: every upload of the channel with stats, and the playlists (same shape as Make's reply).
 async function report() {
+  await checkChannel();
   const ch = await call('GET', '/v3/channels?part=contentDetails&mine=true');
   const uploads = ch.body.items[0].contentDetails.relatedPlaylists.uploads, ids = [];
   for (let page = ''; ;) {
