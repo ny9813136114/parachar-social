@@ -1,0 +1,60 @@
+{
+  "v": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#videoListResponse",
+      "etag": "nvZb3k1QjCxMPQ76juy1tB_5Ll4",
+      "items": [
+        {
+          "kind": "youtube#video",
+          "etag": "ORouj-vJTByUSXgJ4fmGLQN0XxY",
+          "id": "X0_uOXSE4sU",
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "private",
+            "publishAt": "2026-10-25T03:30:00Z",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "PDyT1lKw-OPW-OgevZ7w95KWQp8",
+          "id": "5zXtMEqEeVc",
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "private",
+            "publishAt": "2026-10-25T07:30:00Z",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "iMXzIu-9_YLGZb12tESdzvYb_BE",
+          "id": "MKpnvfdoCck",
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "private",
+            "publishAt": "2026-10-25T14:00:00Z",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          }
+        }
+      ],
+      "pageInfo": {
+        "totalResults": 3,
+        "resultsPerPage": 3
+      }
+    }
+  }
+}
