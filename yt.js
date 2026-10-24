@@ -12,8 +12,8 @@ let cached;
 async function token() {
   if (cached && cached.until > Date.now()) return cached.token;
   const res = await fetch('https://oauth2.googleapis.com/token', { method: 'POST', body: new URLSearchParams({
-    grant_type: 'refresh_token', refresh_token: process.env.YT_REFRESH_TOKEN,
-    client_id: process.env.YT_CLIENT_ID, client_secret: process.env.YT_CLIENT_SECRET }) });
+    grant_type: 'refresh_token', refresh_token: process.env.YT_REFRESH_TOKEN.trim(), // pasted secrets may carry spaces
+    client_id: process.env.YT_CLIENT_ID.trim(), client_secret: process.env.YT_CLIENT_SECRET.trim() }) });
   const j = await res.json();
   if (!j.access_token) throw new Error(`Google token: ${res.status} ${JSON.stringify(j).slice(0, 200)}`);
   cached = { token: j.access_token, until: Date.now() + (j.expires_in - 120) * 1e3 };
