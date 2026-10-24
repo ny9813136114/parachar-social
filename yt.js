@@ -1,5 +1,5 @@
 // YouTube Data API straight from GitHub Actions (free, no Make credits), with the owner's own OAuth client.
-// Secrets: YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN (scope https://www.googleapis.com/auth/youtube).
+// Secrets: YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN (scopes youtube + youtube.force-ssl; comments need force-ssl).
 // send(payload) takes the same payloads publish.js, comment.js and api.js used to post to the Make webhook
 // and returns Make's reply shapes, so those scripts work unchanged; without the secrets it posts to Make as before.
 // Usage: node yt.js report > r.json     channel video stats and playlists for the weekly report
