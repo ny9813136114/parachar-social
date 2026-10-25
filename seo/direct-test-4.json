@@ -1,0 +1,1 @@
+[{"name":"channel","method":"GET","path":"/v3/channels?part=snippet&mine=true"},{"name":"test","method":"GET","path":"/v3/videos?part=status&id=e74nBq9KfNM"}]
