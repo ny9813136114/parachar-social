@@ -1,0 +1,29 @@
+{
+  "after": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#videoListResponse",
+      "etag": "0JAmvBaaqg6A8OTRU_MS4DtpUq0",
+      "items": [
+        {
+          "kind": "youtube#video",
+          "etag": "UimFhLEs0Czp1KpT6U7cQnDVtgU",
+          "id": "58RRNLDI_Ao",
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          }
+        }
+      ],
+      "pageInfo": {
+        "totalResults": 1,
+        "resultsPerPage": 1
+      }
+    }
+  }
+}
