@@ -100,7 +100,7 @@ async function postOne(key, v, acc, done) {
   const yt = fs.existsSync(ytLog) ? JSON.parse(fs.readFileSync(ytLog, 'utf8')) : {};
   const done = fs.existsSync(metaLog) ? JSON.parse(fs.readFileSync(metaLog, 'utf8')) : {};
   const due = cmd === 'test' ? [[arg, yt[arg]]]
-    : Object.entries(yt).filter(([k, v]) => v.release && Date.parse(v.publishAt) <= Date.now() && Date.parse(v.publishAt) >= SINCE
+    : Object.entries(yt).filter(([k, v]) => v.release && !v.release.startsWith('long-') && Date.parse(v.publishAt) <= Date.now() && Date.parse(v.publishAt) >= SINCE
         && !(done[k] && done[k].instagram && done[k].facebook));
   for (const [k, v] of due) {
     if (!v || !v.release) { console.log(`::warning::${k}: no release tag recorded, skipped`); continue; }

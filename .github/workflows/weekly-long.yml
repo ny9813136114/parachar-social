@@ -1,17 +1,18 @@
-name: Weekly long video
+name: Long and mid videos
 
-# Every Saturday evening: render Sunday's long video from videos/long/<Sunday's date>-*.json (16:9, chapters,
-# clickable tool links in the description) and send it to Make, which uploads it Private and scheduled for
-# Sunday 11:00 IST. Published specs move to videos/long/published/. Pause with repo variable AUTO_PUBLISH=off.
+# Every evening: render tomorrow's 16:9 video from videos/long/<date>-*.json (the Sunday 6-min long video, or a
+# 2-3 min mid video on Tue/Thu/Sat), with chapters and tool links in the description, and upload it Private and
+# scheduled at the spec's "slot" (IST, default 11:00). Published specs move to videos/long/published/.
+# Pause with repo variable AUTO_PUBLISH=off.
 
 on:
   schedule:
-    - cron: "30 15 * * 6" # Saturday 21:00 IST
-    - cron: "30 18 * * 6" # Sunday 00:00 IST backup
+    - cron: "30 15 * * *" # 21:00 IST, prepares tomorrow
+    - cron: "30 18 * * *" # 00:00 IST backup
   workflow_dispatch:
     inputs:
       file:
-        description: "Spec to render (default: the one dated next Sunday)"
+        description: "Spec to render (default: the one dated tomorrow)"
         default: ""
       private_only:
         description: "Test: upload as Private with no publish time"
@@ -36,7 +37,6 @@ jobs:
       YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
       IN_FILE: ${{ github.event.inputs.file }}
       PRIVATE_ONLY: ${{ github.event.inputs.private_only || 'false' }}
-      PUBLISH_SLOTS: "11:00"
       PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       MUSIC: "on"
       TTS_ENGINE: edge
@@ -48,13 +48,14 @@ jobs:
       - name: Pick the spec
         id: pick
         run: |
-          if [ -z "$MAKE_WEBHOOK_URL" ] || [ "${{ vars.AUTO_PUBLISH }}" = "off" ]; then echo "file=" >> "$GITHUB_OUTPUT"; exit 0; fi
-          # The coming Sunday in IST (today if it is already Sunday after midnight).
-          DATE=$(TZ=Asia/Kolkata date -d "$( [ "$(TZ=Asia/Kolkata date +%u)" = 7 ] && echo today || echo 'next sunday')" +%F)
+          if { [ -z "$MAKE_WEBHOOK_URL" ] && [ -z "$YT_REFRESH_TOKEN" ]; } || [ "${{ vars.AUTO_PUBLISH }}" = "off" ]; then echo "file=" >> "$GITHUB_OUTPUT"; exit 0; fi
+          # Target day = IST now + 9 h, as in daily-youtube: the 21:00 run prepares tomorrow, the midnight backup today.
+          DATE=$(TZ=Asia/Kolkata date -d '+9 hours' +%F)
           F="${IN_FILE:-$(ls videos/long/"$DATE"-*.json 2>/dev/null | head -n 1)}"
           [ -n "$IN_FILE" ] && DATE="$(basename "$F" | cut -c1-10)"
           echo "file=$F" >> "$GITHUB_OUTPUT"; echo "date=$DATE" >> "$GITHUB_OUTPUT"
-          [ -n "$F" ] && echo "Long video for $DATE: $F" || echo "::warning::No long video queued for $DATE"
+          [ -n "$F" ] && echo "slot=$(node -p "require('./$F').slot||'11:00'")" >> "$GITHUB_OUTPUT"
+          [ -n "$F" ] && echo "Video for $DATE: $F" || echo "No long or mid video queued for $DATE"
 
       - uses: actions/setup-node@v4
         if: steps.pick.outputs.file != ''
@@ -85,15 +86,16 @@ jobs:
           ID=$(node -p "require('./${{ steps.pick.outputs.file }}').id")
           TAG="long-${{ steps.pick.outputs.date }}-${{ github.run_number }}-${{ github.run_attempt }}"
           cp "out/$ID/thumbnail.png" "out/$ID/$ID-thumbnail.png"
-          gh release create "$TAG" "out/$ID/$ID.mp4" "out/$ID/$ID-thumbnail.png" "out/$ID/chapters.txt" --title "Long video ${{ steps.pick.outputs.date }}" \
-            --notes "Scheduled Sunday 11:00 IST. Set the thumbnail in YouTube Studio (file attached)."
+          gh release create "$TAG" "out/$ID/$ID.mp4" "out/$ID/$ID-thumbnail.png" "out/$ID/chapters.txt" --title "Video ${{ steps.pick.outputs.date }}" \
+            --notes "Scheduled ${{ steps.pick.outputs.date }} ${{ steps.pick.outputs.slot }} IST. Set the thumbnail in YouTube Studio (file attached)."
           echo "tag=$TAG" >> "$GITHUB_OUTPUT"; echo "id=$ID" >> "$GITHUB_OUTPUT"
 
-      - name: Send to Make (YouTube upload)
+      - name: Upload to YouTube
         if: steps.pick.outputs.file != ''
         env:
           GH_TOKEN: ${{ github.token }}
           RELEASE_TAG: ${{ steps.rel.outputs.tag }}
+          PUBLISH_SLOTS: ${{ steps.pick.outputs.slot }}
         run: node publish.js "${{ steps.pick.outputs.date }}" "out/${{ steps.rel.outputs.id }}"
 
       - name: Move the published spec
