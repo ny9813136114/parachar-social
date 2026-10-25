@@ -1,0 +1,150 @@
+{
+  "both": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#videoListResponse",
+      "etag": "m973BbYCNNT_W99PofyGaIrXukY",
+      "items": [
+        {
+          "kind": "youtube#video",
+          "etag": "oBxyvuJvs_tBeZvmhnBRstMVT78",
+          "id": "e74nBq9KfNM",
+          "snippet": {
+            "publishedAt": "2026-10-19T08:08:56Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Post Office Scheme 2026: ₹1 लाख कहाँ लगाएँ? NSC, PPF, SCSS, MIS, KVP, सुकन्या, RD की पूरी तुलना",
+            "description": "Post Office Scheme 2026 हिंदी में: अक्टूबर-दिसंबर 2026 की ब्याज दरें और ₹1 लाख पर हर स्कीम में कितना मिलेगा\n👉 फ्री कैलकुलेटर: https://parachar.com/post-office-scheme-calculator/\n\nपोस्ट ऑफिस की 9 बचत योजनाएँ एक वीडियो में: अक्टूबर-दिसंबर 2026 की ब्याज दरें (SCSS और सुकन्या 8.2%, NSC 7.7%, KVP और TD 5 साल 7.5%, MIS 7.4%, PPF 7.1%, RD 6.7%), ₹1 लाख एक बार लगाने पर NSC, TD और KVP में कितना बनेगा, हर महीने आमदनी के लिए MIS या SCSS, लंबी बचत के लिए PPF और सुकन्या, और ₹1,000 की RD। आख़िर में आसान गाइड: आपके लिए कौन सी स्कीम सही है।\n\n⏱ इस वीडियो में:\n0:00 शुरुआत\n0:30 नई ब्याज दरें\n1:19 एक बार ₹1 लाख: NSC, TD, KVP\n2:32 हर महीने आमदनी: MIS और SCSS\n3:41 लंबी बचत: PPF और सुकन्या\n4:48 छोटी बचत: RD\n5:26 आपके लिए कौन सी स्कीम?\n\n🔗 वीडियो में दिखाए गए फ्री टूल:\n• पोस्ट ऑफिस स्कीम कैलकुलेटर: https://parachar.com/post-office-scheme-calculator/\n• सुकन्या समृद्धि कैलकुलेटर: https://parachar.com/sukanya-samriddhi-yojana-calculator/\n\npost office scheme calculator से अपनी रकम पर हिसाब देखें: post office interest rate 2026, NSC kitna milega, MIS monthly income kitni hogi, PPF 15 saal me kitna banega और sukanya samriddhi yojana calculator. सभी आँकड़े पोस्ट ऑफिस की मौजूदा दरों पर हमारे फ्री कैलकुलेटर से निकाले गए हैं।\n\nस्रोत: वित्त मंत्रालय, 30 सितंबर 2026 (अक्टूबर-दिसंबर 2026 की दरें) · जाँच: 19 अक्टूबर 2026 · हिसाब अनुमान है, निवेश की सलाह नहीं\n\n▶ ऐसे और वीडियो (बैंक, UPI और बचत योजनाएँ): https://www.youtube.com/playlist?list=PLDBOcuU_Prr4\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#PostOffice #PostOfficeScheme #PPF #SukanyaSamriddhi #SmallSavings",
+            "thumbnails": {
+              "default": {
+                "url": "https://i9.ytimg.com/vi/e74nBq9KfNM/default.jpg?sqp=CMCp-NYG&rs=AOn4CLCOWepxL2vj5aSy4HVJFCrErYjZwA",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i9.ytimg.com/vi/e74nBq9KfNM/mqdefault.jpg?sqp=CMCp-NYG&rs=AOn4CLArVZcEPcZdD9_IRS6HjZbpAWbtHw",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i9.ytimg.com/vi/e74nBq9KfNM/hqdefault.jpg?sqp=CMCp-NYG&rs=AOn4CLAwOjZAGZekX7xwnlCqpYfBwdWrOA",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i9.ytimg.com/vi/e74nBq9KfNM/sddefault.jpg?sqp=CMCp-NYG&rs=AOn4CLBDE8n2i66ONXeUsQpk9AciD4vAcA",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i9.ytimg.com/vi/e74nBq9KfNM/maxresdefault.jpg?sqp=CMCp-NYG&rs=AOn4CLCvS52tEkqZLdh2OJZVTw2gli8VMA",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "best post office scheme",
+              "nsc vs kvp vs ppf",
+              "post office interest rate 2026",
+              "post office mis scheme",
+              "post office rd 1000 per month",
+              "post office scheme 2026",
+              "post office scheme calculator",
+              "scss interest rate 2026",
+              "sukanya samriddhi yojana",
+              "पोस्ट ऑफिस स्कीम"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "localized": {
+              "title": "Post Office Scheme 2026: ₹1 लाख कहाँ लगाएँ? NSC, PPF, SCSS, MIS, KVP, सुकन्या, RD की पूरी तुलना",
+              "description": "Post Office Scheme 2026 हिंदी में: अक्टूबर-दिसंबर 2026 की ब्याज दरें और ₹1 लाख पर हर स्कीम में कितना मिलेगा\n👉 फ्री कैलकुलेटर: https://parachar.com/post-office-scheme-calculator/\n\nपोस्ट ऑफिस की 9 बचत योजनाएँ एक वीडियो में: अक्टूबर-दिसंबर 2026 की ब्याज दरें (SCSS और सुकन्या 8.2%, NSC 7.7%, KVP और TD 5 साल 7.5%, MIS 7.4%, PPF 7.1%, RD 6.7%), ₹1 लाख एक बार लगाने पर NSC, TD और KVP में कितना बनेगा, हर महीने आमदनी के लिए MIS या SCSS, लंबी बचत के लिए PPF और सुकन्या, और ₹1,000 की RD। आख़िर में आसान गाइड: आपके लिए कौन सी स्कीम सही है।\n\n⏱ इस वीडियो में:\n0:00 शुरुआत\n0:30 नई ब्याज दरें\n1:19 एक बार ₹1 लाख: NSC, TD, KVP\n2:32 हर महीने आमदनी: MIS और SCSS\n3:41 लंबी बचत: PPF और सुकन्या\n4:48 छोटी बचत: RD\n5:26 आपके लिए कौन सी स्कीम?\n\n🔗 वीडियो में दिखाए गए फ्री टूल:\n• पोस्ट ऑफिस स्कीम कैलकुलेटर: https://parachar.com/post-office-scheme-calculator/\n• सुकन्या समृद्धि कैलकुलेटर: https://parachar.com/sukanya-samriddhi-yojana-calculator/\n\npost office scheme calculator से अपनी रकम पर हिसाब देखें: post office interest rate 2026, NSC kitna milega, MIS monthly income kitni hogi, PPF 15 saal me kitna banega और sukanya samriddhi yojana calculator. सभी आँकड़े पोस्ट ऑफिस की मौजूदा दरों पर हमारे फ्री कैलकुलेटर से निकाले गए हैं।\n\nस्रोत: वित्त मंत्रालय, 30 सितंबर 2026 (अक्टूबर-दिसंबर 2026 की दरें) · जाँच: 19 अक्टूबर 2026 · हिसाब अनुमान है, निवेश की सलाह नहीं\n\n▶ ऐसे और वीडियो (बैंक, UPI और बचत योजनाएँ): https://www.youtube.com/playlist?list=PLDBOcuU_Prr4\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#PostOffice #PostOfficeScheme #PPF #SukanyaSamriddhi #SmallSavings"
+            },
+            "defaultAudioLanguage": "en-US"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "private",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": false,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "mHPOn146ipx2L5sZVX5ZuV4yGtY",
+          "id": "58RRNLDI_Ao",
+          "snippet": {
+            "publishedAt": "2026-10-25T05:30:07Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Post Office Scheme 2026: ₹1 लाख कहाँ लगाएँ? NSC, PPF, SCSS, MIS, KVP, सुकन्या, RD की पूरी तुलना",
+            "description": "Post Office Scheme 2026 हिंदी में: अक्टूबर-दिसंबर 2026 की ब्याज दरें और ₹1 लाख पर हर स्कीम में कितना मिलेगा\n👉 फ्री कैलकुलेटर: https://parachar.com/post-office-scheme-calculator/\n\nपोस्ट ऑफिस की 9 बचत योजनाएँ एक वीडियो में: अक्टूबर-दिसंबर 2026 की ब्याज दरें (SCSS और सुकन्या 8.2%, NSC 7.7%, KVP और TD 5 साल 7.5%, MIS 7.4%, PPF 7.1%, RD 6.7%), ₹1 लाख एक बार लगाने पर NSC, TD और KVP में कितना बनेगा, हर महीने आमदनी के लिए MIS या SCSS, लंबी बचत के लिए PPF और सुकन्या, और ₹1,000 की RD। आख़िर में आसान गाइड: आपके लिए कौन सी स्कीम सही है।\n\n⏱ इस वीडियो में:\n0:00 शुरुआत\n0:30 नई ब्याज दरें\n1:19 एक बार ₹1 लाख: NSC, TD, KVP\n2:32 हर महीने आमदनी: MIS और SCSS\n3:41 लंबी बचत: PPF और सुकन्या\n4:48 छोटी बचत: RD\n5:26 आपके लिए कौन सी स्कीम?\n\n🔗 वीडियो में दिखाए गए फ्री टूल:\n• पोस्ट ऑफिस स्कीम कैलकुलेटर: https://parachar.com/post-office-scheme-calculator/\n• सुकन्या समृद्धि कैलकुलेटर: https://parachar.com/sukanya-samriddhi-yojana-calculator/\n\npost office scheme calculator से अपनी रकम पर हिसाब देखें: post office interest rate 2026, NSC kitna milega, MIS monthly income kitni hogi, PPF 15 saal me kitna banega और sukanya samriddhi yojana calculator. सभी आँकड़े पोस्ट ऑफिस की मौजूदा दरों पर हमारे फ्री कैलकुलेटर से निकाले गए हैं।\n\nस्रोत: वित्त मंत्रालय, 30 सितंबर 2026 (अक्टूबर-दिसंबर 2026 की दरें) · जाँच: 19 अक्टूबर 2026 · हिसाब अनुमान है, निवेश की सलाह नहीं\n\n▶ ऐसे और वीडियो (बैंक, UPI और बचत योजनाएँ): https://www.youtube.com/playlist?list=PLDBOcuU_Prr4\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#PostOffice #PostOfficeScheme #PPF #SukanyaSamriddhi #SmallSavings",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/58RRNLDI_Ao/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/58RRNLDI_Ao/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/58RRNLDI_Ao/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/58RRNLDI_Ao/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/58RRNLDI_Ao/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "best post office scheme",
+              "nsc vs kvp vs ppf",
+              "post office interest rate 2026",
+              "post office mis scheme",
+              "post office rd 1000 per month",
+              "post office scheme 2026",
+              "post office scheme calculator",
+              "scss interest rate 2026",
+              "sukanya samriddhi yojana",
+              "पोस्ट ऑफिस स्कीम"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "Post Office Scheme 2026: ₹1 लाख कहाँ लगाएँ? NSC, PPF, SCSS, MIS, KVP, सुकन्या, RD की पूरी तुलना",
+              "description": "Post Office Scheme 2026 हिंदी में: अक्टूबर-दिसंबर 2026 की ब्याज दरें और ₹1 लाख पर हर स्कीम में कितना मिलेगा\n👉 फ्री कैलकुलेटर: https://parachar.com/post-office-scheme-calculator/\n\nपोस्ट ऑफिस की 9 बचत योजनाएँ एक वीडियो में: अक्टूबर-दिसंबर 2026 की ब्याज दरें (SCSS और सुकन्या 8.2%, NSC 7.7%, KVP और TD 5 साल 7.5%, MIS 7.4%, PPF 7.1%, RD 6.7%), ₹1 लाख एक बार लगाने पर NSC, TD और KVP में कितना बनेगा, हर महीने आमदनी के लिए MIS या SCSS, लंबी बचत के लिए PPF और सुकन्या, और ₹1,000 की RD। आख़िर में आसान गाइड: आपके लिए कौन सी स्कीम सही है।\n\n⏱ इस वीडियो में:\n0:00 शुरुआत\n0:30 नई ब्याज दरें\n1:19 एक बार ₹1 लाख: NSC, TD, KVP\n2:32 हर महीने आमदनी: MIS और SCSS\n3:41 लंबी बचत: PPF और सुकन्या\n4:48 छोटी बचत: RD\n5:26 आपके लिए कौन सी स्कीम?\n\n🔗 वीडियो में दिखाए गए फ्री टूल:\n• पोस्ट ऑफिस स्कीम कैलकुलेटर: https://parachar.com/post-office-scheme-calculator/\n• सुकन्या समृद्धि कैलकुलेटर: https://parachar.com/sukanya-samriddhi-yojana-calculator/\n\npost office scheme calculator से अपनी रकम पर हिसाब देखें: post office interest rate 2026, NSC kitna milega, MIS monthly income kitni hogi, PPF 15 saal me kitna banega और sukanya samriddhi yojana calculator. सभी आँकड़े पोस्ट ऑफिस की मौजूदा दरों पर हमारे फ्री कैलकुलेटर से निकाले गए हैं।\n\nस्रोत: वित्त मंत्रालय, 30 सितंबर 2026 (अक्टूबर-दिसंबर 2026 की दरें) · जाँच: 19 अक्टूबर 2026 · हिसाब अनुमान है, निवेश की सलाह नहीं\n\n▶ ऐसे और वीडियो (बैंक, UPI और बचत योजनाएँ): https://www.youtube.com/playlist?list=PLDBOcuU_Prr4\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#PostOffice #PostOfficeScheme #PPF #SukanyaSamriddhi #SmallSavings"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          }
+        }
+      ],
+      "pageInfo": {
+        "totalResults": 2,
+        "resultsPerPage": 2
+      }
+    }
+  }
+}
