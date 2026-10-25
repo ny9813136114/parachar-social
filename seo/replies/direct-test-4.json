@@ -1,0 +1,76 @@
+{
+  "channel": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#channelListResponse",
+      "etag": "7yefiqggo8i4HwNz1voTUAVrS4o",
+      "pageInfo": {
+        "totalResults": 1,
+        "resultsPerPage": 5
+      },
+      "items": [
+        {
+          "kind": "youtube#channel",
+          "etag": "jQt6Xt_NOwQulOnE8uETsSnVcMI",
+          "id": "UCdqRVpQKsb5huTo6__pTpuA",
+          "snippet": {
+            "title": "Parachar",
+            "description": "Parachar: सरकारी योजना, लोन, सब्सिडी, इनकम टैक्स, पेंशन और बचत का सीधा ₹ हिसाब, हिंदी में 60 सेकंड के Shorts।\n\nहर दिन 3 नए Shorts: PMEGP, मुद्रा लोन, CGTMSE (बिना गारंटी लोन), PM सूर्य घर सोलर सब्सिडी, अटल पेंशन योजना, ग्रेच्युटी, इनकम टैक्स, UPI लिमिट, पोस्ट ऑफिस ब्याज दरें, FASTag और चेक बाउंस जैसे रोज़ के नियम। हर वीडियो में असली ₹ हिसाब, सरकारी स्रोत और जाँच की तारीख।\n\n✅ 100+ फ्री कैलकुलेटर: बिना लॉगिन, बिना फ़ोन नंबर\n✅ नियम सरकारी वेबसाइट से जाँचे हुए\n⚠️ हमारे हिसाब अनुमान हैं, लोन की मंज़ूरी नहीं। आवेदन हमेशा सरकारी पोर्टल पर, फ्री। एजेंट को पैसे न दें।\n\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\nFree Hindi calculators for Indian government schemes, business loans, subsidies, income tax, pension and savings. 3 new Shorts every day.\n",
+            "customUrl": "@parachar",
+            "publishedAt": "2026-10-11T14:38:48.783143Z",
+            "thumbnails": {
+              "default": {
+                "url": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s88-c-k-c0x00ffffff-no-rj",
+                "width": 88,
+                "height": 88
+              },
+              "medium": {
+                "url": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s240-c-k-c0x00ffffff-no-rj",
+                "width": 240,
+                "height": 240
+              },
+              "high": {
+                "url": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s800-c-k-c0x00ffffff-no-rj",
+                "width": 800,
+                "height": 800
+              }
+            },
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "Parachar",
+              "description": "Parachar: सरकारी योजना, लोन, सब्सिडी, इनकम टैक्स, पेंशन और बचत का सीधा ₹ हिसाब, हिंदी में 60 सेकंड के Shorts।\n\nहर दिन 3 नए Shorts: PMEGP, मुद्रा लोन, CGTMSE (बिना गारंटी लोन), PM सूर्य घर सोलर सब्सिडी, अटल पेंशन योजना, ग्रेच्युटी, इनकम टैक्स, UPI लिमिट, पोस्ट ऑफिस ब्याज दरें, FASTag और चेक बाउंस जैसे रोज़ के नियम। हर वीडियो में असली ₹ हिसाब, सरकारी स्रोत और जाँच की तारीख।\n\n✅ 100+ फ्री कैलकुलेटर: बिना लॉगिन, बिना फ़ोन नंबर\n✅ नियम सरकारी वेबसाइट से जाँचे हुए\n⚠️ हमारे हिसाब अनुमान हैं, लोन की मंज़ूरी नहीं। आवेदन हमेशा सरकारी पोर्टल पर, फ्री। एजेंट को पैसे न दें।\n\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\nFree Hindi calculators for Indian government schemes, business loans, subsidies, income tax, pension and savings. 3 new Shorts every day.\n"
+            },
+            "country": "IN"
+          }
+        }
+      ]
+    }
+  },
+  "test": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#videoListResponse",
+      "etag": "aqLNcYqUef6rJ63cf3CB8nOTHqU",
+      "items": [
+        {
+          "kind": "youtube#video",
+          "etag": "FAbiVdSIbCqIWuAWRaKjPqLXnxQ",
+          "id": "e74nBq9KfNM",
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "private",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": false,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          }
+        }
+      ],
+      "pageInfo": {
+        "totalResults": 1,
+        "resultsPerPage": 1
+      }
+    }
+  }
+}
