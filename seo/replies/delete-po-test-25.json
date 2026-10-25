@@ -1,0 +1,47 @@
+{
+  "delete": {
+    "status": "204",
+    "body": {}
+  },
+  "after": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#videoListResponse",
+      "etag": "hAeWzcepYk_W-OoQY0n9SJi65QA",
+      "items": [
+        {
+          "kind": "youtube#video",
+          "etag": "FAbiVdSIbCqIWuAWRaKjPqLXnxQ",
+          "id": "e74nBq9KfNM",
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "private",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": false,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "UimFhLEs0Czp1KpT6U7cQnDVtgU",
+          "id": "58RRNLDI_Ao",
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          }
+        }
+      ],
+      "pageInfo": {
+        "totalResults": 2,
+        "resultsPerPage": 2
+      }
+    }
+  }
+}
