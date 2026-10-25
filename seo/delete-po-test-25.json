@@ -1,0 +1,4 @@
+[
+  { "name": "delete", "method": "DELETE", "path": "/v3/videos?id=e74nBq9KfNM" },
+  { "name": "after", "method": "GET", "path": "/v3/videos?part=status&id=e74nBq9KfNM,58RRNLDI_Ao" }
+]
