@@ -89,8 +89,8 @@ async function postOne(key, v, acc, done) {
   const [cmd, arg] = process.argv.slice(2);
   if (cmd === 'ids') return console.log(JSON.stringify(acc));
   if (cmd === 'profiles') { // public profile links for the website's follow icons
-    console.log('instagram', JSON.stringify(await graph('GET', `/${acc.ig}`, { fields: 'username,media_count' })));
-    console.log('facebook', JSON.stringify(await graph('GET', `/${acc.page}`, { fields: 'link,username,name' })));
+    for (const [net, id, f] of [['instagram', acc.ig, 'username'], ['instagram', acc.ig, 'media_count'], ['facebook', acc.page, 'link'], ['facebook', acc.page, 'username'], ['facebook', acc.page, 'name']])
+      try { console.log(net, f, JSON.stringify(await graph('GET', `/${id}`, { fields: f }))); } catch (e) { console.log(net, f, 'error', e.message.slice(0, 200)); }
     return;
   }
   if (cmd === 'check') { // confirm a recorded post is really live on both
