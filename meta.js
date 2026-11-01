@@ -88,6 +88,11 @@ async function postOne(key, v, acc, done) {
   const acc = await ids();
   const [cmd, arg] = process.argv.slice(2);
   if (cmd === 'ids') return console.log(JSON.stringify(acc));
+  if (cmd === 'profiles') { // public profile links for the website's follow icons
+    console.log('instagram', JSON.stringify(await graph('GET', `/${acc.ig}`, { fields: 'username,media_count' })));
+    console.log('facebook', JSON.stringify(await graph('GET', `/${acc.page}`, { fields: 'link,username,name' })));
+    return;
+  }
   if (cmd === 'check') { // confirm a recorded post is really live on both
     const r = JSON.parse(fs.readFileSync(metaLog, 'utf8'))[arg] || {};
     if (r.instagram) console.log('instagram', JSON.stringify(await graph('GET', `/${r.instagram}`, { fields: 'permalink,media_product_type,timestamp' })));
