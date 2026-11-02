@@ -1,0 +1,87 @@
+{
+  "id": "mudra-loan-agent-fees-myth",
+  "template": "T2 myth-vs-sach",
+  "theme": "amber",
+  "voice": "hi-IN-SwaraNeural",
+  "trust": "स्रोत: प्रधानमंत्री मुद्रा योजना (mudra.org.in, myscheme.gov.in), PIB फ़ैक्ट चेक · जाँच: 2 नवंबर 2026 · बैंक की फ़ीस अलग-अलग हो सकती है",
+  "url": "https://parachar.com/mudra-loan-calculator/",
+  "search": "parachar mudra loan",
+  "question": "किसी ने मुद्रा लोन के लिए आपसे पैसे माँगे? हाँ या ना लिखिए 👇",
+  "campaign": "mudra",
+  "playlist": "मुद्रा लोन",
+  "title": "Mudra Loan के लिए Agent को फ़ीस? ❌ आवेदन फ्री, शिशु लोन पर कोई प्रोसेसिंग फ़ीस नहीं #shorts",
+  "seoIntro": "Mudra loan fees 2026: आवेदन फ्री, शिशु (₹50,000 तक) पर कोई प्रोसेसिंग फ़ीस नहीं",
+  "description": "मुद्रा लोन का आवेदन फ्री है: किसी भी बैंक, RRB, स्मॉल फ़ाइनेंस बैंक या NBFC की शाखा में, या udyamimitra.in पर। शिशु लोन (₹50,000 तक) पर प्रोसेसिंग फ़ीस नहीं; किशोर, तरुण पर बैंक के हिसाब से नहीं या बहुत कम। कोई गारंटी या ज़मानत नहीं। ₹350 या कोई भी फ़ीस लेकर 'approval letter' भेजने वाले फ़र्ज़ी हैं, PIB फ़ैक्ट चेक ने भी चेताया है। अपनी EMI देखें, फ्री:",
+  "about": "Mudra loan agent fees, mudra loan approval letter fake और mudra loan kaise milega, आसान हिंदी में। प्रोसेसिंग फ़ीस बैंक तय करता है, आवेदन से पहले शाखा में लिखित में पूछें।",
+  "hashtags": [
+    "#MudraLoan",
+    "#PMMY",
+    "#FraudAlert",
+    "#BusinessLoan",
+    "#SarkariYojana"
+  ],
+  "tags": [
+    "mudra loan fees",
+    "mudra loan agent",
+    "mudra loan approval letter fake",
+    "mudra loan processing fee",
+    "मुद्रा लोन फ़ीस",
+    "mudra loan fraud",
+    "shishu mudra loan",
+    "मुद्रा लोन कैसे मिलेगा"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "chip": "मुद्रा लोन",
+      "lines": [
+        "लोन के लिए",
+        "*फ़ीस* भरनी पड़ेगी?"
+      ],
+      "sub": "सच जानिए 👇",
+      "say": "मुद्रा लोन दिलाने के लिए किसी ने फ़ीस माँगी? रुकिए।"
+    },
+    {
+      "type": "myth",
+      "dur": 5.6,
+      "myth": "एजेंट को पैसे दो, तभी लोन मिलेगा",
+      "fact": "आवेदन *फ्री*, शिशु पर कोई फ़ीस नहीं",
+      "sub": "₹50,000 तक के शिशु लोन पर प्रोसेसिंग फ़ीस नहीं · गारंटी भी नहीं",
+      "say": "बहुत लोग सोचते हैं एजेंट के बिना लोन नहीं मिलता। सच ये है कि आवेदन फ्री है, और शिशु लोन पर कोई प्रोसेसिंग फ़ीस नहीं।"
+    },
+    {
+      "type": "list",
+      "dur": 5.4,
+      "heading": "सीधा आवेदन कहाँ?",
+      "items": [
+        "किसी भी *बैंक शाखा*, RRB या NBFC",
+        "ऑनलाइन: *udyamimitra.in*",
+        "साथ में: आधार, PAN, *बिज़नेस प्लान*"
+      ],
+      "say": "सीधे किसी भी बैंक शाखा में जाइए, या udyamimitra dot in पर। आधार, PAN और बिज़नेस प्लान साथ रखिए।"
+    },
+    {
+      "type": "warn",
+      "dur": 4.8,
+      "icon": "🚫",
+      "text": "₹350 लेकर *approval letter*? फ़र्ज़ी",
+      "sub": "PIB फ़ैक्ट चेक: मुद्रा के नाम पर फ़ीस माँगने वाले ठग हैं",
+      "say": "और कोई साढ़े तीन सौ या कोई भी फ़ीस लेकर approval letter भेजे, तो वो ठगी है।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "line": "आपके लोन की EMI कितनी?<br><em>रकम डालें, हिसाब पाएँ</em>",
+      "tool": "मुद्रा लोन कैलकुलेटर",
+      "say": "अपने लोन की EMI देखनी है? Google में parachar mudra loan लिखिए।"
+    }
+  ],
+  "broll": [
+    "indian small shop owner",
+    "indian bank branch",
+    "indian man smartphone scam",
+    "indian woman tailoring shop",
+    "indian documents aadhaar"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "surya-ghar-subsidy-kab-aayegi",
+  "template": "T5 list",
+  "theme": "teal",
+  "voice": "hi-IN-SwaraNeural",
+  "trust": "स्रोत: MNRE PM सूर्य घर दिशानिर्देश 2024, pmsuryaghar.gov.in, राज्यसभा प्रश्न 267 (4 फ़रवरी 2025) · जाँच: 2 नवंबर 2026 · दिन अनुमान हैं, बदल सकते हैं",
+  "url": "https://parachar.com/pm-surya-ghar-subsidy-status-check-kab-aayegi-kaise-check-kare/",
+  "search": "parachar surya ghar status",
+  "question": "आपकी सब्सिडी किस स्टेज पर अटकी है? लिखिए 👇",
+  "campaign": "surya-ghar",
+  "playlist": "सरकारी सब्सिडी योजनाएँ",
+  "title": "Surya Ghar सब्सिडी कब आएगी? 4 स्टेज, कितने दिन, और पैसा क्यों अटकता है #shorts",
+  "seoIntro": "PM Surya Ghar subsidy kab aayegi 2026: नेट मीटर के बाद बैंक डिटेल जमा करें, करीब 30 दिन में खाते में",
+  "description": "PM सूर्य घर में सब्सिडी 4 स्टेज के बाद आती है: डिस्कॉम की मंज़ूरी (करीब 15 दिन), सोलर लगने के बाद वेंडर पोर्टल पर अपडेट करे, नेट मीटर और जाँच (करीब 15 दिन), फिर पोर्टल पर बैंक डिटेल जमा करें और सब्सिडी करीब 30 दिन में सीधे खाते में। अधिकतम ₹78,000 (पहाड़ी और पूर्वोत्तर राज्यों में ₹85,800)। पैसा अटकने के आम कारण: आधार बैंक खाते से NPCI पर लिंक नहीं, नाम मेल नहीं खाता, वेंडर ने अपडेट नहीं किया। हेल्पलाइन 15555। अपनी स्टेज डालकर देखें, फ्री:",
+  "about": "Surya ghar subsidy kab aayegi, pm surya ghar subsidy status check और subsidy atak gayi to kya kare, आसान हिंदी में। दिन MNRE के दिशानिर्देश और रिपोर्ट से हैं; असल में डिस्कॉम के हिसाब से कम-ज़्यादा हो सकते हैं।",
+  "hashtags": [
+    "#SuryaGhar",
+    "#Solar",
+    "#Subsidy",
+    "#MuftBijli",
+    "#SarkariYojana"
+  ],
+  "tags": [
+    "surya ghar subsidy kab aayegi",
+    "pm surya ghar subsidy status",
+    "surya ghar subsidy check",
+    "सूर्य घर सब्सिडी कब आएगी",
+    "rooftop solar subsidy status",
+    "pm surya ghar subsidy not received",
+    "surya ghar 78000",
+    "सूर्य घर सब्सिडी स्टेटस"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "chip": "PM सूर्य घर",
+      "lines": [
+        "सोलर लग गया,",
+        "*सब्सिडी* कब आएगी?"
+      ],
+      "sub": "4 स्टेज, कितने दिन 👇",
+      "say": "छत पर सोलर लग गया, पर सब्सिडी अब तक नहीं आई? चार स्टेज समझ लीजिए।"
+    },
+    {
+      "type": "list",
+      "dur": 7.2,
+      "heading": "4 स्टेज, करीब कितने दिन",
+      "items": [
+        "डिस्कॉम की मंज़ूरी: *~15 दिन*",
+        "सोलर लगा, *वेंडर* पोर्टल पर अपडेट करे",
+        "नेट मीटर और जाँच: *~15 दिन*",
+        "बैंक डिटेल जमा, सब्सिडी *~30 दिन* में"
+      ],
+      "say": "पहले बिजली कंपनी की मंज़ूरी, करीब पंद्रह दिन। फिर सोलर लगने के बाद वेंडर पोर्टल पर अपडेट करे। फिर नेट मीटर और जाँच, करीब पंद्रह दिन। आख़िर में आप बैंक डिटेल जमा करें, और करीब तीस दिन में सब्सिडी।"
+    },
+    {
+      "type": "count",
+      "dur": 4.2,
+      "chip": "3 kW या ज़्यादा",
+      "label": "सीधे खाते में",
+      "value": 78000,
+      "note": "पहाड़ी और पूर्वोत्तर राज्य: ₹85,800",
+      "say": "तीन किलोवाट पर अठहत्तर हज़ार सीधे आपके खाते में।"
+    },
+    {
+      "type": "warn",
+      "dur": 5.2,
+      "icon": "⚠️",
+      "text": "पैसा अटका? *आधार-बैंक लिंक* देखें",
+      "sub": "NPCI पर आधार लिंक न हो या नाम मेल न खाए तो पैसा लौट जाता है · हेल्पलाइन 15555",
+      "say": "पैसा अटका है, तो सबसे पहले देखिए आपका आधार बैंक खाते से NPCI पर जुड़ा है या नहीं, और नाम मेल खाता है या नहीं।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "line": "आपकी सब्सिडी कहाँ अटकी?<br><em>स्टेज चुनें, अगला कदम पाएँ</em>",
+      "tool": "सूर्य घर स्टेटस चेकर",
+      "say": "आपकी सब्सिडी कहाँ अटकी है, देखना है? Google में parachar surya ghar status लिखिए।"
+    }
+  ],
+  "broll": [
+    "indian rooftop solar panels",
+    "indian electricity meter",
+    "indian woman smartphone banking",
+    "indian solar installation",
+    "indian house rooftop"
+  ]
+}
