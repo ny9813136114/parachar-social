@@ -299,5 +299,12 @@
     "comment": "किसी ने मुद्रा लोन के लिए आपसे पैसे माँगे? हाँ या ना लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/mudra-loan-calculator/",
     "commented": true,
     "release": "yt-2026-11-06-65-1"
+  },
+  "fastag-blacklist-double-toll-mid": {
+    "videoId": "4pSD9yGgIk4",
+    "publishAt": "2026-11-07T12:30:00.000Z",
+    "comment": "आपका FASTag कभी ब्लैकलिस्ट हुआ है? हाँ या ना लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/fastag-blacklist-kaise-hataye/",
+    "commented": false,
+    "release": "long-2026-11-07-34-1"
   }
 }
