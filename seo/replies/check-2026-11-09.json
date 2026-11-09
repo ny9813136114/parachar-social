@@ -1,0 +1,891 @@
+{
+  "v": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#videoListResponse",
+      "etag": "9BWV4eT9xlFP9QdbHqW3d4ON4cc",
+      "items": [
+        {
+          "kind": "youtube#video",
+          "etag": "k1FoIbOVYs1ORpUPz3gSbVDPVfI",
+          "id": "pDlqUL-kSPk",
+          "snippet": {
+            "publishedAt": "2026-11-02T03:30:20Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Atal Pension Yojana: 18 की उम्र में ₹210 महीना, 60 के बाद ₹5,000 पेंशन | APY Chart #shorts",
+            "description": "Atal Pension Yojana chart 2026: 18 साल में ₹210, 40 साल में ₹1,454 महीना\n👉 फ्री कैलकुलेटर: https://parachar.com/atal-pension-yojana-chart-calculator/\n\nअटल पेंशन योजना में ₹5,000 महीना पेंशन के लिए 18 की उम्र में सिर्फ़ ₹210 महीना जमा (42 साल, कुल करीब ₹1,05,840)। 25 की उम्र में ₹376, 30 में ₹577 (कुल करीब ₹2,07,720), 35 में ₹902, 40 में ₹1,454। पति-पत्नी दोनों के बाद नॉमिनी को करीब ₹8.5 लाख। 1 अक्टूबर 2022 से इनकम टैक्स भरने वाले नहीं जुड़ सकते। अपनी उम्र का चार्ट, फ्री:\nhttps://parachar.com/atal-pension-yojana-chart-calculator/\n\nAtal pension yojana chart में उम्र के हिसाब से देखें कि ₹1,000 से ₹5,000 पेंशन के लिए हर महीने कितना जमा करना होगा। APY calculator बताता है कि जल्दी शुरू करने पर जमा आधा रह जाता है। atal pension yojana kaise khole: अपने बैंक या पोस्ट ऑफिस बचत खाते से।\n\nस्रोत: PFRDA अटल पेंशन योजना अंशदान चार्ट · जाँच: 14 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं\n\n▶ ऐसे और Shorts (पेंशन और रिटायरमेंट): https://www.youtube.com/playlist?list=PLHve-MXNo9TA\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#AtalPensionYojana #APY #Pension #Retirement #SarkariYojana",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/pDlqUL-kSPk/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/pDlqUL-kSPk/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/pDlqUL-kSPk/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/pDlqUL-kSPk/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/pDlqUL-kSPk/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "apy 18 years",
+              "apy calculator",
+              "atal pension 5000",
+              "atal pension yojana",
+              "atal pension yojana chart",
+              "atal pension yojana kaise khole",
+              "अटल पेंशन कितना जमा",
+              "अटल पेंशन योजना चार्ट"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "Atal Pension Yojana: 18 की उम्र में ₹210 महीना, 60 के बाद ₹5,000 पेंशन | APY Chart #shorts",
+              "description": "Atal Pension Yojana chart 2026: 18 साल में ₹210, 40 साल में ₹1,454 महीना\n👉 फ्री कैलकुलेटर: https://parachar.com/atal-pension-yojana-chart-calculator/\n\nअटल पेंशन योजना में ₹5,000 महीना पेंशन के लिए 18 की उम्र में सिर्फ़ ₹210 महीना जमा (42 साल, कुल करीब ₹1,05,840)। 25 की उम्र में ₹376, 30 में ₹577 (कुल करीब ₹2,07,720), 35 में ₹902, 40 में ₹1,454। पति-पत्नी दोनों के बाद नॉमिनी को करीब ₹8.5 लाख। 1 अक्टूबर 2022 से इनकम टैक्स भरने वाले नहीं जुड़ सकते। अपनी उम्र का चार्ट, फ्री:\nhttps://parachar.com/atal-pension-yojana-chart-calculator/\n\nAtal pension yojana chart में उम्र के हिसाब से देखें कि ₹1,000 से ₹5,000 पेंशन के लिए हर महीने कितना जमा करना होगा। APY calculator बताता है कि जल्दी शुरू करने पर जमा आधा रह जाता है। atal pension yojana kaise khole: अपने बैंक या पोस्ट ऑफिस बचत खाते से।\n\nस्रोत: PFRDA अटल पेंशन योजना अंशदान चार्ट · जाँच: 14 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं\n\n▶ ऐसे और Shorts (पेंशन और रिटायरमेंट): https://www.youtube.com/playlist?list=PLHve-MXNo9TA\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#AtalPensionYojana #APY #Pension #Retirement #SarkariYojana"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          },
+          "statistics": {
+            "viewCount": "322",
+            "likeCount": "2",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "9zhdLW6ZBBp1ZO8gJ2ed_G8uqic",
+          "id": "M9ZNxjhzoLk",
+          "snippet": {
+            "publishedAt": "2026-11-02T14:00:32Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Gratuity पर Tax लगता है? ❌ ₹20 लाख तक टैक्स-फ़्री, ऊपर का हिस्सा टैक्स में | 10(10) #shorts",
+            "description": "Gratuity tax 2026: ₹20 लाख तक ग्रेच्युटी पर कोई टैक्स नहीं, धारा 10(10)\n👉 फ्री कैलकुलेटर: https://parachar.com/gratuity-calculator-hindi/\n\nप्राइवेट नौकरी में ग्रेच्युटी पर टैक्स छूट तीन में से सबसे कम रकम पर मिलती है: असल ग्रेच्युटी, फ़ॉर्मूला (बेसिक + DA × 15/26 × साल), या ₹20 लाख। सरकारी कर्मचारी की पूरी ग्रेच्युटी टैक्स-फ़्री। उदाहरण: बेसिक + DA ₹40,000, 11 साल = ₹2,53,846, पूरी टैक्स-फ़्री। ₹1.5 लाख, 25 साल = ₹21,63,462, इसमें ₹1,63,462 टैक्स के दायरे में। देर से मिली ग्रेच्युटी का ब्याज टैक्स में जुड़ता है। अपनी ग्रेच्युटी और टैक्स, फ्री:\nhttps://parachar.com/gratuity-calculator-hindi/\n\nGratuity tax free limit ₹20 लाख है और gratuity par tax kitna lagega यह धारा 10(10) से तय होता है। gratuity calculator में बेसिक, DA और साल डालकर ग्रेच्युटी और टैक्स-फ़्री हिस्सा देखें। ज़्यादातर नौकरीपेशा लोगों की पूरी ग्रेच्युटी टैक्स-फ़्री रहती है।\n\nस्रोत: आयकर अधिनियम धारा 10(10), ग्रेच्युटी अधिनियम 1972 (₹20 लाख सीमा, 2018) · जाँच: 15 अक्टूबर 2026 · यह अनुमान है, टैक्स सलाह नहीं\n\n▶ ऐसे और Shorts (इनकम टैक्स और सैलरी): https://www.youtube.com/playlist?list=PLFBDdDjKFXrU\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#Gratuity #IncomeTax #Salary #PrivateJob #TaxFree",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/M9ZNxjhzoLk/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/M9ZNxjhzoLk/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/M9ZNxjhzoLk/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/M9ZNxjhzoLk/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/M9ZNxjhzoLk/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "gratuity 20 lakh limit",
+              "gratuity calculator",
+              "gratuity par tax",
+              "gratuity tax",
+              "gratuity tax free limit",
+              "section 10(10) gratuity",
+              "ग्रेच्युटी टैक्स फ्री",
+              "ग्रेच्युटी पर टैक्स"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "Gratuity पर Tax लगता है? ❌ ₹20 लाख तक टैक्स-फ़्री, ऊपर का हिस्सा टैक्स में | 10(10) #shorts",
+              "description": "Gratuity tax 2026: ₹20 लाख तक ग्रेच्युटी पर कोई टैक्स नहीं, धारा 10(10)\n👉 फ्री कैलकुलेटर: https://parachar.com/gratuity-calculator-hindi/\n\nप्राइवेट नौकरी में ग्रेच्युटी पर टैक्स छूट तीन में से सबसे कम रकम पर मिलती है: असल ग्रेच्युटी, फ़ॉर्मूला (बेसिक + DA × 15/26 × साल), या ₹20 लाख। सरकारी कर्मचारी की पूरी ग्रेच्युटी टैक्स-फ़्री। उदाहरण: बेसिक + DA ₹40,000, 11 साल = ₹2,53,846, पूरी टैक्स-फ़्री। ₹1.5 लाख, 25 साल = ₹21,63,462, इसमें ₹1,63,462 टैक्स के दायरे में। देर से मिली ग्रेच्युटी का ब्याज टैक्स में जुड़ता है। अपनी ग्रेच्युटी और टैक्स, फ्री:\nhttps://parachar.com/gratuity-calculator-hindi/\n\nGratuity tax free limit ₹20 लाख है और gratuity par tax kitna lagega यह धारा 10(10) से तय होता है। gratuity calculator में बेसिक, DA और साल डालकर ग्रेच्युटी और टैक्स-फ़्री हिस्सा देखें। ज़्यादातर नौकरीपेशा लोगों की पूरी ग्रेच्युटी टैक्स-फ़्री रहती है।\n\nस्रोत: आयकर अधिनियम धारा 10(10), ग्रेच्युटी अधिनियम 1972 (₹20 लाख सीमा, 2018) · जाँच: 15 अक्टूबर 2026 · यह अनुमान है, टैक्स सलाह नहीं\n\n▶ ऐसे और Shorts (इनकम टैक्स और सैलरी): https://www.youtube.com/playlist?list=PLFBDdDjKFXrU\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#Gratuity #IncomeTax #Salary #PrivateJob #TaxFree"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          },
+          "statistics": {
+            "viewCount": "15",
+            "likeCount": "1",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "-azfCHLp1D4a2J38IsjDZDiILVU",
+          "id": "mKsnBh2c9qw",
+          "snippet": {
+            "publishedAt": "2026-11-03T12:30:07Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "PM Awas Yojana 2.0: घर बनाने पर ₹2.5 लाख, होम लोन पर ₹1.8 लाख तक | किसे कितना, पूरी टेबल 2026",
+            "description": "PMAY-U 2.0 subsidy 2026: EWS को घर बनाने पर ₹2.5 लाख, होम लोन पर ब्याज सब्सिडी ₹1.8 लाख तक\n👉 फ्री कैलकुलेटर: https://parachar.com/pm-awas-yojana-2-0-subsidy-calculator/\n\nप्रधानमंत्री आवास योजना शहरी 2.0 में आय के हिसाब से तीन वर्ग: EWS सालाना आय ₹3 लाख तक, LIG ₹6 लाख तक, MIG ₹9 लाख तक। EWS परिवार अपनी ज़मीन पर घर बनाए (BLC) या साझेदारी वाला घर ले (AHP) तो ₹2.5 लाख: ज़्यादातर राज्यों में केंद्र ₹1.5 लाख + राज्य ₹1 लाख, पहाड़ी और पूर्वोत्तर राज्यों में केंद्र ₹2.25 लाख + राज्य ₹0.25 लाख। होम लोन पर ब्याज सब्सिडी (ISS): पहले ₹8 लाख लोन पर 4% ब्याज, 12 साल तक, 5 किस्तों में अधिकतम ₹1.8 लाख। 20 साल के लोन पर: ₹3 लाख पर ₹67,608, ₹5 लाख पर ₹1,12,680, ₹8 लाख या ज़्यादा पर ₹1,80,000। शर्तें: लोन ₹25 लाख तक, घर की कीमत ₹35 लाख तक, लोन 1 सितंबर 2024 या बाद में मंज़ूर, देश में कहीं पक्का घर नहीं, घर महिला के नाम या संयुक्त, सिर्फ़ एक वर्टिकल।\n\n⏱ इस वीडियो में:\n0:00 शुरुआत\n0:42 अपना घर बनाने पर ₹2.5 लाख\n1:04 होम लोन पर ब्याज सब्सिडी\n2:12 शर्तें और अगला कदम\n\n🔗 वीडियो में दिखाए गए फ्री टूल:\n• PM आवास 2.0 कैलकुलेटर: https://parachar.com/pm-awas-yojana-2-0-subsidy-calculator/\n\nPM Awas Yojana 2.0 subsidy kitni milegi, pmay urban 2.0 eligibility और home loan interest subsidy, सब आसान हिंदी में। टेबल हमारे फ्री कैलकुलेटर के फ़ॉर्मूले से बनी है; असली रकम बैंक और राज्य की मंज़ूरी से तय होगी।\n\nस्रोत: आवास और शहरी कार्य मंत्रालय, PMAY-U 2.0 दिशानिर्देश (सितंबर 2024) · जाँच: 2 नवंबर 2026 · यह अनुमान है, मंज़ूरी नहीं\n\n▶ ऐसे और वीडियो (सरकारी सब्सिडी योजनाएँ): https://www.youtube.com/playlist?list=PLJ_UkZibrHEI\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#PMAY #AwasYojana #HomeLoan #Subsidy #SarkariYojana",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/mKsnBh2c9qw/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/mKsnBh2c9qw/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/mKsnBh2c9qw/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/mKsnBh2c9qw/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/mKsnBh2c9qw/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "pm awas yojana 2.0",
+              "pm awas yojana subsidy kitni milegi",
+              "pmay 2.0 eligibility",
+              "pmay 2.0 subsidy",
+              "pmay home loan subsidy calculator",
+              "pmay interest subsidy",
+              "pmay urban 2.0",
+              "प्रधानमंत्री आवास योजना 2.0"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "PM Awas Yojana 2.0: घर बनाने पर ₹2.5 लाख, होम लोन पर ₹1.8 लाख तक | किसे कितना, पूरी टेबल 2026",
+              "description": "PMAY-U 2.0 subsidy 2026: EWS को घर बनाने पर ₹2.5 लाख, होम लोन पर ब्याज सब्सिडी ₹1.8 लाख तक\n👉 फ्री कैलकुलेटर: https://parachar.com/pm-awas-yojana-2-0-subsidy-calculator/\n\nप्रधानमंत्री आवास योजना शहरी 2.0 में आय के हिसाब से तीन वर्ग: EWS सालाना आय ₹3 लाख तक, LIG ₹6 लाख तक, MIG ₹9 लाख तक। EWS परिवार अपनी ज़मीन पर घर बनाए (BLC) या साझेदारी वाला घर ले (AHP) तो ₹2.5 लाख: ज़्यादातर राज्यों में केंद्र ₹1.5 लाख + राज्य ₹1 लाख, पहाड़ी और पूर्वोत्तर राज्यों में केंद्र ₹2.25 लाख + राज्य ₹0.25 लाख। होम लोन पर ब्याज सब्सिडी (ISS): पहले ₹8 लाख लोन पर 4% ब्याज, 12 साल तक, 5 किस्तों में अधिकतम ₹1.8 लाख। 20 साल के लोन पर: ₹3 लाख पर ₹67,608, ₹5 लाख पर ₹1,12,680, ₹8 लाख या ज़्यादा पर ₹1,80,000। शर्तें: लोन ₹25 लाख तक, घर की कीमत ₹35 लाख तक, लोन 1 सितंबर 2024 या बाद में मंज़ूर, देश में कहीं पक्का घर नहीं, घर महिला के नाम या संयुक्त, सिर्फ़ एक वर्टिकल।\n\n⏱ इस वीडियो में:\n0:00 शुरुआत\n0:42 अपना घर बनाने पर ₹2.5 लाख\n1:04 होम लोन पर ब्याज सब्सिडी\n2:12 शर्तें और अगला कदम\n\n🔗 वीडियो में दिखाए गए फ्री टूल:\n• PM आवास 2.0 कैलकुलेटर: https://parachar.com/pm-awas-yojana-2-0-subsidy-calculator/\n\nPM Awas Yojana 2.0 subsidy kitni milegi, pmay urban 2.0 eligibility और home loan interest subsidy, सब आसान हिंदी में। टेबल हमारे फ्री कैलकुलेटर के फ़ॉर्मूले से बनी है; असली रकम बैंक और राज्य की मंज़ूरी से तय होगी।\n\nस्रोत: आवास और शहरी कार्य मंत्रालय, PMAY-U 2.0 दिशानिर्देश (सितंबर 2024) · जाँच: 2 नवंबर 2026 · यह अनुमान है, मंज़ूरी नहीं\n\n▶ ऐसे और वीडियो (सरकारी सब्सिडी योजनाएँ): https://www.youtube.com/playlist?list=PLJ_UkZibrHEI\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#PMAY #AwasYojana #HomeLoan #Subsidy #SarkariYojana"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          },
+          "statistics": {
+            "viewCount": "7",
+            "likeCount": "0",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "3XckzqQDmkR14eB_4Rto-Ucurjk",
+          "id": "JFN-4oTDlD4",
+          "snippet": {
+            "publishedAt": "2026-11-04T03:30:28Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Bonus नहीं मिला? 30 नवंबर तक देना ज़रूरी, ₹16,800 तक | नया Labour Code नियम #shorts",
+            "description": "Bonus kab tak milega 2026: कानून में आख़िरी तारीख 30 नवंबर, ₹21,000 तक वेतन वालों को\n👉 फ्री कैलकुलेटर: https://parachar.com/diwali-bonus-kitna-milega-calculator/\n\nवेतन संहिता (Code on Wages) के तहत ₹21,000 महीना तक वेतन वाले और साल में 30 दिन काम करने वाले कर्मचारी को बोनस का हक़ है। हिसाब ₹7,000 या न्यूनतम वेतन, जो ज़्यादा हो, उस पर 8.33% से 20%: ₹7,000 पर साल का ₹6,997 से ₹16,800। भुगतान वित्त वर्ष ख़त्म होने के 8 महीने में, यानी 30 नवंबर 2026 तक। न मिले तो पहले लिखित माँग, फिर श्रम विभाग में शिकायत। अपना बोनस जोड़ें, फ्री:\nhttps://parachar.com/diwali-bonus-kitna-milega-calculator/\n\nBonus kab tak milega, bonus act 30 november और bonus nahi mila to kya kare, आसान हिंदी में। ₹7,000 आधार पर हिसाब दिखाया है; आपके राज्य का न्यूनतम वेतन ज़्यादा हो तो बोनस भी ज़्यादा।\n\nस्रोत: वेतन संहिता 2019 (धारा 26), श्रम मंत्रालय अधिसूचना S.O. 4710(E), 4711(E) · जाँच: 2 नवंबर 2026 · यह अनुमान है, कानूनी सलाह नहीं\n\n▶ ऐसे और Shorts (इनकम टैक्स और सैलरी): https://www.youtube.com/playlist?list=PLFBDdDjKFXrU\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#Bonus #DiwaliBonus #LabourCode #Salary #PrivateJob",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/JFN-4oTDlD4/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/JFN-4oTDlD4/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/JFN-4oTDlD4/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/JFN-4oTDlD4/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/JFN-4oTDlD4/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "bonus 30 november",
+              "bonus act 21000",
+              "bonus kab tak milega",
+              "bonus nahi mila",
+              "diwali bonus calculator",
+              "statutory bonus 2026",
+              "बोनस कब तक मिलेगा",
+              "बोनस नहीं मिला तो क्या करें"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "Bonus नहीं मिला? 30 नवंबर तक देना ज़रूरी, ₹16,800 तक | नया Labour Code नियम #shorts",
+              "description": "Bonus kab tak milega 2026: कानून में आख़िरी तारीख 30 नवंबर, ₹21,000 तक वेतन वालों को\n👉 फ्री कैलकुलेटर: https://parachar.com/diwali-bonus-kitna-milega-calculator/\n\nवेतन संहिता (Code on Wages) के तहत ₹21,000 महीना तक वेतन वाले और साल में 30 दिन काम करने वाले कर्मचारी को बोनस का हक़ है। हिसाब ₹7,000 या न्यूनतम वेतन, जो ज़्यादा हो, उस पर 8.33% से 20%: ₹7,000 पर साल का ₹6,997 से ₹16,800। भुगतान वित्त वर्ष ख़त्म होने के 8 महीने में, यानी 30 नवंबर 2026 तक। न मिले तो पहले लिखित माँग, फिर श्रम विभाग में शिकायत। अपना बोनस जोड़ें, फ्री:\nhttps://parachar.com/diwali-bonus-kitna-milega-calculator/\n\nBonus kab tak milega, bonus act 30 november और bonus nahi mila to kya kare, आसान हिंदी में। ₹7,000 आधार पर हिसाब दिखाया है; आपके राज्य का न्यूनतम वेतन ज़्यादा हो तो बोनस भी ज़्यादा।\n\nस्रोत: वेतन संहिता 2019 (धारा 26), श्रम मंत्रालय अधिसूचना S.O. 4710(E), 4711(E) · जाँच: 2 नवंबर 2026 · यह अनुमान है, कानूनी सलाह नहीं\n\n▶ ऐसे और Shorts (इनकम टैक्स और सैलरी): https://www.youtube.com/playlist?list=PLFBDdDjKFXrU\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#Bonus #DiwaliBonus #LabourCode #Salary #PrivateJob"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          },
+          "statistics": {
+            "viewCount": "43",
+            "likeCount": "0",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "bZc1viiB-UdqKXB8KaTubW8z3ds",
+          "id": "uAtp_JtaRXM",
+          "snippet": {
+            "publishedAt": "2026-11-04T14:00:24Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Surya Ghar सब्सिडी कब आएगी? 4 स्टेज, कितने दिन, और पैसा क्यों अटकता है #shorts",
+            "description": "PM Surya Ghar subsidy kab aayegi 2026: नेट मीटर के बाद बैंक डिटेल जमा करें, करीब 30 दिन में खाते में\n👉 फ्री कैलकुलेटर: https://parachar.com/pm-surya-ghar-subsidy-status-check-kab-aayegi-kaise-check-kare/\n\nPM सूर्य घर में सब्सिडी 4 स्टेज के बाद आती है: डिस्कॉम की मंज़ूरी (करीब 15 दिन), सोलर लगने के बाद वेंडर पोर्टल पर अपडेट करे, नेट मीटर और जाँच (करीब 15 दिन), फिर पोर्टल पर बैंक डिटेल जमा करें और सब्सिडी करीब 30 दिन में सीधे खाते में। अधिकतम ₹78,000 (पहाड़ी और पूर्वोत्तर राज्यों में ₹85,800)। पैसा अटकने के आम कारण: आधार बैंक खाते से NPCI पर लिंक नहीं, नाम मेल नहीं खाता, वेंडर ने अपडेट नहीं किया। हेल्पलाइन 15555। अपनी स्टेज डालकर देखें, फ्री:\nhttps://parachar.com/pm-surya-ghar-subsidy-status-check-kab-aayegi-kaise-check-kare/\n\nSurya ghar subsidy kab aayegi, pm surya ghar subsidy status check और subsidy atak gayi to kya kare, आसान हिंदी में। दिन MNRE के दिशानिर्देश और रिपोर्ट से हैं; असल में डिस्कॉम के हिसाब से कम-ज़्यादा हो सकते हैं।\n\nस्रोत: MNRE PM सूर्य घर दिशानिर्देश 2024, pmsuryaghar.gov.in, राज्यसभा प्रश्न 267 (4 फ़रवरी 2025) · जाँच: 2 नवंबर 2026 · दिन अनुमान हैं, बदल सकते हैं\n\n▶ ऐसे और Shorts (सरकारी सब्सिडी योजनाएँ): https://www.youtube.com/playlist?list=PLJ_UkZibrHEI\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#SuryaGhar #Solar #Subsidy #MuftBijli #SarkariYojana",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/uAtp_JtaRXM/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/uAtp_JtaRXM/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/uAtp_JtaRXM/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/uAtp_JtaRXM/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/uAtp_JtaRXM/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "pm surya ghar subsidy not received",
+              "pm surya ghar subsidy status",
+              "rooftop solar subsidy status",
+              "surya ghar 78000",
+              "surya ghar subsidy check",
+              "surya ghar subsidy kab aayegi",
+              "सूर्य घर सब्सिडी कब आएगी",
+              "सूर्य घर सब्सिडी स्टेटस"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "Surya Ghar सब्सिडी कब आएगी? 4 स्टेज, कितने दिन, और पैसा क्यों अटकता है #shorts",
+              "description": "PM Surya Ghar subsidy kab aayegi 2026: नेट मीटर के बाद बैंक डिटेल जमा करें, करीब 30 दिन में खाते में\n👉 फ्री कैलकुलेटर: https://parachar.com/pm-surya-ghar-subsidy-status-check-kab-aayegi-kaise-check-kare/\n\nPM सूर्य घर में सब्सिडी 4 स्टेज के बाद आती है: डिस्कॉम की मंज़ूरी (करीब 15 दिन), सोलर लगने के बाद वेंडर पोर्टल पर अपडेट करे, नेट मीटर और जाँच (करीब 15 दिन), फिर पोर्टल पर बैंक डिटेल जमा करें और सब्सिडी करीब 30 दिन में सीधे खाते में। अधिकतम ₹78,000 (पहाड़ी और पूर्वोत्तर राज्यों में ₹85,800)। पैसा अटकने के आम कारण: आधार बैंक खाते से NPCI पर लिंक नहीं, नाम मेल नहीं खाता, वेंडर ने अपडेट नहीं किया। हेल्पलाइन 15555। अपनी स्टेज डालकर देखें, फ्री:\nhttps://parachar.com/pm-surya-ghar-subsidy-status-check-kab-aayegi-kaise-check-kare/\n\nSurya ghar subsidy kab aayegi, pm surya ghar subsidy status check और subsidy atak gayi to kya kare, आसान हिंदी में। दिन MNRE के दिशानिर्देश और रिपोर्ट से हैं; असल में डिस्कॉम के हिसाब से कम-ज़्यादा हो सकते हैं।\n\nस्रोत: MNRE PM सूर्य घर दिशानिर्देश 2024, pmsuryaghar.gov.in, राज्यसभा प्रश्न 267 (4 फ़रवरी 2025) · जाँच: 2 नवंबर 2026 · दिन अनुमान हैं, बदल सकते हैं\n\n▶ ऐसे और Shorts (सरकारी सब्सिडी योजनाएँ): https://www.youtube.com/playlist?list=PLJ_UkZibrHEI\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#SuryaGhar #Solar #Subsidy #MuftBijli #SarkariYojana"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          },
+          "statistics": {
+            "viewCount": "5",
+            "likeCount": "0",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "5EYHCSz-uhOb2dvd0v6S35YLgek",
+          "id": "vFktwOj14pQ",
+          "snippet": {
+            "publishedAt": "2026-11-05T12:30:13Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Sukanya Samriddhi: ₹500, ₹1000, ₹2000, ₹5000 महीना जमा करें तो 21 साल में कितना? पूरी टेबल 8.2%",
+            "description": "Sukanya Samriddhi Yojana 2026 table: ₹1,000 महीना जमा पर 21 साल में ₹5,54,612 (8.2%)\n👉 फ्री कैलकुलेटर: https://parachar.com/sukanya-samriddhi-yojana-calculator/\n\nसुकन्या समृद्धि योजना में 15 साल पैसा जमा होता है और खाता 21 साल पर पूरा होता है। 8.2% ब्याज (अक्टूबर-दिसंबर 2026) पूरे समय रहे तो: ₹500 महीना = ₹2,77,306, ₹1,000 = ₹5,54,612, ₹2,000 = ₹11,09,224, ₹5,000 = ₹27,73,059, ₹12,500 = ₹69,32,648। ₹1.5 लाख हर साल अप्रैल में एक साथ = ₹71,82,119, यानी हर महीने जमा करने से करीब ₹2.5 लाख ज़्यादा। नियम: बेटी 10 साल से कम, साल में ₹250 से ₹1.5 लाख, 18 साल पर पढ़ाई के लिए 50% निकासी, जमा और ब्याज टैक्स-फ़्री। ब्याज दर हर तिमाही बदल सकती है।\n\n⏱ इस वीडियो में:\n0:00 शुरुआत\n0:30 हर महीने जमा की पूरी टेबल\n1:19 एक साथ या हर महीने?\n1:56 नियम\n\n🔗 वीडियो में दिखाए गए फ्री टूल:\n• सुकन्या कैलकुलेटर: https://parachar.com/sukanya-samriddhi-yojana-calculator/\n\nSukanya samriddhi yojana calculator, ssy 1000 per month kitna milega और sukanya yojana interest rate 2026, सब आसान हिंदी में। टेबल 8.2% मानकर हमारे फ्री कैलकुलेटर से बनी है; दर बदली तो रकम बदलेगी।\n\nस्रोत: वित्त मंत्रालय, लघु बचत ब्याज दर (अक्टूबर-दिसंबर 2026), सुकन्या समृद्धि खाता नियम 2019 · जाँच: 2 नवंबर 2026 · यह अनुमान है, दर बदल सकती है\n\n▶ ऐसे और वीडियो (बैंक, UPI और बचत योजनाएँ): https://www.youtube.com/playlist?list=PLDBOcuU_Prr4\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#SukanyaSamriddhi #SSY #Beti #PostOffice #Savings",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/vFktwOj14pQ/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/vFktwOj14pQ/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/vFktwOj14pQ/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/vFktwOj14pQ/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/vFktwOj14pQ/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "ssy 1000 per month",
+              "ssy maturity amount",
+              "sukanya samriddhi calculator",
+              "sukanya samriddhi interest rate 2026",
+              "sukanya samriddhi yojana",
+              "sukanya yojana 500 per month",
+              "सुकन्या योजना कितना मिलेगा",
+              "सुकन्या समृद्धि योजना"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "Sukanya Samriddhi: ₹500, ₹1000, ₹2000, ₹5000 महीना जमा करें तो 21 साल में कितना? पूरी टेबल 8.2%",
+              "description": "Sukanya Samriddhi Yojana 2026 table: ₹1,000 महीना जमा पर 21 साल में ₹5,54,612 (8.2%)\n👉 फ्री कैलकुलेटर: https://parachar.com/sukanya-samriddhi-yojana-calculator/\n\nसुकन्या समृद्धि योजना में 15 साल पैसा जमा होता है और खाता 21 साल पर पूरा होता है। 8.2% ब्याज (अक्टूबर-दिसंबर 2026) पूरे समय रहे तो: ₹500 महीना = ₹2,77,306, ₹1,000 = ₹5,54,612, ₹2,000 = ₹11,09,224, ₹5,000 = ₹27,73,059, ₹12,500 = ₹69,32,648। ₹1.5 लाख हर साल अप्रैल में एक साथ = ₹71,82,119, यानी हर महीने जमा करने से करीब ₹2.5 लाख ज़्यादा। नियम: बेटी 10 साल से कम, साल में ₹250 से ₹1.5 लाख, 18 साल पर पढ़ाई के लिए 50% निकासी, जमा और ब्याज टैक्स-फ़्री। ब्याज दर हर तिमाही बदल सकती है।\n\n⏱ इस वीडियो में:\n0:00 शुरुआत\n0:30 हर महीने जमा की पूरी टेबल\n1:19 एक साथ या हर महीने?\n1:56 नियम\n\n🔗 वीडियो में दिखाए गए फ्री टूल:\n• सुकन्या कैलकुलेटर: https://parachar.com/sukanya-samriddhi-yojana-calculator/\n\nSukanya samriddhi yojana calculator, ssy 1000 per month kitna milega और sukanya yojana interest rate 2026, सब आसान हिंदी में। टेबल 8.2% मानकर हमारे फ्री कैलकुलेटर से बनी है; दर बदली तो रकम बदलेगी।\n\nस्रोत: वित्त मंत्रालय, लघु बचत ब्याज दर (अक्टूबर-दिसंबर 2026), सुकन्या समृद्धि खाता नियम 2019 · जाँच: 2 नवंबर 2026 · यह अनुमान है, दर बदल सकती है\n\n▶ ऐसे और वीडियो (बैंक, UPI और बचत योजनाएँ): https://www.youtube.com/playlist?list=PLDBOcuU_Prr4\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#SukanyaSamriddhi #SSY #Beti #PostOffice #Savings"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          },
+          "statistics": {
+            "viewCount": "0",
+            "likeCount": "0",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "AsKfe5GORRWYvog57ogf3cUjpUk",
+          "id": "GRshTILgDCI",
+          "snippet": {
+            "publishedAt": "2026-11-06T03:30:36Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "300 दिन की छुट्टी = ₹5 लाख? Leave Encashment का हिसाब और ₹25 लाख टैक्स-फ़्री नियम #shorts",
+            "description": "Leave encashment calculator 2026: ₹50,000 बेसिक + DA पर 300 दिन की छुट्टी = ₹5,00,000\n👉 फ्री कैलकुलेटर: https://parachar.com/leave-encashment-calculator-hindi/\n\nछुट्टी के पैसे (leave encashment) का हिसाब: (बेसिक + DA) ÷ 30 × बची छुट्टियाँ। ₹50,000 बेसिक + DA और 300 दिन EL = ₹5,00,000। रिटायरमेंट या नौकरी छोड़ने पर प्राइवेट कर्मचारी को पूरी नौकरी में ₹25 लाख तक टैक्स-फ़्री, पर तीन और सीमाएँ भी: 10 महीने का औसत वेतन, और हर साल की नौकरी पर 30 दिन तक की छुट्टी। सरकारी कर्मचारी को रिटायरमेंट पर पूरा टैक्स-फ़्री। नौकरी के दौरान छुट्टी कैश कराई तो पूरा टैक्स में। अपनी छुट्टी का पैसा देखें, फ्री:\nhttps://parachar.com/leave-encashment-calculator-hindi/\n\nLeave encashment calculator, leave encashment tax exemption 25 lakh और EL ka paisa kitna milega, आसान हिंदी में। आपकी कंपनी की पॉलिसी कितनी छुट्टी जमा होने देती है, उससे रकम बदलेगी।\n\nस्रोत: आयकर अधिनियम धारा 10(10AA), CBDT अधिसूचना (₹25 लाख सीमा, 2023) · जाँच: 2 नवंबर 2026 · यह अनुमान है, टैक्स सलाह नहीं\n\n▶ ऐसे और Shorts (इनकम टैक्स और सैलरी): https://www.youtube.com/playlist?list=PLFBDdDjKFXrU\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#LeaveEncashment #IncomeTax #Salary #Retirement #PrivateJob",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/GRshTILgDCI/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/GRshTILgDCI/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/GRshTILgDCI/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/GRshTILgDCI/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/GRshTILgDCI/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "earned leave encashment",
+              "leave encashment 25 lakh",
+              "leave encashment calculator",
+              "leave encashment on resignation",
+              "leave encashment tax exemption",
+              "section 10(10aa)",
+              "छुट्टी का पैसा",
+              "लीव एनकैशमेंट"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "300 दिन की छुट्टी = ₹5 लाख? Leave Encashment का हिसाब और ₹25 लाख टैक्स-फ़्री नियम #shorts",
+              "description": "Leave encashment calculator 2026: ₹50,000 बेसिक + DA पर 300 दिन की छुट्टी = ₹5,00,000\n👉 फ्री कैलकुलेटर: https://parachar.com/leave-encashment-calculator-hindi/\n\nछुट्टी के पैसे (leave encashment) का हिसाब: (बेसिक + DA) ÷ 30 × बची छुट्टियाँ। ₹50,000 बेसिक + DA और 300 दिन EL = ₹5,00,000। रिटायरमेंट या नौकरी छोड़ने पर प्राइवेट कर्मचारी को पूरी नौकरी में ₹25 लाख तक टैक्स-फ़्री, पर तीन और सीमाएँ भी: 10 महीने का औसत वेतन, और हर साल की नौकरी पर 30 दिन तक की छुट्टी। सरकारी कर्मचारी को रिटायरमेंट पर पूरा टैक्स-फ़्री। नौकरी के दौरान छुट्टी कैश कराई तो पूरा टैक्स में। अपनी छुट्टी का पैसा देखें, फ्री:\nhttps://parachar.com/leave-encashment-calculator-hindi/\n\nLeave encashment calculator, leave encashment tax exemption 25 lakh और EL ka paisa kitna milega, आसान हिंदी में। आपकी कंपनी की पॉलिसी कितनी छुट्टी जमा होने देती है, उससे रकम बदलेगी।\n\nस्रोत: आयकर अधिनियम धारा 10(10AA), CBDT अधिसूचना (₹25 लाख सीमा, 2023) · जाँच: 2 नवंबर 2026 · यह अनुमान है, टैक्स सलाह नहीं\n\n▶ ऐसे और Shorts (इनकम टैक्स और सैलरी): https://www.youtube.com/playlist?list=PLFBDdDjKFXrU\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#LeaveEncashment #IncomeTax #Salary #Retirement #PrivateJob"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          },
+          "statistics": {
+            "viewCount": "19",
+            "likeCount": "0",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "Nst7eTmH_akbJXSFHrmHOlGjLr8",
+          "id": "YZuEkDtKeyI",
+          "snippet": {
+            "publishedAt": "2026-11-06T14:00:21Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Mudra Loan के लिए Agent को फ़ीस? ❌ आवेदन फ्री, शिशु लोन पर कोई प्रोसेसिंग फ़ीस नहीं #shorts",
+            "description": "Mudra loan fees 2026: आवेदन फ्री, शिशु (₹50,000 तक) पर कोई प्रोसेसिंग फ़ीस नहीं\n👉 फ्री कैलकुलेटर: https://parachar.com/mudra-loan-calculator/\n\nमुद्रा लोन का आवेदन फ्री है: किसी भी बैंक, RRB, स्मॉल फ़ाइनेंस बैंक या NBFC की शाखा में, या udyamimitra.in पर। शिशु लोन (₹50,000 तक) पर प्रोसेसिंग फ़ीस नहीं; किशोर, तरुण पर बैंक के हिसाब से नहीं या बहुत कम। कोई गारंटी या ज़मानत नहीं। ₹350 या कोई भी फ़ीस लेकर 'approval letter' भेजने वाले फ़र्ज़ी हैं, PIB फ़ैक्ट चेक ने भी चेताया है। अपनी EMI देखें, फ्री:\nhttps://parachar.com/mudra-loan-calculator/\n\nMudra loan agent fees, mudra loan approval letter fake और mudra loan kaise milega, आसान हिंदी में। प्रोसेसिंग फ़ीस बैंक तय करता है, आवेदन से पहले शाखा में लिखित में पूछें।\n\nस्रोत: प्रधानमंत्री मुद्रा योजना (mudra.org.in, myscheme.gov.in), PIB फ़ैक्ट चेक · जाँच: 2 नवंबर 2026 · बैंक की फ़ीस अलग-अलग हो सकती है\n\n▶ ऐसे और Shorts (मुद्रा लोन): https://www.youtube.com/playlist?list=PLG9rKSzcxjrQ\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#MudraLoan #PMMY #FraudAlert #BusinessLoan #SarkariYojana",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/YZuEkDtKeyI/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/YZuEkDtKeyI/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/YZuEkDtKeyI/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/YZuEkDtKeyI/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/YZuEkDtKeyI/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "mudra loan agent",
+              "mudra loan approval letter fake",
+              "mudra loan fees",
+              "mudra loan fraud",
+              "mudra loan processing fee",
+              "shishu mudra loan",
+              "मुद्रा लोन कैसे मिलेगा",
+              "मुद्रा लोन फ़ीस"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "Mudra Loan के लिए Agent को फ़ीस? ❌ आवेदन फ्री, शिशु लोन पर कोई प्रोसेसिंग फ़ीस नहीं #shorts",
+              "description": "Mudra loan fees 2026: आवेदन फ्री, शिशु (₹50,000 तक) पर कोई प्रोसेसिंग फ़ीस नहीं\n👉 फ्री कैलकुलेटर: https://parachar.com/mudra-loan-calculator/\n\nमुद्रा लोन का आवेदन फ्री है: किसी भी बैंक, RRB, स्मॉल फ़ाइनेंस बैंक या NBFC की शाखा में, या udyamimitra.in पर। शिशु लोन (₹50,000 तक) पर प्रोसेसिंग फ़ीस नहीं; किशोर, तरुण पर बैंक के हिसाब से नहीं या बहुत कम। कोई गारंटी या ज़मानत नहीं। ₹350 या कोई भी फ़ीस लेकर 'approval letter' भेजने वाले फ़र्ज़ी हैं, PIB फ़ैक्ट चेक ने भी चेताया है। अपनी EMI देखें, फ्री:\nhttps://parachar.com/mudra-loan-calculator/\n\nMudra loan agent fees, mudra loan approval letter fake और mudra loan kaise milega, आसान हिंदी में। प्रोसेसिंग फ़ीस बैंक तय करता है, आवेदन से पहले शाखा में लिखित में पूछें।\n\nस्रोत: प्रधानमंत्री मुद्रा योजना (mudra.org.in, myscheme.gov.in), PIB फ़ैक्ट चेक · जाँच: 2 नवंबर 2026 · बैंक की फ़ीस अलग-अलग हो सकती है\n\n▶ ऐसे और Shorts (मुद्रा लोन): https://www.youtube.com/playlist?list=PLG9rKSzcxjrQ\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#MudraLoan #PMMY #FraudAlert #BusinessLoan #SarkariYojana"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          },
+          "statistics": {
+            "viewCount": "33",
+            "likeCount": "1",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "6bILZfrHBsQJGuaLwBQdnosJNC4",
+          "id": "4pSD9yGgIk4",
+          "snippet": {
+            "publishedAt": "2026-11-07T12:30:28Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "FASTag ब्लैकलिस्ट तो डबल टोल! 70 मिनट वाला नियम, कारण और हटाने का तरीका 2026",
+            "description": "FASTag blacklist 2026: टोल से 70 मिनट पहले रिचार्ज करें, वरना डबल टोल (NPCI नियम)\n👉 फ्री कैलकुलेटर: https://parachar.com/fastag-blacklist-kaise-hataye/\n\nNPCI नियम (17 फ़रवरी 2025 से): FASTag टोल पर पढ़े जाने से 60 मिनट से ज़्यादा पहले से ब्लैकलिस्ट, हॉटलिस्ट या कम बैलेंस में हो, और पढ़े जाने के 10 मिनट बाद तक ठीक न हो, तो ट्रांज़ैक्शन रिजेक्ट (कोड 176) और नकद में दोगुना टोल। टोल से 70 मिनट पहले ठीक कर लें तो सामान्य टोल। टोल के 10 मिनट के अंदर रिचार्ज हुआ तो भी सामान्य टोल। ब्लैकलिस्ट के आम कारण: कम या नेगेटिव बैलेंस, KYC अधूरी (One Vehicle One FASTag), चेसिस नंबर पर टैग और RC नंबर अपडेट नहीं, पुराना ख़राब टैग, ई-चालान बकाया पर RTO/पुलिस की हॉटलिस्ट। स्टेटस: बैंक ऐप, NPCI NETC पोर्टल, NHAI हेल्पलाइन 1033।\n\n⏱ इस वीडियो में:\n0:00 शुरुआत\n0:28 नियम कैसे काम करता है\n1:19 ब्लैकलिस्ट क्यों होता है\n\n🔗 वीडियो में दिखाए गए फ्री टूल:\n• FASTag ब्लैकलिस्ट चेकर: https://parachar.com/fastag-blacklist-kaise-hataye/\n\nFASTag blacklist kaise hataye, fastag blacklist check और double toll rule, सब आसान हिंदी में। अपना कारण और समय डालकर हमारे फ्री चेकर पर देखें कि डबल टोल लगेगा या नहीं।\n\nस्रोत: NPCI NETC सर्कुलर (28 जनवरी 2025, लागू 17 फ़रवरी 2025), NHAI · जाँच: 2 नवंबर 2026 · उदाहरण का टोल अनुमान है\n\n▶ ऐसे और वीडियो (रोज़ के नियम और क़ानून): https://www.youtube.com/playlist?list=PLGm-6VpY_nWE\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#FASTag #Toll #NHAI #Highway #NPCI",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/4pSD9yGgIk4/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/4pSD9yGgIk4/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/4pSD9yGgIk4/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/4pSD9yGgIk4/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/4pSD9yGgIk4/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "fastag 70 minute rule",
+              "fastag blacklist",
+              "fastag blacklist check",
+              "fastag blacklist kaise hataye",
+              "fastag blacklist reason",
+              "fastag double toll",
+              "fastag kyc",
+              "फास्टैग ब्लैकलिस्ट"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "FASTag ब्लैकलिस्ट तो डबल टोल! 70 मिनट वाला नियम, कारण और हटाने का तरीका 2026",
+              "description": "FASTag blacklist 2026: टोल से 70 मिनट पहले रिचार्ज करें, वरना डबल टोल (NPCI नियम)\n👉 फ्री कैलकुलेटर: https://parachar.com/fastag-blacklist-kaise-hataye/\n\nNPCI नियम (17 फ़रवरी 2025 से): FASTag टोल पर पढ़े जाने से 60 मिनट से ज़्यादा पहले से ब्लैकलिस्ट, हॉटलिस्ट या कम बैलेंस में हो, और पढ़े जाने के 10 मिनट बाद तक ठीक न हो, तो ट्रांज़ैक्शन रिजेक्ट (कोड 176) और नकद में दोगुना टोल। टोल से 70 मिनट पहले ठीक कर लें तो सामान्य टोल। टोल के 10 मिनट के अंदर रिचार्ज हुआ तो भी सामान्य टोल। ब्लैकलिस्ट के आम कारण: कम या नेगेटिव बैलेंस, KYC अधूरी (One Vehicle One FASTag), चेसिस नंबर पर टैग और RC नंबर अपडेट नहीं, पुराना ख़राब टैग, ई-चालान बकाया पर RTO/पुलिस की हॉटलिस्ट। स्टेटस: बैंक ऐप, NPCI NETC पोर्टल, NHAI हेल्पलाइन 1033।\n\n⏱ इस वीडियो में:\n0:00 शुरुआत\n0:28 नियम कैसे काम करता है\n1:19 ब्लैकलिस्ट क्यों होता है\n\n🔗 वीडियो में दिखाए गए फ्री टूल:\n• FASTag ब्लैकलिस्ट चेकर: https://parachar.com/fastag-blacklist-kaise-hataye/\n\nFASTag blacklist kaise hataye, fastag blacklist check और double toll rule, सब आसान हिंदी में। अपना कारण और समय डालकर हमारे फ्री चेकर पर देखें कि डबल टोल लगेगा या नहीं।\n\nस्रोत: NPCI NETC सर्कुलर (28 जनवरी 2025, लागू 17 फ़रवरी 2025), NHAI · जाँच: 2 नवंबर 2026 · उदाहरण का टोल अनुमान है\n\n▶ ऐसे और वीडियो (रोज़ के नियम और क़ानून): https://www.youtube.com/playlist?list=PLGm-6VpY_nWE\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#FASTag #Toll #NHAI #Highway #NPCI"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          },
+          "statistics": {
+            "viewCount": "3",
+            "likeCount": "0",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "mHaKPW08afHOXdGO8ybtmL8OPEc",
+          "id": "khfZ4IT5beY",
+          "snippet": {
+            "publishedAt": "2026-11-08T05:30:35Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "PM Surya Ghar Yojana 2026: कितनी सब्सिडी, कितने kW, खर्च, बचत और Apply की पूरी जानकारी",
+            "description": "PM Surya Ghar Yojana 2026: 1 से 3 kW पर ₹30,000 से ₹78,000 सब्सिडी, पूरा हिसाब\n👉 फ्री कैलकुलेटर: https://parachar.com/pm-surya-ghar-subsidy-kitni-milegi/\n\nPM सूर्य घर मुफ़्त बिजली योजना में छत पर सोलर लगाने पर केंद्र की सब्सिडी: 1 kW पर ₹30,000, 2 kW पर ₹60,000, 3 kW या ज़्यादा पर ₹78,000 (पहाड़ी और पूर्वोत्तर राज्यों में ₹85,800 तक)। ₹60,000 प्रति kW के अनुमानित ख़र्च पर आपकी जेब से 1 kW में ₹30,000, 2 kW में ₹60,000, 3 kW में ₹1,02,000। 1 kW से करीब 120 यूनिट महीना बनती है; ₹7/यूनिट पर 2 kW से ₹1,680 महीना बचत, पैसा करीब 3 साल में वसूल। 3 kW तक बिना गारंटी लोन (करीब 6-7%*)। इस वीडियो में: कौन ले सकता है, कितने kW चाहिए, खर्च-बचत की टेबल, apply के 6 कदम और धोखे से कैसे बचें।\n\n⏱ इस वीडियो में:\n0:00 शुरुआत\n0:33 कौन ले सकता है\n1:05 सब्सिडी कितनी\n2:17 कितने kW चाहिए\n3:19 खर्च और बचत\n4:37 Apply कैसे करें\n5:26 अपना हिसाब देखें\n\n🔗 वीडियो में दिखाए गए फ्री टूल:\n• सूर्य घर सब्सिडी कैलकुलेटर: https://parachar.com/pm-surya-ghar-subsidy-kitni-milegi/\n\nPM Surya Ghar Yojana subsidy kitni milegi, rooftop solar subsidy calculator और pm surya ghar yojana apply kaise kare, सब एक वीडियो में। ख़र्च, यूनिट और ₹7 प्रति यूनिट बिजली दर अनुमान हैं; कुछ राज्य ऊपर से अलग मदद देते हैं, उसकी पुष्टि अपने डिस्कॉम से करें। अपने घर का पूरा हिसाब हमारे फ्री कैलकुलेटर पर देखें।\n\nस्रोत: MNRE PM सूर्य घर दिशानिर्देश (संशोधित जुलाई 2025), pmsuryaghar.gov.in · ख़र्च ₹60,000/kW, 120 यूनिट/kW, ₹7/यूनिट अनुमान · जाँच: 14 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं\n\n▶ ऐसे और वीडियो (सरकारी सब्सिडी योजनाएँ): https://www.youtube.com/playlist?list=PLJ_UkZibrHEI\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#PMSuryaGhar #RooftopSolar #SolarSubsidy #MuftBijli #SarkariYojana",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/khfZ4IT5beY/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/khfZ4IT5beY/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/khfZ4IT5beY/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/khfZ4IT5beY/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/khfZ4IT5beY/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "pm surya ghar loan",
+              "pm surya ghar subsidy",
+              "pm surya ghar yojana",
+              "pm surya ghar yojana apply kaise kare",
+              "rooftop solar subsidy calculator",
+              "solar subsidy 3kw",
+              "सूर्य घर योजना सब्सिडी",
+              "सोलर पैनल सब्सिडी 2026"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "PM Surya Ghar Yojana 2026: कितनी सब्सिडी, कितने kW, खर्च, बचत और Apply की पूरी जानकारी",
+              "description": "PM Surya Ghar Yojana 2026: 1 से 3 kW पर ₹30,000 से ₹78,000 सब्सिडी, पूरा हिसाब\n👉 फ्री कैलकुलेटर: https://parachar.com/pm-surya-ghar-subsidy-kitni-milegi/\n\nPM सूर्य घर मुफ़्त बिजली योजना में छत पर सोलर लगाने पर केंद्र की सब्सिडी: 1 kW पर ₹30,000, 2 kW पर ₹60,000, 3 kW या ज़्यादा पर ₹78,000 (पहाड़ी और पूर्वोत्तर राज्यों में ₹85,800 तक)। ₹60,000 प्रति kW के अनुमानित ख़र्च पर आपकी जेब से 1 kW में ₹30,000, 2 kW में ₹60,000, 3 kW में ₹1,02,000। 1 kW से करीब 120 यूनिट महीना बनती है; ₹7/यूनिट पर 2 kW से ₹1,680 महीना बचत, पैसा करीब 3 साल में वसूल। 3 kW तक बिना गारंटी लोन (करीब 6-7%*)। इस वीडियो में: कौन ले सकता है, कितने kW चाहिए, खर्च-बचत की टेबल, apply के 6 कदम और धोखे से कैसे बचें।\n\n⏱ इस वीडियो में:\n0:00 शुरुआत\n0:33 कौन ले सकता है\n1:05 सब्सिडी कितनी\n2:17 कितने kW चाहिए\n3:19 खर्च और बचत\n4:37 Apply कैसे करें\n5:26 अपना हिसाब देखें\n\n🔗 वीडियो में दिखाए गए फ्री टूल:\n• सूर्य घर सब्सिडी कैलकुलेटर: https://parachar.com/pm-surya-ghar-subsidy-kitni-milegi/\n\nPM Surya Ghar Yojana subsidy kitni milegi, rooftop solar subsidy calculator और pm surya ghar yojana apply kaise kare, सब एक वीडियो में। ख़र्च, यूनिट और ₹7 प्रति यूनिट बिजली दर अनुमान हैं; कुछ राज्य ऊपर से अलग मदद देते हैं, उसकी पुष्टि अपने डिस्कॉम से करें। अपने घर का पूरा हिसाब हमारे फ्री कैलकुलेटर पर देखें।\n\nस्रोत: MNRE PM सूर्य घर दिशानिर्देश (संशोधित जुलाई 2025), pmsuryaghar.gov.in · ख़र्च ₹60,000/kW, 120 यूनिट/kW, ₹7/यूनिट अनुमान · जाँच: 14 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं\n\n▶ ऐसे और वीडियो (सरकारी सब्सिडी योजनाएँ): https://www.youtube.com/playlist?list=PLJ_UkZibrHEI\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#PMSuryaGhar #RooftopSolar #SolarSubsidy #MuftBijli #SarkariYojana"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          },
+          "statistics": {
+            "viewCount": "2",
+            "likeCount": "0",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "fU0MriF8rHNl02pxQzTEs42Lwak",
+          "id": "ctTgNyM4ugo",
+          "snippet": {
+            "publishedAt": "2026-11-09T03:30:22Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "₹5 लाख होम लोन पर सरकार देगी ₹1,12,680 | PM Awas 2.0 ब्याज सब्सिडी का हिसाब #shorts",
+            "description": "PMAY 2.0 interest subsidy: ₹5 लाख होम लोन (20 साल) पर ₹1,12,680, 5 किस्तों में\n👉 फ्री कैलकुलेटर: https://parachar.com/pm-awas-yojana-2-0-subsidy-calculator/\n\nPM आवास योजना शहरी 2.0 की ब्याज सब्सिडी (ISS): पहले ₹8 लाख लोन पर 4% ब्याज, 12 साल तक, 8.5% पर आज की कीमत, ज़्यादा से ज़्यादा ₹1.8 लाख, 5 किस्तों में। ₹5 लाख लोन, 20 साल = ₹1,12,680 (हर किस्त करीब ₹22,536)। ₹3 लाख = ₹67,608, ₹8 लाख या ज़्यादा = ₹1,80,000। शर्तें: परिवार की आय ₹9 लाख तक, लोन ₹25 लाख तक, घर ₹35 लाख तक, लोन 1 सितंबर 2024 या बाद में मंज़ूर, देश में कहीं पक्का घर नहीं। अपने लोन पर देखें, फ्री:\nhttps://parachar.com/pm-awas-yojana-2-0-subsidy-calculator/\n\nPMAY 2.0 interest subsidy calculator, pm awas yojana home loan subsidy kitni milegi, आसान हिंदी में। रकम हमारे कैलकुलेटर के फ़ॉर्मूले से है; असली रकम बैंक की मंज़ूरी से तय होगी।\n\nस्रोत: आवास और शहरी कार्य मंत्रालय, PMAY-U 2.0 दिशानिर्देश (ब्याज सब्सिडी, ISS) · जाँच: 2 नवंबर 2026 · यह अनुमान है, मंज़ूरी नहीं\n\n▶ ऐसे और Shorts (सरकारी सब्सिडी योजनाएँ): https://www.youtube.com/playlist?list=PLJ_UkZibrHEI\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#PMAY #HomeLoan #AwasYojana #Subsidy #SarkariYojana",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/ctTgNyM4ugo/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/ctTgNyM4ugo/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/ctTgNyM4ugo/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/ctTgNyM4ugo/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/ctTgNyM4ugo/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "home loan subsidy 2026",
+              "pm awas yojana home loan subsidy",
+              "pmay 2.0 interest subsidy",
+              "pmay 5 lakh loan subsidy",
+              "pmay iss calculator",
+              "pmay urban 2.0",
+              "प्रधानमंत्री आवास योजना होम लोन सब्सिडी",
+              "होम लोन पर सब्सिडी"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "₹5 लाख होम लोन पर सरकार देगी ₹1,12,680 | PM Awas 2.0 ब्याज सब्सिडी का हिसाब #shorts",
+              "description": "PMAY 2.0 interest subsidy: ₹5 लाख होम लोन (20 साल) पर ₹1,12,680, 5 किस्तों में\n👉 फ्री कैलकुलेटर: https://parachar.com/pm-awas-yojana-2-0-subsidy-calculator/\n\nPM आवास योजना शहरी 2.0 की ब्याज सब्सिडी (ISS): पहले ₹8 लाख लोन पर 4% ब्याज, 12 साल तक, 8.5% पर आज की कीमत, ज़्यादा से ज़्यादा ₹1.8 लाख, 5 किस्तों में। ₹5 लाख लोन, 20 साल = ₹1,12,680 (हर किस्त करीब ₹22,536)। ₹3 लाख = ₹67,608, ₹8 लाख या ज़्यादा = ₹1,80,000। शर्तें: परिवार की आय ₹9 लाख तक, लोन ₹25 लाख तक, घर ₹35 लाख तक, लोन 1 सितंबर 2024 या बाद में मंज़ूर, देश में कहीं पक्का घर नहीं। अपने लोन पर देखें, फ्री:\nhttps://parachar.com/pm-awas-yojana-2-0-subsidy-calculator/\n\nPMAY 2.0 interest subsidy calculator, pm awas yojana home loan subsidy kitni milegi, आसान हिंदी में। रकम हमारे कैलकुलेटर के फ़ॉर्मूले से है; असली रकम बैंक की मंज़ूरी से तय होगी।\n\nस्रोत: आवास और शहरी कार्य मंत्रालय, PMAY-U 2.0 दिशानिर्देश (ब्याज सब्सिडी, ISS) · जाँच: 2 नवंबर 2026 · यह अनुमान है, मंज़ूरी नहीं\n\n▶ ऐसे और Shorts (सरकारी सब्सिडी योजनाएँ): https://www.youtube.com/playlist?list=PLJ_UkZibrHEI\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#PMAY #HomeLoan #AwasYojana #Subsidy #SarkariYojana"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          },
+          "statistics": {
+            "viewCount": "39",
+            "likeCount": "0",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "WdQrtV0F6w6XNXlU1jJ7M61Y-G8",
+          "id": "fMrDhWO3Z6U",
+          "snippet": {
+            "publishedAt": "2026-11-09T14:00:00Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "नौकरी छोड़ी? Full & Final 2 कार्यदिवस में, 45 दिन नहीं | नया Wage Code नियम #shorts",
+            "description": "Full and final settlement rule 2026: नौकरी छोड़ने के 2 कार्यदिवस में सारा बकाया (वेतन संहिता धारा 17)\n👉 फ्री कैलकुलेटर: https://parachar.com/salary-nahi-mili-kya-karein/\n\nवेतन संहिता 2019 (21 नवंबर 2025 से लागू) की धारा 17(2): इस्तीफ़ा, छँटनी या नौकरी से हटाए जाने पर सारा बकाया वेतन 2 कार्यदिवस में देना है। हर महीने का वेतन अगले महीने की 7 तारीख तक। ग्रेच्युटी 30 दिन में (फ़ॉर्म I से माँगें)। PF अलग से EPFO पर ऑनलाइन क्लेम। न मिले तो कंपनी को लिखित माँग, फिर श्रम विभाग (केंद्र के क्षेत्र में Samadhan पोर्टल)। अपने केस में क्या करें, फ्री:\nhttps://parachar.com/salary-nahi-mili-kya-karein/\n\nFull and final settlement kitne din me, salary nahi mili to kya kare और new labour code F&F rule, आसान हिंदी में। कई कंपनियाँ अब भी 45-90 दिन लेती हैं; कानून 2 कार्यदिवस कहता है, पर राज्य के नियम और लागू करने की स्थिति देखें।\n\nस्रोत: वेतन संहिता 2019 धारा 17(2) (लागू 21 नवंबर 2025), ग्रेच्युटी अधिनियम धारा 7 · जाँच: 2 नवंबर 2026 · राज्य के नियम अलग हो सकते हैं, कानूनी सलाह नहीं\n\n▶ ऐसे और Shorts (इनकम टैक्स और सैलरी): https://www.youtube.com/playlist?list=PLFBDdDjKFXrU\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#FullAndFinal #LabourCode #Salary #Resignation #PrivateJob",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/fMrDhWO3Z6U/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/fMrDhWO3Z6U/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/fMrDhWO3Z6U/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/fMrDhWO3Z6U/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/fMrDhWO3Z6U/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "f&f settlement rule",
+              "full and final settlement",
+              "full and final settlement 2 days",
+              "new labour code salary",
+              "resignation ke baad salary",
+              "salary nahi mili",
+              "wage code section 17",
+              "फुल एंड फाइनल सेटलमेंट"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "नौकरी छोड़ी? Full & Final 2 कार्यदिवस में, 45 दिन नहीं | नया Wage Code नियम #shorts",
+              "description": "Full and final settlement rule 2026: नौकरी छोड़ने के 2 कार्यदिवस में सारा बकाया (वेतन संहिता धारा 17)\n👉 फ्री कैलकुलेटर: https://parachar.com/salary-nahi-mili-kya-karein/\n\nवेतन संहिता 2019 (21 नवंबर 2025 से लागू) की धारा 17(2): इस्तीफ़ा, छँटनी या नौकरी से हटाए जाने पर सारा बकाया वेतन 2 कार्यदिवस में देना है। हर महीने का वेतन अगले महीने की 7 तारीख तक। ग्रेच्युटी 30 दिन में (फ़ॉर्म I से माँगें)। PF अलग से EPFO पर ऑनलाइन क्लेम। न मिले तो कंपनी को लिखित माँग, फिर श्रम विभाग (केंद्र के क्षेत्र में Samadhan पोर्टल)। अपने केस में क्या करें, फ्री:\nhttps://parachar.com/salary-nahi-mili-kya-karein/\n\nFull and final settlement kitne din me, salary nahi mili to kya kare और new labour code F&F rule, आसान हिंदी में। कई कंपनियाँ अब भी 45-90 दिन लेती हैं; कानून 2 कार्यदिवस कहता है, पर राज्य के नियम और लागू करने की स्थिति देखें।\n\nस्रोत: वेतन संहिता 2019 धारा 17(2) (लागू 21 नवंबर 2025), ग्रेच्युटी अधिनियम धारा 7 · जाँच: 2 नवंबर 2026 · राज्य के नियम अलग हो सकते हैं, कानूनी सलाह नहीं\n\n▶ ऐसे और Shorts (इनकम टैक्स और सैलरी): https://www.youtube.com/playlist?list=PLFBDdDjKFXrU\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#FullAndFinal #LabourCode #Salary #Resignation #PrivateJob"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "status": {
+            "uploadStatus": "processed",
+            "privacyStatus": "public",
+            "license": "youtube",
+            "embeddable": true,
+            "publicStatsViewable": true,
+            "madeForKids": false,
+            "selfDeclaredMadeForKids": false
+          },
+          "statistics": {
+            "viewCount": "0",
+            "likeCount": "0",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        }
+      ],
+      "pageInfo": {
+        "totalResults": 12,
+        "resultsPerPage": 12
+      }
+    }
+  }
+}
