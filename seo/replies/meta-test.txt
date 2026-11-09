@@ -1,5 +1,2 @@
-instagram username {"id":"17841410745697100","username":"parachar.in"}
-instagram media_count {"id":"17841410745697100","media_count":12}
-facebook link {"link":"https://www.facebook.com/1333314486542707","id":"1333314486542707"}
-facebook username {"id":"1333314486542707"}
-facebook name {"name":"Parachar","id":"1333314486542707"}
+instagram {"id":"17967844736980970","media_product_type":"REELS","permalink":"https://www.instagram.com/reel/DfgX26rHfZJ/","timestamp":"2026-11-09T03:32:49+0000"}
+facebook {"permalink_url":"/reel/3394064104116562/","status":{"video_status":"ready","uploading_phase":{"status":"complete","bytes_transferred":34229699},"processing_phase":{"status":"complete"},"publishing_phase":{"status":"complete","publish_status":"published","publish_time":"2026-11-09T03:32:55+0000"},"copyright_check_status":{"status":"complete","matches_found":false}},"published":true,"id":"3394064104116562"}
