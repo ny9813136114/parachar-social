@@ -1,0 +1,87 @@
+{
+  "id": "jeevan-pramaan-30-november",
+  "template": "T3 kya-badla",
+  "theme": "amber",
+  "news": true,
+  "trust": "स्रोत: पेंशन विभाग (DoPPW), DLC अभियान 5.0 (1-30 नवंबर 2026), jeevanpramaan.gov.in · जाँच: 9 नवंबर 2026",
+  "url": "https://parachar.com/jeevan-pramaan-life-certificate-kab-tak/",
+  "search": "parachar jeevan pramaan",
+  "question": "आपने इस साल लाइफ़ सर्टिफ़िकेट जमा किया? हाँ या ना लिखिए 👇",
+  "campaign": "jeevan-pramaan",
+  "playlist": "पेंशन और रिटायरमेंट",
+  "title": "Jeevan Pramaan 30 नवंबर तक नहीं दिया? दिसंबर से पेंशन रुकेगी | घर बैठे फ़ेस से जमा करें #shorts",
+  "seoIntro": "Jeevan Pramaan Patra 2026: 30 नवंबर तक लाइफ़ सर्टिफ़िकेट, वरना दिसंबर से पेंशन रुकेगी",
+  "description": "केंद्र, राज्य और बैंक के पेंशनर 1 से 30 नवंबर तक जीवन प्रमाण पत्र (लाइफ़ सर्टिफ़िकेट) जमा करते हैं; 80 साल से ऊपर वाले 1 अक्टूबर से। पेंशन विभाग नवंबर 2026 में 2,000 शहरों और ज़िलों में DLC अभियान 5.0 के कैंप लगा रहा है। घर बैठे: Jeevan Pramaan और Aadhaar FaceRD ऐप से चेहरे से। या बैंक शाखा, CSC, या डाकिए (IPPB, करीब ₹70)। समय पर न दिया तो दिसंबर से पेंशन रुकती है; बाद में जमा करने पर रुका पैसा एरियर के साथ मिलता है। EPS-95 पेंशनर साल में कभी भी जमा कर सकते हैं। अपनी आख़िरी तारीख देखें, फ्री:",
+  "about": "Jeevan pramaan patra kaise jama kare, life certificate last date 30 november और face authentication से jeevan pramaan, आसान हिंदी में। आपकी आख़िरी तारीख पेंशन के प्रकार और उम्र से तय होती है।",
+  "hashtags": [
+    "#JeevanPramaan",
+    "#Pension",
+    "#LifeCertificate",
+    "#Pensioner",
+    "#SarkariYojana"
+  ],
+  "tags": [
+    "jeevan pramaan",
+    "life certificate last date",
+    "jeevan pramaan face authentication",
+    "जीवन प्रमाण पत्र",
+    "life certificate 30 november",
+    "dlc campaign 2026",
+    "pension band ho jayegi",
+    "जीवन प्रमाण पत्र कैसे बनाएं"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "chip": "पेंशनर ध्यान दें",
+      "lines": [
+        "30 नवंबर तक",
+        "*लाइफ़ सर्टिफ़िकेट* नहीं?"
+      ],
+      "sub": "दिसंबर से पेंशन रुकेगी 👇",
+      "say": "पेंशन लेते हैं? तीस नवंबर तक जीवन प्रमाण पत्र नहीं दिया, तो दिसंबर से पेंशन रुक सकती है।"
+    },
+    {
+      "type": "list",
+      "dur": 6.2,
+      "heading": "किसकी तारीख कब?",
+      "items": [
+        "केंद्र, राज्य, बैंक पेंशनर: *1-30 नवंबर*",
+        "80 साल से ऊपर: *1 अक्टूबर* से",
+        "EPS-95 (PF पेंशन): साल में *कभी भी*"
+      ],
+      "say": "केंद्र, राज्य और बैंक के पेंशनर एक से तीस नवंबर तक। अस्सी से ऊपर वाले एक अक्टूबर से। और PF वाली पेंशन वाले साल में कभी भी।"
+    },
+    {
+      "type": "myth",
+      "dur": 5.4,
+      "myth": "बैंक जाना ही पड़ेगा",
+      "fact": "घर बैठे *चेहरे* से जमा",
+      "sub": "Jeevan Pramaan + Aadhaar FaceRD ऐप · या डाकिया (IPPB, करीब ₹70)",
+      "say": "बैंक की लाइन ज़रूरी नहीं। फ़ोन पर Jeevan Pramaan ऐप से चेहरा दिखाकर, या डाकिए को घर बुलाकर।"
+    },
+    {
+      "type": "warn",
+      "dur": 4.6,
+      "icon": "📅",
+      "text": "देर हो गई? पेंशन *एरियर* के साथ मिलेगी",
+      "sub": "सर्टिफ़िकेट जमा होते ही रुकी पेंशन फिर शुरू",
+      "say": "देर हो भी जाए, तो घबराइए मत। जमा करते ही रुकी पेंशन एरियर के साथ फिर शुरू हो जाती है।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "line": "आपकी आख़िरी तारीख कब?<br><em>पेंशन का प्रकार चुनें</em>",
+      "tool": "जीवन प्रमाण चेकर",
+      "say": "अपनी आख़िरी तारीख पक्की करनी है? Google में parachar jeevan pramaan लिखिए।"
+    }
+  ],
+  "broll": [
+    "indian senior man smartphone",
+    "indian elderly couple",
+    "indian post office",
+    "indian bank branch",
+    "indian senior woman"
+  ]
+}

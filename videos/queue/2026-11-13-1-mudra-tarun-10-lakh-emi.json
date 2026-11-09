@@ -1,0 +1,116 @@
+{
+  "id": "mudra-tarun-10-lakh-emi",
+  "template": "T1 kitna-milega",
+  "theme": "amber",
+  "trust": "स्रोत: प्रधानमंत्री मुद्रा योजना (mudra.org.in, myscheme.gov.in) · जाँच: 9 नवंबर 2026 · 10% ब्याज अनुमान, बैंक तय करता है",
+  "url": "https://parachar.com/mudra-loan-calculator/",
+  "search": "parachar mudra emi",
+  "question": "आपको कितने का मुद्रा लोन चाहिए? लिखिए 👇",
+  "campaign": "mudra",
+  "playlist": "मुद्रा लोन",
+  "title": "Mudra Tarun Loan ₹10 लाख: EMI ₹21,247, 5 साल में ब्याज ₹2.75 लाख | बिना गारंटी #shorts",
+  "seoIntro": "Mudra Tarun loan EMI 2026: ₹10 लाख पर 10% ब्याज, 5 साल में ₹21,247 महीना",
+  "description": "मुद्रा तरुण लोन ₹5 से ₹10 लाख तक, बिना गारंटी (तरुण चुकाने के बाद तरुण प्लस ₹20 लाख तक)। ₹10 लाख, 10% ब्याज, 5 साल: EMI ₹21,247, कुल ब्याज करीब ₹2,74,820। ₹5 लाख पर EMI ₹10,624। ब्याज दर बैंक तय करता है, 2026 में करीब 9-12%। आवेदन किसी भी बैंक शाखा या udyamimitra.in पर। अपनी EMI देखें, फ्री:",
+  "about": "Mudra tarun loan EMI, mudra loan 10 lakh EMI और mudra loan interest rate 2026, आसान हिंदी में। EMI 10% मानकर है; आपके बैंक की दर से बदलेगी।",
+  "hashtags": [
+    "#MudraLoan",
+    "#BusinessLoan",
+    "#PMMY",
+    "#EMI",
+    "#SmallBusiness"
+  ],
+  "tags": [
+    "mudra tarun loan",
+    "mudra loan 10 lakh emi",
+    "mudra loan emi calculator",
+    "मुद्रा तरुण लोन",
+    "mudra loan interest rate 2026",
+    "tarun plus 20 lakh",
+    "बिना गारंटी लोन",
+    "मुद्रा लोन EMI"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "chip": "मुद्रा तरुण लोन",
+      "lines": [
+        "₹10 लाख बिना गारंटी",
+        "EMI *₹21,247*"
+      ],
+      "sub": "पूरा हिसाब 👇",
+      "say": "मुद्रा तरुण में दस लाख का लोन, बिना गारंटी। EMI करीब इक्कीस हज़ार दो सौ।"
+    },
+    {
+      "type": "count",
+      "dur": 4.6,
+      "chip": "₹10 लाख, 10%, 5 साल",
+      "label": "हर महीने की EMI",
+      "value": 21247,
+      "note": "5 साल में कुल ब्याज करीब ₹2,74,820",
+      "say": "दस प्रतिशत ब्याज और पाँच साल, तो हर महीने इक्कीस हज़ार दो सौ सैंतालीस।"
+    },
+    {
+      "type": "split",
+      "dur": 5,
+      "heading": "5 साल में कुल ₹12.75 लाख",
+      "segments": [
+        {
+          "label": "मूल रकम",
+          "value": 1000000,
+          "color": "#14b8a6"
+        },
+        {
+          "label": "ब्याज",
+          "value": 274820,
+          "color": "#f59e0b"
+        }
+      ],
+      "callout": "₹5 लाख लें तो EMI ₹10,624",
+      "say": "पाँच साल में ब्याज करीब पौने तीन लाख। पाँच लाख ही लें, तो EMI आधी, दस हज़ार छह सौ।"
+    },
+    {
+      "type": "inputs",
+      "dur": 4.8,
+      "heading": "सलमान, टेलरिंग यूनिट, भिवंडी",
+      "rows": [
+        [
+          "मशीनें",
+          "₹10 लाख"
+        ],
+        [
+          "महीने का मुनाफ़ा",
+          "₹45,000"
+        ],
+        [
+          "EMI के बाद बचे",
+          "करीब ₹23,750"
+        ]
+      ],
+      "say": "भिवंडी के सलमान को टेलरिंग मशीनों के लिए दस लाख चाहिए। मुनाफ़ा पैंतालीस हज़ार, EMI के बाद भी करीब चौबीस हज़ार बचते हैं।"
+    },
+    {
+      "type": "warn",
+      "dur": 4.4,
+      "icon": "⚠️",
+      "text": "EMI मुनाफ़े की *आधी* से ज़्यादा? लोन छोटा लें",
+      "sub": "ब्याज दर बैंक तय करता है, 9-12% के आस-पास",
+      "say": "नियम याद रखिए, EMI मुनाफ़े की आधी से ज़्यादा हो, तो लोन छोटा लीजिए।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "line": "आपके लोन की EMI?<br><em>रकम और ब्याज डालें</em>",
+      "tool": "मुद्रा लोन कैलकुलेटर",
+      "say": "अपनी EMI देखनी है? Google में parachar mudra emi टाइप कीजिए।"
+    }
+  ],
+  "broll": [
+    "indian tailoring workshop",
+    "indian small factory",
+    "indian bank branch",
+    "indian rupee notes",
+    "indian shop owner",
+    "indian man calculator"
+  ]
+}
