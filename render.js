@@ -63,15 +63,16 @@ const INDUSTRY = [ // [match, palette, Pexels b-roll searches]
 ];
 function industryOf(spec) { return INDUSTRY.find(([re]) => re.test(spec.industry || '')) || [null, null, ['small business owner', 'shop owner', 'office work']]; }
 function pickServicesDesign() {
-  const logF = path.join(__dirname, 'social', 'ig', 'looks-used.json');
+  const li = spec.format === 'li'; // LinkedIn keeps its own rotation and skips the loud neon look
+  const logF = li ? path.join(__dirname, 'linkedin', 'looks-used.json') : path.join(__dirname, 'social', 'ig', 'looks-used.json');
   const log = fs.existsSync(logF) ? JSON.parse(fs.readFileSync(logF, 'utf8')) : [];
   const prev = log.find(x => x.id === spec.id); // re-render (dry run, then the real post) keeps the same design
   let look = process.env.LOOK || spec.look || (prev && prev.look), pal = (spec.palette && spec.palette.name) || (prev && prev.palette);
   if (!look) {
     const n = t => spec.scenes.filter(s => s.type === t).length;
     const pref = [...new Set([...(n('chat') >= 2 ? ['phone'] : []), ...(n('list') >= 2 ? ['notebook'] : []),
-      ...(n('compare') || n('stat') ? ['block', 'neon'] : []), 'footage', ...S_LOOKS])];
-    const recent = log.slice(-5).map(x => x.look);
+      ...(n('compare') || n('stat') ? ['block', 'neon'] : []), 'footage', ...S_LOOKS])].filter(l => !li || l !== 'neon');
+    const recent = log.slice(li ? -4 : -5).map(x => x.look);
     look = pref.find(l => !recent.includes(l)) || pref.find(l => l !== recent[recent.length - 1]) || pref[0];
   }
   if (!pal) {
@@ -135,7 +136,8 @@ function sfxFiles(dir) {
     spec.footage = !!clips;
   }
   const browser = await chromium.launch();
-  const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
+  const W = 1080, H = spec.format === 'li' ? 1350 : 1920; // LinkedIn videos are 4:5
+  const page = await browser.newPage({ viewport: { width: W, height: H }, deviceScaleFactor: 1 });
   // ENGINE_STYLE=v2 / v3 / services (or spec.style) picks engine-v2.html / engine-v3.html / engine-services.html.
   await page.goto('file://' + path.join(__dirname, { v2: 'engine-v2.html', v3: 'engine-v3.html', services: 'engine-services.html' }[style] || 'engine.html'));
   await page.evaluate(() => window.preload && window.preload());
@@ -168,8 +170,8 @@ function sfxFiles(dir) {
       spec.scenes.forEach((s, i) => {
         vin.push('-stream_loop', '-1', '-t', String(s.dur), '-i', clips[i % clips.length].file); // fewer clips than scenes: reuse them
         const dx = i % 2 ? -1 : 1; // the end screen's footage is blurred and darkened so faces never fight the phone card
-        vf.push(`[${i + 1}:v]fps=${fps},scale=1188:2112:force_original_aspect_ratio=increase,crop=1188:2112,` +
-          `crop=1080:1920:x='54+${dx}*40*t/${s.dur}+6*sin(t*1.3)':y='96-60*t/${s.dur}+5*sin(t*1.7+1)',setsar=1,${grade}${s.type === 'cta' ? ',gblur=sigma=18,eq=brightness=-0.18' : ''},trim=duration=${s.dur},setpts=PTS-STARTPTS[c${i}]`);
+        vf.push(`[${i + 1}:v]fps=${fps},scale=${W * 1.1}:${H * 1.1}:force_original_aspect_ratio=increase,crop=${W * 1.1}:${H * 1.1},` +
+          `crop=${W}:${H}:x='${W * 0.05}+${dx}*40*t/${s.dur}+6*sin(t*1.3)':y='${H * 0.05}-60*t/${s.dur}+5*sin(t*1.7+1)',setsar=1,${grade}${s.type === 'cta' ? ',gblur=sigma=18,eq=brightness=-0.18' : ''},trim=duration=${s.dur},setpts=PTS-STARTPTS[c${i}]`);
       });
       vf.push(`${spec.scenes.map((_, i) => `[c${i}]`).join('')}concat=n=${spec.scenes.length}:v=1:a=0,noise=alls=7:allf=t[bgv]`,
         `[0:v]format=rgba[fg]`, `[bgv][fg]overlay=0:0:format=auto,format=yuv420p[v]`);

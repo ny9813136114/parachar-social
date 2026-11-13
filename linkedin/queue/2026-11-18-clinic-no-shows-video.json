@@ -1,0 +1,22 @@
+{
+  "id": "clinic-no-shows-video",
+  "text": "A clinic with 30 appointments a day and 5 no-shows loses about ₹2.25 lakh a quarter.\n\n(5 empty slots × ₹500 × 90 days. Use your own numbers.)\n\nMost of those patients didn't decide to skip. They forgot, or the time stopped working and rescheduling felt like effort.\n\nThe fix is 3 WhatsApp messages:\n1. 24 hours before: doctor, time and a map link\n2. 2 hours before: \"Reply 1 to confirm, 2 to reschedule\"\n3. No reply? The front desk calls, and the slot goes to the waiting list\n\nThe key is step 2. Make rescheduling one tap, and people reschedule instead of disappearing.\n\nIt works the same for dental, physio, diagnostics and salons.\n\nHow many no-shows did your clinic have last week?\n\nWant this fixed in your business? WhatsApp me: +91 98131 36114\n\n#healthcare #clinicmanagement #patientexperience #automation",
+  "media": { "type": "video", "title": "Clinic no-shows: the 3-message fix" },
+  "reel": {
+    "id": "li-clinic-no-shows",
+    "industry": "Healthcare",
+    "voice": "en-IN-NeerjaNeural",
+    "scenes": [
+      { "type": "hook", "dur": 4.6, "kicker": "Clinics & dental practices", "text": "5 patients *didn't show up* today.", "say": "Five patients didn't show up at your clinic today." },
+      { "type": "stat", "dur": 5.6, "kicker": "What it costs", "value": "₹2.25 lakh", "text": "5 empty slots × ₹500 × 90 days. *Every quarter.*", "say": "Five empty slots, five hundred rupees each, ninety days. That is two point two five lakh rupees every quarter." },
+      { "type": "list", "dur": 8.4, "title": "The fix: *3 WhatsApp messages*", "items": ["*24 hours before*: doctor, time, map link", "*2 hours before*: \"Reply 1 to confirm, 2 to reschedule\"", "*No reply?* Front desk calls. Slot goes to the waiting list."], "say": "The fix is three WhatsApp messages. One day before, the time and a map link. Two hours before, reply one to confirm or two to reschedule. No reply? The front desk calls, and the slot goes to the waiting list." },
+      { "type": "chat", "dur": 8, "title": "What the patient sees:", "name": "Smile Dental", "status": "WhatsApp Business", "gap": 1.4, "msgs": [
+        { "from": "us", "text": "Hi Ritu 👋 Reminder: Dr. Mehta, *today 11:30 am*. Reply 1 to confirm, 2 to reschedule.", "time": "9:30 am" },
+        { "from": "them", "text": "2", "time": "9:41 am" },
+        { "from": "us", "text": "No problem. *Thursday 5 pm* or *Friday 10 am*?", "time": "9:41 am" }
+      ], "say": "Rescheduling becomes one tap. So patients move the slot instead of just not coming." },
+      { "type": "hook", "dur": 4.4, "kicker": "Why it works", "text": "Most no-shows *forgot*. They didn't *decide* to skip.", "say": "Most no-shows simply forgot. They didn't decide to skip." },
+      { "type": "cta", "dur": 6.6, "text": "Want this set up for *your clinic*?", "keyword": "REMIND", "pre": "Comment 👇", "sub": "I'll send the exact message templates", "say": "Want this for your clinic? Comment remind for the templates, or WhatsApp us and we will set it up for you." }
+    ]
+  }
+}

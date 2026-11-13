@@ -1,11 +1,12 @@
 name: LinkedIn post
 
-# Mon/Tue/Thu/Sat 08:45 IST: posts today's file from linkedin/queue/ to the owner's personal LinkedIn profile.
+# Mon/Tue/Wed/Thu/Sat 08:45 IST: posts today's file from linkedin/queue/ to the owner's personal LinkedIn profile.
+# Wednesday is the weekly LinkedIn video (4:5, rendered here from the file's "reel", voice + music + Pexels video).
 # OFF until repo variable LI_AUTO_POST = on and secret LI_TOKEN are set (see linkedin/README.md).
 
 on:
   schedule:
-    - cron: "15 3 * * 1,2,4,6"
+    - cron: "15 3 * * 1,2,3,4,6"
   workflow_dispatch:
     inputs:
       date: { description: "Queue date to post (YYYY-MM-DD), blank = today IST", required: false }
@@ -20,16 +21,34 @@ jobs:
   post:
     if: vars.LI_AUTO_POST == 'on' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    timeout-minutes: 30
     env:
       LI_TOKEN: ${{ secrets.LI_TOKEN }}
       LI_VERSION: ${{ vars.LI_VERSION }}
       LI_TOKEN_DATE: ${{ vars.LI_TOKEN_DATE }}
+      MUSIC: "on"
+      TTS_ENGINE: edge
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
+      - name: Render today's LinkedIn video (only on video days)
+        id: reel
+        run: |
+          SPEC=$(node linkedin.js reel "${{ inputs.date }}")
+          echo "spec=$SPEC" >> "$GITHUB_OUTPUT"
+          [ -z "$SPEC" ] && { echo "No video today."; exit 0; }
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+          python3 -m pip install -q edge-tts
+          node render.js "$SPEC"
+      - name: Keep the video for review
+        if: steps.reel.outputs.spec != ''
+        uses: actions/upload-artifact@v4
+        with: { name: linkedin-video, path: "out/*/*.mp4", retention-days: 14 }
       - name: Post
         run: node linkedin.js post "${{ inputs.date }}"
       - name: Save queue state
