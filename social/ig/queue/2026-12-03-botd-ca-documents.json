@@ -1,0 +1,74 @@
+{
+  "id": "botd-ca-documents",
+  "style": "services",
+  "series": "Business of the Day",
+  "industry": "CA & tax consultants",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "kicker": "CA firms 👇",
+      "text": "Har saal wahi kahani: *documents ke liye* 10 baar call.",
+      "say": "CA firms. Har saal wahi kahani. Documents ke liye das baar call."
+    },
+    {
+      "type": "hook",
+      "dur": 2.6,
+      "kicker": "Is saal alag karo",
+      "text": "*3 cheezein* aaj set karo, March mein *shanti*.",
+      "say": "Is saal teen cheezein aaj set karo. March mein shanti rahegi."
+    },
+    {
+      "type": "list",
+      "dur": 5.6,
+      "title": "1. Client type ke hisaab se *checklist*:",
+      "items": [
+        "Salaried: Form 16, rent, 80C proofs",
+        "Business: bank statement, GST returns",
+        "Ek hi *link* pe upload (Drive / form)"
+      ],
+      "say": "Har client type ki alag checklist, aur upload ke liye ek hi link."
+    },
+    {
+      "type": "chat",
+      "dur": 5.8,
+      "title": "2. *Auto reminder* (har 5 din):",
+      "name": "Your CA Firm",
+      "status": "WhatsApp Business",
+      "gap": 1.2,
+      "msgs": [
+        {
+          "from": "us",
+          "text": "Namaste Sharma ji 🙏 ITR ke liye *2 documents pending*: Form 16, LIC receipt. Upload link: 📎",
+          "time": "10:00 am"
+        },
+        {
+          "from": "them",
+          "text": "Aaj shaam tak bhejta hoon",
+          "time": "10:12 am"
+        }
+      ],
+      "say": "Sirf pending documents ka reminder, upload link ke saath. Har paanch din, apne aap."
+    },
+    {
+      "type": "list",
+      "dur": 4.6,
+      "title": "3. Ek *status sheet*:",
+      "items": [
+        "Client · pending docs · *due date*",
+        "Roz subah team ko *summary*"
+      ],
+      "say": "Aur ek status sheet, jiska summary roz subah team ko jaaye."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Tax season se *pehle* set karo, March mein nahi",
+      "keyword": "AUDIT",
+      "sub": "Comment AUDIT: hum ye system set kar denge",
+      "say": "Tax season se pehle set karo. Comment karo AUDIT."
+    }
+  ],
+  "caption": "CA firms: har saal documents ke liye 10 baar call? Is saal system lagao. 📑\n\nBusiness of the Day: CA & tax consultants\n1️⃣ Client type ke hisaab se checklist (salaried / business) + 1 upload link\n2️⃣ Auto WhatsApp reminder har 5 din: sirf PENDING documents ka naam + link\n3️⃣ Status sheet: client, pending docs, due date. Roz subah team ko summary\n\nTax season se pehle set karo, March mein nahi.\nComment \"AUDIT\" 👇 hum ye system set kar denge.\n\n#charteredaccountant #cafirm #taxconsultant #practicemanagement #parachar"
+}

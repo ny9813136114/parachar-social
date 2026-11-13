@@ -1,0 +1,69 @@
+{
+  "id": "botd-interior-estimate",
+  "style": "services",
+  "series": "Business of the Day",
+  "industry": "Interior designers",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "kicker": "Interior designers 👇",
+      "text": "\"Rate kya hai?\" Aur phir *gayab.*",
+      "say": "Interior designers. Rate kya hai, poocha, aur phir gayab."
+    },
+    {
+      "type": "hook",
+      "dur": 2.8,
+      "kicker": "Problem rate nahi hai",
+      "text": "Client ko *apna budget* hi nahi pata. Use *range* chahiye.",
+      "say": "Problem aapka rate nahi hai. Client ko apna budget hi nahi pata. Use ek range chahiye."
+    },
+    {
+      "type": "list",
+      "dur": 5.8,
+      "title": "Website pe *cost estimator*:",
+      "items": [
+        "Flat size: 2BHK / 3BHK",
+        "Kaam: kitchen, wardrobe, full home",
+        "Finish: basic / premium → *₹ range*"
+      ],
+      "say": "Website pe ek cost estimator. Flat size, kaam, aur finish chuno, aur turant ek range dikhe."
+    },
+    {
+      "type": "compare",
+      "dur": 4.8,
+      "title": "Kya badalta hai",
+      "bad": {
+        "label": "Abhi",
+        "value": "\"Rate?\"",
+        "text": "Har enquiry pe 20 min call, aadhe budget se bahar"
+      },
+      "good": {
+        "label": "Estimator ke baad",
+        "value": "₹ range",
+        "text": "Client range dekh ke aata hai. Sirf serious leads"
+      },
+      "say": "Abhi har enquiry pe bees minute call. Estimator ke baad sirf wo log aate hain jinhe range theek lagi."
+    },
+    {
+      "type": "list",
+      "dur": 4.6,
+      "title": "Estimate ke *baad*:",
+      "items": [
+        "Naam + WhatsApp → estimate *PDF*",
+        "*Site visit* slot ka option"
+      ],
+      "say": "Estimate ke baad naam aur WhatsApp lo, PDF bhejo, aur site visit slot do."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Aapke liye *estimator* chahiye?",
+      "keyword": "CALC",
+      "sub": "Comment CALC: aapke business ka calculator idea free",
+      "say": "Comment karo CALC. Aapke business ka calculator idea free."
+    }
+  ],
+  "caption": "\"Rate kya hai?\" Aur phir gayab. Problem aapka rate nahi, client ko apna budget hi nahi pata. 🛋️\n\nBusiness of the Day: Interior designers\nWebsite pe cost estimator lagao:\n🏠 Flat size: 2BHK / 3BHK\n🔨 Kaam: kitchen, wardrobe, full home\n✨ Finish: basic / premium → turant ₹ range\nPhir naam + WhatsApp → estimate PDF + site visit slot.\n\nResult: 20-min \"rate?\" calls kam, sirf serious leads.\n\nComment \"CALC\" 👇 aapke business ka calculator idea free.\n\n#interiordesigner #interiordesignindia #homeinteriors #leadgeneration #parachar"
+}

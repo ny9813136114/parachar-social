@@ -1,0 +1,75 @@
+{
+  "id": "botd-restaurant-direct",
+  "style": "services",
+  "series": "Business of the Day",
+  "industry": "Restaurant & cafe",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "kicker": "Restaurant owners 👇",
+      "text": "Har order pe *app ko commission.* Customer bhi *app ka.*",
+      "say": "Restaurant owners. Har order pe app ko commission. Aur customer bhi app ka ho jaata hai."
+    },
+    {
+      "type": "hook",
+      "dur": 2.6,
+      "kicker": "Fix",
+      "text": "Repeat customer ko *direct* order pe lao. *3 steps.*",
+      "say": "Fix. Repeat customer ko direct order pe lao. Teen steps."
+    },
+    {
+      "type": "list",
+      "dur": 5.8,
+      "title": "1. *Google profile* pe:",
+      "items": [
+        "\"Order online\" mein apna *WhatsApp* link",
+        "Menu ki *photo* + prices update",
+        "Timing sahi, *phone number* chalu"
+      ],
+      "say": "Google profile pe apna WhatsApp order link, menu ki photo, aur sahi timing."
+    },
+    {
+      "type": "list",
+      "dur": 5.4,
+      "title": "2. *Parcel* ke andar card:",
+      "items": [
+        "\"Direct order pe *free dessert*\"",
+        "*QR code* → WhatsApp menu",
+        "Sirf *repeat* orders ke liye"
+      ],
+      "say": "Har parcel mein ek card. Direct order pe free dessert, QR code se WhatsApp menu."
+    },
+    {
+      "type": "chat",
+      "dur": 5.6,
+      "title": "3. *Weekend* broadcast:",
+      "name": "Your Restaurant",
+      "status": "WhatsApp Business",
+      "gap": 1.2,
+      "msgs": [
+        {
+          "from": "us",
+          "text": "Friday special 🍕 aaj *Paneer Tikka Pizza* + Coke ₹299. Order: reply YES",
+          "time": "6:30 pm"
+        },
+        {
+          "from": "them",
+          "text": "YES, 2 pizza",
+          "time": "6:34 pm"
+        }
+      ],
+      "say": "Hafte mein ek baar special, sirf un logon ko jo pehle order kar chuke hain."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Apps chhodne ki zaroorat nahi. *Repeat* customers ko direct lao.",
+      "keyword": "AUDIT",
+      "sub": "Comment AUDIT: free setup plan",
+      "say": "Apps chhodne ki zaroorat nahi. Repeat customers direct lao. Comment karo AUDIT."
+    }
+  ],
+  "caption": "Har order pe app ko commission, aur customer bhi app ka. 🍽️\n\nBusiness of the Day: Restaurant\nApps mat chhodo. Bas REPEAT customers ko direct lao:\n1️⃣ Google profile: \"Order online\" mein apna WhatsApp link + menu photo + sahi timing\n2️⃣ Parcel mein card: direct order pe free dessert + QR → WhatsApp menu\n3️⃣ Hafte mein 1 broadcast: sirf purane customers ko weekend special\n\nSave karo 🔖 aaj hi card print karwa lo.\nComment \"AUDIT\" 👇 free setup plan.\n\n#restaurantowner #restaurantmarketing #cloudkitchen #foodbusiness #parachar"
+}

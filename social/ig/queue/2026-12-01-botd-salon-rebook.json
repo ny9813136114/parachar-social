@@ -1,0 +1,72 @@
+{
+  "id": "botd-salon-rebook",
+  "style": "services",
+  "series": "Business of the Day",
+  "industry": "Salon & beauty",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "kicker": "Salon owners 👇",
+      "text": "Regular customer *2 mahine se* nahi aayi?",
+      "say": "Salon owners. Regular customer do mahine se nahi aayi?"
+    },
+    {
+      "type": "hook",
+      "dur": 2.8,
+      "kicker": "Wo naraz nahi hai",
+      "text": "Wo bas *bhool gayi*. Aur paas wala salon *yaad dila* gaya.",
+      "say": "Wo naraz nahi hai. Bas bhool gayi. Aur paas wala salon yaad dila gaya."
+    },
+    {
+      "type": "list",
+      "dur": 5.8,
+      "title": "Har service ka *rebook timer*:",
+      "items": [
+        "Haircut: *4-5 hafte*",
+        "Facial / cleanup: *4 hafte*",
+        "Hair colour / root touch-up: *6 hafte*"
+      ],
+      "say": "Har service ka ek timer hota hai. Haircut chaar-paanch hafte, facial chaar hafte, colour chhe hafte."
+    },
+    {
+      "type": "chat",
+      "dur": 6.4,
+      "title": "Timer pe ye *1 message*:",
+      "name": "Your Salon",
+      "status": "WhatsApp Business",
+      "gap": 1.2,
+      "msgs": [
+        {
+          "from": "us",
+          "text": "Hi Neha ✨ last haircut ko 5 hafte ho gaye. Is Saturday *11 am ya 4 pm* free hai, book karun?",
+          "time": "11:00 am"
+        },
+        {
+          "from": "them",
+          "text": "4 pm please",
+          "time": "11:20 am"
+        }
+      ],
+      "say": "Timer pe ek message, do slot ke saath. Haan ya na mein jawab aasaan."
+    },
+    {
+      "type": "stat",
+      "dur": 3.2,
+      "kicker": "Bonus",
+      "value": "🎂",
+      "text": "Birthday month mein *1 free add-on*. Sabse zyaada reply isi pe aate hain.",
+      "say": "Bonus. Birthday month mein ek free add-on."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Ye *register* se bhi ho sakta hai. Ya hum *auto* kar dein?",
+      "keyword": "AUDIT",
+      "sub": "Comment AUDIT: aapke salon ka free plan",
+      "say": "Register se bhi kar sakte ho. Automatic chahiye to comment karo AUDIT."
+    }
+  ],
+  "caption": "Regular customer 2 mahine se nahi aayi? Wo naraz nahi, bas bhool gayi. Aur paas wala salon yaad dila gaya. 💇‍♀️\n\nBusiness of the Day: Salon\nHar service ka rebook timer:\n✂️ Haircut: 4-5 hafte\n✨ Facial/cleanup: 4 hafte\n🎨 Colour/root touch-up: 6 hafte\n\nTimer pe 1 WhatsApp: \"Last haircut ko 5 hafte ho gaye. Saturday 11 am ya 4 pm?\" Do slot do, jawab aasaan.\nBonus: birthday month mein 1 free add-on.\n\nComment \"AUDIT\" 👇 aapke salon ka free plan.\n\n#salonowner #salonmarketing #beautybusiness #whatsappmarketing #parachar"
+}
