@@ -45,10 +45,13 @@ jobs:
           npx playwright install --with-deps chromium
           python3 -m pip install -q edge-tts
           node render.js "$SPEC"
-      - name: Keep the video for review
+      - name: Keep the video for review (GitHub release li-<id>)
         if: steps.reel.outputs.spec != ''
-        uses: actions/upload-artifact@v4
-        with: { name: linkedin-video, path: "out/*/*.mp4", retention-days: 14 }
+        env: { GH_TOKEN: "${{ github.token }}", SPEC: "${{ steps.reel.outputs.spec }}" }
+        run: |
+          ID=$(node -p "require('./$SPEC').id"); TAG="li-$ID"
+          gh release view "$TAG" >/dev/null 2>&1 && gh release upload "$TAG" "out/$ID/$ID.mp4" --clobber \
+            || gh release create "$TAG" "out/$ID/$ID.mp4" --title "LinkedIn video: $ID" --notes "LinkedIn video (auto)." 
       - name: Post
         run: node linkedin.js post "${{ inputs.date }}"
       - name: Save queue state
