@@ -37,7 +37,9 @@ jobs:
       - name: Post Reels to Instagram and Facebook
         # Free: Meta's Graph API straight from here, no Make ops. Off until the META_TOKEN secret exists,
         # or when the repo variable META_PUBLISH is "off".
-        if: vars.META_PUBLISH != 'off'
+        # OFF since 13 Nov 2026 (owner): IG/FB now carry Parachar services content, not the Hindi Shorts.
+        # To turn back on, set META_REELS to "on" (repo variable).
+        if: vars.META_REELS == 'on' && vars.META_PUBLISH != 'off'
         continue-on-error: true
         env:
           META_TOKEN: ${{ secrets.META_TOKEN }}
