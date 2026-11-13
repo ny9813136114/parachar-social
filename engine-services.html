@@ -12,7 +12,7 @@
 :root{--ac:#14B8A6;--ac2:#7FE3D1;--deep:#0B1F33;--hot:#F59E0B;--ink:#fff;--muted:#B9C8D8;--card:rgba(255,255,255,.07);--line:rgba(255,255,255,.1);--onac:#06231F}
 html,body{width:1080px;height:1920px;overflow:hidden;background:var(--deep)}
 body{font-family:I,sans-serif;color:var(--ink)}
-body.clear,body.clear #st{background:transparent!important}
+html:has(body.clear),body.clear,body.clear #st{background:transparent!important}
 #st{position:absolute;inset:0;overflow:hidden}
 .bg{position:absolute;inset:0}
 .blob{position:absolute;border-radius:50%;filter:blur(110px)}

@@ -66,7 +66,7 @@ function pickServicesDesign() {
   const logF = path.join(__dirname, 'social', 'ig', 'looks-used.json');
   const log = fs.existsSync(logF) ? JSON.parse(fs.readFileSync(logF, 'utf8')) : [];
   const prev = log.find(x => x.id === spec.id); // re-render (dry run, then the real post) keeps the same design
-  let look = spec.look || (prev && prev.look), pal = (spec.palette && spec.palette.name) || (prev && prev.palette);
+  let look = process.env.LOOK || spec.look || (prev && prev.look), pal = (spec.palette && spec.palette.name) || (prev && prev.palette);
   if (!look) {
     const n = t => spec.scenes.filter(s => s.type === t).length;
     const pref = [...new Set([...(n('chat') >= 2 ? ['phone'] : []), ...(n('list') >= 2 ? ['notebook'] : []),
@@ -115,7 +115,8 @@ function sfxFiles(dir) {
     pickServicesDesign();
     if (spec.look === 'footage' && !previewOnly) {
       if (!spec.broll) spec.broll = industryOf(spec)[2];
-      try { clips = await require('./bg.js')(spec, path.join(out, 'clips')); }
+      if (process.env.TEST_CLIPS) clips = process.env.TEST_CLIPS.split(',').map(file => ({ file, credit: 'test' }));
+      else try { clips = await require('./bg.js')(spec, path.join(out, 'clips')); }
       catch (e) { console.log(`::warning::footage failed for ${spec.id} (${e.message}), using the look's own background`); }
       spec.footage = !!clips;
     }
@@ -161,7 +162,7 @@ function sfxFiles(dir) {
         tvnews: 'eq=contrast=1.12:saturation=1.05:brightness=-0.05', poster: 'eq=contrast=1.08:saturation=1.3:brightness=-0.04',
         notebook: 'eq=saturation=0.9:brightness=-0.02', creator: 'eq=contrast=1.1:saturation=1.25:brightness=-0.03' }[spec.look] || 'eq=saturation=1.05:brightness=-0.05';
       spec.scenes.forEach((s, i) => {
-        vin.push('-stream_loop', '-1', '-t', String(s.dur), '-i', clips[i].file);
+        vin.push('-stream_loop', '-1', '-t', String(s.dur), '-i', clips[i % clips.length].file); // fewer clips than scenes: reuse them
         const dx = i % 2 ? -1 : 1; // the end screen's footage is blurred and darkened so faces never fight the phone card
         vf.push(`[${i + 1}:v]fps=${fps},scale=1188:2112:force_original_aspect_ratio=increase,crop=1188:2112,` +
           `crop=1080:1920:x='54+${dx}*40*t/${s.dur}+6*sin(t*1.3)':y='96-60*t/${s.dur}+5*sin(t*1.7+1)',setsar=1,${grade}${s.type === 'cta' ? ',gblur=sigma=18,eq=brightness=-0.18' : ''},trim=duration=${s.dur},setpts=PTS-STARTPTS[c${i}]`);
