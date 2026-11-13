@@ -1,0 +1,39 @@
+name: LinkedIn post
+
+# Mon/Tue/Thu/Sat 08:45 IST: posts today's file from linkedin/queue/ to the owner's personal LinkedIn profile.
+# OFF until repo variable LI_AUTO_POST = on and secret LI_TOKEN are set (see linkedin/README.md).
+
+on:
+  schedule:
+    - cron: "15 3 * * 1,2,4,6"
+  workflow_dispatch:
+    inputs:
+      date: { description: "Queue date to post (YYYY-MM-DD), blank = today IST", required: false }
+      dry_run: { description: "Only print, don't post", type: boolean, default: true }
+
+permissions:
+  contents: write
+
+concurrency: { group: linkedin-post, cancel-in-progress: false }
+
+jobs:
+  post:
+    if: vars.LI_AUTO_POST == 'on' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      LI_TOKEN: ${{ secrets.LI_TOKEN }}
+      LI_VERSION: ${{ vars.LI_VERSION }}
+      LI_TOKEN_DATE: ${{ vars.LI_TOKEN_DATE }}
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Post
+        run: node linkedin.js post "${{ inputs.date }}"
+      - name: Save queue state
+        if: env.DRY_RUN != '1'
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A linkedin && git commit -qm "LinkedIn: posted $(TZ=Asia/Kolkata date +%F)" && git push || echo "nothing to commit"

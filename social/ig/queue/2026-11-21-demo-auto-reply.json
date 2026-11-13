@@ -1,0 +1,73 @@
+{
+  "id": "demo-auto-reply",
+  "style": "services",
+  "series": "Automation Demo",
+  "industry": "Healthcare",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.0,
+      "kicker": "Demo",
+      "text": "Form bhara. *5 second* mein ye hua 👇",
+      "say": "Form bhara, aur paanch second mein ye hua."
+    },
+    {
+      "type": "chat",
+      "dur": 6.4,
+      "name": "Parachar Clinic Bot",
+      "status": "automated",
+      "gap": 1.1,
+      "msgs": [
+        {
+          "from": "sys",
+          "text": "9:02 pm · website form: Riya, dental checkup"
+        },
+        {
+          "from": "us",
+          "text": "Hi Riya 👋 aapki request mil gayi. Kal ke free slots: *11 am, 4 pm*. Ek choose karein?",
+          "time": "9:02 pm"
+        },
+        {
+          "from": "them",
+          "text": "11 am",
+          "time": "9:03 pm"
+        },
+        {
+          "from": "us",
+          "text": "Booked ✅ Kal 10 am reminder aayega. Location: maps link",
+          "time": "9:03 pm"
+        }
+      ],
+      "say": "Patient ko turant reply, slot choose, booking confirm."
+    },
+    {
+      "type": "list",
+      "dur": 4.6,
+      "title": "Aur clinic ko mila:",
+      "items": [
+        "WhatsApp pe *new booking alert*",
+        "Google Sheet / CRM mein entry",
+        "Visit ke baad *review request*"
+      ],
+      "say": "Clinic ko alert, sheet mein entry, aur baad mein review request."
+    },
+    {
+      "type": "stat",
+      "dur": 3.0,
+      "kicker": "Setup time",
+      "value": "3-5 din",
+      "text": "Aapke apne WhatsApp Business aur accounts mein",
+      "say": "Setup teen se paanch din mein, aapke apne accounts mein."
+    },
+    {
+      "type": "cta",
+      "dur": 4.2,
+      "text": "Ye aapke business ke liye chahiye?",
+      "keyword": "AUDIT",
+      "sub": "Pehle free 3-min audit: kahan leads chhoot rahi hain",
+      "say": "Comment karo AUDIT."
+    }
+  ],
+  "caption": "Raat 9 baje form bhara gaya. 5 second mein patient ko reply, slot choose, booking confirm, aur clinic ko alert. Koi staff nahi jaaga. ⚡\n\nAutomation Demo:\n✅ Instant WhatsApp reply + slots\n✅ Booking alert + Google Sheet/CRM entry\n✅ Reminder + review request\n\nClinic, salon, coaching, real estate, sab mein chalta hai.\n\nComment \"AUDIT\" 👇 free 3-min audit.\n\n#whatsappautomation #businessautomation #clinicmarketing #digitalmarketingindia #parachar"
+}
