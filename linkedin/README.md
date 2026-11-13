@@ -32,3 +32,8 @@ it fails and GitHub emails you. Repeat step 3, update `LI_TOKEN` and `LI_TOKEN_D
   "media": { "type": "document|image", "file": "name.pdf", "title": "Carousel title" },
   "needs_owner": "what is missing (remove to allow posting)" }
 ```
+
+## Drafts waiting for the owner
+`linkedin/drafts/` holds posts that need something only the owner has (a Search Console screenshot, a real ads
+example, a video). They are out of the queue so no posting day is left empty. When the input is ready, fill it in,
+remove `needs_owner`, and move the file into `queue/` with a free Mon/Tue/Thu/Sat date.
