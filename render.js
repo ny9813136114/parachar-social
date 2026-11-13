@@ -113,11 +113,15 @@ function sfxFiles(dir) {
   let clips = null;
   if (style === 'services') {
     pickServicesDesign();
-    if (spec.look === 'footage' && !previewOnly) {
+    // Every services reel has real video behind it (owner, 13 Nov): each look tints it in its own colour.
+    // FOOTAGE=off (or no PEXELS_API_KEY) falls back to the look's own drawn background.
+    if (!previewOnly && process.env.FOOTAGE !== 'off') {
       if (!spec.broll) spec.broll = industryOf(spec)[2];
       if (process.env.TEST_CLIPS) clips = process.env.TEST_CLIPS.split(',').map(file => ({ file, credit: 'test' }));
       else try { clips = await require('./bg.js')(spec, path.join(out, 'clips')); }
       catch (e) { console.log(`::warning::footage failed for ${spec.id} (${e.message}), using the look's own background`); }
+      if (clips) clips = clips.filter(c => c && c.file);
+      if (clips && !clips.length) clips = null;
       spec.footage = !!clips;
     }
   }
