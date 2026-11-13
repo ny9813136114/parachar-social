@@ -1,5 +1,7 @@
 // LinkedIn auto-post for the owner's PERSONAL profile (Share on LinkedIn, w_member_social).
 // Usage: node linkedin.js post [YYYY-MM-DD]   -> posts linkedin/queue/<date>-*.json, moves it to linkedin/published/
+//        node linkedin.js reel [YYYY-MM-DD]   -> if that day's file has a "reel" (LinkedIn video), writes its render spec
+//                                                 and prints the path (the workflow renders it, then posts)
 //        node linkedin.js check               -> verifies the token and prints the author URN
 // Env: LI_TOKEN (secret, 60-day token from LinkedIn's OAuth token generator), LI_VERSION (YYYYMM, optional),
 //      LI_TOKEN_DATE (YYYY-MM-DD the token was made; warns after 50 days), DRY_RUN=1 to only print.
@@ -25,6 +27,37 @@ async function upload(kind, author, file) { // kind: images | documents
   if (!r.ok) throw new Error(`upload ${file} -> ${r.status}`);
   return urn;
 }
+// Video (Videos API): initialize, PUT each part, finalize with the part ETags, then wait until LinkedIn has processed it.
+async function uploadVideo(author, file) {
+  const size = fs.statSync(file).size;
+  const { json } = await req('POST', `${API}/rest/videos?action=initializeUpload`,
+    JSON.stringify({ initializeUploadRequest: { owner: author, fileSizeBytes: size, uploadCaptions: false, uploadThumbnail: false } }),
+    { 'Content-Type': 'application/json' });
+  const { video, uploadInstructions, uploadToken = '' } = json.value;
+  const buf = fs.readFileSync(file), etags = [];
+  for (const u of uploadInstructions) {
+    const r = await fetch(u.uploadUrl, { method: 'PUT', headers: { Authorization: `Bearer ${TOKEN}`, 'Content-Type': 'application/octet-stream' },
+      body: buf.subarray(u.firstByte, u.lastByte + 1) });
+    if (!r.ok) throw new Error(`video part upload -> ${r.status} ${(await r.text()).slice(0, 200)}`);
+    etags.push(r.headers.get('etag'));
+  }
+  await req('POST', `${API}/rest/videos?action=finalizeUpload`,
+    JSON.stringify({ finalizeUploadRequest: { video, uploadToken, uploadedPartIds: etags } }), { 'Content-Type': 'application/json' });
+  for (let i = 0; i < 40; i++) { // usually under a minute
+    const { json: v } = await req('GET', `${API}/rest/videos/${encodeURIComponent(video)}`);
+    if (v.status === 'AVAILABLE') return video;
+    if (v.status === 'PROCESSING_FAILED') throw new Error(`LinkedIn could not process the video: ${JSON.stringify(v).slice(0, 300)}`);
+    await new Promise(s => setTimeout(s, 15000));
+  }
+  throw new Error('LinkedIn video processing took over 10 minutes');
+}
+// A queued file with "reel" is a LinkedIn video: the workflow renders it to out/<reel.id>/<reel.id>.mp4 first.
+const videoFile = spec => path.join('out', spec.reel.id, `${spec.reel.id}.mp4`);
+function todays(date) {
+  const f = fs.readdirSync('linkedin/queue').filter(n => n.startsWith(date) && n.endsWith('.json')).sort()[0];
+  return f ? { f, spec: JSON.parse(fs.readFileSync(path.join('linkedin/queue', f), 'utf8')) } : null;
+}
+
 // LinkedIn "little text" format: escape reserved characters in commentary.
 const esc = s => s.replace(/[\\|{}@\[\]()<>#*_~]/g, c => '\\' + c);
 
@@ -46,7 +79,12 @@ async function post(date) {
   const body = { author, commentary: esc(spec.text.trim()), visibility: 'PUBLIC',
     distribution: { feedDistribution: 'MAIN_FEED', targetEntities: [], thirdPartyDistributionChannels: [] },
     lifecycleState: 'PUBLISHED', isReshareDisabledByAuthor: false };
-  if (spec.media) {
+  if (spec.reel) {
+    const file = videoFile(spec);
+    if (!fs.existsSync(file)) throw new Error(`missing rendered video ${file} (the workflow renders it before posting)`);
+    const urn = DRY ? 'urn:li:video:DRY' : await uploadVideo(author, file);
+    body.content = { media: { id: urn, title: (spec.media && spec.media.title) || spec.id } };
+  } else if (spec.media) {
     const file = path.join('linkedin/media', spec.media.file);
     if (!fs.existsSync(file)) throw new Error(`missing media ${file}`);
     const kind = spec.media.type === 'document' ? 'documents' : 'images';
@@ -72,7 +110,16 @@ async function post(date) {
 
 (async () => {
   const [cmd, arg] = process.argv.slice(2);
-  if (!TOKEN && !DRY) { console.log('::warning::LI_TOKEN secret not set; nothing posted.'); return; }
+  if (!TOKEN && !DRY && cmd !== 'reel') { console.log('::warning::LI_TOKEN secret not set; nothing posted.'); return; }
+  if (cmd === 'reel') { // print the date's video spec path (written to out/) or nothing: the workflow renders it
+    const t = todays(arg || new Date(Date.now() + 5.5 * 3600e3).toISOString().slice(0, 10));
+    if (t && t.spec.reel && !t.spec.needs_owner) {
+      const reel = { style: 'services', format: 'li', ...t.spec.reel };
+      fs.mkdirSync('out', { recursive: true }); fs.writeFileSync(`out/li-${reel.id}.json`, JSON.stringify(reel, null, 2));
+      console.log(`out/li-${reel.id}.json`);
+    }
+    return;
+  }
   if (cmd === 'check') { tokenAgeCheck(); console.log('Token OK, author', await me()); return; }
   if (cmd === 'post') return post(arg || new Date(Date.now() + 5.5 * 3600e3).toISOString().slice(0, 10));
   console.log('usage: node linkedin.js post [YYYY-MM-DD] | check');
