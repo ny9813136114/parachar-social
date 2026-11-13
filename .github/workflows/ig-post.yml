@@ -36,6 +36,7 @@ jobs:
       META_IG_ID: ${{ vars.META_IG_ID }}
       FB_COPY: ${{ vars.FB_COPY }}
       DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       GH_TOKEN: ${{ github.token }}
       DATE_IN: ${{ inputs.date }}
     steps:
