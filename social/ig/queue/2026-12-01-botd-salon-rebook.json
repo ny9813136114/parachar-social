@@ -1,7 +1,6 @@
 {
   "id": "botd-salon-rebook",
   "style": "services",
-  "series": "Business of the Day",
   "industry": "Salon & beauty",
   "voice": "en-IN-NeerjaNeural",
   "scenes": [

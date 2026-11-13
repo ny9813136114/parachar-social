@@ -1,7 +1,6 @@
 {
   "id": "botd-gym-trial",
   "style": "services",
-  "series": "Business of the Day",
   "industry": "Gym & fitness",
   "voice": "en-IN-NeerjaNeural",
   "scenes": [

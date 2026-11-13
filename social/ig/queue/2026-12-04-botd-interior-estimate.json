@@ -1,7 +1,6 @@
 {
   "id": "botd-interior-estimate",
   "style": "services",
-  "series": "Business of the Day",
   "industry": "Interior designers",
   "voice": "en-IN-NeerjaNeural",
   "scenes": [
