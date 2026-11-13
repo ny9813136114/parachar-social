@@ -1,0 +1,15 @@
+{
+  "id": "leak-cost-per-visit",
+  "style": "services",
+  "series": "Leak of the Week",
+  "industry": "Real estate",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {"type": "hook", "dur": 3.4, "kicker": "Builders & brokers", "text": "₹200 per lead. Badhiya? *Site visit kitne aaye?*", "say": "Do sau rupaye per lead. Badhiya lagta hai. Par site visit kitne aaye?"},
+    {"type": "compare", "dur": 5.0, "title": "Ek example *campaign*", "bad": {"label": "Ad dashboard", "value": "100 leads", "text": "₹200 per lead, sab khush"}, "good": {"label": "Asli result", "value": "4 visits", "text": "₹5,000 per site visit. Ye number koi nahi dekhta"}, "say": "Dashboard pe sau leads. Asli mein sirf chaar site visit. Matlab paanch hazaar rupaye per visit."},
+    {"type": "list", "dur": 5.4, "title": "Leak kahan hai?", "items": ["Form mein *budget + location* poocha hi nahi", "Sales ne call *2 din baad* kiya", "Ad platform ko pata hi nahi kaun *visit* pe aaya"], "say": "Form mein budget aur location nahi poocha. Call do din baad gaya. Aur ad platform ko pata hi nahi ki kaun visit pe aaya."},
+    {"type": "list", "dur": 5.2, "title": "Fix:", "items": ["Form mein 2 sawaal: *budget, area*", "5 min mein WhatsApp + *visit slot* link", "Visit hua? Ad platform ko *wapas batao*"], "say": "Fix. Form mein do sawaal. Paanch minute mein WhatsApp aur visit slot. Aur visit ka data ad platform ko wapas bhejo, taaki ads visit laane wale log dhoondhein."},
+    {"type": "cta", "dur": 4.2, "text": "Aapki leads *kahan leak* ho rahi hain?", "keyword": "LEAK", "sub": "Free checklist: 10 jagah jahan leads chhoot jaati hain", "say": "Comment karo LEAK, free checklist bhejenge."}
+  ],
+  "caption": "₹200 per lead dekh ke khush mat ho. Asli sawaal: site visit kitne aaye? 🏢\n\nLeak of the Week: real estate ads mein paisa form ke BAAD leak hota hai.\n❌ Form mein budget/area nahi poocha\n❌ Call 2 din baad\n❌ Ad platform ko pata nahi kaun visit pe aaya\n\n✅ Fix: 2 qualifying sawaal, 5 min mein WhatsApp + visit slot, aur visit ka data ad platform ko wapas. Ab ads \"form bharne wale\" nahi, \"visit karne wale\" dhoondhte hain.\n\n(Numbers ek example campaign ke hain.)\n\nComment \"LEAK\" 👇 free checklist bhejenge.\n\n#realestatemarketing #propertyleads #digitalmarketingindia #leadgeneration #parachar"
+}

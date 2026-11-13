@@ -1,0 +1,66 @@
+{
+  "id": "ai-check-2bhk-noida",
+  "style": "services",
+  "series": "AI Check",
+  "industry": "Real estate",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "kicker": "Home buyers",
+      "text": "Flat dhoondhne wale ab *ChatGPT* se pooch rahe hain.",
+      "say": "Flat dhoondhne wale ab ChatGPT se pooch rahe hain."
+    },
+    {
+      "type": "search",
+      "dur": 6.4,
+      "query": "best 2BHK under 60 lakh Noida Extension ready to move",
+      "engine": "AI answer",
+      "results": [
+        {
+          "text": "Project A · RERA no. + possession date"
+        },
+        {
+          "text": "Project B · price list on website"
+        },
+        {
+          "text": "Project C · 900+ Google reviews"
+        },
+        {
+          "text": "Aapka project: mention nahi",
+          "you": true
+        }
+      ],
+      "say": "Teen project aaye. Aapka naam nahi aaya."
+    },
+    {
+      "type": "list",
+      "dur": 5.6,
+      "title": "AI kisko *pick* karta hai?",
+      "items": [
+        "Website pe *price range*, size, RERA no. saaf likha",
+        "Possession date + *location* ke fayde",
+        "FAQ: loan, maintenance, parking ke jawab"
+      ],
+      "say": "AI unko chunta hai jinki website pe price range, size, RERA number, possession date, aur asli sawaalon ke jawab saaf likhe hain."
+    },
+    {
+      "type": "stat",
+      "dur": 3.2,
+      "kicker": "Sabse badi galti",
+      "value": "₹ ???",
+      "text": "*\"Price on request\"* likha hai? AI ke paas batane ko kuch nahi.",
+      "say": "Sabse badi galti: price on request. AI ke paas batane ko kuch nahi bachta."
+    },
+    {
+      "type": "cta",
+      "dur": 4.2,
+      "text": "Kya *AI* aapka project recommend karta hai?",
+      "keyword": "AI",
+      "sub": "Hum check karke screenshot bhejenge. Free.",
+      "say": "Comment karo AI, hum free check karenge."
+    }
+  ],
+  "caption": "ChatGPT se poocha: best 2BHK under 60 lakh, Noida Extension, ready to move. 3 project aaye. Aapka aata? 🤖🏢\n\nAI Check: AI unhi projects ko recommend karta hai jinki website pe\n✅ price range, size, RERA no. saaf\n✅ possession date + location ke fayde\n✅ FAQ: loan, maintenance, parking\n\n\"Price on request\" likhoge to AI ke paas batane ko kuch nahi bachta.\n\nComment \"AI\" 👇 hum aapke project/business ka free AI check karke screenshot bhejenge.\n\n(Example search; project names hidden.)\n\n#aisearch #realestatemarketing #noidarealestate #chatgptmarketing #parachar"
+}

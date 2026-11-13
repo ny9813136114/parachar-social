@@ -1,0 +1,91 @@
+name: Instagram post
+
+# Mon-Sat 09:00 IST: posts today's services reel or carousel from social/ig/queue/ to Instagram (+ a Facebook Page copy).
+# Reels are rendered here (voice + music), uploaded to a release so Meta can fetch them, then posted (see ig.js).
+# Pause any time: repo variable IG_AUTO_POST = off. Facebook copy off: repo variable FB_COPY = off.
+
+on:
+  schedule:
+    - cron: "30 3 * * 1-6"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Queue date YYYY-MM-DD (blank = today in IST)"
+        default: ""
+      dry_run:
+        description: "Dry run: render + check everything, post nothing"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ig-post
+
+jobs:
+  post:
+    if: vars.IG_AUTO_POST != 'off' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    env:
+      MUSIC: "on"
+      TTS_ENGINE: edge
+      META_TOKEN: ${{ secrets.META_TOKEN }}
+      META_PAGE_ID: ${{ vars.META_PAGE_ID }}
+      META_IG_ID: ${{ vars.META_IG_ID }}
+      FB_COPY: ${{ vars.FB_COPY }}
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
+      GH_TOKEN: ${{ github.token }}
+      DATE_IN: ${{ inputs.date }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: What is due
+        id: due
+        run: |
+          OUT=$(node ig.js kind "$DATE_IN")
+          echo "$OUT"
+          echo "kind=${OUT%% *}" >> "$GITHUB_OUTPUT"
+          echo "file=${OUT#* }" >> "$GITHUB_OUTPUT"
+
+      - name: Install ffmpeg, Playwright, Chromium and edge-tts
+        if: steps.due.outputs.kind == 'reel'
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+          python3 -m pip install -q edge-tts
+
+      - name: Render reel and upload to a release
+        id: rel
+        if: steps.due.outputs.kind == 'reel'
+        env:
+          DUE_FILE: ${{ steps.due.outputs.file }}
+        run: |
+          F="$DUE_FILE"
+          ID=$(node -p "require('./$F').id")
+          node render.js "$F"
+          cp "out/$ID/cover.png" "out/$ID/$ID-cover.png"
+          TAG="ig-$ID"
+          gh release view "$TAG" >/dev/null 2>&1 && gh release upload "$TAG" "out/$ID/$ID.mp4" "out/$ID/$ID-cover.png" --clobber \
+            || gh release create "$TAG" "out/$ID/$ID.mp4" "out/$ID/$ID-cover.png" --title "IG reel: $ID" --notes "Instagram services reel (auto)."
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+
+      - name: Post to Instagram (+ Facebook copy)
+        if: steps.due.outputs.kind != 'none'
+        env:
+          RELEASE_TAG: ${{ steps.rel.outputs.tag }}
+        run: node ig.js post "$DATE_IN"
+
+      - name: Save queue state
+        if: steps.due.outputs.kind != 'none' && env.DRY_RUN != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A social/ig
+          git diff --cached --quiet || git commit -m "Instagram: posted $(date -u +%F)"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done

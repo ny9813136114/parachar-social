@@ -1,0 +1,16 @@
+{
+  "id": "li-real-estate-leads-leak",
+  "type": "carousel",
+  "pdf": "linkedin/media/carousel-3-real-estate-leads-leak.pdf",
+  "save": "Save for your team",
+  "share": "Repost ♻️",
+  "slides": [
+    {"kind": "cover", "title": "Real-estate leads don't die in the ad. They die *after the form.*", "sub": "4 handoffs, 3 fixes, 1 number to track →"},
+    {"kind": "point", "title": "Where a lead *actually* leaks", "sub": "Ad → form → call centre → branch sales → site visit.", "box": "4 handoffs. Every handoff is a delay, and every delay lets a competitor reply first."},
+    {"kind": "point", "title": "Fix 1: answer in *minutes*, not days", "sub": "Instant WhatsApp to the buyer the moment the form lands.", "box": "Floor plan + price sheet + two site-visit slots. The call can follow; the first reply can't wait."},
+    {"kind": "point", "title": "Fix 2: route it, then *time it*", "sub": "Leads go by project/area/budget to one owner, not a shared inbox.", "box": "No call in 15 minutes → automatic alert to the sales manager. Speed becomes a visible metric."},
+    {"kind": "point", "title": "Fix 3: tell the ad platform *who visited*", "sub": "Send site-visit and booking outcomes back as offline conversions.", "box": "Now campaigns optimise for people who visit, not people who tap \"submit\"."},
+    {"kind": "point", "title": "The number to *report weekly*", "sub": "Cost per lead flatters. Cost per site visit tells the truth.", "box": "Track by campaign: leads → contacted in 15 min → visits booked → visits done → bookings."},
+    {"kind": "cta", "title": "Want to see where *your* leads leak?", "keyword": "AUDIT", "sub": "Comment AUDIT or DM me. Free 3-minute video audit of your funnel."}
+  ]
+}

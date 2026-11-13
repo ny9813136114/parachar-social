@@ -1,0 +1,15 @@
+{
+  "id": "myth-fb-leads-fake",
+  "type": "carousel",
+  "series": "Myth vs Fact",
+  "industry": "Real estate",
+  "slides": [
+    {"kind": "cover", "title": "Myth: \"Facebook ke *leads sab fake* hote hain\"", "sub": "Har builder ne ye bola hai. Sach kya hai? Swipe →"},
+    {"kind": "point", "title": "Fact: zyaadatar lead *fake nahi*, *thandi* hoti hai", "sub": "Insaan ne scroll karte hue form bhara. 2 din baad call aaya to use yaad bhi nahi.", "box": "\"Maine kab form bhara?\" = fake nahi.\nIska matlab reply der se gaya."},
+    {"kind": "point", "title": "Galti 1: form *bahut aasaan*", "sub": "Sirf naam + number = koi bhi tap kar deta hai.", "box": "Form mein 2 sawaal jodo:\nBudget kitna? Kaunsa area?\nLeads thodi kam, par asli zyaada."},
+    {"kind": "point", "title": "Galti 2: *reply mein der*", "sub": "Interest sabse zyaada form bharte waqt hota hai.", "box": "5 min ke andar WhatsApp: price sheet + visit slot.\nCall baad mein, pehle message."},
+    {"kind": "point", "title": "Galti 3: ad ko *pata hi nahi* kya chahiye", "sub": "Aap ad ko sirf \"form\" pe optimise karte ho.", "box": "Jo visit pe aaye, unka data ad platform ko wapas bhejo. Ad ko pata chalega asli buyer kaisa dikhta hai."},
+    {"kind": "cta", "title": "Aapke leads *asli* hain ya *thande*?", "keyword": "AUDIT", "sub": "Comment karo AUDIT, hum aapka form + follow-up free check karenge."}
+  ],
+  "caption": "\"Facebook ke leads sab fake hote hain.\" Har builder ne ye bola hai. 🤔\n\nMyth vs Fact:\n❌ Zyaadatar leads fake nahi, thandi hoti hain\n✅ Form mein budget + area ka sawaal jodo\n✅ 5 min mein WhatsApp reply (price sheet + visit slot)\n✅ Visit ka data ad platform ko wapas bhejo\n\nSave karo 🔖 agla campaign chalane se pehle.\n\nComment \"AUDIT\" 👇 hum aapka form + follow-up free check karenge.\n\n#realestatemarketing #facebookads #metaads #propertyleads #parachar"
+}
