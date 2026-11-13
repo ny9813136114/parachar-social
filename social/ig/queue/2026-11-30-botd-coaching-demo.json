@@ -1,0 +1,72 @@
+{
+  "id": "botd-coaching-demo",
+  "style": "services",
+  "series": "Business of the Day",
+  "industry": "Coaching institute",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "kicker": "Coaching institutes 👇",
+      "text": "Demo class ke baad *admission nahi* hota?",
+      "say": "Coaching institutes. Demo class achhi gayi, phir bhi admission nahi hua?"
+    },
+    {
+      "type": "hook",
+      "dur": 2.8,
+      "kicker": "Asli wajah",
+      "text": "Decision *bachcha nahi*, *parents* lete hain.",
+      "say": "Asli wajah. Decision bachcha nahi, parents lete hain. Aur parents tak koi baat pahunchi hi nahi."
+    },
+    {
+      "type": "list",
+      "dur": 6.0,
+      "title": "Parents ko *3 din* mein 3 cheezein:",
+      "items": [
+        "Day 0: demo ka *feedback* + bachche ka 1 strong point",
+        "Day 1: pichhle saal ke *results* (1 image)",
+        "Day 3: batch *seats left* + fees + EMI option"
+      ],
+      "say": "Demo ke din feedback, agle din results, aur teesre din seats aur fees ki saaf jaankari."
+    },
+    {
+      "type": "chat",
+      "dur": 6.4,
+      "title": "Day 0 ka *exact message*:",
+      "name": "Your Institute",
+      "status": "WhatsApp Business",
+      "gap": 1.2,
+      "msgs": [
+        {
+          "from": "us",
+          "text": "Namaste 🙏 aaj Priya ki demo class thi. Unka *algebra* bahut achha hai, geometry pe 4 hafte kaam karna hoga.",
+          "time": "6:15 pm"
+        },
+        {
+          "from": "them",
+          "text": "Ji, batch kab se hai?",
+          "time": "7:02 pm"
+        }
+      ],
+      "say": "Bachche ka naam, ek taareef, ek kami. Parent turant reply karta hai."
+    },
+    {
+      "type": "stat",
+      "dur": 3.4,
+      "kicker": "Sabse bada mistake",
+      "value": "Sirf call",
+      "text": "Parents office time mein *call nahi* uthate. WhatsApp padhte hain.",
+      "say": "Sabse badi galti, sirf call karna. Parents call nahi uthate, WhatsApp padhte hain."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Ye sequence *admission season* se pehle laga lo",
+      "keyword": "AUDIT",
+      "sub": "Comment AUDIT: hum auto set kar denge",
+      "say": "Admission season se pehle laga lo. Comment karo AUDIT."
+    }
+  ],
+  "caption": "Demo class achhi gayi, phir bhi admission nahi hua? Kyunki decision bachcha nahi, parents lete hain. 📚\n\nBusiness of the Day: Coaching\nParents ko 3 din mein 3 WhatsApp:\n1️⃣ Day 0: demo feedback + bachche ka 1 strong point, 1 kami\n2️⃣ Day 1: pichhle saal ke results (1 image)\n3️⃣ Day 3: batch me seats left + fees + EMI option\n\nGalti: sirf call karna. Parents office time mein call nahi uthate, WhatsApp padhte hain.\n\nSave karo 🔖 admission season se pehle laga lo.\nComment \"AUDIT\" 👇 hum auto set kar denge.\n\n#coachinginstitute #coachingmarketing #educationbusiness #admissions #parachar"
+}

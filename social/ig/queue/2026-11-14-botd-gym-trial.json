@@ -1,0 +1,106 @@
+{
+  "id": "botd-gym-trial",
+  "style": "services",
+  "series": "Business of the Day",
+  "industry": "Gym & fitness",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "kicker": "Gym owners 👇",
+      "text": "Free trial liya, phir *wapas nahi aaya?*",
+      "say": "Gym owners. Free trial liya, aur member wapas hi nahi aaya?"
+    },
+    {
+      "type": "hook",
+      "dur": 2.6,
+      "kicker": "Fix: 3 messages",
+      "text": "3 WhatsApp messages. *Teesra* sabse zaroori.",
+      "say": "Teen WhatsApp messages. Teesra sabse zaroori hai."
+    },
+    {
+      "type": "chat",
+      "dur": 6.0,
+      "title": "1. Trial ke *1 ghante* baad",
+      "name": "Your Gym",
+      "status": "WhatsApp Business",
+      "gap": 1.2,
+      "msgs": [
+        {
+          "from": "us",
+          "text": "Hi Rohit 💪 aaj ka workout kaisa laga? Aapke goal (fat loss) ke liye *4-week plan* bhej raha hoon 📎",
+          "time": "7:40 pm"
+        },
+        {
+          "from": "them",
+          "text": "Thanks! 🙌",
+          "time": "7:52 pm"
+        }
+      ],
+      "say": "Trial ke ek ghante baad, unke goal ke hisaab se free plan bhejo."
+    },
+    {
+      "type": "chat",
+      "dur": 5.6,
+      "title": "2. *Agle din*: trainer ka voice note",
+      "name": "Coach Aman",
+      "status": "WhatsApp",
+      "gap": 1.1,
+      "msgs": [
+        {
+          "from": "us",
+          "text": "🎤 0:18 · \"Rohit, kal aapka squat form achha tha. Kal 7 baje aao, legs karte hain.\"",
+          "time": "10:05 am"
+        }
+      ],
+      "say": "Agle din trainer ka chhota voice note. Naam ke saath. Ye sabse personal lagta hai."
+    },
+    {
+      "type": "chat",
+      "dur": 6.2,
+      "title": "3. *Day 3*: deadline wala offer",
+      "name": "Your Gym",
+      "status": "WhatsApp Business",
+      "gap": 1.1,
+      "msgs": [
+        {
+          "from": "us",
+          "text": "Rohit, trial members ke liye joining fee *maaf* hai, sirf *Sunday tak*. Slot hold karun? ✅",
+          "time": "6:30 pm"
+        },
+        {
+          "from": "them",
+          "text": "Haan, monthly batao",
+          "time": "6:41 pm"
+        }
+      ],
+      "say": "Teesre din, deadline wala offer. Deadline se hi decision hota hai."
+    },
+    {
+      "type": "compare",
+      "dur": 4.4,
+      "title": "Example: *20 trials* a month",
+      "bad": {
+        "label": "Bina follow-up",
+        "value": "3 join",
+        "text": "Baaki bhool gaye"
+      },
+      "good": {
+        "label": "3 messages ke saath",
+        "value": "6-8 join",
+        "text": "Wahi trials, zyaada members"
+      },
+      "say": "Bees trials mein se teen ki jagah chhe se aath join kar sakte hain. Example hai, par farq saaf hai."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Ye 3 messages *khud* bhejo. Ya hum *auto* set kar dein?",
+      "keyword": "AUDIT",
+      "sub": "Comment karo AUDIT: aapke gym ka free plan",
+      "say": "Ye khud kar sakte ho. Automatic chahiye to comment karo AUDIT."
+    }
+  ],
+  "caption": "Gym owners: free trial ke baad member wapas kyun nahi aata? Kyunki koi follow-up nahi hota. 💪\n\nBusiness of the Day: Gym\nScreenshot lo, aaj se lagao 👇\n1️⃣ Trial ke 1 ghante baad: goal ke hisaab se free 4-week plan\n2️⃣ Agle din: trainer ka 15-sec voice note, naam ke saath\n3️⃣ Day 3: joining fee maaf, sirf Sunday tak (deadline = decision)\n\nExample: 20 trials/month, 3 ki jagah 6-8 join. Same trials, zyaada members.\n\nKhud bhej sakte ho. Automatic chahiye? Comment \"AUDIT\" 👇\n\n#gymowner #fitnessbusiness #gymmarketing #whatsappmarketing #parachar"
+}
