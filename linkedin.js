@@ -41,7 +41,8 @@ async function post(date) {
   const f = files[0], spec = JSON.parse(fs.readFileSync(path.join('linkedin/queue', f), 'utf8'));
   if (spec.needs_owner) { console.log(`::warning::${f} needs the owner's input (${spec.needs_owner}); skipped.`); return; }
   tokenAgeCheck();
-  const author = DRY ? 'urn:li:person:DRYRUN' : await me();
+  const author = TOKEN ? await me() : 'urn:li:person:DRYRUN'; // read-only check, so a dry run also proves the token works
+  if (DRY) console.log(TOKEN ? `Token OK (author ${author})` : '::warning::No LI_TOKEN: token not checked.');
   const body = { author, commentary: esc(spec.text.trim()), visibility: 'PUBLIC',
     distribution: { feedDistribution: 'MAIN_FEED', targetEntities: [], thirdPartyDistributionChannels: [] },
     lifecycleState: 'PUBLISHED', isReshareDisabledByAuthor: false };
