@@ -1,0 +1,20 @@
+{
+  "id": "leak-late-reply",
+  "style": "services",
+  "series": "Leak of the Week",
+  "industry": "Healthcare",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {"type": "hook", "dur": 3.2, "kicker": "Clinic owners", "text": "Patient ne 9 baje message kiya. Aapne *11 baje* reply kiya.", "say": "Patient ne nau baje message kiya. Aapne gyarah baje reply kiya."},
+    {"type": "chat", "dur": 5.2, "name": "Riya", "status": "last seen 9:04 pm", "msgs": [
+      {"from": "them", "text": "Hi, kal dental checkup ka slot milega?", "time": "9:02 pm"},
+      {"from": "them", "text": "Fees kitni hai?", "time": "9:03 pm"},
+      {"from": "sys", "text": "2 ghante baad..."},
+      {"from": "us", "text": "Ji haan, 11 am slot free hai", "time": "11:05 pm"},
+      {"from": "them", "text": "Thanks, maine dusre clinic mein book kar liya", "time": "11:06 pm"}], "say": "Do ghante mein patient dusre clinic chala gaya."},
+    {"type": "compare", "dur": 4.6, "title": "Leak: *reply time*", "bad": {"label": "Abhi", "value": "2 hrs", "text": "Manual reply, raat ko koi nahi"}, "good": {"label": "Automation", "value": "5 sec", "text": "Auto WhatsApp reply + slot link + aapko alert"}, "say": "Fix simple hai. Auto reply, slot link, aur aapko alert. Paanch second mein."},
+    {"type": "list", "dur": 4.6, "title": "Aaj hi setup karo:", "items": ["Website form → *WhatsApp alert*", "Patient ko turant reply + booking link", "Next din *reminder* automatically"], "say": "Form se WhatsApp alert, turant reply, aur reminder."},
+    {"type": "cta", "dur": 4.2, "text": "Aapke business mein kitni *leads leak* ho rahi hain?", "keyword": "LEAK", "sub": "Free checklist: 10 jagah jahan leads chhoot jaati hain", "say": "Comment karo LEAK, free checklist bhejenge."}
+  ],
+  "caption": "Patient 9 baje message karta hai, reply 11 baje jaata hai. Tab tak wo dusre clinic mein book kar chuka hota hai. 🦷\n\nLeak of the Week: slow reply time. Fix: website form → WhatsApp alert → patient ko turant reply + booking link → next din reminder. Sab automatic.\n\nComment \"LEAK\" 👇 free checklist bhejenge: 10 jagah jahan aapke business ki leads chhoot jaati hain.\n\n#clinicmarketing #digitalmarketingindia #whatsappautomation #smallbusinessindia #parachar"
+}

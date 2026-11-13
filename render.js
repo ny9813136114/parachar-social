@@ -56,8 +56,8 @@ function pickLook() {
   }
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
-  // ENGINE_STYLE=v2 / v3 (or spec.style) picks engine-v2.html / engine-v3.html.
-  await page.goto('file://' + path.join(__dirname, { v2: 'engine-v2.html', v3: 'engine-v3.html' }[style] || 'engine.html'));
+  // ENGINE_STYLE=v2 / v3 / services (or spec.style) picks engine-v2.html / engine-v3.html / engine-services.html.
+  await page.goto('file://' + path.join(__dirname, { v2: 'engine-v2.html', v3: 'engine-v3.html', services: 'engine-services.html' }[style] || 'engine.html'));
   await page.evaluate(() => window.preload && window.preload());
   const { duration, cues, look } = await page.evaluate(s => window.build(s), spec);
   if (look) console.log(`${spec.id}: look ${look}${clips ? `, footage: ${clips.map(c => c.credit).join('; ')}` : ', no footage'}`);
@@ -135,6 +135,11 @@ function pickLook() {
 
   fs.writeFileSync(path.join(out, 'captions.srt'),
     cues.map((c, i) => `${i + 1}\n${srtTime(c.start)} --> ${srtTime(c.end)}\n${c.text}\n`).join('\n'));
+  if (style === 'services') { // Instagram/LinkedIn services reels: no YouTube metadata, caption comes from the spec.
+    fs.writeFileSync(path.join(out, 'post.md'), `# ${spec.id} (${duration.toFixed(1)} s)\n\n## Instagram caption\n${spec.caption || ''}\n`);
+    console.log(`${spec.id}: ${duration.toFixed(1)} s -> ${out}`);
+    return;
+  }
   const tags = spec.hashtags.join(' ');
   // YouTube SEO: keyword-first opening line and the tool link above the fold, then the facts,
   // a keyword paragraph, the source line, the playlist and the tools hub, hashtags last.
