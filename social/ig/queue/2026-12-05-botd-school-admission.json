@@ -1,7 +1,6 @@
 {
   "id": "botd-school-admission",
   "style": "services",
-  "series": "Business of the Day",
   "industry": "Private school",
   "voice": "en-IN-NeerjaNeural",
   "scenes": [

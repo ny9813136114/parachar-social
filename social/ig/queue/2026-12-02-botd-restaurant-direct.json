@@ -1,7 +1,6 @@
 {
   "id": "botd-restaurant-direct",
   "style": "services",
-  "series": "Business of the Day",
   "industry": "Restaurant & cafe",
   "voice": "en-IN-NeerjaNeural",
   "scenes": [

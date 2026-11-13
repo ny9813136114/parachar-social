@@ -1,7 +1,6 @@
 {
   "id": "botd-coaching-demo",
   "style": "services",
-  "series": "Business of the Day",
   "industry": "Coaching institute",
   "voice": "en-IN-NeerjaNeural",
   "scenes": [

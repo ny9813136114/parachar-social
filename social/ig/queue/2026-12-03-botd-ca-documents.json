@@ -1,7 +1,6 @@
 {
   "id": "botd-ca-documents",
   "style": "services",
-  "series": "Business of the Day",
   "industry": "CA & tax consultants",
   "voice": "en-IN-NeerjaNeural",
   "scenes": [
