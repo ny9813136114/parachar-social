@@ -1,12 +1,12 @@
 name: Instagram post
 
-# Mon-Sat 09:00 IST: posts today's services reel or carousel from social/ig/queue/ to Instagram (+ a Facebook Page copy).
+# Mon-Sat 08:47 IST: posts today's services reel or carousel from social/ig/queue/ to Instagram (+ a Facebook Page copy).
 # Reels are rendered here (voice + music), uploaded to a release so Meta can fetch them, then posted (see ig.js).
 # Pause any time: repo variable IG_AUTO_POST = off. Facebook copy off: repo variable FB_COPY = off.
 
 on:
   schedule:
-    - cron: "30 3 * * 1-6"
+    - cron: "17 3 * * 1-6"   # 08:47 IST (off the busy :00/:30 slots, which GitHub sometimes skips)
   workflow_dispatch:
     inputs:
       date:

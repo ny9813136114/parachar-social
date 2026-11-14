@@ -6,7 +6,7 @@ name: LinkedIn post
 
 on:
   schedule:
-    - cron: "15 3 * * 1,2,3,4,6"
+    - cron: "13 3 * * 1,2,3,4,6"   # 08:43 IST
   workflow_dispatch:
     inputs:
       date: { description: "Queue date to post (YYYY-MM-DD), blank = today IST", required: false }
