@@ -1,0 +1,80 @@
+{
+  "id": "botd-boutique-alteration",
+  "style": "services",
+  "industry": "Boutique",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.6,
+      "kicker": "Boutique owners 👇",
+      "text": "Insta pe *\"price?\"* comment. Reply kiya, *jawab nahi aaya*?",
+      "say": "Boutique owners. Instagram pe price comment aaya. Reply kiya, aur phir jawab nahi aaya?"
+    },
+    {
+      "type": "hook",
+      "dur": 2.6,
+      "kicker": "\"Price DM kiya\" likhna",
+      "text": "Ye *sabse thanda* reply hai.",
+      "say": "Price DM kiya. Ye sabse thanda reply hai."
+    },
+    {
+      "type": "chat",
+      "dur": 7.0,
+      "title": "1. DM mein *ye bhejo*:",
+      "name": "Your Boutique",
+      "status": "WhatsApp Business",
+      "gap": 1.2,
+      "msgs": [
+        {
+          "from": "us",
+          "text": "Hi! 💕 Ye suit ₹2,890. Aapke liye *3 colours* 📎📎📎",
+          "time": "4:12 pm"
+        },
+        {
+          "from": "us",
+          "text": "Size kya hai? *S M L XL* mein se bata dijiye, stock check kar deti hoon.",
+          "time": "4:12 pm"
+        },
+        {
+          "from": "them",
+          "text": "M, maroon wala",
+          "time": "4:20 pm"
+        },
+        {
+          "from": "us",
+          "text": "Maroon M available ✅ *COD ya UPI?*",
+          "time": "4:21 pm"
+        }
+      ],
+      "say": "Price ke saath teen colour ki photos, aur ek aasaan sawaal: size kya hai."
+    },
+    {
+      "type": "list",
+      "dur": 5.0,
+      "title": "2. Jawab nahi aaya?",
+      "items": [
+        "*24 ghante* baad: \"Maroon M sirf 2 bache hain\"",
+        "*Sach* ho tabhi bolo",
+        "Ek hi baar, *spam nahi*"
+      ],
+      "say": "Jawab nahi aaya to chaubees ghante baad ek message, stock ke saath. Sach ho tabhi, aur sirf ek baar."
+    },
+    {
+      "type": "hook",
+      "dur": 3.0,
+      "kicker": "Raaz kya hai?",
+      "text": "Sawaal *aasaan* rakho: *\"Size kya hai?\"*",
+      "say": "Raaz ye hai. Aakhri sawaal aasaan rakho. Size kya hai."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Comments ko *orders* banao",
+      "keyword": "DM",
+      "sub": "Comment DM: hamari reply script",
+      "say": "Comment karo DM, poori reply script bhejenge. Ya seedha WhatsApp karo, hum aapke liye set kar denge."
+    }
+  ],
+  "caption": "\"Price?\" comment aaya. Aapne likha \"DM kiya 💕\". Aur customer gayab. Kyun? Price akela thanda hai. 👗\n\nBusiness of the Day: Boutique\n1️⃣ DM mein price + 3 colour photos\n2️⃣ Aasaan sawaal: \"Size kya hai?\"\n3️⃣ Size aaya: stock confirm + \"COD ya UPI?\"\n4️⃣ Jawab nahi? 24 ghante baad ek stock update, sach ho tabhi\n\nSave karo 🔖\nComment \"DM\" 👇 poori reply script.\n\n📲 Ye problem aapke business mein bhi hai? WhatsApp karo: 98131 36114, hum set kar denge.\n\n🏢 Parachar: local businesses ke liye websites, WhatsApp automation aur lead follow-up systems. Leads aayein, chhootein nahi.\n🌐 parachar.in (link bio mein)\n\n#boutique #onlineboutique #instagramseller #fashionbusiness #parachar"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "botd-physio-package",
+  "style": "services",
+  "industry": "Physiotherapy clinic",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "kicker": "Physio clinics 👇",
+      "text": "10 sessions chahiye. Patient *3 ke baad* gayab?",
+      "say": "Physio clinics. Das session chahiye the, patient teen ke baad gayab?"
+    },
+    {
+      "type": "hook",
+      "dur": 2.8,
+      "kicker": "Kyun?",
+      "text": "Dard *thoda kam* hua = \"ab theek hoon\".",
+      "say": "Kyunki dard thoda kam hua, aur patient ko laga ab theek hai."
+    },
+    {
+      "type": "chat",
+      "dur": 6.4,
+      "title": "1. Har session ke baad *score*:",
+      "name": "Your Physio Clinic",
+      "status": "WhatsApp Business",
+      "gap": 1.2,
+      "msgs": [
+        {
+          "from": "us",
+          "text": "Aaj ka session ✅ Dard *0-10* mein kitna?",
+          "time": "6:10 pm"
+        },
+        {
+          "from": "them",
+          "text": "4",
+          "time": "6:30 pm"
+        },
+        {
+          "from": "us",
+          "text": "Pehle din 8 tha, ab 4 📉 *Aadha rasta* ho gaya. Agla session Thu 6 pm ✅",
+          "time": "6:31 pm"
+        }
+      ],
+      "say": "Har session ke baad dard ka score. Patient ko apni progress dikhti hai."
+    },
+    {
+      "type": "list",
+      "dur": 5.4,
+      "title": "2. *Package* aur reminder:",
+      "items": [
+        "Day 1: *10 session plan* likhit mein",
+        "Har session se *2 ghante pehle* reminder",
+        "Miss hua? *Same din* naya slot"
+      ],
+      "say": "Pehle din se das session ka plan. Har session se pehle reminder. Miss hua to same din naya slot."
+    },
+    {
+      "type": "hook",
+      "dur": 3.0,
+      "kicker": "Sabse badi galti",
+      "text": "\"Jab dard ho tab aa jaana\" *bolna*.",
+      "say": "Sabse badi galti. Jab dard ho tab aa jaana bolna."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Patient ko *poora theek* karo",
+      "keyword": "PLAN",
+      "sub": "Comment PLAN: score + reminder templates",
+      "say": "Comment karo PLAN, templates bhejenge. Ya seedha WhatsApp karo, hum aapke liye set kar denge."
+    }
+  ],
+  "caption": "Physio patient ko 10 session chahiye. Wo 3 ke baad chala jaata hai kyunki dard thoda kam hua. Phir 2 mahine baad wapas, aur ilzaam clinic pe. 🦵\n\nBusiness of the Day: Physiotherapy\n1️⃣ Har session ke baad dard ka score (0-10)\n2️⃣ Progress dikhao: \"8 se 4, aadha rasta\"\n3️⃣ Day 1 se 10 session plan likhit mein\n4️⃣ Reminder + miss hua to same din naya slot\n\nSave karo 🔖\nComment \"PLAN\" 👇 templates bhejenge.\n\n📲 Ye problem aapke business mein bhi hai? WhatsApp karo: 98131 36114, hum set kar denge.\n\n🏢 Parachar: local businesses ke liye websites, WhatsApp automation aur lead follow-up systems. Leads aayein, chhootein nahi.\n🌐 parachar.in (link bio mein)\n\n#physiotherapy #physio #clinicmarketing #patientcare #parachar"
+}
