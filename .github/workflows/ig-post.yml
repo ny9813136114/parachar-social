@@ -1,18 +1,26 @@
 name: Instagram post
 
-# Mon-Sat 08:47 IST: posts today's services reel or carousel from social/ig/queue/ to Instagram (+ a Facebook Page copy).
+# Daily 08:47 IST: posts today's services reel or carousel from social/ig/queue/ to Instagram (+ a Facebook Page copy).
+# Daily 18:47 IST: posts today's image post from social/ig/images/ (PNG pre-rendered by card.js in social/ig/media/<id>/).
 # Reels are rendered here (voice + music), uploaded to a release so Meta can fetch them, then posted (see ig.js).
 # Pause any time: repo variable IG_AUTO_POST = off. Facebook copy off: repo variable FB_COPY = off.
 
 on:
   schedule:
-    - cron: "17 3 * * 1-6"   # 08:47 IST (off the busy :00/:30 slots, which GitHub sometimes skips)
-    - cron: "47 5 * * 1-6"   # 11:17 IST catch-up if GitHub skipped the first run; posted files are moved, so nothing posts twice
+    - cron: "17 3 * * *"   # 08:47 IST (off the busy :00/:30 slots, which GitHub sometimes skips)
+    - cron: "47 5 * * *"   # 11:17 IST catch-up if GitHub skipped the first run; posted files are moved, so nothing posts twice
+    - cron: "17 13 * * *"  # 18:47 IST daily image post
+    - cron: "47 14 * * *"  # 20:17 IST image catch-up
   workflow_dispatch:
     inputs:
       date:
         description: "Queue date YYYY-MM-DD (blank = today in IST)"
         default: ""
+      queue:
+        description: "Which post: reel (morning queue) or image (evening queue)"
+        type: choice
+        options: [reel, image]
+        default: reel
       dry_run:
         description: "Dry run: render + check everything, post nothing"
         type: boolean
@@ -43,6 +51,7 @@ jobs:
       PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       GH_TOKEN: ${{ github.token }}
       DATE_IN: ${{ inputs.date }}
+      IG_QUEUE: ${{ (github.event.schedule == '17 13 * * *' || github.event.schedule == '47 14 * * *' || inputs.queue == 'image') && 'social/ig/images' || 'social/ig/queue' }}
       LOOK: ${{ inputs.look }}
     steps:
       - uses: actions/checkout@v4

@@ -10,7 +10,7 @@ const fs = require('fs'), path = require('path');
 const G = 'https://graph.facebook.com/v21.0';
 const token = process.env.META_TOKEN;
 const repo = process.env.GITHUB_REPOSITORY || 'ny9813136114/parachar-social';
-const Q = 'social/ig/queue', PUB = 'social/ig/published', LOG = path.join(PUB, 'log.json');
+const Q = process.env.IG_QUEUE || 'social/ig/queue', PUB = 'social/ig/published', LOG = path.join(PUB, 'log.json');
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 const istDate = () => new Date(Date.now() + 5.5 * 3600e3).toISOString().slice(0, 10);
 
@@ -62,6 +62,10 @@ async function igCarousel(igId, imageUrls, caption) {
   return publish(igId, id);
 }
 
+async function igImage(igId, imageUrl, caption) {
+  return publish(igId, (await graph('POST', `/${igId}/media`, { image_url: imageUrl, caption })).id);
+}
+
 async function pageToken(pageId) { return (await graph('GET', `/${pageId}`, { fields: 'access_token' })).access_token; }
 
 async function fbReel(pageId, videoUrl, text) {
@@ -86,7 +90,7 @@ function todays(date) {
   const f = fs.readdirSync(Q).filter(n => n.startsWith(date) && n.endsWith('.json')).sort()[0];
   if (!f) return null;
   const spec = JSON.parse(fs.readFileSync(path.join(Q, f), 'utf8'));
-  return { f, spec, kind: spec.type === 'carousel' ? 'carousel' : 'reel' };
+  return { f, spec, kind: spec.type === 'carousel' ? 'carousel' : spec.type === 'image' ? 'image' : 'reel' };
 }
 
 (async () => {
@@ -111,7 +115,7 @@ function todays(date) {
   } else {
     const dir = `social/ig/media/${t.spec.id}`;
     const n = fs.readdirSync(dir).filter(x => /^slide-\d+\.png$/.test(x)).length;
-    if (n < 2 || n > 10) throw new Error(`${dir}: carousel needs 2-10 slides, found ${n}`);
+    if (t.kind === 'image' ? n !== 1 : (n < 2 || n > 10)) throw new Error(`${dir}: ${t.kind} needs ${t.kind === 'image' ? '1 slide' : '2-10 slides'}, found ${n}`);
     urls = Array.from({ length: n }, (_, i) => `https://raw.githubusercontent.com/${repo}/main/${dir}/slide-${i + 1}.png`);
   }
   if (process.env.DRY_RUN === 'true') { // check the token, the accounts and that Meta can fetch every file; post nothing
@@ -126,7 +130,8 @@ function todays(date) {
   }
   // Instagram is the main target: if it fails the run fails. Facebook is a best-effort copy.
   if (!rec.instagram) {
-    rec.instagram = t.kind === 'reel' ? await igReel(acc.ig, urls.video, urls.cover, caption) : await igCarousel(acc.ig, urls, caption);
+    rec.instagram = t.kind === 'reel' ? await igReel(acc.ig, urls.video, urls.cover, caption)
+      : t.kind === 'image' ? await igImage(acc.ig, urls[0], caption) : await igCarousel(acc.ig, urls, caption);
     try { rec.permalink = (await graph('GET', `/${rec.instagram}`, { fields: 'permalink' })).permalink; } catch {}
     console.log(`Instagram posted: ${rec.permalink || rec.instagram}`);
   }

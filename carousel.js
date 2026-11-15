@@ -13,7 +13,7 @@ function html(spec, s, i, n) {
   const dark = s.kind !== 'point';
   const num = String(i + 1).padStart(2, '0');
   const body = s.kind === 'cta'
-    ? `<h1>${rich(s.title)}</h1>${s.keyword ? `<div class="kw">${esc(s.keyword)}</div>` : ''}${s.sub ? `<p class="sub">${rich(s.sub)}</p>` : ''}<div class="url">parachar.in</div>`
+    ? `<h1>${rich(s.title)}</h1>${s.keyword ? `<div class="kw">${esc(s.keyword)}</div>` : ''}${s.sub ? `<p class="sub">${rich(s.sub)}</p>` : ''}<div class="url"><span class="wa">WhatsApp 98131 36114</span> · parachar.in</div>`
     : `<h1>${rich(s.title)}</h1>${s.sub ? `<p class="sub">${rich(s.sub)}</p>` : ''}${s.box ? `<div class="box">${rich(s.box)}</div>` : ''}`;
   return `<!doctype html><html><head><meta charset="utf-8"><style>
 @font-face{font-family:B;src:url(fonts/bricolage-var-latin.woff2) format("woff2");font-weight:200 800}
@@ -33,6 +33,7 @@ em{font-style:normal;color:${dark ? '#5EEAD4' : '#0F766E'}}
  font:700 44px/1.4 I;color:${dark ? '#fff' : '#17375E'};position:relative;z-index:1}
 .kw{margin-top:48px;align-self:flex-start;padding:22px 52px;border-radius:24px;background:#14B8A6;color:#062A2A;font:800 84px B;letter-spacing:2px}
 .url{margin-top:40px;font:700 40px I;color:#5EEAD4}
+.url .wa{display:inline-block;padding:10px 24px;border-radius:999px;background:#25D366;color:#062A16}
 .foot{position:absolute;left:96px;right:96px;bottom:58px;display:flex;justify-content:space-between;align-items:center}
 .brand{display:flex;align-items:center;gap:18px;font:700 38px I}
 .brand i{width:64px;height:64px;border-radius:16px;background:${dark ? '#fff' : 'transparent'};display:grid;place-items:center}
