@@ -1,0 +1,70 @@
+{
+  "id": "botd-travel-three-options",
+  "style": "services",
+  "industry": "Travel agent",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "kicker": "Travel agents 👇",
+      "text": "Quote bheja, *\"thoda sasta?\"*, phir gayab?",
+      "say": "Travel agents. Quote bheja, customer bola thoda sasta, aur phir gayab?"
+    },
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "kicker": "Ek quote = ek *haan ya na*",
+      "text": "*Teen* option = *kaunsa* lena hai.",
+      "say": "Ek quote pe customer haan ya na sochta hai. Teen option pe sochta hai kaunsa lena hai."
+    },
+    {
+      "type": "chat",
+      "dur": 6.6,
+      "title": "1. Quote *aise* bhejo:",
+      "name": "Your Travels",
+      "status": "WhatsApp Business",
+      "gap": 1.2,
+      "msgs": [
+        {
+          "from": "us",
+          "text": "Goa 4N/5D, 2 adults 🌴\n🥉 *Budget* ₹28,500: 3★, breakfast\n🥈 *Best value* ₹36,900: 4★ beach, airport cab\n🥇 *Premium* ₹52,000: 5★, sab meals",
+          "time": "11:30 am"
+        },
+        {
+          "from": "them",
+          "text": "Best value wala 🙌",
+          "time": "11:52 am"
+        }
+      ],
+      "say": "Teen option. Beech wala sabse zyaada bikta hai."
+    },
+    {
+      "type": "list",
+      "dur": 5.2,
+      "title": "2. *Uske baad*:",
+      "items": [
+        "Same din: *day-wise itinerary* PDF",
+        "Advance pe: *booking confirm* screenshot",
+        "Trip se 1 din pehle: *checklist*"
+      ],
+      "say": "Uske baad itinerary, booking confirm, aur trip se ek din pehle checklist."
+    },
+    {
+      "type": "hook",
+      "dur": 3.0,
+      "kicker": "Sabse badi galti",
+      "text": "Discount *pehle hi* de dena.",
+      "say": "Sabse badi galti. Customer ke maangne se pehle discount de dena."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Quote ko *booking* banao",
+      "keyword": "QUOTE",
+      "sub": "Comment QUOTE: 3-option template",
+      "say": "Comment karo QUOTE, teen option wala template bhejenge. Ya seedha WhatsApp karo, hum aapke liye set kar denge."
+    }
+  ],
+  "caption": "Travel agent ka sabse common dukh: quote bheja, \"thoda sasta?\", phir chup. ✈️\n\nBusiness of the Day: Travel agent\n1️⃣ Ek quote nahi, 3 options: Budget / Best value / Premium\n2️⃣ Beech wala sabse zyaada bikta hai\n3️⃣ Same din itinerary PDF, advance pe confirm screenshot, trip se pehle checklist\n❌ Galti: maangne se pehle discount\n\n(Prices example hain.)\n\nSave karo 🔖\nComment \"QUOTE\" 👇 template bhejenge.\n\n📲 Ye problem aapke business mein bhi hai? WhatsApp karo: 98131 36114, hum set kar denge.\n\n🏢 Parachar: local businesses ke liye websites, WhatsApp automation aur lead follow-up systems. Leads aayein, chhootein nahi.\n🌐 parachar.in (link bio mein)\n\n#travelagent #tourpackages #travelbusiness #goatrip #parachar"
+}

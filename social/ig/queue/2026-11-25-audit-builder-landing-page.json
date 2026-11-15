@@ -1,0 +1,65 @@
+{
+  "id": "audit-builder-landing-page",
+  "style": "services",
+  "series": "60-Second Audit",
+  "industry": "Real estate",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.6,
+      "kicker": "60-second audit · Builder",
+      "text": "₹50,000 ke ads. Landing page pe *ye 4 galtiyan*.",
+      "say": "Pachaas hazaar ke ads chal rahe the. Landing page pe chaar galtiyan."
+    },
+    {
+      "type": "compare",
+      "dur": 5.4,
+      "title": "Phone pe *pehli screen*",
+      "bad": {
+        "label": "Abhi",
+        "value": "7.8 sec",
+        "text": "Load time. Bada slider, project ka naam, bas"
+      },
+      "good": {
+        "label": "Hona chahiye",
+        "value": "< 3 sec",
+        "text": "Price range + location + \"Visit book karo\""
+      },
+      "say": "Phone pe page aath second mein khula. Aur pehli screen pe sirf slider. Price, location, kuch nahi."
+    },
+    {
+      "type": "list",
+      "dur": 6.6,
+      "title": "Kya galat tha:",
+      "items": [
+        "*\"Price on request\"*: buyer wapas chala gaya",
+        "Form mein *7 fields*",
+        "WhatsApp button *neeche footer* mein",
+        "Thank-you page nahi = *tracking* nahi"
+      ],
+      "say": "Price on request, saat fields ka form, WhatsApp button footer mein, aur thank you page nahi, to tracking bhi nahi."
+    },
+    {
+      "type": "list",
+      "dur": 6.2,
+      "title": "Fix:",
+      "items": [
+        "Pehli screen: *₹ range, size, location*",
+        "Form: *naam, number, budget*",
+        "*Floating* WhatsApp button",
+        "Thank-you page + *conversion tag*"
+      ],
+      "say": "Pehli screen pe price range aur location. Teen field ka form. Floating WhatsApp button. Aur thank you page pe conversion tag."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Aapka landing page *kitne leads* gira raha hai?",
+      "keyword": "AUDIT",
+      "sub": "Comment AUDIT: free 60-sec audit",
+      "say": "Comment karo AUDIT, free audit karenge. Ya seedha WhatsApp karo, hum aapke liye set kar denge."
+    }
+  ],
+  "caption": "Ek builder ka landing page 60 second mein audit kiya. Ads pe ₹50,000/mahina, aur page leads gira raha tha. 🏢\n\n❌ Phone pe 7.8 sec load\n❌ \"Price on request\"\n❌ 7 fields ka form\n❌ WhatsApp button footer mein\n❌ Thank-you page nahi, to tracking bhi nahi\n\n✅ Pehli screen pe price range + size + location, 3 field form, floating WhatsApp, thank-you page + conversion tag.\n\n(Example page; numbers ek example campaign ke.)\n\nComment \"AUDIT\" 👇 aapka page free check karenge.\n\n📲 Ye problem aapke business mein bhi hai? WhatsApp karo: 98131 36114, hum set kar denge.\n\n🏢 Parachar: local businesses ke liye websites, WhatsApp automation aur lead follow-up systems. Leads aayein, chhootein nahi.\n🌐 parachar.in (link bio mein)\n\n#realestatemarketing #landingpage #propertyleads #googleads #parachar"
+}

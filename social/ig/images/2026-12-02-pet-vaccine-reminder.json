@@ -1,0 +1,13 @@
+{
+  "id": "img-pet-vaccine-reminder",
+  "type": "image",
+  "industry": "Pet clinic",
+  "kicker": "Vaccination due hai, owner bhool gaya",
+  "title": "Pet owners *bhoolte* hain. Pet clinic ko nahi bhoolna chahiye.",
+  "fix_label": "Due date se 5 din pehle 👇",
+  "message": "Hi [naam] 🐾 *[pet ka naam]* ka [vaccine] booster *[date]* ko due hai.\nSlot: *[din] 11 am* ya *[din] 5 pm*?\nVaccination card saath laana mat bhoolna.",
+  "why": "message mein *pet ka naam* = personal lagta hai. Owner ko lagta hai clinic unke pet ko jaanta hai.",
+  "palette": "pink",
+  "theme": "light",
+  "caption": "Pet clinic ka sabse bharosemand revenue: vaccination aur booster. Har saal, har pet. Bas owner ko yaad nahi rehta. 🐶🐱\n\nKaise:\n1️⃣ Pehli visit pe pet ka naam + due dates sheet mein\n2️⃣ 5 din pehle WhatsApp, pet ke naam ke saath\n3️⃣ 2 slot options\n4️⃣ Visit ke baad next due date bata do\n\nSave karo 🔖\n\n📲 Ye problem aapke business mein bhi hai? WhatsApp karo: 98131 36114, hum set kar denge.\n\n🏢 Parachar: local businesses ke liye websites, WhatsApp automation aur lead follow-up systems. Leads aayein, chhootein nahi.\n🌐 parachar.in (link bio mein)\n\n#petclinic #veterinary #petcare #dogsofindia #parachar"
+}

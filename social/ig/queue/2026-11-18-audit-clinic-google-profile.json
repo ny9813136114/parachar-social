@@ -1,0 +1,68 @@
+{
+  "id": "audit-clinic-google-profile",
+  "style": "services",
+  "series": "60-Second Audit",
+  "industry": "Clinic",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "kicker": "60-second audit · Clinic",
+      "text": "Ek clinic ka *Google profile* dekha. 4 galtiyan.",
+      "say": "Ek clinic ka Google profile dekha. Chaar galtiyan mili."
+    },
+    {
+      "type": "search",
+      "dur": 6.0,
+      "query": "dentist near me open now",
+      "engine": "Google Maps",
+      "results": [
+        {
+          "text": "Clinic A · 4.8 ★ (612) · Open till 9 pm"
+        },
+        {
+          "text": "Clinic B · 4.6 ★ (240) · Book online"
+        },
+        {
+          "text": "Example clinic · 4.9 ★ (18) · Hours: not set",
+          "you": true
+        }
+      ],
+      "say": "Rating sabse achhi, par sirf athaarah reviews, aur timing hi nahi daali. Google ne neeche daal diya."
+    },
+    {
+      "type": "list",
+      "dur": 7.0,
+      "title": "Kya missing tha:",
+      "items": [
+        "*Timing* nahi daali: \"open now\" search mein gayab",
+        "Sirf *18 reviews*, last review 5 mahine purana",
+        "Photos: sirf logo. *Clinic, doctor, team* nahi",
+        "Booking ka *WhatsApp button* nahi"
+      ],
+      "say": "Timing nahi, reviews kam aur purane, photos mein sirf logo, aur booking ka koi button nahi."
+    },
+    {
+      "type": "list",
+      "dur": 6.4,
+      "title": "30 minute ka fix:",
+      "items": [
+        "Hours + *special hours* bharo",
+        "Har patient ko visit ke baad *review link*",
+        "Har mahine *5 asli photos*",
+        "\"Book\" link = *WhatsApp chat*"
+      ],
+      "say": "Fix. Timing bharo. Har patient ko review link bhejo. Har mahine paanch asli photos. Aur booking link mein WhatsApp chat."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Aapke clinic ka profile *kaisa hai*?",
+      "keyword": "AUDIT",
+      "sub": "Comment AUDIT: hum free 60-sec audit karenge",
+      "say": "Comment karo AUDIT, aapka free audit karenge. Ya seedha WhatsApp karo, hum aapke liye set kar denge."
+    }
+  ],
+  "caption": "Ek clinic ka Google profile 60 second mein audit kiya. Rating 4.9 thi, phir bhi \"dentist near me\" mein neeche. Kyun? 🦷\n\n❌ Timing nahi daali, isliye \"open now\" mein gayab\n❌ Sirf 18 reviews, last wala 5 mahine purana\n❌ Photos mein sirf logo\n❌ Booking ka WhatsApp button nahi\n\n✅ 30 min ka fix: hours bharo, har patient ko review link, har mahine 5 asli photos, \"Book\" = WhatsApp chat.\n\n(Example profile, naam hide kiya hai.)\n\nComment \"AUDIT\" 👇 aapka profile free check karenge.\n\n📲 Ye problem aapke business mein bhi hai? WhatsApp karo: 98131 36114, hum set kar denge.\n\n🏢 Parachar: local businesses ke liye websites, WhatsApp automation aur lead follow-up systems. Leads aayein, chhootein nahi.\n🌐 parachar.in (link bio mein)\n\n#clinicmarketing #googlebusinessprofile #dentist #localseo #parachar"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "botd-diagnostic-lab-report",
+  "style": "services",
+  "industry": "Diagnostic lab",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "kicker": "Diagnostic labs 👇",
+      "text": "Report lene *dobara aana* padta hai?",
+      "say": "Diagnostic labs. Report lene ke liye patient ko dobara aana padta hai?"
+    },
+    {
+      "type": "hook",
+      "dur": 3.6,
+      "kicker": "Badi chains ka fayda",
+      "text": "*Home collection* + report *phone pe*. Ye *chhota lab bhi* kar sakta hai.",
+      "say": "Badi chains ka fayda home collection aur phone pe report hai. Ye chhota lab bhi kar sakta hai."
+    },
+    {
+      "type": "chat",
+      "dur": 6.6,
+      "title": "1. Test se report tak:",
+      "name": "Your Diagnostics",
+      "status": "WhatsApp Business",
+      "gap": 1.2,
+      "msgs": [
+        {
+          "from": "us",
+          "text": "✅ Sample mil gaya. Report *kal 2 pm* tak, yahin.",
+          "time": "8:40 am"
+        },
+        {
+          "from": "us",
+          "text": "📄 Report ready 📎 Ek value normal se upar hai, *doctor ko dikhayein*.",
+          "time": "1:55 pm"
+        },
+        {
+          "from": "us",
+          "text": "Dr. [naam] se *free report reading*? Reply 1",
+          "time": "1:55 pm"
+        }
+      ],
+      "say": "Sample milte hi time, report WhatsApp pe, aur free report reading."
+    },
+    {
+      "type": "list",
+      "dur": 5.4,
+      "title": "2. *Repeat* patient:",
+      "items": [
+        "Thyroid / sugar: *3 mahine* baad reminder",
+        "*Family package* offer, saal mein ek baar",
+        "*Home collection* slot: subah 7-10"
+      ],
+      "say": "Thyroid aur sugar wale patients ko teen mahine baad reminder. Saal mein family package. Aur subah home collection."
+    },
+    {
+      "type": "hook",
+      "dur": 3.0,
+      "kicker": "Sabse badi galti",
+      "text": "Report pe *bas PDF*. Patient *dar* jaata hai.",
+      "say": "Sabse badi galti. Sirf PDF bhej dena. Patient numbers dekh ke dar jaata hai."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Lab ko *chain jaisa* banao",
+      "keyword": "LAB",
+      "sub": "Comment LAB: message templates",
+      "say": "Comment karo LAB, templates bhejenge. Ya seedha WhatsApp karo, hum aapke liye set kar denge."
+    }
+  ],
+  "caption": "Chhote lab ka patient badi chain ke paas jaata hai sirf ek wajah se: home collection aur report phone pe. Ye aap bhi kar sakte ho. 🧪\n\nBusiness of the Day: Diagnostic lab\n1️⃣ Sample milte hi: report kab aayegi\n2️⃣ Report WhatsApp pe + free report reading\n3️⃣ Thyroid/sugar: 3 mahine baad reminder\n4️⃣ Home collection slot, subah 7-10\n❌ Galti: bina samjhaye sirf PDF\n\nSave karo 🔖\nComment \"LAB\" 👇 templates.\n\n📲 Ye problem aapke business mein bhi hai? WhatsApp karo: 98131 36114, hum set kar denge.\n\n🏢 Parachar: local businesses ke liye websites, WhatsApp automation aur lead follow-up systems. Leads aayein, chhootein nahi.\n🌐 parachar.in (link bio mein)\n\n#diagnostics #pathologylab #healthcare #labtest #parachar"
+}

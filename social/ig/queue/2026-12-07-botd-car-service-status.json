@@ -1,0 +1,80 @@
+{
+  "id": "botd-car-service-status",
+  "style": "services",
+  "industry": "Car service centre",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "kicker": "Car service centre owners 👇",
+      "text": "\"Gaadi kab milegi?\" *Din mein 30 call?*",
+      "say": "Car service centre owners. Gaadi kab milegi, din mein tees call aate hain?"
+    },
+    {
+      "type": "hook",
+      "dur": 2.8,
+      "kicker": "Customer ko bas ye chahiye",
+      "text": "*Kya ho raha hai* aur *kitna lagega*.",
+      "say": "Customer ko bas do cheezein chahiye. Kya ho raha hai, aur kitna kharcha."
+    },
+    {
+      "type": "chat",
+      "dur": 7.4,
+      "title": "1. Teen *status* message:",
+      "name": "Your Service Centre",
+      "status": "WhatsApp Business",
+      "gap": 1.2,
+      "msgs": [
+        {
+          "from": "us",
+          "text": "✅ *Gaadi aa gayi*. Job card 📎 Estimate: ₹[X]. Shaam 6 baje tak.",
+          "time": "10:05 am"
+        },
+        {
+          "from": "us",
+          "text": "⚠️ Brake pad ghise hain: *₹2,400* extra. Photo 📎 Reply YES/NO",
+          "time": "1:20 pm"
+        },
+        {
+          "from": "them",
+          "text": "YES",
+          "time": "1:31 pm"
+        },
+        {
+          "from": "us",
+          "text": "🚗 *Ready!* Bill ₹[X]. Pickup 7 pm tak.",
+          "time": "5:40 pm"
+        }
+      ],
+      "say": "Gaadi aate hi job card. Extra kaam pe photo ke saath approval. Aur ready hote hi bill."
+    },
+    {
+      "type": "list",
+      "dur": 4.8,
+      "title": "2. *Extra kaam* ka rule:",
+      "items": [
+        "Pehle *photo* bhejo",
+        "Exact *₹ amount*",
+        "*YES* aaye tabhi kaam"
+      ],
+      "say": "Extra kaam pe pehle photo, exact amount, aur yes aane ke baad hi kaam. Bill pe jhagda khatam."
+    },
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "kicker": "Sabse badi galti",
+      "text": "Bill pe *surprise*. Customer *agli baar* nahi aata.",
+      "say": "Sabse badi galti. Bill pe surprise. Woh customer agli baar nahi aata."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Calls kam, *bharosa zyaada*",
+      "keyword": "STATUS",
+      "sub": "Comment STATUS: teeno message templates",
+      "say": "Comment karo STATUS, teeno templates bhejenge. Ya seedha WhatsApp karo, hum aapke liye set kar denge."
+    }
+  ],
+  "caption": "Service centre mein aadha din \"gaadi kab milegi?\" wale calls mein jaata hai. Aur bill pe surprise se customer hamesha ke liye chala jaata hai. 🚗\n\nBusiness of the Day: Car service centre\n1️⃣ Gaadi aate hi: job card + estimate + time\n2️⃣ Extra kaam: photo + exact ₹ + YES ke baad hi kaam\n3️⃣ Ready: bill + pickup time\n❌ Galti: bill pe surprise\n\nSave karo 🔖\nComment \"STATUS\" 👇 teeno templates bhejenge.\n\n📲 Ye problem aapke business mein bhi hai? WhatsApp karo: 98131 36114, hum set kar denge.\n\n🏢 Parachar: local businesses ke liye websites, WhatsApp automation aur lead follow-up systems. Leads aayein, chhootein nahi.\n🌐 parachar.in (link bio mein)\n\n#carservice #autoworkshop #carcare #garagebusiness #parachar"
+}

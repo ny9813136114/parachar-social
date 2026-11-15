@@ -1,0 +1,4 @@
+{
+  "id": "build-two-posts-a-day",
+  "text": "Our Instagram now posts twice a day. Nobody on our side presses \"post\".\n\nHere's the whole setup, because most small businesses think this needs an agency retainer or a ₹5,000/month tool:\n\n→ Every post is a small text file: hook, the fix, the caption\n→ A scheduled job reads today's file at 8:47 am and 6:47 pm\n→ It renders the reel or image, adds voice and music, and publishes through Instagram's official API\n→ If GitHub skips a run, a catch-up run an hour later posts it. Nothing posts twice.\n\nSoftware bill: ₹0. Everything runs on free tiers.\n\nThe hard part was never the automation. It's writing 14 genuinely useful posts a week. The machine only removes the excuse of \"no time to upload\".\n\nWhat does your business still post by hand?\n\nWant this fixed in your business? WhatsApp me: +91 98131 36114\n\n#automation #smallbusiness #contentmarketing"
+}

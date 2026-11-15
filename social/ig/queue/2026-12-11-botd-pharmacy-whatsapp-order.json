@@ -1,0 +1,80 @@
+{
+  "id": "botd-pharmacy-whatsapp-order",
+  "style": "services",
+  "industry": "Pharmacy",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "kicker": "Chemist / pharmacy owners 👇",
+      "text": "Customer *app se* dawai mangwa raha hai?",
+      "say": "Chemist owners. Aapka customer app se dawai mangwa raha hai?"
+    },
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "kicker": "App ka fayda kya hai?",
+      "text": "*Parchi ki photo*, ghar pe delivery. *Aap bhi* de sakte ho.",
+      "say": "App ka fayda kya hai? Parchi ki photo, aur ghar pe delivery. Ye aap bhi de sakte ho."
+    },
+    {
+      "type": "chat",
+      "dur": 6.6,
+      "title": "1. *WhatsApp order*:",
+      "name": "Your Medical Store",
+      "status": "WhatsApp Business",
+      "gap": 1.2,
+      "msgs": [
+        {
+          "from": "them",
+          "text": "📷 [parchi ki photo]",
+          "time": "8:05 pm"
+        },
+        {
+          "from": "us",
+          "text": "Sab available ✅ Total *₹640* (10% off). 45 min mein delivery. *UPI ya cash?*",
+          "time": "8:07 pm"
+        },
+        {
+          "from": "them",
+          "text": "UPI",
+          "time": "8:08 pm"
+        },
+        {
+          "from": "us",
+          "text": "🛵 Nikal gaye. Rider: Ravi",
+          "time": "8:20 pm"
+        }
+      ],
+      "say": "Parchi ki photo aayi, do minute mein total, discount aur delivery time."
+    },
+    {
+      "type": "list",
+      "dur": 5.2,
+      "title": "2. Isko *system* banao:",
+      "items": [
+        "Counter pe *QR*: \"Parchi WhatsApp karo\"",
+        "Har bill pe *number* save",
+        "Monthly dawai: *refill reminder*"
+      ],
+      "say": "Counter pe QR, har bill pe number save, aur monthly dawai pe refill reminder."
+    },
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "kicker": "Aapka asli fayda",
+      "text": "Aap *mohalle ke* ho. *45 min*, app se pehle.",
+      "say": "Aapka asli fayda. Aap mohalle ke ho. Pain taalees minute, app se pehle."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Mohalle ka *pehla choice* bano",
+      "keyword": "ORDER",
+      "sub": "Comment ORDER: poora setup checklist",
+      "say": "Comment karo ORDER, setup checklist bhejenge. Ya seedha WhatsApp karo, hum aapke liye set kar denge."
+    }
+  ],
+  "caption": "Mohalle ka customer ab app se dawai mangwata hai. Par app ke paas ek hi cheez hai jo aapke paas nahi: \"parchi ki photo bhejo, ghar aa jayega\". 💊\n\nBusiness of the Day: Pharmacy\n1️⃣ Parchi WhatsApp pe: 2 min mein total + delivery time\n2️⃣ Counter pe QR: \"Parchi WhatsApp karo\"\n3️⃣ Har bill pe number save\n4️⃣ Monthly dawai ka refill reminder\n\nAap mohalle ke ho. 45 min mein, app se pehle. Save karo 🔖\nComment \"ORDER\" 👇 setup checklist.\n\n📲 Ye problem aapke business mein bhi hai? WhatsApp karo: 98131 36114, hum set kar denge.\n\n🏢 Parachar: local businesses ke liye websites, WhatsApp automation aur lead follow-up systems. Leads aayein, chhootein nahi.\n🌐 parachar.in (link bio mein)\n\n#pharmacy #chemist #medicalstore #localbusiness #parachar"
+}
