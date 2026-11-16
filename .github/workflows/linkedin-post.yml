@@ -1,13 +1,13 @@
 name: LinkedIn post
 
-# Mon/Tue/Wed/Thu/Sat 08:45 IST: posts today's file from linkedin/queue/ to the owner's personal LinkedIn profile.
+# Mon-Sat 08:43 IST: posts today's file from linkedin/queue/ to the owner's personal LinkedIn profile.
 # Wednesday is the weekly LinkedIn video (4:5, rendered here from the file's "reel", voice + music + Pexels video).
 # OFF until repo variable LI_AUTO_POST = on and secret LI_TOKEN are set (see linkedin/README.md).
 
 on:
   schedule:
-    - cron: "13 3 * * 1,2,3,4,6"   # 08:43 IST
-    - cron: "43 5 * * 1,2,3,4,6"   # 11:13 IST catch-up if the first run was skipped (posted files are moved out of the queue)
+    - cron: "13 3 * * 1-6"   # 08:43 IST, Mon-Sat (owner 16 Nov: 1 post a day)
+    - cron: "43 5 * * 1-6"   # 11:13 IST catch-up if the first run was skipped (posted files are moved out of the queue)
   workflow_dispatch:
     inputs:
       date: { description: "Queue date to post (YYYY-MM-DD), blank = today IST", required: false }

@@ -1,0 +1,68 @@
+{
+  "id": "after-hours-away",
+  "style": "services",
+  "industry": "All businesses",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.0,
+      "kicker": "Raat 10 baje 👇",
+      "text": "Customer ne message kiya. *Aap so rahe the.*",
+      "say": "Raat das baje customer ne message kiya. Aap so rahe the."
+    },
+    {
+      "type": "hook",
+      "dur": 2.8,
+      "kicker": "Subah tak",
+      "text": "Wo *3 aur jagah* pooch chuka hota hai.",
+      "say": "Subah tak wo teen aur jagah pooch chuka hota hai."
+    },
+    {
+      "type": "chat",
+      "dur": 6.4,
+      "title": "Away message *aisa* ho:",
+      "name": "Your Business",
+      "status": "WhatsApp Business",
+      "gap": 1.2,
+      "msgs": [
+        {
+          "from": "them",
+          "text": "Hi, bridal package ka price?",
+          "time": "10:12 pm"
+        },
+        {
+          "from": "us",
+          "text": "Namaste 🙏 abhi band hain, *subah 10 baje* sabse pehle aapko reply karenge.",
+          "time": "10:12 pm"
+        },
+        {
+          "from": "us",
+          "text": "Tab tak: price list 📎 aur pichle kaam ki photos 📎",
+          "time": "10:12 pm"
+        }
+      ],
+      "say": "Away message mein sirf sorry nahi. Price list aur photos bhi."
+    },
+    {
+      "type": "list",
+      "dur": 4.8,
+      "title": "Galat away message:",
+      "items": [
+        "\"We are closed\" *bas*",
+        "*Kuch kaam ka* nahi diya",
+        "Subah *time nahi* bataya"
+      ],
+      "say": "Galat away message. Bas closed likha, kaam ki cheez nahi di, aur subah ka time nahi bataya."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Raat ki leads *bachao*",
+      "keyword": "AWAY",
+      "sub": "Comment AWAY: copy-paste away message",
+      "say": "Comment karo AWAY, template bhejenge. Ya seedha WhatsApp karo, hum aapke liye set kar denge."
+    }
+  ],
+  "caption": "Raat ko aaye message ka jawab subah diya, tab tak customer 3 aur jagah pooch chuka. 🌙\n\nAway message mein:\n✅ Subah kab reply karoge\n✅ Price list\n✅ Kaam ki photos\n❌ Sirf \"We are closed\" nahi\n\nWhatsApp Business → Business tools → Away message. Free.\n\nSave karo 🔖\nComment \"AWAY\" 👇\n\n📲 Ye problem aapke business mein bhi hai? WhatsApp karo: 98131 36114, hum set kar denge.\n\n🏢 Parachar: local businesses ke liye websites, WhatsApp automation aur lead follow-up systems. Leads aayein, chhootein nahi.\n🌐 parachar.in (link bio mein)\n\n#whatsappbusiness #smallbusiness #customerservice #leadgeneration #parachar"
+}

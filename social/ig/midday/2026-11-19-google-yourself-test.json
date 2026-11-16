@@ -1,0 +1,61 @@
+{
+  "id": "google-yourself-test",
+  "style": "services",
+  "industry": "All businesses",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.0,
+      "kicker": "Aaj 2 minute ka test 👇",
+      "text": "Apna business *khud Google* karo.",
+      "say": "Aaj do minute ka test. Apna business khud Google karo."
+    },
+    {
+      "type": "search",
+      "dur": 6.0,
+      "query": "[aapki service] near me",
+      "engine": "Google",
+      "results": [
+        {
+          "text": "Competitor A · 4.7 ★ (320) · Open"
+        },
+        {
+          "text": "Competitor B · 4.5 ★ (140) · Website"
+        },
+        {
+          "text": "Aap: page 2 pe",
+          "you": true
+        }
+      ],
+      "say": "Test ek. Near me search karo. Aap pehle teen mein ho?"
+    },
+    {
+      "type": "list",
+      "dur": 6.4,
+      "title": "3 test, 3 sawaal:",
+      "items": [
+        "*\"[service] near me\"*: top 3 mein ho?",
+        "*Apna naam*: timing, photos, phone sahi?",
+        "*\"[naam] reviews\"*: last review kab ka?"
+      ],
+      "say": "Teen test. Near me mein top teen mein ho? Naam search karne pe timing aur phone sahi hai? Aur last review kitna purana hai?"
+    },
+    {
+      "type": "hook",
+      "dur": 3.6,
+      "kicker": "Ek bhi \"nahi\"?",
+      "text": "Customer ne bhi *yahi dekha*, aur *competitor* ko call kiya.",
+      "say": "Ek bhi jawab nahi hai, to customer ne bhi yahi dekha, aur competitor ko call kiya."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Result *comment* mein batao",
+      "keyword": "TEST",
+      "sub": "Comment TEST: hum free check karke batayenge",
+      "say": "Comment karo TEST, hum free check karenge. Ya seedha WhatsApp karo, hum aapke liye set kar denge."
+    }
+  ],
+  "caption": "Aaj 2 minute nikaalo aur apna business khud Google karo. Customer bhi yahi karta hai. 🔍\n\n3 test:\n1️⃣ \"[aapki service] near me\": top 3 mein ho?\n2️⃣ Apna naam: timing, photos, phone sahi?\n3️⃣ \"[naam] reviews\": last review kab ka?\n\nEk bhi \"nahi\" = customer competitor ke paas gaya.\n\nComment \"TEST\" 👇 hum free check karke batayenge.\n\n📲 Ye problem aapke business mein bhi hai? WhatsApp karo: 98131 36114, hum set kar denge.\n\n🏢 Parachar: local businesses ke liye websites, WhatsApp automation aur lead follow-up systems. Leads aayein, chhootein nahi.\n🌐 parachar.in (link bio mein)\n\n#localseo #googlebusinessprofile #smallbusiness #googlemaps #parachar"
+}

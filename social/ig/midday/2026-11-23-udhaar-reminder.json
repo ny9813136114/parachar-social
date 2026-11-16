@@ -1,0 +1,73 @@
+{
+  "id": "udhaar-reminder",
+  "style": "services",
+  "industry": "Retail / wholesale",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.0,
+      "kicker": "Dukaandaar 👇",
+      "text": "*Udhaar* maangne mein sharam aati hai?",
+      "say": "Dukaandaar bhaiyo. Udhaar maangne mein sharam aati hai?"
+    },
+    {
+      "type": "hook",
+      "dur": 2.8,
+      "kicker": "Isliye *paisa phasa* rehta hai",
+      "text": "Aur *rishta bhi* kharab hota hai.",
+      "say": "Isliye paisa phasa rehta hai, aur rishta bhi kharab hota hai."
+    },
+    {
+      "type": "chat",
+      "dur": 6.8,
+      "title": "Sharam ki jagah *system*:",
+      "name": "Your Store",
+      "status": "WhatsApp Business",
+      "gap": 1.2,
+      "msgs": [
+        {
+          "from": "us",
+          "text": "Namaste [naam] ji 🙏 [mahina] ka hisaab: *₹[amount]* 📎 bill.",
+          "time": "10:00 am"
+        },
+        {
+          "from": "us",
+          "text": "UPI: [id] · QR 📎 Payment ho jaye to screenshot bhej dijiye ✅",
+          "time": "10:00 am"
+        },
+        {
+          "from": "them",
+          "text": "Kal kar deta hoon",
+          "time": "10:30 am"
+        },
+        {
+          "from": "us",
+          "text": "Theek hai ji, *kal shaam* yaad dila doonga 🙂",
+          "time": "10:31 am"
+        }
+      ],
+      "say": "Bill ke saath amount, UPI QR, aur jo date wo bole, us din yaad dilao."
+    },
+    {
+      "type": "list",
+      "dur": 4.8,
+      "title": "Rules:",
+      "items": [
+        "*Har mahine* same date pe",
+        "Bill + *QR* saath mein",
+        "Jo date wo bolein, *us din* reminder"
+      ],
+      "say": "Har mahine same date. Bill aur QR saath. Aur jo date wo bole, us din reminder."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Udhaar *time pe* wapas",
+      "keyword": "HISAAB",
+      "sub": "Comment HISAAB: message templates",
+      "say": "Comment karo HISAAB, templates bhejenge. Ya seedha WhatsApp karo, hum aapke liye set kar denge."
+    }
+  ],
+  "caption": "Udhaar maangna awkward lagta hai, isliye paisa mahino phasa rehta hai. 🧾\n\nSharam ki jagah system:\n1️⃣ Har mahine same date pe hisaab\n2️⃣ Bill photo + UPI QR saath mein\n3️⃣ \"Kal karta hoon\" bole to kal ka reminder\n\nJab ye har customer ke saath hota hai, to kisi ko bura nahi lagta. Save karo 🔖\nComment \"HISAAB\" 👇\n\n📲 Ye problem aapke business mein bhi hai? WhatsApp karo: 98131 36114, hum set kar denge.\n\n🏢 Parachar: local businesses ke liye websites, WhatsApp automation aur lead follow-up systems. Leads aayein, chhootein nahi.\n🌐 parachar.in (link bio mein)\n\n#dukaan #retailbusiness #wholesale #smallbusiness #parachar"
+}
