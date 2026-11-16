@@ -7,13 +7,22 @@
 //      LI_TOKEN_DATE (YYYY-MM-DD the token was made; warns after 50 days), DRY_RUN=1 to only print.
 // No connection requests, DMs or comments on other people's posts: those stay manual (LinkedIn bans bots).
 const fs = require('fs'), path = require('path');
-const TOKEN = process.env.LI_TOKEN, VER = process.env.LI_VERSION || '202509', DRY = process.env.DRY_RUN === '1';
+// LinkedIn retires each API version about a year after release. Default = 2 months ago; if LinkedIn says a version
+// is not active (426 NONEXISTENT_VERSION), step back one month and retry, up to 9 times.
+const ym = back => { const d = new Date(); d.setUTCDate(1); d.setUTCMonth(d.getUTCMonth() - back); return `${d.getUTCFullYear()}${String(d.getUTCMonth() + 1).padStart(2, '0')}`; };
+const TOKEN = process.env.LI_TOKEN, DRY = process.env.DRY_RUN === '1';
+let VER = process.env.LI_VERSION || ym(2);
 const API = 'https://api.linkedin.com';
 const H = (extra = {}) => ({ Authorization: `Bearer ${TOKEN}`, 'LinkedIn-Version': VER, 'X-Restli-Protocol-Version': '2.0.0', ...extra });
 
-async function req(method, url, body, headers = {}) {
+async function req(method, url, body, headers = {}, tries = 0) {
   const r = await fetch(url, { method, headers: H(headers), body });
   const t = await r.text();
+  if (r.status === 426 && /NONEXISTENT_VERSION|not active/i.test(t) && tries < 9) {
+    const n = Number(VER.slice(0, 4)) * 12 + Number(VER.slice(4, 6)) - 2; // one month earlier
+    console.log(`LinkedIn-Version ${VER} not active, trying ${VER = `${Math.floor(n / 12)}${String(n % 12 + 1).padStart(2, '0')}`}`);
+    return req(method, url, body, headers, tries + 1);
+  }
   if (!r.ok) throw new Error(`${method} ${url} -> ${r.status} ${t.slice(0, 500)}`);
   return { r, json: t ? (() => { try { return JSON.parse(t); } catch { return t; } })() : null };
 }
