@@ -1,0 +1,2670 @@
+{
+  "s0": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#videoListResponse",
+      "etag": "T0DzjxVXBU3_VxzFSH4NUdwM8n0",
+      "items": [
+        {
+          "kind": "youtube#video",
+          "etag": "OUtuJ7JOINiksR22GMagF8pgXt4",
+          "id": "ctTgNyM4ugo",
+          "snippet": {
+            "publishedAt": "2026-11-09T03:30:22Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "₹5 लाख होम लोन पर सरकार देगी ₹1,12,680 | PM Awas 2.0 ब्याज सब्सिडी का हिसाब #shorts",
+            "description": "PMAY 2.0 interest subsidy: ₹5 लाख होम लोन (20 साल) पर ₹1,12,680, 5 किस्तों में\n👉 फ्री कैलकुलेटर: https://parachar.com/pm-awas-yojana-2-0-subsidy-calculator/\n\nPM आवास योजना शहरी 2.0 की ब्याज सब्सिडी (ISS): पहले ₹8 लाख लोन पर 4% ब्याज, 12 साल तक, 8.5% पर आज की कीमत, ज़्यादा से ज़्यादा ₹1.8 लाख, 5 किस्तों में। ₹5 लाख लोन, 20 साल = ₹1,12,680 (हर किस्त करीब ₹22,536)। ₹3 लाख = ₹67,608, ₹8 लाख या ज़्यादा = ₹1,80,000। शर्तें: परिवार की आय ₹9 लाख तक, लोन ₹25 लाख तक, घर ₹35 लाख तक, लोन 1 सितंबर 2024 या बाद में मंज़ूर, देश में कहीं पक्का घर नहीं। अपने लोन पर देखें, फ्री:\nhttps://parachar.com/pm-awas-yojana-2-0-subsidy-calculator/\n\nPMAY 2.0 interest subsidy calculator, pm awas yojana home loan subsidy kitni milegi, आसान हिंदी में। रकम हमारे कैलकुलेटर के फ़ॉर्मूले से है; असली रकम बैंक की मंज़ूरी से तय होगी।\n\nस्रोत: आवास और शहरी कार्य मंत्रालय, PMAY-U 2.0 दिशानिर्देश (ब्याज सब्सिडी, ISS) · जाँच: 2 नवंबर 2026 · यह अनुमान है, मंज़ूरी नहीं\n\n▶ ऐसे और Shorts (सरकारी सब्सिडी योजनाएँ): https://www.youtube.com/playlist?list=PLJ_UkZibrHEI\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#PMAY #HomeLoan #AwasYojana #Subsidy #SarkariYojana",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/ctTgNyM4ugo/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/ctTgNyM4ugo/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/ctTgNyM4ugo/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/ctTgNyM4ugo/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/ctTgNyM4ugo/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "home loan subsidy 2026",
+              "pm awas yojana home loan subsidy",
+              "pmay 2.0 interest subsidy",
+              "pmay 5 lakh loan subsidy",
+              "pmay iss calculator",
+              "pmay urban 2.0",
+              "प्रधानमंत्री आवास योजना होम लोन सब्सिडी",
+              "होम लोन पर सब्सिडी"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "₹5 लाख होम लोन पर सरकार देगी ₹1,12,680 | PM Awas 2.0 ब्याज सब्सिडी का हिसाब #shorts",
+              "description": "PMAY 2.0 interest subsidy: ₹5 लाख होम लोन (20 साल) पर ₹1,12,680, 5 किस्तों में\n👉 फ्री कैलकुलेटर: https://parachar.com/pm-awas-yojana-2-0-subsidy-calculator/\n\nPM आवास योजना शहरी 2.0 की ब्याज सब्सिडी (ISS): पहले ₹8 लाख लोन पर 4% ब्याज, 12 साल तक, 8.5% पर आज की कीमत, ज़्यादा से ज़्यादा ₹1.8 लाख, 5 किस्तों में। ₹5 लाख लोन, 20 साल = ₹1,12,680 (हर किस्त करीब ₹22,536)। ₹3 लाख = ₹67,608, ₹8 लाख या ज़्यादा = ₹1,80,000। शर्तें: परिवार की आय ₹9 लाख तक, लोन ₹25 लाख तक, घर ₹35 लाख तक, लोन 1 सितंबर 2024 या बाद में मंज़ूर, देश में कहीं पक्का घर नहीं। अपने लोन पर देखें, फ्री:\nhttps://parachar.com/pm-awas-yojana-2-0-subsidy-calculator/\n\nPMAY 2.0 interest subsidy calculator, pm awas yojana home loan subsidy kitni milegi, आसान हिंदी में। रकम हमारे कैलकुलेटर के फ़ॉर्मूले से है; असली रकम बैंक की मंज़ूरी से तय होगी।\n\nस्रोत: आवास और शहरी कार्य मंत्रालय, PMAY-U 2.0 दिशानिर्देश (ब्याज सब्सिडी, ISS) · जाँच: 2 नवंबर 2026 · यह अनुमान है, मंज़ूरी नहीं\n\n▶ ऐसे और Shorts (सरकारी सब्सिडी योजनाएँ): https://www.youtube.com/playlist?list=PLJ_UkZibrHEI\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#PMAY #HomeLoan #AwasYojana #Subsidy #SarkariYojana"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "contentDetails": {
+            "duration": "PT43S",
+            "dimension": "2d",
+            "definition": "hd",
+            "caption": "false",
+            "licensedContent": false,
+            "contentRating": {},
+            "projection": "rectangular",
+            "hasCustomThumbnail": false
+          },
+          "statistics": {
+            "viewCount": "91",
+            "likeCount": "1",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "T34PrBJMdOMZGEu88kPEOUxV3Nk",
+          "id": "fMrDhWO3Z6U",
+          "snippet": {
+            "publishedAt": "2026-11-09T14:00:00Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "नौकरी छोड़ी? Full & Final 2 कार्यदिवस में, 45 दिन नहीं | नया Wage Code नियम #shorts",
+            "description": "Full and final settlement rule 2026: नौकरी छोड़ने के 2 कार्यदिवस में सारा बकाया (वेतन संहिता धारा 17)\n👉 फ्री कैलकुलेटर: https://parachar.com/salary-nahi-mili-kya-karein/\n\nवेतन संहिता 2019 (21 नवंबर 2025 से लागू) की धारा 17(2): इस्तीफ़ा, छँटनी या नौकरी से हटाए जाने पर सारा बकाया वेतन 2 कार्यदिवस में देना है। हर महीने का वेतन अगले महीने की 7 तारीख तक। ग्रेच्युटी 30 दिन में (फ़ॉर्म I से माँगें)। PF अलग से EPFO पर ऑनलाइन क्लेम। न मिले तो कंपनी को लिखित माँग, फिर श्रम विभाग (केंद्र के क्षेत्र में Samadhan पोर्टल)। अपने केस में क्या करें, फ्री:\nhttps://parachar.com/salary-nahi-mili-kya-karein/\n\nFull and final settlement kitne din me, salary nahi mili to kya kare और new labour code F&F rule, आसान हिंदी में। कई कंपनियाँ अब भी 45-90 दिन लेती हैं; कानून 2 कार्यदिवस कहता है, पर राज्य के नियम और लागू करने की स्थिति देखें।\n\nस्रोत: वेतन संहिता 2019 धारा 17(2) (लागू 21 नवंबर 2025), ग्रेच्युटी अधिनियम धारा 7 · जाँच: 2 नवंबर 2026 · राज्य के नियम अलग हो सकते हैं, कानूनी सलाह नहीं\n\n▶ ऐसे और Shorts (इनकम टैक्स और सैलरी): https://www.youtube.com/playlist?list=PLFBDdDjKFXrU\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#FullAndFinal #LabourCode #Salary #Resignation #PrivateJob",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/fMrDhWO3Z6U/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/fMrDhWO3Z6U/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/fMrDhWO3Z6U/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/fMrDhWO3Z6U/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/fMrDhWO3Z6U/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "f&f settlement rule",
+              "full and final settlement",
+              "full and final settlement 2 days",
+              "new labour code salary",
+              "resignation ke baad salary",
+              "salary nahi mili",
+              "wage code section 17",
+              "फुल एंड फाइनल सेटलमेंट"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "नौकरी छोड़ी? Full & Final 2 कार्यदिवस में, 45 दिन नहीं | नया Wage Code नियम #shorts",
+              "description": "Full and final settlement rule 2026: नौकरी छोड़ने के 2 कार्यदिवस में सारा बकाया (वेतन संहिता धारा 17)\n👉 फ्री कैलकुलेटर: https://parachar.com/salary-nahi-mili-kya-karein/\n\nवेतन संहिता 2019 (21 नवंबर 2025 से लागू) की धारा 17(2): इस्तीफ़ा, छँटनी या नौकरी से हटाए जाने पर सारा बकाया वेतन 2 कार्यदिवस में देना है। हर महीने का वेतन अगले महीने की 7 तारीख तक। ग्रेच्युटी 30 दिन में (फ़ॉर्म I से माँगें)। PF अलग से EPFO पर ऑनलाइन क्लेम। न मिले तो कंपनी को लिखित माँग, फिर श्रम विभाग (केंद्र के क्षेत्र में Samadhan पोर्टल)। अपने केस में क्या करें, फ्री:\nhttps://parachar.com/salary-nahi-mili-kya-karein/\n\nFull and final settlement kitne din me, salary nahi mili to kya kare और new labour code F&F rule, आसान हिंदी में। कई कंपनियाँ अब भी 45-90 दिन लेती हैं; कानून 2 कार्यदिवस कहता है, पर राज्य के नियम और लागू करने की स्थिति देखें।\n\nस्रोत: वेतन संहिता 2019 धारा 17(2) (लागू 21 नवंबर 2025), ग्रेच्युटी अधिनियम धारा 7 · जाँच: 2 नवंबर 2026 · राज्य के नियम अलग हो सकते हैं, कानूनी सलाह नहीं\n\n▶ ऐसे और Shorts (इनकम टैक्स और सैलरी): https://www.youtube.com/playlist?list=PLFBDdDjKFXrU\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#FullAndFinal #LabourCode #Salary #Resignation #PrivateJob"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "contentDetails": {
+            "duration": "PT41S",
+            "dimension": "2d",
+            "definition": "hd",
+            "caption": "false",
+            "licensedContent": false,
+            "contentRating": {},
+            "projection": "rectangular",
+            "hasCustomThumbnail": false
+          },
+          "statistics": {
+            "viewCount": "4",
+            "likeCount": "1",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "jfwYWfj3LdyOK_opA6dX_IG4XE0",
+          "id": "AiXwoYbLuqc",
+          "snippet": {
+            "publishedAt": "2026-11-10T03:30:02Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Jeevan Pramaan 30 नवंबर तक नहीं दिया? दिसंबर से पेंशन रुकेगी | घर बैठे फ़ेस से जमा करें #shorts",
+            "description": "Jeevan Pramaan Patra 2026: 30 नवंबर तक लाइफ़ सर्टिफ़िकेट, वरना दिसंबर से पेंशन रुकेगी\n👉 फ्री कैलकुलेटर: https://parachar.com/jeevan-pramaan-life-certificate-kab-tak/\n\nकेंद्र, राज्य और बैंक के पेंशनर 1 से 30 नवंबर तक जीवन प्रमाण पत्र (लाइफ़ सर्टिफ़िकेट) जमा करते हैं; 80 साल से ऊपर वाले 1 अक्टूबर से। पेंशन विभाग नवंबर 2026 में 2,000 शहरों और ज़िलों में DLC अभियान 5.0 के कैंप लगा रहा है। घर बैठे: Jeevan Pramaan और Aadhaar FaceRD ऐप से चेहरे से। या बैंक शाखा, CSC, या डाकिए (IPPB, करीब ₹70)। समय पर न दिया तो दिसंबर से पेंशन रुकती है; बाद में जमा करने पर रुका पैसा एरियर के साथ मिलता है। EPS-95 पेंशनर साल में कभी भी जमा कर सकते हैं। अपनी आख़िरी तारीख देखें, फ्री:\nhttps://parachar.com/jeevan-pramaan-life-certificate-kab-tak/\n\nJeevan pramaan patra kaise jama kare, life certificate last date 30 november और face authentication से jeevan pramaan, आसान हिंदी में। आपकी आख़िरी तारीख पेंशन के प्रकार और उम्र से तय होती है।\n\nस्रोत: पेंशन विभाग (DoPPW), DLC अभियान 5.0 (1-30 नवंबर 2026), jeevanpramaan.gov.in · जाँच: 9 नवंबर 2026\n\n▶ ऐसे और Shorts (पेंशन और रिटायरमेंट): https://www.youtube.com/playlist?list=PLHve-MXNo9TA\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#JeevanPramaan #Pension #LifeCertificate #Pensioner #SarkariYojana",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/AiXwoYbLuqc/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/AiXwoYbLuqc/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/AiXwoYbLuqc/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/AiXwoYbLuqc/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/AiXwoYbLuqc/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "dlc campaign 2026",
+              "jeevan pramaan",
+              "jeevan pramaan face authentication",
+              "life certificate 30 november",
+              "life certificate last date",
+              "pension band ho jayegi",
+              "जीवन प्रमाण पत्र",
+              "जीवन प्रमाण पत्र कैसे बनाएं"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "Jeevan Pramaan 30 नवंबर तक नहीं दिया? दिसंबर से पेंशन रुकेगी | घर बैठे फ़ेस से जमा करें #shorts",
+              "description": "Jeevan Pramaan Patra 2026: 30 नवंबर तक लाइफ़ सर्टिफ़िकेट, वरना दिसंबर से पेंशन रुकेगी\n👉 फ्री कैलकुलेटर: https://parachar.com/jeevan-pramaan-life-certificate-kab-tak/\n\nकेंद्र, राज्य और बैंक के पेंशनर 1 से 30 नवंबर तक जीवन प्रमाण पत्र (लाइफ़ सर्टिफ़िकेट) जमा करते हैं; 80 साल से ऊपर वाले 1 अक्टूबर से। पेंशन विभाग नवंबर 2026 में 2,000 शहरों और ज़िलों में DLC अभियान 5.0 के कैंप लगा रहा है। घर बैठे: Jeevan Pramaan और Aadhaar FaceRD ऐप से चेहरे से। या बैंक शाखा, CSC, या डाकिए (IPPB, करीब ₹70)। समय पर न दिया तो दिसंबर से पेंशन रुकती है; बाद में जमा करने पर रुका पैसा एरियर के साथ मिलता है। EPS-95 पेंशनर साल में कभी भी जमा कर सकते हैं। अपनी आख़िरी तारीख देखें, फ्री:\nhttps://parachar.com/jeevan-pramaan-life-certificate-kab-tak/\n\nJeevan pramaan patra kaise jama kare, life certificate last date 30 november और face authentication से jeevan pramaan, आसान हिंदी में। आपकी आख़िरी तारीख पेंशन के प्रकार और उम्र से तय होती है।\n\nस्रोत: पेंशन विभाग (DoPPW), DLC अभियान 5.0 (1-30 नवंबर 2026), jeevanpramaan.gov.in · जाँच: 9 नवंबर 2026\n\n▶ ऐसे और Shorts (पेंशन और रिटायरमेंट): https://www.youtube.com/playlist?list=PLHve-MXNo9TA\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#JeevanPramaan #Pension #LifeCertificate #Pensioner #SarkariYojana"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "contentDetails": {
+            "duration": "PT46S",
+            "dimension": "2d",
+            "definition": "hd",
+            "caption": "false",
+            "licensedContent": false,
+            "contentRating": {},
+            "projection": "rectangular",
+            "hasCustomThumbnail": false
+          },
+          "statistics": {
+            "viewCount": "201",
+            "likeCount": "3",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "I2jH2aONXrRO5OqhY3QbE32-teI",
+          "id": "dafbpHFlG1E",
+          "snippet": {
+            "publishedAt": "2026-11-11T03:30:16Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "8th Pay Commission: ₹35,400 बेसिक (लेवल 6) पर नया बेसिक ₹67,968 से ₹1,01,244? फ़िटमेंट टेबल #shorts",
+            "description": "8th Pay Commission salary 2026: लेवल 6 (₹35,400) पर फ़िटमेंट 1.92 से 2.86 तक नया बेसिक\n👉 फ्री कैलकुलेटर: https://parachar.com/8th-pay-commission-salary-calculator-hindi/\n\n8वें वेतन आयोग में नया बेसिक = अभी का बेसिक × फ़िटमेंट फ़ैक्टर। फ़िटमेंट अभी तय नहीं (कर्मचारी पक्ष की माँग 3.83)। लेवल 6 के ₹35,400 बेसिक पर: 1.92 = ₹67,968, 2.28 = ₹80,712, 2.57 = ₹90,978, 2.86 = ₹1,01,244। अभी बेसिक + 63% DA = ₹57,702; नए वेतन में DA फिर 0 से शुरू होगा। आयोग की रिपोर्ट 2027 के बीच तक आने की उम्मीद। अपने बेसिक पर देखें, फ्री:\nhttps://parachar.com/8th-pay-commission-salary-calculator-hindi/\n\n8th pay commission salary calculator, 8th pay level 6 salary और fitment factor 8th pay, आसान हिंदी में। यह सिर्फ़ अनुमान है; असली फ़िटमेंट सरकार के फ़ैसले से तय होगा।\n\nस्रोत: 8वाँ वेतन आयोग (गठन 3 नवंबर 2025), 7वें वेतन आयोग का पे मैट्रिक्स · जाँच: 9 नवंबर 2026 · फ़िटमेंट फ़ैक्टर अभी तय नहीं, यह अनुमान है\n\n▶ ऐसे और Shorts (इनकम टैक्स और सैलरी): https://www.youtube.com/playlist?list=PLFBDdDjKFXrU\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#8thPayCommission #Salary #SarkariNaukri #FitmentFactor #DA",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/dafbpHFlG1E/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/dafbpHFlG1E/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/dafbpHFlG1E/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/dafbpHFlG1E/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/dafbpHFlG1E/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "8th cpc salary",
+              "8th pay 35400 basic",
+              "8th pay commission",
+              "8th pay commission salary calculator",
+              "8th pay level 6 salary",
+              "8वां वेतन आयोग",
+              "8वें वेतन आयोग में सैलरी",
+              "fitment factor 8th pay"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "8th Pay Commission: ₹35,400 बेसिक (लेवल 6) पर नया बेसिक ₹67,968 से ₹1,01,244? फ़िटमेंट टेबल #shorts",
+              "description": "8th Pay Commission salary 2026: लेवल 6 (₹35,400) पर फ़िटमेंट 1.92 से 2.86 तक नया बेसिक\n👉 फ्री कैलकुलेटर: https://parachar.com/8th-pay-commission-salary-calculator-hindi/\n\n8वें वेतन आयोग में नया बेसिक = अभी का बेसिक × फ़िटमेंट फ़ैक्टर। फ़िटमेंट अभी तय नहीं (कर्मचारी पक्ष की माँग 3.83)। लेवल 6 के ₹35,400 बेसिक पर: 1.92 = ₹67,968, 2.28 = ₹80,712, 2.57 = ₹90,978, 2.86 = ₹1,01,244। अभी बेसिक + 63% DA = ₹57,702; नए वेतन में DA फिर 0 से शुरू होगा। आयोग की रिपोर्ट 2027 के बीच तक आने की उम्मीद। अपने बेसिक पर देखें, फ्री:\nhttps://parachar.com/8th-pay-commission-salary-calculator-hindi/\n\n8th pay commission salary calculator, 8th pay level 6 salary और fitment factor 8th pay, आसान हिंदी में। यह सिर्फ़ अनुमान है; असली फ़िटमेंट सरकार के फ़ैसले से तय होगा।\n\nस्रोत: 8वाँ वेतन आयोग (गठन 3 नवंबर 2025), 7वें वेतन आयोग का पे मैट्रिक्स · जाँच: 9 नवंबर 2026 · फ़िटमेंट फ़ैक्टर अभी तय नहीं, यह अनुमान है\n\n▶ ऐसे और Shorts (इनकम टैक्स और सैलरी): https://www.youtube.com/playlist?list=PLFBDdDjKFXrU\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#8thPayCommission #Salary #SarkariNaukri #FitmentFactor #DA"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "contentDetails": {
+            "duration": "PT39S",
+            "dimension": "2d",
+            "definition": "hd",
+            "caption": "false",
+            "licensedContent": false,
+            "contentRating": {},
+            "projection": "rectangular",
+            "hasCustomThumbnail": false
+          },
+          "statistics": {
+            "viewCount": "36",
+            "likeCount": "1",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "_2LDLQF-2i1XbbGCzYIf36Jjquc",
+          "id": "xkID7Qwzmz0",
+          "snippet": {
+            "publishedAt": "2026-11-11T14:00:16Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Gratuity में 30 नहीं, 26 से भाग क्यों? ₹40,000 पर 10 साल = ₹2,30,769, ₹30,769 का फ़र्क #shorts",
+            "description": "Gratuity formula 15/26: महीने के 26 काम के दिन, इसलिए ग्रेच्युटी 30 से भाग की तुलना में ज़्यादा\n👉 फ्री कैलकुलेटर: https://parachar.com/gratuity-calculator-hindi/\n\nग्रेच्युटी का फ़ॉर्मूला: (आख़िरी बेसिक + DA) × 15 ÷ 26 × नौकरी के साल। 26 इसलिए क्योंकि कानून महीने में 26 काम के दिन मानता है (4 रविवार छोड़कर)। ₹40,000 बेसिक + DA, 10 साल: 26 से = ₹2,30,769; अगर कोई 30 से भाग दे तो ₹2,00,000, यानी ₹30,769 कम। सीज़नल काम में 7 दिन के हिसाब से अलग नियम। अपनी ग्रेच्युटी सही फ़ॉर्मूले से देखें, फ्री:\nhttps://parachar.com/gratuity-calculator-hindi/\n\nGratuity formula 15/26, gratuity calculation kaise kare और gratuity 26 days kyon, आसान हिंदी में। ग्रेच्युटी अधिनियम में 26 दिन का नियम है; कंपनी कम दे तो श्रम विभाग में फ़ॉर्म N से शिकायत कर सकते हैं।\n\nस्रोत: ग्रेच्युटी अधिनियम 1972 धारा 4(2), सामाजिक सुरक्षा संहिता 2020 · जाँच: 9 नवंबर 2026 · यह अनुमान है\n\n▶ ऐसे और Shorts (इनकम टैक्स और सैलरी): https://www.youtube.com/playlist?list=PLFBDdDjKFXrU\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#Gratuity #Salary #PrivateJob #LabourCode #Naukri",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/xkID7Qwzmz0/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/xkID7Qwzmz0/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/xkID7Qwzmz0/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/xkID7Qwzmz0/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/xkID7Qwzmz0/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "gratuity 15/26",
+              "gratuity 26 days",
+              "gratuity calculation",
+              "gratuity calculator",
+              "gratuity formula",
+              "gratuity kitni milegi",
+              "ग्रेच्युटी कैसे निकालें",
+              "ग्रेच्युटी फॉर्मूला"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "Gratuity में 30 नहीं, 26 से भाग क्यों? ₹40,000 पर 10 साल = ₹2,30,769, ₹30,769 का फ़र्क #shorts",
+              "description": "Gratuity formula 15/26: महीने के 26 काम के दिन, इसलिए ग्रेच्युटी 30 से भाग की तुलना में ज़्यादा\n👉 फ्री कैलकुलेटर: https://parachar.com/gratuity-calculator-hindi/\n\nग्रेच्युटी का फ़ॉर्मूला: (आख़िरी बेसिक + DA) × 15 ÷ 26 × नौकरी के साल। 26 इसलिए क्योंकि कानून महीने में 26 काम के दिन मानता है (4 रविवार छोड़कर)। ₹40,000 बेसिक + DA, 10 साल: 26 से = ₹2,30,769; अगर कोई 30 से भाग दे तो ₹2,00,000, यानी ₹30,769 कम। सीज़नल काम में 7 दिन के हिसाब से अलग नियम। अपनी ग्रेच्युटी सही फ़ॉर्मूले से देखें, फ्री:\nhttps://parachar.com/gratuity-calculator-hindi/\n\nGratuity formula 15/26, gratuity calculation kaise kare और gratuity 26 days kyon, आसान हिंदी में। ग्रेच्युटी अधिनियम में 26 दिन का नियम है; कंपनी कम दे तो श्रम विभाग में फ़ॉर्म N से शिकायत कर सकते हैं।\n\nस्रोत: ग्रेच्युटी अधिनियम 1972 धारा 4(2), सामाजिक सुरक्षा संहिता 2020 · जाँच: 9 नवंबर 2026 · यह अनुमान है\n\n▶ ऐसे और Shorts (इनकम टैक्स और सैलरी): https://www.youtube.com/playlist?list=PLFBDdDjKFXrU\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#Gratuity #Salary #PrivateJob #LabourCode #Naukri"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "contentDetails": {
+            "duration": "PT38S",
+            "dimension": "2d",
+            "definition": "hd",
+            "caption": "false",
+            "licensedContent": false,
+            "contentRating": {},
+            "projection": "rectangular",
+            "hasCustomThumbnail": false
+          },
+          "statistics": {
+            "viewCount": "28",
+            "likeCount": "1",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "60P_ZSp290IJ7aiCG70BTbbu0yI",
+          "id": "LJjzQ9WkcMk",
+          "snippet": {
+            "publishedAt": "2026-11-12T03:30:22Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "DA 63% हुआ: ₹18,000 बेसिक पर ₹540 महीना ज़्यादा, 3 महीने का एरियर ₹1,620 | जुलाई 2026 से #shorts",
+            "description": "DA hike July 2026: महंगाई भत्ता 60% से 63%, ₹18,000 बेसिक पर ₹540 महीना और ₹1,620 एरियर\n👉 फ्री कैलकुलेटर: https://parachar.com/da-hike-arrear-calculator-hindi/\n\nकैबिनेट ने 28 अक्टूबर 2026 को केंद्रीय कर्मचारियों का DA और पेंशनरों का DR 1 जुलाई 2026 से 60% से 63% किया (करीब 48.54 लाख कर्मचारी, 68.71 लाख पेंशनर)। बढ़त = बेसिक × 3%। ₹18,000 बेसिक: ₹540 महीना, जुलाई-सितंबर का एरियर ₹1,620। ₹35,400: ₹1,062 महीना, एरियर ₹3,186। ₹9,000 न्यूनतम पेंशन: ₹270 महीना। यात्रा भत्ते (TA) पर DA अलग से बढ़ता है। अपना एरियर देखें, फ्री:\nhttps://parachar.com/da-hike-arrear-calculator-hindi/\n\nDA hike July 2026, da arrear calculator और 63 percent DA, आसान हिंदी में। एरियर कितने महीने का मिलेगा, यह आपके विभाग के भुगतान महीने पर निर्भर है।\n\nस्रोत: केंद्रीय कैबिनेट (28 अक्टूबर 2026), व्यय विभाग का आदेश (29 अक्टूबर 2026) · जाँच: 9 नवंबर 2026 · यात्रा भत्ते पर DA अलग\n\n▶ ऐसे और Shorts (इनकम टैक्स और सैलरी): https://www.youtube.com/playlist?list=PLFBDdDjKFXrU\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#DAHike #DA63 #CentralGovtEmployees #Pensioners #Salary",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/LJjzQ9WkcMk/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/LJjzQ9WkcMk/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/LJjzQ9WkcMk/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/LJjzQ9WkcMk/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/LJjzQ9WkcMk/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "da 63 percent",
+              "da arrear calculator",
+              "da arrear kitna milega",
+              "da hike july 2026",
+              "da hike news",
+              "dr hike pensioners",
+              "महंगाई भत्ता 63%",
+              "महंगाई भत्ता एरियर"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "DA 63% हुआ: ₹18,000 बेसिक पर ₹540 महीना ज़्यादा, 3 महीने का एरियर ₹1,620 | जुलाई 2026 से #shorts",
+              "description": "DA hike July 2026: महंगाई भत्ता 60% से 63%, ₹18,000 बेसिक पर ₹540 महीना और ₹1,620 एरियर\n👉 फ्री कैलकुलेटर: https://parachar.com/da-hike-arrear-calculator-hindi/\n\nकैबिनेट ने 28 अक्टूबर 2026 को केंद्रीय कर्मचारियों का DA और पेंशनरों का DR 1 जुलाई 2026 से 60% से 63% किया (करीब 48.54 लाख कर्मचारी, 68.71 लाख पेंशनर)। बढ़त = बेसिक × 3%। ₹18,000 बेसिक: ₹540 महीना, जुलाई-सितंबर का एरियर ₹1,620। ₹35,400: ₹1,062 महीना, एरियर ₹3,186। ₹9,000 न्यूनतम पेंशन: ₹270 महीना। यात्रा भत्ते (TA) पर DA अलग से बढ़ता है। अपना एरियर देखें, फ्री:\nhttps://parachar.com/da-hike-arrear-calculator-hindi/\n\nDA hike July 2026, da arrear calculator और 63 percent DA, आसान हिंदी में। एरियर कितने महीने का मिलेगा, यह आपके विभाग के भुगतान महीने पर निर्भर है।\n\nस्रोत: केंद्रीय कैबिनेट (28 अक्टूबर 2026), व्यय विभाग का आदेश (29 अक्टूबर 2026) · जाँच: 9 नवंबर 2026 · यात्रा भत्ते पर DA अलग\n\n▶ ऐसे और Shorts (इनकम टैक्स और सैलरी): https://www.youtube.com/playlist?list=PLFBDdDjKFXrU\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#DAHike #DA63 #CentralGovtEmployees #Pensioners #Salary"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "contentDetails": {
+            "duration": "PT41S",
+            "dimension": "2d",
+            "definition": "hd",
+            "caption": "false",
+            "licensedContent": false,
+            "contentRating": {},
+            "projection": "rectangular",
+            "hasCustomThumbnail": false
+          },
+          "statistics": {
+            "viewCount": "51",
+            "likeCount": "1",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "GAnsOrP54QAEiwXR0dOdBFGnzqk",
+          "id": "-0PCdPHOftA",
+          "snippet": {
+            "publishedAt": "2026-11-12T05:19:40Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Stand-Up India फिर चालू 2031 तक | महिला, SC, ST को ₹1 करोड़ तक लोन #shorts",
+            "description": "Stand-Up India 2026: कैबिनेट ने योजना 31 मार्च 2031 तक बढ़ाई, ₹10 लाख से ₹1 करोड़ लोन\n👉 फ्री कैलकुलेटर: https://parachar.com/women-business-loan-finder/\n\nकैबिनेट ने 11 नवंबर 2026 को Stand-Up India योजना 31 मार्च 2031 तक जारी रखने की मंज़ूरी दी; पुरानी योजना मार्च 2025 में ख़त्म हुई थी। महिला, SC और ST उद्यमियों को नया (ग्रीनफ़ील्ड) कारोबार शुरू करने के लिए ₹10 लाख से ऊपर और ₹1 करोड़ तक का बैंक लोन, प्रोजेक्ट लागत का 85% तक, टर्म लोन या वर्किंग कैपिटल के साथ। मैन्युफैक्चरिंग, सर्विस, ट्रेडिंग और खेती से जुड़े काम। लोन पर 85% क्रेडिट गारंटी, गारंटी फ़ीस 0.50%। 5 साल में 2.5 लाख नए उद्यमियों का लक्ष्य। बैंकों को नए निर्देश मिलने में कुछ हफ़्ते लग सकते हैं, आवेदन से पहले शाखा से पूछें। कौन सी योजना आपके लिए सही, फ्री:\nhttps://parachar.com/women-business-loan-finder/\n\nStand up india scheme 2026 फिर शुरू हुई है: women business loan, SC ST entrepreneur loan और ₹1 करोड़ तक का नया बिज़नेस लोन, आसान हिंदी में। अपने प्रोजेक्ट के हिसाब से सही सरकारी लोन योजना चुनें।\n\nस्रोत: कैबिनेट फ़ैसला, pmindia.gov.in (11 नवंबर 2026) · जाँच: 12 नवंबर 2026\n\n▶ ऐसे और Shorts (MSME / Udyam): https://www.youtube.com/playlist?list=PLJ9P9XfWlPSk\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#StandUpIndia #WomenEntrepreneur #BusinessLoan #MSME #SarkariYojana",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/-0PCdPHOftA/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/-0PCdPHOftA/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/-0PCdPHOftA/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/-0PCdPHOftA/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/-0PCdPHOftA/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "new business loan government scheme",
+              "sc st business loan",
+              "stand up india 2031",
+              "stand up india loan",
+              "stand up india scheme 2026",
+              "women business loan",
+              "महिला बिज़नेस लोन",
+              "स्टैंड अप इंडिया योजना"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "Stand-Up India फिर चालू 2031 तक | महिला, SC, ST को ₹1 करोड़ तक लोन #shorts",
+              "description": "Stand-Up India 2026: कैबिनेट ने योजना 31 मार्च 2031 तक बढ़ाई, ₹10 लाख से ₹1 करोड़ लोन\n👉 फ्री कैलकुलेटर: https://parachar.com/women-business-loan-finder/\n\nकैबिनेट ने 11 नवंबर 2026 को Stand-Up India योजना 31 मार्च 2031 तक जारी रखने की मंज़ूरी दी; पुरानी योजना मार्च 2025 में ख़त्म हुई थी। महिला, SC और ST उद्यमियों को नया (ग्रीनफ़ील्ड) कारोबार शुरू करने के लिए ₹10 लाख से ऊपर और ₹1 करोड़ तक का बैंक लोन, प्रोजेक्ट लागत का 85% तक, टर्म लोन या वर्किंग कैपिटल के साथ। मैन्युफैक्चरिंग, सर्विस, ट्रेडिंग और खेती से जुड़े काम। लोन पर 85% क्रेडिट गारंटी, गारंटी फ़ीस 0.50%। 5 साल में 2.5 लाख नए उद्यमियों का लक्ष्य। बैंकों को नए निर्देश मिलने में कुछ हफ़्ते लग सकते हैं, आवेदन से पहले शाखा से पूछें। कौन सी योजना आपके लिए सही, फ्री:\nhttps://parachar.com/women-business-loan-finder/\n\nStand up india scheme 2026 फिर शुरू हुई है: women business loan, SC ST entrepreneur loan और ₹1 करोड़ तक का नया बिज़नेस लोन, आसान हिंदी में। अपने प्रोजेक्ट के हिसाब से सही सरकारी लोन योजना चुनें।\n\nस्रोत: कैबिनेट फ़ैसला, pmindia.gov.in (11 नवंबर 2026) · जाँच: 12 नवंबर 2026\n\n▶ ऐसे और Shorts (MSME / Udyam): https://www.youtube.com/playlist?list=PLJ9P9XfWlPSk\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#StandUpIndia #WomenEntrepreneur #BusinessLoan #MSME #SarkariYojana"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "contentDetails": {
+            "duration": "PT49S",
+            "dimension": "2d",
+            "definition": "hd",
+            "caption": "false",
+            "licensedContent": false,
+            "contentRating": {},
+            "projection": "rectangular",
+            "hasCustomThumbnail": false
+          },
+          "statistics": {
+            "viewCount": "8",
+            "likeCount": "1",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "m4jBYQNnYh6vA1DvXEF6-3MGZUo",
+          "id": "OMorAssFIKE",
+          "snippet": {
+            "publishedAt": "2026-11-13T03:30:23Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Mudra Tarun Loan ₹10 लाख: EMI ₹21,247, 5 साल में ब्याज ₹2.75 लाख | बिना गारंटी #shorts",
+            "description": "Mudra Tarun loan EMI 2026: ₹10 लाख पर 10% ब्याज, 5 साल में ₹21,247 महीना\n👉 फ्री कैलकुलेटर: https://parachar.com/mudra-loan-calculator/\n\nमुद्रा तरुण लोन ₹5 से ₹10 लाख तक, बिना गारंटी (तरुण चुकाने के बाद तरुण प्लस ₹20 लाख तक)। ₹10 लाख, 10% ब्याज, 5 साल: EMI ₹21,247, कुल ब्याज करीब ₹2,74,820। ₹5 लाख पर EMI ₹10,624। ब्याज दर बैंक तय करता है, 2026 में करीब 9-12%। आवेदन किसी भी बैंक शाखा या udyamimitra.in पर। अपनी EMI देखें, फ्री:\nhttps://parachar.com/mudra-loan-calculator/\n\nMudra tarun loan EMI, mudra loan 10 lakh EMI और mudra loan interest rate 2026, आसान हिंदी में। EMI 10% मानकर है; आपके बैंक की दर से बदलेगी।\n\nस्रोत: प्रधानमंत्री मुद्रा योजना (mudra.org.in, myscheme.gov.in) · जाँच: 9 नवंबर 2026 · 10% ब्याज अनुमान, बैंक तय करता है\n\n▶ ऐसे और Shorts (मुद्रा लोन): https://www.youtube.com/playlist?list=PLG9rKSzcxjrQ\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#MudraLoan #BusinessLoan #PMMY #EMI #SmallBusiness",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/OMorAssFIKE/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/OMorAssFIKE/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/OMorAssFIKE/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/OMorAssFIKE/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/OMorAssFIKE/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "mudra loan 10 lakh emi",
+              "mudra loan emi calculator",
+              "mudra loan interest rate 2026",
+              "mudra tarun loan",
+              "tarun plus 20 lakh",
+              "बिना गारंटी लोन",
+              "मुद्रा तरुण लोन",
+              "मुद्रा लोन EMI"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "Mudra Tarun Loan ₹10 लाख: EMI ₹21,247, 5 साल में ब्याज ₹2.75 लाख | बिना गारंटी #shorts",
+              "description": "Mudra Tarun loan EMI 2026: ₹10 लाख पर 10% ब्याज, 5 साल में ₹21,247 महीना\n👉 फ्री कैलकुलेटर: https://parachar.com/mudra-loan-calculator/\n\nमुद्रा तरुण लोन ₹5 से ₹10 लाख तक, बिना गारंटी (तरुण चुकाने के बाद तरुण प्लस ₹20 लाख तक)। ₹10 लाख, 10% ब्याज, 5 साल: EMI ₹21,247, कुल ब्याज करीब ₹2,74,820। ₹5 लाख पर EMI ₹10,624। ब्याज दर बैंक तय करता है, 2026 में करीब 9-12%। आवेदन किसी भी बैंक शाखा या udyamimitra.in पर। अपनी EMI देखें, फ्री:\nhttps://parachar.com/mudra-loan-calculator/\n\nMudra tarun loan EMI, mudra loan 10 lakh EMI और mudra loan interest rate 2026, आसान हिंदी में। EMI 10% मानकर है; आपके बैंक की दर से बदलेगी।\n\nस्रोत: प्रधानमंत्री मुद्रा योजना (mudra.org.in, myscheme.gov.in) · जाँच: 9 नवंबर 2026 · 10% ब्याज अनुमान, बैंक तय करता है\n\n▶ ऐसे और Shorts (मुद्रा लोन): https://www.youtube.com/playlist?list=PLG9rKSzcxjrQ\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#MudraLoan #BusinessLoan #PMMY #EMI #SmallBusiness"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "contentDetails": {
+            "duration": "PT47S",
+            "dimension": "2d",
+            "definition": "hd",
+            "caption": "false",
+            "licensedContent": false,
+            "contentRating": {},
+            "projection": "rectangular",
+            "hasCustomThumbnail": false
+          },
+          "statistics": {
+            "viewCount": "552",
+            "likeCount": "5",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "8Fnme9VbOxrFZ95fqh25krkR3cM",
+          "id": "5m8GwFJuda0",
+          "snippet": {
+            "publishedAt": "2026-11-13T14:00:33Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Sukanya में ₹1.5 लाख: हर महीने या अप्रैल में एक साथ? एक साथ से ₹2.49 लाख ज़्यादा #shorts",
+            "description": "Sukanya Samriddhi 2026: ₹1.5 लाख अप्रैल में एक साथ = ₹71.82 लाख, हर महीने = ₹69.33 लाख\n👉 फ्री कैलकुलेटर: https://parachar.com/sukanya-samriddhi-yojana-calculator/\n\nसुकन्या समृद्धि में ब्याज हर महीने 10 तारीख से महीने के आख़िर तक के सबसे कम बैलेंस पर लगता है। इसलिए साल के ₹1.5 लाख अप्रैल में (10 तारीख तक) एक साथ जमा करें तो 21 साल पर करीब ₹71,82,119; हर महीने ₹12,500 जमा करें तो करीब ₹69,32,648, यानी ₹2,49,471 कम (8.2% मानकर)। एक साथ न हो सके तो हर महीने 10 तारीख से पहले जमा करें। अपनी रकम डालकर देखें, फ्री:\nhttps://parachar.com/sukanya-samriddhi-yojana-calculator/\n\nSukanya samriddhi yearly vs monthly deposit, sukanya yojana kab jama kare और ssy 1.5 lakh maturity, आसान हिंदी में। रकम 8.2% ब्याज मानकर है; दर हर तिमाही बदल सकती है।\n\nस्रोत: वित्त मंत्रालय, लघु बचत ब्याज दर (अक्टूबर-दिसंबर 2026, 8.2%), सुकन्या समृद्धि खाता नियम 2019 · जाँच: 9 नवंबर 2026 · दर बदल सकती है\n\n▶ ऐसे और Shorts (बैंक, UPI और बचत योजनाएँ): https://www.youtube.com/playlist?list=PLDBOcuU_Prr4\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#SukanyaSamriddhi #SSY #Beti #Savings #PostOffice",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/5m8GwFJuda0/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/5m8GwFJuda0/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/5m8GwFJuda0/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/5m8GwFJuda0/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/5m8GwFJuda0/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "ssy 1.5 lakh maturity",
+              "ssy interest rate 2026",
+              "sukanya 10 tarikh rule",
+              "sukanya calculator",
+              "sukanya samriddhi yearly vs monthly",
+              "sukanya yojana kab jama kare",
+              "सुकन्या में कब पैसा डालें",
+              "सुकन्या समृद्धि योजना"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "Sukanya में ₹1.5 लाख: हर महीने या अप्रैल में एक साथ? एक साथ से ₹2.49 लाख ज़्यादा #shorts",
+              "description": "Sukanya Samriddhi 2026: ₹1.5 लाख अप्रैल में एक साथ = ₹71.82 लाख, हर महीने = ₹69.33 लाख\n👉 फ्री कैलकुलेटर: https://parachar.com/sukanya-samriddhi-yojana-calculator/\n\nसुकन्या समृद्धि में ब्याज हर महीने 10 तारीख से महीने के आख़िर तक के सबसे कम बैलेंस पर लगता है। इसलिए साल के ₹1.5 लाख अप्रैल में (10 तारीख तक) एक साथ जमा करें तो 21 साल पर करीब ₹71,82,119; हर महीने ₹12,500 जमा करें तो करीब ₹69,32,648, यानी ₹2,49,471 कम (8.2% मानकर)। एक साथ न हो सके तो हर महीने 10 तारीख से पहले जमा करें। अपनी रकम डालकर देखें, फ्री:\nhttps://parachar.com/sukanya-samriddhi-yojana-calculator/\n\nSukanya samriddhi yearly vs monthly deposit, sukanya yojana kab jama kare और ssy 1.5 lakh maturity, आसान हिंदी में। रकम 8.2% ब्याज मानकर है; दर हर तिमाही बदल सकती है।\n\nस्रोत: वित्त मंत्रालय, लघु बचत ब्याज दर (अक्टूबर-दिसंबर 2026, 8.2%), सुकन्या समृद्धि खाता नियम 2019 · जाँच: 9 नवंबर 2026 · दर बदल सकती है\n\n▶ ऐसे और Shorts (बैंक, UPI और बचत योजनाएँ): https://www.youtube.com/playlist?list=PLDBOcuU_Prr4\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#SukanyaSamriddhi #SSY #Beti #Savings #PostOffice"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "contentDetails": {
+            "duration": "PT43S",
+            "dimension": "2d",
+            "definition": "hd",
+            "caption": "false",
+            "licensedContent": false,
+            "contentRating": {},
+            "projection": "rectangular",
+            "hasCustomThumbnail": false
+          },
+          "statistics": {
+            "viewCount": "29",
+            "likeCount": "0",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "Wbq-IPFVFavW__nvxhr_U_HwDaA",
+          "id": "CTwcfApiKDA",
+          "snippet": {
+            "publishedAt": "2026-11-16T03:30:11Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "Atal Pension: पति-पत्नी दोनों खोलें तो ₹10,000 महीना पेंशन | 30 की उम्र में ₹577-₹577 #shorts",
+            "description": "Atal Pension Yojana couple 2026: पति-पत्नी दोनों ₹577 जमा करें, 60 के बाद ₹10,000 महीना\n👉 फ्री कैलकुलेटर: https://parachar.com/atal-pension-yojana-chart-calculator/\n\nअटल पेंशन योजना में एक व्यक्ति को ज़्यादा से ज़्यादा ₹5,000 महीना पेंशन मिलती है, पर पति और पत्नी दोनों अलग खाते खोल सकते हैं। 30 की उम्र में ₹5,000 पेंशन के लिए हर एक ₹577 महीना, यानी दोनों मिलकर ₹1,154 जमा और 60 के बाद ₹10,000 महीना। 25 की उम्र में ₹376-₹376। एक की मौत पर पेंशन जीवनसाथी को, दोनों के बाद नॉमिनी को करीब ₹8.5 लाख। शर्त: 18-40 साल, बैंक खाता, और कभी इनकम टैक्स न भरा हो। अपनी उम्र पर चार्ट देखें, फ्री:\nhttps://parachar.com/atal-pension-yojana-chart-calculator/\n\nAtal pension yojana pati patni, APY 10000 pension और atal pension chart, आसान हिंदी में। रकम PFRDA चार्ट से है; जितनी कम उम्र में शुरू करें, उतना कम जमा।\n\nस्रोत: PFRDA अटल पेंशन योजना चार्ट, वित्त मंत्रालय अधिसूचना (अगस्त 2022) · जाँच: 9 नवंबर 2026\n\n▶ ऐसे और Shorts (पेंशन और रिटायरमेंट): https://www.youtube.com/playlist?list=PLHve-MXNo9TA\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#AtalPension #APY #Pension #Retirement #SarkariYojana",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/CTwcfApiKDA/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/CTwcfApiKDA/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/CTwcfApiKDA/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/CTwcfApiKDA/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/CTwcfApiKDA/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "apy 10000 pension",
+              "apy 577 per month",
+              "atal pension chart",
+              "atal pension pati patni",
+              "atal pension yojana",
+              "atal pension yojana couple",
+              "अटल पेंशन चार्ट",
+              "अटल पेंशन योजना"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "Atal Pension: पति-पत्नी दोनों खोलें तो ₹10,000 महीना पेंशन | 30 की उम्र में ₹577-₹577 #shorts",
+              "description": "Atal Pension Yojana couple 2026: पति-पत्नी दोनों ₹577 जमा करें, 60 के बाद ₹10,000 महीना\n👉 फ्री कैलकुलेटर: https://parachar.com/atal-pension-yojana-chart-calculator/\n\nअटल पेंशन योजना में एक व्यक्ति को ज़्यादा से ज़्यादा ₹5,000 महीना पेंशन मिलती है, पर पति और पत्नी दोनों अलग खाते खोल सकते हैं। 30 की उम्र में ₹5,000 पेंशन के लिए हर एक ₹577 महीना, यानी दोनों मिलकर ₹1,154 जमा और 60 के बाद ₹10,000 महीना। 25 की उम्र में ₹376-₹376। एक की मौत पर पेंशन जीवनसाथी को, दोनों के बाद नॉमिनी को करीब ₹8.5 लाख। शर्त: 18-40 साल, बैंक खाता, और कभी इनकम टैक्स न भरा हो। अपनी उम्र पर चार्ट देखें, फ्री:\nhttps://parachar.com/atal-pension-yojana-chart-calculator/\n\nAtal pension yojana pati patni, APY 10000 pension और atal pension chart, आसान हिंदी में। रकम PFRDA चार्ट से है; जितनी कम उम्र में शुरू करें, उतना कम जमा।\n\nस्रोत: PFRDA अटल पेंशन योजना चार्ट, वित्त मंत्रालय अधिसूचना (अगस्त 2022) · जाँच: 9 नवंबर 2026\n\n▶ ऐसे और Shorts (पेंशन और रिटायरमेंट): https://www.youtube.com/playlist?list=PLHve-MXNo9TA\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#AtalPension #APY #Pension #Retirement #SarkariYojana"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "contentDetails": {
+            "duration": "PT39S",
+            "dimension": "2d",
+            "definition": "hd",
+            "caption": "false",
+            "licensedContent": false,
+            "contentRating": {},
+            "projection": "rectangular",
+            "hasCustomThumbnail": false
+          },
+          "statistics": {
+            "viewCount": "83",
+            "likeCount": "0",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "A8F0IOErnrcPG3vNxg7S_U9eiz8",
+          "id": "j48Sb5mde8c",
+          "snippet": {
+            "publishedAt": "2026-11-15T20:38:37Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "₹12.75 लाख सैलरी पर टैक्स ज़ीरो, ₹13 लाख पर ₹66,300? ❌ सिर्फ़ ₹26,000 | मार्जिनल रिलीफ़ #shorts",
+            "description": "New tax regime 2026-27: ₹12.75 लाख सैलरी पर टैक्स 0, ₹13 लाख पर मार्जिनल रिलीफ़ से ₹26,000\n👉 फ्री कैलकुलेटर: https://parachar.com/income-tax-calculator-hindi/\n\nनई टैक्स व्यवस्था (FY 2026-27) में ₹75,000 स्टैंडर्ड डिडक्शन के बाद ₹12 लाख तक की आय पर 87A रिबेट से टैक्स शून्य, यानी ₹12.75 लाख सैलरी तक टैक्स नहीं। ₹13 लाख सैलरी पर टैक्सेबल ₹12.25 लाख, स्लैब से टैक्स ₹63,750 + सेस, पर मार्जिनल रिलीफ़ से टैक्स ₹12 लाख से ऊपर की आय (₹25,000) से ज़्यादा नहीं: ₹25,000 + 4% सेस = ₹26,000। अपनी सैलरी पर टैक्स देखें, फ्री:\nhttps://parachar.com/income-tax-calculator-hindi/\n\n12.75 lakh tax free, new tax regime marginal relief और income tax calculator 2026-27, आसान हिंदी में। यह नई टैक्स व्यवस्था और सिर्फ़ सैलरी की आय मानकर है।\n\nस्रोत: आयकर अधिनियम धारा 87A, नई टैक्स व्यवस्था FY 2026-27 (बजट 2026) · जाँच: 9 नवंबर 2026 · यह अनुमान है, टैक्स सलाह नहीं\n\n▶ ऐसे और Shorts (इनकम टैक्स और सैलरी): https://www.youtube.com/playlist?list=PLFBDdDjKFXrU\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#IncomeTax #NewTaxRegime #Salary #TaxSaving #Budget2026",
+            "thumbnails": {
+              "default": {
+                "url": "https://i9.ytimg.com/vi/j48Sb5mde8c/default.jpg?sqp=CJia69cG&rs=AOn4CLBocgimW4gJHWfm7EPeK8P9kvZwhA",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i9.ytimg.com/vi/j48Sb5mde8c/mqdefault.jpg?sqp=CJia69cG&rs=AOn4CLALZ0SYi90Mycix52j9MoQFzOn_OQ",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i9.ytimg.com/vi/j48Sb5mde8c/hqdefault.jpg?sqp=CJia69cG&rs=AOn4CLCDQ0TxceM6swX5bVlISnCUidPkrg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i9.ytimg.com/vi/j48Sb5mde8c/sddefault.jpg?sqp=CJia69cG&rs=AOn4CLCLcv8G-g7Wtg8Gb-Lz_7X6S6f3Rg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i9.ytimg.com/vi/j48Sb5mde8c/maxresdefault.jpg?sqp=CJia69cG&rs=AOn4CLAp04soMAhokH6YkCLbBssO3dq0vA",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "12.75 lakh tax free",
+              "13 lakh salary tax",
+              "87a rebate 12 lakh",
+              "income tax calculator 2026-27",
+              "income tax slab 2026",
+              "marginal relief new regime",
+              "इनकम टैक्स कैलकुलेटर",
+              "नई टैक्स व्यवस्था"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "₹12.75 लाख सैलरी पर टैक्स ज़ीरो, ₹13 लाख पर ₹66,300? ❌ सिर्फ़ ₹26,000 | मार्जिनल रिलीफ़ #shorts",
+              "description": "New tax regime 2026-27: ₹12.75 लाख सैलरी पर टैक्स 0, ₹13 लाख पर मार्जिनल रिलीफ़ से ₹26,000\n👉 फ्री कैलकुलेटर: https://parachar.com/income-tax-calculator-hindi/\n\nनई टैक्स व्यवस्था (FY 2026-27) में ₹75,000 स्टैंडर्ड डिडक्शन के बाद ₹12 लाख तक की आय पर 87A रिबेट से टैक्स शून्य, यानी ₹12.75 लाख सैलरी तक टैक्स नहीं। ₹13 लाख सैलरी पर टैक्सेबल ₹12.25 लाख, स्लैब से टैक्स ₹63,750 + सेस, पर मार्जिनल रिलीफ़ से टैक्स ₹12 लाख से ऊपर की आय (₹25,000) से ज़्यादा नहीं: ₹25,000 + 4% सेस = ₹26,000। अपनी सैलरी पर टैक्स देखें, फ्री:\nhttps://parachar.com/income-tax-calculator-hindi/\n\n12.75 lakh tax free, new tax regime marginal relief और income tax calculator 2026-27, आसान हिंदी में। यह नई टैक्स व्यवस्था और सिर्फ़ सैलरी की आय मानकर है।\n\nस्रोत: आयकर अधिनियम धारा 87A, नई टैक्स व्यवस्था FY 2026-27 (बजट 2026) · जाँच: 9 नवंबर 2026 · यह अनुमान है, टैक्स सलाह नहीं\n\n▶ ऐसे और Shorts (इनकम टैक्स और सैलरी): https://www.youtube.com/playlist?list=PLFBDdDjKFXrU\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#IncomeTax #NewTaxRegime #Salary #TaxSaving #Budget2026"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "contentDetails": {
+            "duration": "PT40S",
+            "dimension": "2d",
+            "definition": "hd",
+            "caption": "false",
+            "licensedContent": false,
+            "contentRating": {},
+            "projection": "rectangular",
+            "hasCustomThumbnail": false
+          },
+          "statistics": {
+            "viewCount": "0",
+            "likeCount": "0",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "0"
+          }
+        },
+        {
+          "kind": "youtube#video",
+          "etag": "JQbOSqzDlJS1BgkdamhnLh8UA3g",
+          "id": "khfZ4IT5beY",
+          "snippet": {
+            "publishedAt": "2026-11-08T05:30:35Z",
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "title": "PM Surya Ghar Yojana 2026: कितनी सब्सिडी, कितने kW, खर्च, बचत और Apply की पूरी जानकारी",
+            "description": "PM Surya Ghar Yojana 2026: 1 से 3 kW पर ₹30,000 से ₹78,000 सब्सिडी, पूरा हिसाब\n👉 फ्री कैलकुलेटर: https://parachar.com/pm-surya-ghar-subsidy-kitni-milegi/\n\nPM सूर्य घर मुफ़्त बिजली योजना में छत पर सोलर लगाने पर केंद्र की सब्सिडी: 1 kW पर ₹30,000, 2 kW पर ₹60,000, 3 kW या ज़्यादा पर ₹78,000 (पहाड़ी और पूर्वोत्तर राज्यों में ₹85,800 तक)। ₹60,000 प्रति kW के अनुमानित ख़र्च पर आपकी जेब से 1 kW में ₹30,000, 2 kW में ₹60,000, 3 kW में ₹1,02,000। 1 kW से करीब 120 यूनिट महीना बनती है; ₹7/यूनिट पर 2 kW से ₹1,680 महीना बचत, पैसा करीब 3 साल में वसूल। 3 kW तक बिना गारंटी लोन (करीब 6-7%*)। इस वीडियो में: कौन ले सकता है, कितने kW चाहिए, खर्च-बचत की टेबल, apply के 6 कदम और धोखे से कैसे बचें।\n\n⏱ इस वीडियो में:\n0:00 शुरुआत\n0:33 कौन ले सकता है\n1:05 सब्सिडी कितनी\n2:17 कितने kW चाहिए\n3:19 खर्च और बचत\n4:37 Apply कैसे करें\n5:26 अपना हिसाब देखें\n\n🔗 वीडियो में दिखाए गए फ्री टूल:\n• सूर्य घर सब्सिडी कैलकुलेटर: https://parachar.com/pm-surya-ghar-subsidy-kitni-milegi/\n\nPM Surya Ghar Yojana subsidy kitni milegi, rooftop solar subsidy calculator और pm surya ghar yojana apply kaise kare, सब एक वीडियो में। ख़र्च, यूनिट और ₹7 प्रति यूनिट बिजली दर अनुमान हैं; कुछ राज्य ऊपर से अलग मदद देते हैं, उसकी पुष्टि अपने डिस्कॉम से करें। अपने घर का पूरा हिसाब हमारे फ्री कैलकुलेटर पर देखें।\n\nस्रोत: MNRE PM सूर्य घर दिशानिर्देश (संशोधित जुलाई 2025), pmsuryaghar.gov.in · ख़र्च ₹60,000/kW, 120 यूनिट/kW, ₹7/यूनिट अनुमान · जाँच: 14 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं\n\n▶ ऐसे और वीडियो (सरकारी सब्सिडी योजनाएँ): https://www.youtube.com/playlist?list=PLJ_UkZibrHEI\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#PMSuryaGhar #RooftopSolar #SolarSubsidy #MuftBijli #SarkariYojana",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/khfZ4IT5beY/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/khfZ4IT5beY/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/khfZ4IT5beY/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/khfZ4IT5beY/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/khfZ4IT5beY/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Parachar",
+            "tags": [
+              "pm surya ghar loan",
+              "pm surya ghar subsidy",
+              "pm surya ghar yojana",
+              "pm surya ghar yojana apply kaise kare",
+              "rooftop solar subsidy calculator",
+              "solar subsidy 3kw",
+              "सूर्य घर योजना सब्सिडी",
+              "सोलर पैनल सब्सिडी 2026"
+            ],
+            "categoryId": "27",
+            "liveBroadcastContent": "none",
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "PM Surya Ghar Yojana 2026: कितनी सब्सिडी, कितने kW, खर्च, बचत और Apply की पूरी जानकारी",
+              "description": "PM Surya Ghar Yojana 2026: 1 से 3 kW पर ₹30,000 से ₹78,000 सब्सिडी, पूरा हिसाब\n👉 फ्री कैलकुलेटर: https://parachar.com/pm-surya-ghar-subsidy-kitni-milegi/\n\nPM सूर्य घर मुफ़्त बिजली योजना में छत पर सोलर लगाने पर केंद्र की सब्सिडी: 1 kW पर ₹30,000, 2 kW पर ₹60,000, 3 kW या ज़्यादा पर ₹78,000 (पहाड़ी और पूर्वोत्तर राज्यों में ₹85,800 तक)। ₹60,000 प्रति kW के अनुमानित ख़र्च पर आपकी जेब से 1 kW में ₹30,000, 2 kW में ₹60,000, 3 kW में ₹1,02,000। 1 kW से करीब 120 यूनिट महीना बनती है; ₹7/यूनिट पर 2 kW से ₹1,680 महीना बचत, पैसा करीब 3 साल में वसूल। 3 kW तक बिना गारंटी लोन (करीब 6-7%*)। इस वीडियो में: कौन ले सकता है, कितने kW चाहिए, खर्च-बचत की टेबल, apply के 6 कदम और धोखे से कैसे बचें।\n\n⏱ इस वीडियो में:\n0:00 शुरुआत\n0:33 कौन ले सकता है\n1:05 सब्सिडी कितनी\n2:17 कितने kW चाहिए\n3:19 खर्च और बचत\n4:37 Apply कैसे करें\n5:26 अपना हिसाब देखें\n\n🔗 वीडियो में दिखाए गए फ्री टूल:\n• सूर्य घर सब्सिडी कैलकुलेटर: https://parachar.com/pm-surya-ghar-subsidy-kitni-milegi/\n\nPM Surya Ghar Yojana subsidy kitni milegi, rooftop solar subsidy calculator और pm surya ghar yojana apply kaise kare, सब एक वीडियो में। ख़र्च, यूनिट और ₹7 प्रति यूनिट बिजली दर अनुमान हैं; कुछ राज्य ऊपर से अलग मदद देते हैं, उसकी पुष्टि अपने डिस्कॉम से करें। अपने घर का पूरा हिसाब हमारे फ्री कैलकुलेटर पर देखें।\n\nस्रोत: MNRE PM सूर्य घर दिशानिर्देश (संशोधित जुलाई 2025), pmsuryaghar.gov.in · ख़र्च ₹60,000/kW, 120 यूनिट/kW, ₹7/यूनिट अनुमान · जाँच: 14 अक्टूबर 2026 · यह अनुमान है, मंज़ूरी नहीं\n\n▶ ऐसे और वीडियो (सरकारी सब्सिडी योजनाएँ): https://www.youtube.com/playlist?list=PLJ_UkZibrHEI\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\n#PMSuryaGhar #RooftopSolar #SolarSubsidy #MuftBijli #SarkariYojana"
+            },
+            "defaultAudioLanguage": "hi"
+          },
+          "contentDetails": {
+            "duration": "PT5M48S",
+            "dimension": "2d",
+            "definition": "hd",
+            "caption": "false",
+            "licensedContent": false,
+            "contentRating": {},
+            "projection": "rectangular",
+            "hasCustomThumbnail": false
+          },
+          "statistics": {
+            "viewCount": "5",
+            "likeCount": "1",
+            "dislikeCount": "0",
+            "favoriteCount": "0",
+            "commentCount": "1"
+          }
+        }
+      ],
+      "pageInfo": {
+        "totalResults": 12,
+        "resultsPerPage": 12
+      }
+    }
+  },
+  "ch": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#channelListResponse",
+      "etag": "dQi9OU8Tu7Uh3EDXknXwUi4-UsU",
+      "pageInfo": {
+        "totalResults": 1,
+        "resultsPerPage": 5
+      },
+      "items": [
+        {
+          "kind": "youtube#channel",
+          "etag": "UbvFOcvEreJkNKJZL9E1D1Ar3Hw",
+          "id": "UCdqRVpQKsb5huTo6__pTpuA",
+          "snippet": {
+            "title": "Parachar",
+            "description": "Parachar: सरकारी योजना, लोन, सब्सिडी, इनकम टैक्स, पेंशन और बचत का सीधा ₹ हिसाब, हिंदी में 60 सेकंड के Shorts।\n\nहर दिन 3 नए Shorts: PMEGP, मुद्रा लोन, CGTMSE (बिना गारंटी लोन), PM सूर्य घर सोलर सब्सिडी, अटल पेंशन योजना, ग्रेच्युटी, इनकम टैक्स, UPI लिमिट, पोस्ट ऑफिस ब्याज दरें, FASTag और चेक बाउंस जैसे रोज़ के नियम। हर वीडियो में असली ₹ हिसाब, सरकारी स्रोत और जाँच की तारीख।\n\n✅ 100+ फ्री कैलकुलेटर: बिना लॉगिन, बिना फ़ोन नंबर\n✅ नियम सरकारी वेबसाइट से जाँचे हुए\n⚠️ हमारे हिसाब अनुमान हैं, लोन की मंज़ूरी नहीं। आवेदन हमेशा सरकारी पोर्टल पर, फ्री। एजेंट को पैसे न दें।\n\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\nFree Hindi calculators for Indian government schemes, business loans, subsidies, income tax, pension and savings. 3 new Shorts every day.\n",
+            "customUrl": "@parachar",
+            "publishedAt": "2026-10-11T14:38:48.783143Z",
+            "thumbnails": {
+              "default": {
+                "url": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s88-c-k-c0x00ffffff-no-rj",
+                "width": 88,
+                "height": 88
+              },
+              "medium": {
+                "url": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s240-c-k-c0x00ffffff-no-rj",
+                "width": 240,
+                "height": 240
+              },
+              "high": {
+                "url": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s800-c-k-c0x00ffffff-no-rj",
+                "width": 800,
+                "height": 800
+              }
+            },
+            "defaultLanguage": "hi",
+            "localized": {
+              "title": "Parachar",
+              "description": "Parachar: सरकारी योजना, लोन, सब्सिडी, इनकम टैक्स, पेंशन और बचत का सीधा ₹ हिसाब, हिंदी में 60 सेकंड के Shorts।\n\nहर दिन 3 नए Shorts: PMEGP, मुद्रा लोन, CGTMSE (बिना गारंटी लोन), PM सूर्य घर सोलर सब्सिडी, अटल पेंशन योजना, ग्रेच्युटी, इनकम टैक्स, UPI लिमिट, पोस्ट ऑफिस ब्याज दरें, FASTag और चेक बाउंस जैसे रोज़ के नियम। हर वीडियो में असली ₹ हिसाब, सरकारी स्रोत और जाँच की तारीख।\n\n✅ 100+ फ्री कैलकुलेटर: बिना लॉगिन, बिना फ़ोन नंबर\n✅ नियम सरकारी वेबसाइट से जाँचे हुए\n⚠️ हमारे हिसाब अनुमान हैं, लोन की मंज़ूरी नहीं। आवेदन हमेशा सरकारी पोर्टल पर, फ्री। एजेंट को पैसे न दें।\n\n🧮 सभी फ्री कैलकुलेटर और टूल: https://parachar.com/tools/\n\nFree Hindi calculators for Indian government schemes, business loans, subsidies, income tax, pension and savings. 3 new Shorts every day.\n"
+            },
+            "country": "IN"
+          },
+          "statistics": {
+            "viewCount": "8450",
+            "subscriberCount": "11",
+            "hiddenSubscriberCount": false,
+            "videoCount": "60"
+          }
+        }
+      ]
+    }
+  },
+  "ct": {
+    "status": "200",
+    "body": {
+      "kind": "youtube#commentThreadListResponse",
+      "etag": "kf1qt4m_IwfQhp9zb8MbKips9nc",
+      "nextPageToken": "c3R1ZGlvLS1DZ2dJZ0FRVkY3ZlJPREtFQVFvQ0tBRVNma05yUVhkTVJFVXpUMVJKTUUxcVRUSk9WRlY0VFVSVmVFMVVZM05OVkdNMVRXcFJlVTE2V1RGT1ZFVjNUbFJGZUU1NWQybFdWMlEwWXpGQ1RXRkZVWGRWUnpsbVRGVk9SMUpGYUdoVGFsSkNXVlZHUTFGWFkybEZhSEJXV2pOb2VsVkZlRzlTUkVKUllqRTRkRkV3V2tWVFIwWkxUa1ZHYUZGVlNrSmFkMUFBV0FF",
+      "pageInfo": {
+        "totalResults": 50,
+        "resultsPerPage": 50
+      },
+      "items": [
+        {
+          "kind": "youtube#commentThread",
+          "etag": "Jwp8Azm7yTaG7T_HcAW2dAkySX4",
+          "id": "Ugwe1snE8EkzEQWFlMJ4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "CTwcfApiKDA",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "9cR1v9WZFdo4LhGXQE76Tqm6Iv8",
+              "id": "Ugwe1snE8EkzEQWFlMJ4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "CTwcfApiKDA",
+                "textDisplay": "आपकी उम्र कितनी है? चार्ट से रकम बताएँगे, लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/atal-pension-yojana-chart-calculator/\">https://parachar.com/atal-pension-yojana-chart-calculator/</a>",
+                "textOriginal": "आपकी उम्र कितनी है? चार्ट से रकम बताएँगे, लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/atal-pension-yojana-chart-calculator/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-11-16T03:32:01Z",
+                "updatedAt": "2026-11-16T03:32:01Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "C5F7QF_VKf_3XWJxfgBznvaZTrM",
+          "id": "UgxzkB1C_-Vn10HESOV4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "5m8GwFJuda0",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "dLbEkPF8LQEbF-dN5y4ZdssDVA0",
+              "id": "UgxzkB1C_-Vn10HESOV4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "5m8GwFJuda0",
+                "textDisplay": "आप सुकन्या में हर महीने जमा करते हैं या साल में एक बार? लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/sukanya-samriddhi-yojana-calculator/\">https://parachar.com/sukanya-samriddhi-yojana-calculator/</a>",
+                "textOriginal": "आप सुकन्या में हर महीने जमा करते हैं या साल में एक बार? लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/sukanya-samriddhi-yojana-calculator/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-11-13T14:02:00Z",
+                "updatedAt": "2026-11-13T14:02:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "Hj0e97LrYvO3yFMMyc3UZ_VlSCw",
+          "id": "UgwvWKjaRVsOQv2g8eJ4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "OMorAssFIKE",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "-3VrLH4Kc9KwwneiJfeL30pJOmQ",
+              "id": "UgwvWKjaRVsOQv2g8eJ4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "OMorAssFIKE",
+                "textDisplay": "आपको कितने का मुद्रा लोन चाहिए? लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/mudra-loan-calculator/\">https://parachar.com/mudra-loan-calculator/</a>",
+                "textOriginal": "आपको कितने का मुद्रा लोन चाहिए? लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/mudra-loan-calculator/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-11-13T03:32:00Z",
+                "updatedAt": "2026-11-13T03:32:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "V7hB-vVA6RzP1KZBJZSGO2tbcX0",
+          "id": "UgyLU7OwrEt3VqVhwbR4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "-0PCdPHOftA",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "n0oHKSWrRBoycvcqpbe5Zg_5IMQ",
+              "id": "UgyLU7OwrEt3VqVhwbR4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "-0PCdPHOftA",
+                "textDisplay": "आपका बिज़नेस प्लान कितने लाख का है? लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/women-business-loan-finder/\">https://parachar.com/women-business-loan-finder/</a>",
+                "textOriginal": "आपका बिज़नेस प्लान कितने लाख का है? लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/women-business-loan-finder/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-11-12T08:58:53Z",
+                "updatedAt": "2026-11-12T08:58:53Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "fEK-SrSBHSiwjIQ4z2EeofgKJYY",
+          "id": "Ugxkv8qBWlRTywiQXv54AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "LJjzQ9WkcMk",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "4DtT77lyBFndObjd5IWoZejC39A",
+              "id": "Ugxkv8qBWlRTywiQXv54AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "LJjzQ9WkcMk",
+                "textDisplay": "आपका बेसिक कितना है? एरियर कितना बना, लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/da-hike-arrear-calculator-hindi/\">https://parachar.com/da-hike-arrear-calculator-hindi/</a>",
+                "textOriginal": "आपका बेसिक कितना है? एरियर कितना बना, लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/da-hike-arrear-calculator-hindi/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-11-12T03:32:00Z",
+                "updatedAt": "2026-11-12T03:32:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "17pqotB-XSvPNXNv3iXIlvsnWuc",
+          "id": "UgyCrCuajEf6cKI0V2t4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "xkID7Qwzmz0",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "vcSwa22igz2t0v2QsGxAn7pvwdU",
+              "id": "UgyCrCuajEf6cKI0V2t4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "xkID7Qwzmz0",
+                "textDisplay": "आपकी कंपनी ग्रेच्युटी में 26 से भाग देती है या 30 से? लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/gratuity-calculator-hindi/\">https://parachar.com/gratuity-calculator-hindi/</a>",
+                "textOriginal": "आपकी कंपनी ग्रेच्युटी में 26 से भाग देती है या 30 से? लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/gratuity-calculator-hindi/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-11-11T14:02:01Z",
+                "updatedAt": "2026-11-11T14:02:01Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "HZ2OKG0CW_I7EkTRhynInE0l9go",
+          "id": "Ugwz9nkPJmG-crnhosx4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "dafbpHFlG1E",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "2Cf1mu74YCVpXdEeCZ6id_kpr7w",
+              "id": "Ugwz9nkPJmG-crnhosx4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "dafbpHFlG1E",
+                "textDisplay": "आपका अभी का बेसिक पे कितना है? लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/8th-pay-commission-salary-calculator-hindi/\">https://parachar.com/8th-pay-commission-salary-calculator-hindi/</a>",
+                "textOriginal": "आपका अभी का बेसिक पे कितना है? लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/8th-pay-commission-salary-calculator-hindi/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-11-11T03:32:00Z",
+                "updatedAt": "2026-11-11T03:32:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "CeGk_HrXZmuzpwj8EWWi77DGnV8",
+          "id": "UgxUerXSgFIeBpJF51Z4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "AiXwoYbLuqc",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "wSbRkyvnIQuF17Nrzv2y-zgBfQQ",
+              "id": "UgxUerXSgFIeBpJF51Z4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "AiXwoYbLuqc",
+                "textDisplay": "आपने इस साल लाइफ़ सर्टिफ़िकेट जमा किया? हाँ या ना लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/jeevan-pramaan-life-certificate-kab-tak/\">https://parachar.com/jeevan-pramaan-life-certificate-kab-tak/</a>",
+                "textOriginal": "आपने इस साल लाइफ़ सर्टिफ़िकेट जमा किया? हाँ या ना लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/jeevan-pramaan-life-certificate-kab-tak/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-11-10T03:31:46Z",
+                "updatedAt": "2026-11-10T03:31:46Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "f6oFWDkcGsI9g3lNsh-nn4eTNb0",
+          "id": "Ugz_EVYXOG84ic-iF0x4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "fMrDhWO3Z6U",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "9_d_amDipWyEQVxRAzuljX3V_BY",
+              "id": "Ugz_EVYXOG84ic-iF0x4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "fMrDhWO3Z6U",
+                "textDisplay": "आपका Full &amp; Final कितने दिन में आया था? लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/salary-nahi-mili-kya-karein/\">https://parachar.com/salary-nahi-mili-kya-karein/</a>",
+                "textOriginal": "आपका Full & Final कितने दिन में आया था? लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/salary-nahi-mili-kya-karein/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-11-09T14:02:00Z",
+                "updatedAt": "2026-11-09T14:02:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "kP3Tri27_vmQIbAcQSMjg9GJLNI",
+          "id": "Ugwbh6xm8Bf94W5D3Nt4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "ctTgNyM4ugo",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "CsHEbKHE6qU_k-NadJvibSa3E1s",
+              "id": "Ugwbh6xm8Bf94W5D3Nt4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "ctTgNyM4ugo",
+                "textDisplay": "आपका होम लोन कितने का है? लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/pm-awas-yojana-2-0-subsidy-calculator/\">https://parachar.com/pm-awas-yojana-2-0-subsidy-calculator/</a>",
+                "textOriginal": "आपका होम लोन कितने का है? लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/pm-awas-yojana-2-0-subsidy-calculator/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-11-09T03:32:00Z",
+                "updatedAt": "2026-11-09T03:32:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "VIQlDZZro2Ptgskhq3vsJ9NDJoE",
+          "id": "UgwZ4Jms5jYl3L4MJFN4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "khfZ4IT5beY",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "aKqha3HQ4eM8eE4yL3n7O8N2Tnw",
+              "id": "UgwZ4Jms5jYl3L4MJFN4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "khfZ4IT5beY",
+                "textDisplay": "आपके घर का बिजली बिल महीने में कितनी यूनिट आता है? नंबर लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/pm-surya-ghar-subsidy-kitni-milegi/\">https://parachar.com/pm-surya-ghar-subsidy-kitni-milegi/</a>",
+                "textOriginal": "आपके घर का बिजली बिल महीने में कितनी यूनिट आता है? नंबर लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/pm-surya-ghar-subsidy-kitni-milegi/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-11-08T05:32:00Z",
+                "updatedAt": "2026-11-08T05:32:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "A8gSKNiYM8P4TmHveD0hfvwRr6o",
+          "id": "UgzH-KEc7t0bzH6sTAF4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "4pSD9yGgIk4",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "gYo2tgFLmjtYMHJQRkKEgwRVLM4",
+              "id": "UgzH-KEc7t0bzH6sTAF4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "4pSD9yGgIk4",
+                "textDisplay": "आपका FASTag कभी ब्लैकलिस्ट हुआ है? हाँ या ना लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/fastag-blacklist-kaise-hataye/\">https://parachar.com/fastag-blacklist-kaise-hataye/</a>",
+                "textOriginal": "आपका FASTag कभी ब्लैकलिस्ट हुआ है? हाँ या ना लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/fastag-blacklist-kaise-hataye/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-11-07T12:32:00Z",
+                "updatedAt": "2026-11-07T12:32:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "_NvGloHax3p0-Md8O2agyraKadg",
+          "id": "UgyxyhlxWbtS1I34Rp54AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "YZuEkDtKeyI",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "qEk0YlO8eQ1mygVmzHeBdWeJYg4",
+              "id": "UgyxyhlxWbtS1I34Rp54AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "YZuEkDtKeyI",
+                "textDisplay": "किसी ने मुद्रा लोन के लिए आपसे पैसे माँगे? हाँ या ना लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/mudra-loan-calculator/\">https://parachar.com/mudra-loan-calculator/</a>",
+                "textOriginal": "किसी ने मुद्रा लोन के लिए आपसे पैसे माँगे? हाँ या ना लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/mudra-loan-calculator/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-11-06T14:02:01Z",
+                "updatedAt": "2026-11-06T14:02:01Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "YowfhCX415wP2o-JNzWJFGEpV8Q",
+          "id": "Ugxc-OF-jO7scJDLpGR4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "GRshTILgDCI",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "yk0Q0zHC_jScMWR0-KxtzzMml98",
+              "id": "Ugxc-OF-jO7scJDLpGR4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "GRshTILgDCI",
+                "textDisplay": "आपकी कितनी छुट्टियाँ (EL) जमा हैं? नंबर लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/leave-encashment-calculator-hindi/\">https://parachar.com/leave-encashment-calculator-hindi/</a>",
+                "textOriginal": "आपकी कितनी छुट्टियाँ (EL) जमा हैं? नंबर लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/leave-encashment-calculator-hindi/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-11-06T03:32:00Z",
+                "updatedAt": "2026-11-06T03:32:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "y1MK0rAQJCllE55JYI1ZieZjs6s",
+          "id": "UgwUn9ydQcd-SfJTNhR4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "vFktwOj14pQ",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "gWygSRs67jYEvR5pUux_5GmuySM",
+              "id": "UgwUn9ydQcd-SfJTNhR4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "vFktwOj14pQ",
+                "textDisplay": "आप बेटी के लिए महीने में कितना जमा कर सकते हैं? लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/sukanya-samriddhi-yojana-calculator/\">https://parachar.com/sukanya-samriddhi-yojana-calculator/</a>",
+                "textOriginal": "आप बेटी के लिए महीने में कितना जमा कर सकते हैं? लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/sukanya-samriddhi-yojana-calculator/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-11-05T12:32:00Z",
+                "updatedAt": "2026-11-05T12:32:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "6BbrxYYXhsVQUlvqYKulzIgGZJI",
+          "id": "UgwtCUerW_n3F2dGUJF4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "uAtp_JtaRXM",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "TyAXmWLls4xbKZ2hBbJrYKkY2NQ",
+              "id": "UgwtCUerW_n3F2dGUJF4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "uAtp_JtaRXM",
+                "textDisplay": "आपकी सब्सिडी किस स्टेज पर अटकी है? लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/pm-surya-ghar-subsidy-status-check-kab-aayegi-kaise-check-kare/\">https://parachar.com/pm-surya-ghar-subsidy-status-check-kab-aayegi-kaise-check-kare/</a>",
+                "textOriginal": "आपकी सब्सिडी किस स्टेज पर अटकी है? लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/pm-surya-ghar-subsidy-status-check-kab-aayegi-kaise-check-kare/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-11-04T16:34:22Z",
+                "updatedAt": "2026-11-04T16:34:22Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "HAaC62PKP-dlRpjmKtu53J2PpuU",
+          "id": "UgzkYFq6w2L9FHKxHQJ4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "JFN-4oTDlD4",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "3nfCbX7b9b9f_KnkoMPdVTJet-0",
+              "id": "UgzkYFq6w2L9FHKxHQJ4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "JFN-4oTDlD4",
+                "textDisplay": "आपको इस साल बोनस मिला? हाँ या ना लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/diwali-bonus-kitna-milega-calculator/\">https://parachar.com/diwali-bonus-kitna-milega-calculator/</a>",
+                "textOriginal": "आपको इस साल बोनस मिला? हाँ या ना लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/diwali-bonus-kitna-milega-calculator/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-11-04T03:32:00Z",
+                "updatedAt": "2026-11-04T03:32:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "dfz2qFVtavykOvCeg8H1A93qevA",
+          "id": "Ugxsa8HmUOdeePU851V4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "mKsnBh2c9qw",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "j-uW2CH79gf3UjUd80mTfDnfIWA",
+              "id": "Ugxsa8HmUOdeePU851V4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "mKsnBh2c9qw",
+                "textDisplay": "आप किस वर्ग में आते हैं: EWS, LIG या MIG? लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/pm-awas-yojana-2-0-subsidy-calculator/\">https://parachar.com/pm-awas-yojana-2-0-subsidy-calculator/</a>",
+                "textOriginal": "आप किस वर्ग में आते हैं: EWS, LIG या MIG? लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/pm-awas-yojana-2-0-subsidy-calculator/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-11-03T12:32:00Z",
+                "updatedAt": "2026-11-03T12:32:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "-UwX1rJkFIHRm-Dndq8qRPr-S88",
+          "id": "UgzQeTkOZkoSzNg4k5x4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "M9ZNxjhzoLk",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "OKHelOIQQoDm6PGRJOx2xEPDD-Q",
+              "id": "UgzQeTkOZkoSzNg4k5x4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "M9ZNxjhzoLk",
+                "textDisplay": "आपकी नौकरी को कितने साल हुए? नंबर लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/gratuity-calculator-hindi/\">https://parachar.com/gratuity-calculator-hindi/</a>",
+                "textOriginal": "आपकी नौकरी को कितने साल हुए? नंबर लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/gratuity-calculator-hindi/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-11-02T19:13:47Z",
+                "updatedAt": "2026-11-02T19:13:47Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "4Ack-dAW1FyUoqJ3zLoM9XhxK7Y",
+          "id": "Ugy2G69hAPqh80X8dop4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "pDlqUL-kSPk",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "1Yy1avQmHF_s_7wyFPURzmfle-4",
+              "id": "Ugy2G69hAPqh80X8dop4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "pDlqUL-kSPk",
+                "textDisplay": "आपने अटल पेंशन किस उम्र में शुरू की, या अभी नहीं? लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/atal-pension-yojana-chart-calculator/\">https://parachar.com/atal-pension-yojana-chart-calculator/</a>",
+                "textOriginal": "आपने अटल पेंशन किस उम्र में शुरू की, या अभी नहीं? लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/atal-pension-yojana-chart-calculator/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-11-02T03:32:00Z",
+                "updatedAt": "2026-11-02T03:32:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "xjBEh68Mx0ggfF7XnnBdVMRnb1o",
+          "id": "UgyGqzOw2vdtMWCKpYR4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "J4pqOuiOjSQ",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "4w1z2kiyu0yTHtZCNht7u5nOX-I",
+              "id": "UgyGqzOw2vdtMWCKpYR4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "J4pqOuiOjSQ",
+                "textDisplay": "आपका कारोबार क्या है और कितना लोन चाहिए? कमेंट में लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/mudra-loan-calculator/\">https://parachar.com/mudra-loan-calculator/</a>",
+                "textOriginal": "आपका कारोबार क्या है और कितना लोन चाहिए? कमेंट में लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/mudra-loan-calculator/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-11-01T05:32:00Z",
+                "updatedAt": "2026-11-01T05:32:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "bTuVwrIXDgr8YpNqJ0RyYyox16Q",
+          "id": "UgxkOqHH6aL80oRWuyh4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "qeVoHn-wv84",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "g813NQMS8CN3RmHDqdM57f-pEeQ",
+              "id": "UgxkOqHH6aL80oRWuyh4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "qeVoHn-wv84",
+                "textDisplay": "आप महीने में कितनी बार टोल से गुज़रते हैं? नंबर लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/fastag-annual-pass-kya-fayde-ka-hai/\">https://parachar.com/fastag-annual-pass-kya-fayde-ka-hai/</a>",
+                "textOriginal": "आप महीने में कितनी बार टोल से गुज़रते हैं? नंबर लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/fastag-annual-pass-kya-fayde-ka-hai/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-31T12:32:00Z",
+                "updatedAt": "2026-10-31T12:32:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "ukCUaL5yXH5ayvQyWL31VH199rA",
+          "id": "UgyFrJFrc3I9vyK9n7V4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "JViKZBqKm_M",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "gZQnUOAo11nfROF0XZbXDt7MIZ0",
+              "id": "UgyFrJFrc3I9vyK9n7V4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "JViKZBqKm_M",
+                "textDisplay": "आपकी PF वाली नौकरी कितने साल की हो गई? कमेंट में साल लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/pf-pension-kitni-milegi/\">https://parachar.com/pf-pension-kitni-milegi/</a>",
+                "textOriginal": "आपकी PF वाली नौकरी कितने साल की हो गई? कमेंट में साल लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/pf-pension-kitni-milegi/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-30T14:45:13Z",
+                "updatedAt": "2026-10-30T14:45:13Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "23A2XImC1BWab0xCBUUvuKckd6E",
+          "id": "Ugy3RzDZGSGa5Pd8Zwd4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "H5nNGQX5lnE",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "KGqJXLD_XgpSzhWEw0yKWcwMMvE",
+              "id": "Ugy3RzDZGSGa5Pd8Zwd4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "H5nNGQX5lnE",
+                "textDisplay": "आप गोल्ड लोन कहाँ से लेते हैं: बैंक या NBFC? कमेंट में लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/gold-loan-per-gram-calculator-hindi/\">https://parachar.com/gold-loan-per-gram-calculator-hindi/</a>",
+                "textOriginal": "आप गोल्ड लोन कहाँ से लेते हैं: बैंक या NBFC? कमेंट में लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/gold-loan-per-gram-calculator-hindi/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-30T03:32:00Z",
+                "updatedAt": "2026-10-30T03:32:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "S3O7EmqoMlM3PCRlt1XQGZGoxB4",
+          "id": "UgwfJuh3zYnz9ZL4Cp94AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "5LtTLtSX4lw",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "cx_WV3KlnfZnmv_jhtaugp0Geuc",
+              "id": "UgwfJuh3zYnz9ZL4Cp94AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "5LtTLtSX4lw",
+                "textDisplay": "आपकी कंपनी ने इस साल बोनस दिया या नहीं? हाँ या नहीं लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/diwali-bonus-kitna-milega-calculator/\">https://parachar.com/diwali-bonus-kitna-milega-calculator/</a>",
+                "textOriginal": "आपकी कंपनी ने इस साल बोनस दिया या नहीं? हाँ या नहीं लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/diwali-bonus-kitna-milega-calculator/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-29T12:32:00Z",
+                "updatedAt": "2026-10-29T12:32:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "mRZP64vOC0JywEjwoNcS6rcz9Lk",
+          "id": "Ugz_oeI4sMOOKWOTkFJ4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "IC3bek55K7s",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "6vdykwcZmmSxCdvyvtbM3acd9AI",
+              "id": "Ugz_oeI4sMOOKWOTkFJ4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "IC3bek55K7s",
+                "textDisplay": "आपका SVANidhi स्टेटस क्या दिख रहा है: Submitted, Sanctioned या Returned? कमेंट करें 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/pm-svanidhi-status-check-kaise-kare-loan-kab-milega/\">https://parachar.com/pm-svanidhi-status-check-kaise-kare-loan-kab-milega/</a>",
+                "textOriginal": "आपका SVANidhi स्टेटस क्या दिख रहा है: Submitted, Sanctioned या Returned? कमेंट करें 👇\n\nफ्री कैलकुलेटर: https://parachar.com/pm-svanidhi-status-check-kaise-kare-loan-kab-milega/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-28T15:16:25Z",
+                "updatedAt": "2026-10-28T15:16:25Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "gj7oWgswe-yR-oxALbm7PAG5K1Y",
+          "id": "UgyCOmdo6D4zL7Z1Mmh4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "XYDz5jpZziI",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "BdaTHP3raBFbfFMMn1a3iw86DaY",
+              "id": "UgyCOmdo6D4zL7Z1Mmh4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "XYDz5jpZziI",
+                "textDisplay": "आप किस काम के लिए लोन लेना चाहती हैं? कमेंट में लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/udyogini-scheme-calculator/\">https://parachar.com/udyogini-scheme-calculator/</a>",
+                "textOriginal": "आप किस काम के लिए लोन लेना चाहती हैं? कमेंट में लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/udyogini-scheme-calculator/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-28T03:32:00Z",
+                "updatedAt": "2026-10-28T03:32:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "9cMXMMWQ_C6y3_fmFXWGezxgJVw",
+          "id": "Ugz5S70b6g213g2L7hR4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "aWbYf49vMHI",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "lML1l5jEHv70zbMirQNUySKKmAM",
+              "id": "Ugz5S70b6g213g2L7hR4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "aWbYf49vMHI",
+                "textDisplay": "आपकी PF वाली नौकरी कितने साल की हो गई, और कितनी पेंशन बनी? कमेंट में लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/pf-pension-kitni-milegi/\">https://parachar.com/pf-pension-kitni-milegi/</a>",
+                "textOriginal": "आपकी PF वाली नौकरी कितने साल की हो गई, और कितनी पेंशन बनी? कमेंट में लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/pf-pension-kitni-milegi/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-27T12:32:01Z",
+                "updatedAt": "2026-10-27T12:32:01Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "GAT77gWPaX__sFuVY0F7LbM4v68",
+          "id": "UgzGuNsuJSepTmVpfbV4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "gwY9M_OhLiA",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "E3xaui7LuMz9ON7Qw_6PV-WlfNg",
+              "id": "UgzGuNsuJSepTmVpfbV4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "gwY9M_OhLiA",
+                "textDisplay": "आपके PAN का स्टेटस क्या दिखता है: Linked, Pending या Not linked? कमेंट करें 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/pan-aadhaar-link-status-check-kaise-kare-inoperative-fees-1000/\">https://parachar.com/pan-aadhaar-link-status-check-kaise-kare-inoperative-fees-1000/</a>",
+                "textOriginal": "आपके PAN का स्टेटस क्या दिखता है: Linked, Pending या Not linked? कमेंट करें 👇\n\nफ्री कैलकुलेटर: https://parachar.com/pan-aadhaar-link-status-check-kaise-kare-inoperative-fees-1000/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-26T14:02:00Z",
+                "updatedAt": "2026-10-26T14:02:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "jCXYh8vmAs0HnqjVaapuQ2UFEWM",
+          "id": "UgwE607fxJzrDq0Cy3x4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "WS0D28UT6pY",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "ZYrWCm5uxgYdLOfLohNrhWM5T0Y",
+              "id": "UgwE607fxJzrDq0Cy3x4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "WS0D28UT6pY",
+                "textDisplay": "आपका होम लोन कितने लाख का है? कमेंट में लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/pm-awas-yojana-2-0-subsidy-calculator/\">https://parachar.com/pm-awas-yojana-2-0-subsidy-calculator/</a>",
+                "textOriginal": "आपका होम लोन कितने लाख का है? कमेंट में लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/pm-awas-yojana-2-0-subsidy-calculator/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-26T03:32:00Z",
+                "updatedAt": "2026-10-26T03:32:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "1_i4AbM1FFxRlqHhLcISOtHYKrE",
+          "id": "Ugwdwy2hWW9Co-oNqVR4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "MKpnvfdoCck",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "3i_wXGv66MF-rsrF6xf6Be8nIS0",
+              "id": "Ugwdwy2hWW9Co-oNqVR4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "MKpnvfdoCck",
+                "textDisplay": "आपका अभी का बेसिक पे कितना है? कमेंट में लिखिए, हम अनुमान बताएँगे 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/8th-pay-commission-salary-calculator-hindi/\">https://parachar.com/8th-pay-commission-salary-calculator-hindi/</a>",
+                "textOriginal": "आपका अभी का बेसिक पे कितना है? कमेंट में लिखिए, हम अनुमान बताएँगे 👇\n\nफ्री कैलकुलेटर: https://parachar.com/8th-pay-commission-salary-calculator-hindi/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-25T14:31:26Z",
+                "updatedAt": "2026-10-25T14:31:26Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "ddRWSXLRJfkNrYO6ZBGkm-Rumk0",
+          "id": "UgzBfnpWkF9MhiIWytd4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "5zXtMEqEeVc",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "CJHbn7cpoizjDwEh4mZbZykUP8g",
+              "id": "UgzBfnpWkF9MhiIWytd4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "5zXtMEqEeVc",
+                "textDisplay": "आपकी नौकरी कितने साल कितने महीने की हुई? कमेंट में लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/gratuity-calculator-hindi/\">https://parachar.com/gratuity-calculator-hindi/</a>",
+                "textOriginal": "आपकी नौकरी कितने साल कितने महीने की हुई? कमेंट में लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/gratuity-calculator-hindi/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-25T14:31:26Z",
+                "updatedAt": "2026-10-25T14:31:26Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "MiNCruIMsLihPB_SypfufdeitgY",
+          "id": "Ugw9JRwVZGqVy2sporR4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "X0_uOXSE4sU",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "eKLicrd0MRJmV-8-pd4yzTHOt_0",
+              "id": "Ugw9JRwVZGqVy2sporR4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "X0_uOXSE4sU",
+                "textDisplay": "आपकी बेटी कितने साल की है? कमेंट में लिखिए, हम बताएँगे ₹1,000 महीने पर कितना मिलेगा 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/sukanya-samriddhi-yojana-calculator/\">https://parachar.com/sukanya-samriddhi-yojana-calculator/</a>",
+                "textOriginal": "आपकी बेटी कितने साल की है? कमेंट में लिखिए, हम बताएँगे ₹1,000 महीने पर कितना मिलेगा 👇\n\nफ्री कैलकुलेटर: https://parachar.com/sukanya-samriddhi-yojana-calculator/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-25T14:31:25Z",
+                "updatedAt": "2026-10-25T14:31:25Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "TS1tV05KRJ5xoNrGjXEnyp1kb_4",
+          "id": "Ugwy98i9vi7SarWF9HF4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "58RRNLDI_Ao",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "W7_gE8MVFiO3ChGgo6U5VzadNYM",
+              "id": "Ugwy98i9vi7SarWF9HF4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "58RRNLDI_Ao",
+                "textDisplay": "आप कौन सी स्कीम में पैसा लगाते हैं, और कितने साल के लिए? कमेंट में लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/post-office-scheme-calculator/\">https://parachar.com/post-office-scheme-calculator/</a>",
+                "textOriginal": "आप कौन सी स्कीम में पैसा लगाते हैं, और कितने साल के लिए? कमेंट में लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/post-office-scheme-calculator/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-25T14:31:25Z",
+                "updatedAt": "2026-10-25T14:31:25Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "-wG6fa78GEsWa9Pj0-DJyew0LFw",
+          "id": "Ugx7IyozHR5K5COFa-J4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "-6WiFCbCLEM",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "8YSvPtgyJmOLiDtOKnt97Z9i-4U",
+              "id": "Ugx7IyozHR5K5COFa-J4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "-6WiFCbCLEM",
+                "textDisplay": "आपके गाँव में आपके समूह को कौन सा बैंक लोन देता है? कमेंट में बैंक का नाम लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/lakhpati-didi-yojana-checker/\">https://parachar.com/lakhpati-didi-yojana-checker/</a>",
+                "textOriginal": "आपके गाँव में आपके समूह को कौन सा बैंक लोन देता है? कमेंट में बैंक का नाम लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/lakhpati-didi-yojana-checker/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-25T14:31:24Z",
+                "updatedAt": "2026-10-25T14:31:24Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "W_8oMGg6BTh7wbm-G4zXPz677co",
+          "id": "Ugy1DTJtuSugCePmnJl4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "Z0Y_O2TU6qc",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "8ZoGDSXd3DpRCbWWlU-iG58w3PE",
+              "id": "Ugy1DTJtuSugCePmnJl4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "Z0Y_O2TU6qc",
+                "textDisplay": "आप मुद्रा लोन किस काम के लिए चाहते हैं: दुकान, डेयरी या सैलून? कमेंट करें 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/mudra-loan-hindi/\">https://parachar.com/mudra-loan-hindi/</a>",
+                "textOriginal": "आप मुद्रा लोन किस काम के लिए चाहते हैं: दुकान, डेयरी या सैलून? कमेंट करें 👇\n\nफ्री कैलकुलेटर: https://parachar.com/mudra-loan-hindi/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-25T14:31:23Z",
+                "updatedAt": "2026-10-25T14:31:23Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "BOLJvLQxA8tL38WRIJWxmaPbMf0",
+          "id": "UgzMG8fWqJkRWqHnLMJ4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "iRVUporPPm0",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "iGN7WakBLquz4Cg-ogM_T1ug3H0",
+              "id": "UgzMG8fWqJkRWqHnLMJ4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "iRVUporPPm0",
+                "textDisplay": "आपके पास कितने एकड़ ज़मीन है और कौन सी फसल? कमेंट में लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/kcc-loan-calculator-hindi/\">https://parachar.com/kcc-loan-calculator-hindi/</a>",
+                "textOriginal": "आपके पास कितने एकड़ ज़मीन है और कौन सी फसल? कमेंट में लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/kcc-loan-calculator-hindi/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-25T14:31:23Z",
+                "updatedAt": "2026-10-25T14:31:23Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "WZSUsximjlnoE4fus0qo6AUxORI",
+          "id": "UgwB_PsCFXTFfI9wBq54AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "7Ull8THbkbk",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "Xs8HyS0g7SRyWG8yU57IFlFJWDk",
+              "id": "UgwB_PsCFXTFfI9wBq54AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "7Ull8THbkbk",
+                "textDisplay": "आपको आख़िरी किस्त कौन सी मिली: 22वीं या 23वीं? कमेंट में नंबर लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/pm-kisan-agli-kist-kab-aayegi/\">https://parachar.com/pm-kisan-agli-kist-kab-aayegi/</a>",
+                "textOriginal": "आपको आख़िरी किस्त कौन सी मिली: 22वीं या 23वीं? कमेंट में नंबर लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/pm-kisan-agli-kist-kab-aayegi/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-23T14:02:01Z",
+                "updatedAt": "2026-10-23T14:02:01Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "ggc4bel65Sma4aFHv13vMRaCQFg",
+          "id": "UgyImZY-NymCEZxCsdR4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "-XfWIN3uwGk",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "c4XK_WQ9QB1ndxlNy4f5UrhUCUQ",
+              "id": "UgyImZY-NymCEZxCsdR4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "-XfWIN3uwGk",
+                "textDisplay": "आप किस राज्य से हैं? कमेंट करें, हम बताएँगे वहाँ आयुष्मान में कितने लाख का इलाज 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/ayushman-card-kiska-banega/\">https://parachar.com/ayushman-card-kiska-banega/</a>",
+                "textOriginal": "आप किस राज्य से हैं? कमेंट करें, हम बताएँगे वहाँ आयुष्मान में कितने लाख का इलाज 👇\n\nफ्री कैलकुलेटर: https://parachar.com/ayushman-card-kiska-banega/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-23T07:32:00Z",
+                "updatedAt": "2026-10-23T07:32:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "87qcm-e6U9eB3dohP0HVK_XTuB8",
+          "id": "Ugxqyi4sQs1kW9_WO4h4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "t7uV7SKqRTk",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "MOxAb63Y-K7sEvLT3RDYbRZw6YY",
+              "id": "Ugxqyi4sQs1kW9_WO4h4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "t7uV7SKqRTk",
+                "textDisplay": "आप कौन सा काम करते हैं: बढ़ई, दर्ज़ी, नाई या कुम्हार? कमेंट में लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/pm-vishwakarma-loan-calculator/\">https://parachar.com/pm-vishwakarma-loan-calculator/</a>",
+                "textOriginal": "आप कौन सा काम करते हैं: बढ़ई, दर्ज़ी, नाई या कुम्हार? कमेंट में लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/pm-vishwakarma-loan-calculator/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-23T03:32:00Z",
+                "updatedAt": "2026-10-23T03:32:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "mJeM62fBhPgt_8MoVA4RFxNB7ng",
+          "id": "Ugwk-b_-y6jpaCFQ8Ad4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "J-ZGKPkC-n4",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "kiMBPeHwIJGRXDsn2IT9tFv_HzY",
+              "id": "Ugwk-b_-y6jpaCFQ8Ad4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "J-ZGKPkC-n4",
+                "textDisplay": "आप हर महीने कहाँ बचत करते हैं: SIP, FD या RD? कमेंट में एक शब्द लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/sip-calculator-hindi/\">https://parachar.com/sip-calculator-hindi/</a>",
+                "textOriginal": "आप हर महीने कहाँ बचत करते हैं: SIP, FD या RD? कमेंट में एक शब्द लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/sip-calculator-hindi/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-22T14:02:00Z",
+                "updatedAt": "2026-10-22T14:02:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "AasUspNIldDAJOudI8KQ4Whv3pM",
+          "id": "UgxWKHSIvG_rA7jNMzZ4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "H9T3oJvgHPg",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "puRsaIikaKhTRzM022OrR3Wq70Y",
+              "id": "UgxWKHSIvG_rA7jNMzZ4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "H9T3oJvgHPg",
+                "textDisplay": "आपकी PMEGP फ़ाइल अभी किस स्टेटस पर है? कमेंट में स्टेटस लिखिए, हम मतलब बताएँगे 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/pmegp-application-status-kaise-check-kare-matlab/\">https://parachar.com/pmegp-application-status-kaise-check-kare-matlab/</a>",
+                "textOriginal": "आपकी PMEGP फ़ाइल अभी किस स्टेटस पर है? कमेंट में स्टेटस लिखिए, हम मतलब बताएँगे 👇\n\nफ्री कैलकुलेटर: https://parachar.com/pmegp-application-status-kaise-check-kare-matlab/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-22T07:32:00Z",
+                "updatedAt": "2026-10-22T07:32:00Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "2qHpeqXkhlphjkJE9Oy6k-a_TtE",
+          "id": "UgyX2hCwahKah2Dnk-V4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "JUtB-ZyJk54",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "H6nGayRYTGw4P6521rjEx2SzwOs",
+              "id": "UgyX2hCwahKah2Dnk-V4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "JUtB-ZyJk54",
+                "textDisplay": "आपका महीने का बिजली बिल कितनी यूनिट आता है? कमेंट में यूनिट लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/pm-surya-ghar-subsidy-kitni-milegi/\">https://parachar.com/pm-surya-ghar-subsidy-kitni-milegi/</a>",
+                "textOriginal": "आपका महीने का बिजली बिल कितनी यूनिट आता है? कमेंट में यूनिट लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/pm-surya-ghar-subsidy-kitni-milegi/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-22T03:32:01Z",
+                "updatedAt": "2026-10-22T03:32:01Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "8VRVIRbtc7MeTShfjJ6ObxP3wIU",
+          "id": "Ugy8c8TfPAX3qlfS5Sh4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "5N_A68GeRyQ",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "9th_4WnmlKDdt-d42qmh7Sdsyzs",
+              "id": "Ugy8c8TfPAX3qlfS5Sh4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "5N_A68GeRyQ",
+                "textDisplay": "आपकी महीने की बेसिक+DA सैलरी कितनी है? कमेंट में लिखिए, हम बताएँगे बोनस कितना बनता है 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/diwali-bonus-kitna-milega-calculator/\">https://parachar.com/diwali-bonus-kitna-milega-calculator/</a>",
+                "textOriginal": "आपकी महीने की बेसिक+DA सैलरी कितनी है? कमेंट में लिखिए, हम बताएँगे बोनस कितना बनता है 👇\n\nफ्री कैलकुलेटर: https://parachar.com/diwali-bonus-kitna-milega-calculator/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-21T14:02:01Z",
+                "updatedAt": "2026-10-21T14:02:01Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "-rakdBWVvhfxquY_-6qgTL0i0Lk",
+          "id": "UgwOccygh1gN-xFQJL94AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "C8Rzx0rcthI",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "2E-ve2sbBC-DXblUgCKGHvgCoPo",
+              "id": "UgwOccygh1gN-xFQJL94AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "C8Rzx0rcthI",
+                "textDisplay": "आपका उद्यम रजिस्ट्रेशन किस साल का है, या पुराना उद्योग आधार है? कमेंट में साल लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/udyam-registration-kaise-kare-free-documents-nic-code-certificate-download/\">https://parachar.com/udyam-registration-kaise-kare-free-documents-nic-code-certificate-download/</a>",
+                "textOriginal": "आपका उद्यम रजिस्ट्रेशन किस साल का है, या पुराना उद्योग आधार है? कमेंट में साल लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/udyam-registration-kaise-kare-free-documents-nic-code-certificate-download/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-21T07:32:01Z",
+                "updatedAt": "2026-10-21T07:32:01Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "UQQJYr1oQnQv5jIF_uhxPma9gNk",
+          "id": "UgwKg_bSUGCv7TB9KjZ4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "0vBbFudO_m4",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "bi-JZZwveSgc8gpBI3c9Y3jirMo",
+              "id": "UgwKg_bSUGCv7TB9KjZ4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "0vBbFudO_m4",
+                "textDisplay": "आपको कितने का मुद्रा लोन चाहिए और किस काम के लिए? कमेंट में रक़म लिखिए 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/mudra-loan-calculator/\">https://parachar.com/mudra-loan-calculator/</a>",
+                "textOriginal": "आपको कितने का मुद्रा लोन चाहिए और किस काम के लिए? कमेंट में रक़म लिखिए 👇\n\nफ्री कैलकुलेटर: https://parachar.com/mudra-loan-calculator/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-21T03:32:01Z",
+                "updatedAt": "2026-10-21T03:32:01Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "yvX_940xMDF-f0Hz4zYKwbZb6Oo",
+          "id": "Ugwsu9VAwUQWZaWzSxV4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "S5LUvVUjPMo",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "UGWiR295w9ToxQL19LRa5GcY6PM",
+              "id": "Ugwsu9VAwUQWZaWzSxV4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "S5LUvVUjPMo",
+                "textDisplay": "आप कौन सी स्कीम में पैसा लगाते हैं: PPF, NSC या MIS? कमेंट करें 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/post-office-scheme-calculator/\">https://parachar.com/post-office-scheme-calculator/</a>",
+                "textOriginal": "आप कौन सी स्कीम में पैसा लगाते हैं: PPF, NSC या MIS? कमेंट करें 👇\n\nफ्री कैलकुलेटर: https://parachar.com/post-office-scheme-calculator/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-20T14:02:01Z",
+                "updatedAt": "2026-10-20T14:02:01Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "p5khvcdQDzWTuc_2W36rssplpjQ",
+          "id": "Ugz-4MwHfQ44GovdLPN4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "ZadmDm49YEY",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "4p_VAo3YUTi7Z3OOW7Fk8owxHbM",
+              "id": "Ugz-4MwHfQ44GovdLPN4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "ZadmDm49YEY",
+                "textDisplay": "आपका बैंक कौन सा है? कमेंट में बताइए, हम उसकी UPI लिमिट बताएँगे 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/upi-limit-kitni-hai-per-day/\">https://parachar.com/upi-limit-kitni-hai-per-day/</a>",
+                "textOriginal": "आपका बैंक कौन सा है? कमेंट में बताइए, हम उसकी UPI लिमिट बताएँगे 👇\n\nफ्री कैलकुलेटर: https://parachar.com/upi-limit-kitni-hai-per-day/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-20T07:32:01Z",
+                "updatedAt": "2026-10-20T07:32:01Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "62KqsoMfa45fW58pb8-eqOFTx2w",
+          "id": "UgwS-0rZ_F0PQ8uzfdd4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "XobCfXhyCrQ",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "Z2uRL2lRGteqxZQvMdPZHe_Ih7w",
+              "id": "UgwS-0rZ_F0PQ8uzfdd4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "XobCfXhyCrQ",
+                "textDisplay": "आपकी उम्र कितनी है? कमेंट में लिखिए, हम बताएँगे ₹5,000 पेंशन के लिए हर महीने कितना जमा करना होगा 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/atal-pension-yojana-chart-calculator/\">https://parachar.com/atal-pension-yojana-chart-calculator/</a>",
+                "textOriginal": "आपकी उम्र कितनी है? कमेंट में लिखिए, हम बताएँगे ₹5,000 पेंशन के लिए हर महीने कितना जमा करना होगा 👇\n\nफ्री कैलकुलेटर: https://parachar.com/atal-pension-yojana-chart-calculator/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-20T03:32:01Z",
+                "updatedAt": "2026-10-20T03:32:01Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        },
+        {
+          "kind": "youtube#commentThread",
+          "etag": "MSLCHb33ewBZXQYJYh0_o6e3Tog",
+          "id": "UgxsPLhD0Po_-CFDHaJ4AaABAg",
+          "snippet": {
+            "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+            "videoId": "20qvF8APVjQ",
+            "topLevelComment": {
+              "kind": "youtube#comment",
+              "etag": "2A97VuZpVcyA8ruzwyup2mNC9lI",
+              "id": "UgxsPLhD0Po_-CFDHaJ4AaABAg",
+              "snippet": {
+                "channelId": "UCdqRVpQKsb5huTo6__pTpuA",
+                "videoId": "20qvF8APVjQ",
+                "textDisplay": "आप कौन-सा टैक्स रिजीम चुनते हैं, नया या पुराना? 👇<br><br>फ्री कैलकुलेटर: <a href=\"https://parachar.com/income-tax-calculator-hindi/\">https://parachar.com/income-tax-calculator-hindi/</a>",
+                "textOriginal": "आप कौन-सा टैक्स रिजीम चुनते हैं, नया या पुराना? 👇\n\nफ्री कैलकुलेटर: https://parachar.com/income-tax-calculator-hindi/",
+                "authorDisplayName": "@Parachar",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/-JrlaVY-jZZd-ZEnYRm4q2Uk10FthczyJY_p1DPLvf-G7CgiZ6M5CSR8ezdxQ1wf6f5XWAHdYfI=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/@Parachar",
+                "authorChannelId": {
+                  "value": "UCdqRVpQKsb5huTo6__pTpuA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2026-10-19T15:27:35Z",
+                "updatedAt": "2026-10-19T15:27:35Z"
+              }
+            },
+            "canReply": true,
+            "totalReplyCount": 0,
+            "isPublic": true
+          }
+        }
+      ]
+    }
+  }
+}
