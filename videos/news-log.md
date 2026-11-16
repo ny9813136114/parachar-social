@@ -8,3 +8,4 @@
 2026-11-13: nothing (no new yojana-desk entry since 11 Nov; Mudra CGFMU fee cut skipped, >36 h and today already has Mudra Short; PIB 12-13 Nov: no money/deadline news)
 2026-11-14: nothing (no new yojana-desk entry since 11 Nov; PIB 13-14 Nov: no money/deadline news)
 2026-11-15: nothing (no new yojana-desk entry since 11 Nov; PIB 14-15 Nov: only Odisha PMAY-G 5 lakh houses, state-only, skipped)
+2026-11-16: nothing (no new yojana-desk entry since 11 Nov; PIB 15-16 Nov: no money/deadline news)
