@@ -1,0 +1,58 @@
+{
+  "id": "form-vs-whatsapp",
+  "style": "services",
+  "industry": "All businesses",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "kicker": "Website owners 👇",
+      "text": "*\"Contact us\" form* bhara. Reply *kab* gaya?",
+      "say": "Website pe contact us form bhara. Reply kab gaya?"
+    },
+    {
+      "type": "compare",
+      "dur": 5.4,
+      "title": "Ek hi customer, 2 raaste",
+      "bad": {
+        "label": "Form",
+        "value": "Email inbox",
+        "text": "Reply 1-2 din baad. Customer bhool chuka."
+      },
+      "good": {
+        "label": "WhatsApp",
+        "value": "Phone pe turant",
+        "text": "Pehla message seedha owner ko"
+      },
+      "say": "Form email mein jaata hai, reply din baad. WhatsApp button se chat seedha phone pe."
+    },
+    {
+      "type": "list",
+      "dur": 5.8,
+      "title": "Best: *dono* jodo",
+      "items": [
+        "Form bhara → *owner ko WhatsApp alert*",
+        "Customer ko *turant auto reply*",
+        "Har form *sheet* mein"
+      ],
+      "say": "Best ye hai ki dono jodo. Form bhara to owner ko WhatsApp alert, customer ko turant reply, aur sheet mein entry."
+    },
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "kicker": "Check karo",
+      "text": "Aaj *apni website* pe form bharo. *Reply kab* aaya?",
+      "say": "Aaj apni website pe khud form bharo. Dekho reply kab aaya."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Form ko *phone* tak lao",
+      "keyword": "FORM",
+      "sub": "Comment FORM: kaise jodte hain",
+      "say": "Comment karo FORM, batayenge. Ya seedha WhatsApp karo, hum aapke liye set kar denge."
+    }
+  ],
+  "caption": "Website ka \"Contact us\" form email mein jaata hai. Email 2 din baad khulta hai. Customer tab tak kahin aur. 📩\n\nFix: form + WhatsApp dono\n✅ Form bhara → owner ko WhatsApp alert\n✅ Customer ko turant auto reply\n✅ Har form Google Sheet mein\n\nAaj ka test: apni website pe khud form bharo. Reply kab aaya?\n\nComment \"FORM\" 👇\n\n📲 Ye problem aapke business mein bhi hai? WhatsApp karo: 98131 36114, hum set kar denge.\n\n🏢 Parachar: local businesses ke liye websites, WhatsApp automation aur lead follow-up systems. Leads aayein, chhootein nahi.\n🌐 parachar.in (link bio mein)\n\n#websitedesign #leadgeneration #whatsappautomation #smallbusiness #parachar"
+}

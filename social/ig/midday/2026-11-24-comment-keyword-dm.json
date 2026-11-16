@@ -1,0 +1,66 @@
+{
+  "id": "comment-keyword-dm",
+  "style": "services",
+  "industry": "All businesses",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "kicker": "Demo 👇",
+      "text": "Reel pe *\"PRICE\"* comment aaya. *2 second* mein DM gaya.",
+      "say": "Reel pe price comment aaya, aur do second mein DM chala gaya."
+    },
+    {
+      "type": "chat",
+      "dur": 6.8,
+      "title": "Customer ke DM mein:",
+      "name": "Your Business",
+      "status": "Instagram DM · auto",
+      "gap": 1.2,
+      "msgs": [
+        {
+          "from": "us",
+          "text": "Hi! 👋 Price list 📎 yahan hai.",
+          "time": "3:02 pm"
+        },
+        {
+          "from": "us",
+          "text": "Aapke liye kaunsa? *1* basic · *2* premium · *3* call back",
+          "time": "3:02 pm"
+        },
+        {
+          "from": "them",
+          "text": "2",
+          "time": "3:05 pm"
+        },
+        {
+          "from": "us",
+          "text": "Premium ✅ Kal ka slot: *11 am ya 4 pm*?",
+          "time": "3:05 pm"
+        }
+      ],
+      "say": "Customer ko turant price list aur options. Aapko kuch type nahi karna."
+    },
+    {
+      "type": "list",
+      "dur": 5.6,
+      "title": "Kyun kaam karta hai:",
+      "items": [
+        "Comment karne wala *abhi* interested hai",
+        "Late reply = wo *agli reel* pe chala gaya",
+        "Comment badhte hain = *reach* badhti hai"
+      ],
+      "say": "Comment karne wala abhi interested hai. Late reply mein wo aage badh gaya. Aur comments se reach bhi badhti hai."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Ye aapke page pe chahiye?",
+      "keyword": "AUTO",
+      "sub": "Comment AUTO: kaise set hota hai",
+      "say": "Comment karo AUTO, setup batayenge. Ya seedha WhatsApp karo, hum aapke liye set kar denge."
+    }
+  ],
+  "caption": "Reel pe \"PRICE\" comment aaya. 2 second mein customer ke DM mein price list + options. Aapne kuch type nahi kiya. ⚡\n\nKyun zaroori hai:\n✅ Comment karne wala abhi interested hai\n✅ 3 ghante baad reply = wo kahin aur chala gaya\n✅ Zyaada comments = zyaada reach\n\nComment \"AUTO\" 👇 setup kaise hota hai, batayenge.\n\n📲 Ye problem aapke business mein bhi hai? WhatsApp karo: 98131 36114, hum set kar denge.\n\n🏢 Parachar: local businesses ke liye websites, WhatsApp automation aur lead follow-up systems. Leads aayein, chhootein nahi.\n🌐 parachar.in (link bio mein)\n\n#instagramautomation #instagramtips #dmautomation #smallbusiness #parachar"
+}

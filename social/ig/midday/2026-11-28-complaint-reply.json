@@ -1,0 +1,73 @@
+{
+  "id": "complaint-reply",
+  "style": "services",
+  "industry": "All businesses",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "kicker": "Customer *gussa* hai 👇",
+      "text": "Shikayat ka reply *aise* karo. 3 step.",
+      "say": "Customer gussa hai? Shikayat ka reply aise karo. Teen step."
+    },
+    {
+      "type": "chat",
+      "dur": 7.0,
+      "title": "Step by step:",
+      "name": "Your Business",
+      "status": "WhatsApp Business",
+      "gap": 1.2,
+      "msgs": [
+        {
+          "from": "them",
+          "text": "2 ghante late delivery, khana thanda 😡",
+          "time": "8:40 pm"
+        },
+        {
+          "from": "us",
+          "text": "1️⃣ Sorry [naam] ji, *aapka gussa sahi hai*. Late hua.",
+          "time": "8:42 pm"
+        },
+        {
+          "from": "us",
+          "text": "2️⃣ Is order ka *poora refund* bhej diya ✅",
+          "time": "8:43 pm"
+        },
+        {
+          "from": "us",
+          "text": "3️⃣ Kal ek *free dessert* aapke agle order ke saath 🙏",
+          "time": "8:43 pm"
+        }
+      ],
+      "say": "Pehle maano. Phir turant theek karo. Phir ek chhota extra."
+    },
+    {
+      "type": "list",
+      "dur": 4.8,
+      "title": "Kabhi mat karo:",
+      "items": [
+        "*Bahana*: \"rider late tha\"",
+        "*Bahas*: \"aapne galat address diya\"",
+        "*Der*: kal reply karna"
+      ],
+      "say": "Bahana mat do. Bahas mat karo. Aur der se reply mat karo."
+    },
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "kicker": "Sach",
+      "text": "Achhe se *sambhali shikayat* = *pakka customer*.",
+      "say": "Achhe se sambhali gayi shikayat, customer ko aur pakka bana deti hai."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Reply *ready* rakho",
+      "keyword": "SORRY",
+      "sub": "Comment SORRY: 5 situations ke templates",
+      "say": "Comment karo SORRY, templates bhejenge. Ya seedha WhatsApp karo, hum aapke liye set kar denge."
+    }
+  ],
+  "caption": "Shikayat aayi? Ye mauka hai. Achhe se sambhali shikayat customer ko aur pakka bana deti hai. 🙏\n\n3 step:\n1️⃣ Maano: \"aapka gussa sahi hai\"\n2️⃣ Turant theek karo\n3️⃣ Ek chhota extra\n\n❌ Bahana, bahas, der\n\nSave karo 🔖 staff ko bhi bhejo.\nComment \"SORRY\" 👇\n\n📲 Ye problem aapke business mein bhi hai? WhatsApp karo: 98131 36114, hum set kar denge.\n\n🏢 Parachar: local businesses ke liye websites, WhatsApp automation aur lead follow-up systems. Leads aayein, chhootein nahi.\n🌐 parachar.in (link bio mein)\n\n#customerservice #smallbusiness #restaurantbusiness #customerexperience #parachar"
+}

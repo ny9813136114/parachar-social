@@ -1,0 +1,64 @@
+{
+  "id": "baad-mein-batata-hoon",
+  "style": "services",
+  "industry": "All businesses",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "kicker": "Har business owner 👇",
+      "text": "Customer bola *\"baad mein batata hoon\"*. Phir?",
+      "say": "Customer bola baad mein batata hoon. Phir kya karte ho?"
+    },
+    {
+      "type": "hook",
+      "dur": 3.8,
+      "kicker": "Sach",
+      "text": "Zyaadatar log *mana nahi karte*. Bas *bhool* jaate hain.",
+      "say": "Zyaadatar log mana nahi karte. Bas bhool jaate hain."
+    },
+    {
+      "type": "chat",
+      "dur": 7.2,
+      "title": "3 follow-up, *bina chipke*:",
+      "name": "Your Business",
+      "status": "WhatsApp Business",
+      "gap": 1.2,
+      "msgs": [
+        {
+          "from": "us",
+          "text": "Day 1: Aapne [X] ke baare mein poocha tha. *Photos + price* 📎 ek jagah bhej diya.",
+          "time": "6:00 pm"
+        },
+        {
+          "from": "us",
+          "text": "Day 3: Ek sawaal aksar aata hai: *[delivery/time]*. Jawab: [..]",
+          "time": "11:00 am"
+        },
+        {
+          "from": "us",
+          "text": "Day 7: Is baar ke liye *band kar doon*? Baad mein kabhi bhi message kar dena 🙂",
+          "time": "11:00 am"
+        }
+      ],
+      "say": "Pehle din sab ek jagah. Teesre din ek sawaal ka jawab. Saatve din: band kar doon?"
+    },
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "kicker": "Raaz",
+      "text": "\"Band kar doon?\" pe *sabse zyaada* reply aate hain.",
+      "say": "Raaz ye hai. Band kar doon wale message pe sabse zyaada reply aate hain."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Follow-up *likh ke rakh lo*",
+      "keyword": "FOLLOW",
+      "sub": "Comment FOLLOW: teeno templates",
+      "say": "Comment karo FOLLOW, teeno templates bhejenge. Ya seedha WhatsApp karo, hum aapke liye set kar denge."
+    }
+  ],
+  "caption": "\"Baad mein batata hoon\" = zyaadatar case mein customer bhool jaata hai, mana nahi karta. 🤝\n\n3 follow-up, bina chipke:\n1️⃣ Day 1: photos + price ek jagah\n2️⃣ Day 3: ek common sawaal ka jawab\n3️⃣ Day 7: \"Is baar ke liye band kar doon?\"\n\nTeesra message sabse zyaada reply laata hai, kyunki \"na\" bolna aasaan ho jaata hai.\n\nSave karo 🔖\nComment \"FOLLOW\" 👇 templates bhejenge.\n\n📲 Ye problem aapke business mein bhi hai? WhatsApp karo: 98131 36114, hum set kar denge.\n\n🏢 Parachar: local businesses ke liye websites, WhatsApp automation aur lead follow-up systems. Leads aayein, chhootein nahi.\n🌐 parachar.in (link bio mein)\n\n#followup #salestips #smallbusiness #whatsappbusiness #parachar"
+}

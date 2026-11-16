@@ -1,0 +1,62 @@
+{
+  "id": "whatsapp-qr-link",
+  "style": "services",
+  "industry": "All businesses",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "kicker": "Visiting card, bill, board 👇",
+      "text": "Number likha hai. *Koi save karke* message nahi karta.",
+      "say": "Visiting card pe number likha hai. Koi save karke message nahi karta."
+    },
+    {
+      "type": "compare",
+      "dur": 5.6,
+      "title": "Number vs *chat link*",
+      "bad": {
+        "label": "Abhi",
+        "value": "Save → khojo → likho",
+        "text": "3 kadam. Aadhe log beech mein chhod dete hain"
+      },
+      "good": {
+        "label": "Hona chahiye",
+        "value": "QR scan → chat khuli",
+        "text": "Message pehle se likha: \"Hi, price batao\""
+      },
+      "say": "Number save karna teen kadam hai. QR scan se chat seedha khulti hai, message pehle se likha."
+    },
+    {
+      "type": "list",
+      "dur": 5.4,
+      "title": "Kaise banao (free):",
+      "items": [
+        "Link: *wa.me/91[number]*",
+        "Aage jodo: *?text=Hi, price batao*",
+        "Kisi free QR site pe *QR* banao"
+      ],
+      "say": "Link banao, aage message jodo, aur free QR site pe QR bana lo."
+    },
+    {
+      "type": "list",
+      "dur": 4.6,
+      "title": "Kahan lagao:",
+      "items": [
+        "Counter + *bill* pe",
+        "Visiting card + *board*",
+        "Insta bio + *Google profile*"
+      ],
+      "say": "Counter, bill, visiting card, board, Insta bio aur Google profile pe."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Har jagah *1 scan* = chat",
+      "keyword": "QR",
+      "sub": "Comment QR: hum aapka link + QR bana denge",
+      "say": "Comment karo QR, hum free bana denge. Ya seedha WhatsApp karo, hum aapke liye set kar denge."
+    }
+  ],
+  "caption": "Card pe number likha hai, par koi save karke message nahi karta. Kyunki 3 kadam hain. 📲\n\nFree fix: WhatsApp chat link + QR\n1️⃣ wa.me/91[number]\n2️⃣ ?text=Hi, price batao (message pehle se likha)\n3️⃣ Free QR site pe QR banao\n4️⃣ Counter, bill, card, board, Insta bio, Google profile: har jagah\n\nSave karo 🔖\nComment \"QR\" 👇 hum aapka link + QR bana denge.\n\n📲 Ye problem aapke business mein bhi hai? WhatsApp karo: 98131 36114, hum set kar denge.\n\n🏢 Parachar: local businesses ke liye websites, WhatsApp automation aur lead follow-up systems. Leads aayein, chhootein nahi.\n🌐 parachar.in (link bio mein)\n\n#whatsappbusiness #qrcode #smallbusiness #localbusiness #parachar"
+}

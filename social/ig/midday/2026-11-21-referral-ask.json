@@ -1,0 +1,72 @@
+{
+  "id": "referral-ask",
+  "style": "services",
+  "industry": "All businesses",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "kicker": "Sabse sasta customer 👇",
+      "text": "*Referral*. Par aap *maangte* hi nahi.",
+      "say": "Sabse sasta customer referral se aata hai. Par aap maangte hi nahi."
+    },
+    {
+      "type": "compare",
+      "dur": 5.4,
+      "title": "Kaise maangte ho?",
+      "bad": {
+        "label": "Galat",
+        "value": "\"Kisi ko batana\"",
+        "text": "Customer bolta hai \"haan zaroor\", aur bhool jaata hai"
+      },
+      "good": {
+        "label": "Sahi",
+        "value": "Specific + aasaan",
+        "text": "Kisko, kab, aur unke liye kya"
+      },
+      "say": "Kisi ko batana bolne se kuch nahi hota. Specific aur aasaan bano."
+    },
+    {
+      "type": "chat",
+      "dur": 6.6,
+      "title": "Kaam ke *baad* ye bhejo:",
+      "name": "Your Business",
+      "status": "WhatsApp Business",
+      "gap": 1.2,
+      "msgs": [
+        {
+          "from": "us",
+          "text": "Aapka kaam pasand aaya, bahut khushi hui 🙏",
+          "time": "7:10 pm"
+        },
+        {
+          "from": "us",
+          "text": "Aapki *koi dost ya relative* jinhe [service] chahiye? Unhe ye message forward kar dijiye. *Unko pehli baar 10% off*, aapko agli visit pe bhi 10% 🎁",
+          "time": "7:10 pm"
+        }
+      ],
+      "say": "Kaam ke baad, jab customer khush hai. Forward karne layak message, aur dono ko fayda."
+    },
+    {
+      "type": "list",
+      "dur": 4.8,
+      "title": "Rules:",
+      "items": [
+        "*Khush* hone ke din hi maango",
+        "Forward karne layak *ready message*",
+        "*Dono* ko kuch milna chahiye"
+      ],
+      "say": "Khush hone ke din maango. Ready message do. Aur dono ko fayda ho."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Referral ko *system* banao",
+      "keyword": "REFER",
+      "sub": "Comment REFER: forward wala message template",
+      "say": "Comment karo REFER, template bhejenge. Ya seedha WhatsApp karo, hum aapke liye set kar denge."
+    }
+  ],
+  "caption": "Sabse sasta aur sabse bharosemand customer: referral. Par zyaadatar business bas bolte hain \"kisi ko batana\". 🎁\n\nSahi tareeka:\n1️⃣ Kaam ke din hi maango, jab customer khush hai\n2️⃣ Forward karne layak ready message do\n3️⃣ Dono ko kuch milna chahiye\n\nSave karo 🔖\nComment \"REFER\" 👇 template bhejenge.\n\n📲 Ye problem aapke business mein bhi hai? WhatsApp karo: 98131 36114, hum set kar denge.\n\n🏢 Parachar: local businesses ke liye websites, WhatsApp automation aur lead follow-up systems. Leads aayein, chhootein nahi.\n🌐 parachar.in (link bio mein)\n\n#referralmarketing #smallbusiness #wordofmouth #customerloyalty #parachar"
+}

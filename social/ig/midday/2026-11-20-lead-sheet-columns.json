@@ -1,0 +1,50 @@
+{
+  "id": "lead-sheet-columns",
+  "type": "carousel",
+  "industry": "All businesses",
+  "save": "Save karo 🔖",
+  "slides": [
+    {
+      "kind": "cover",
+      "title": "Har business ko *1 lead sheet* chahiye. Bas 6 columns.",
+      "sub": "Diary aur WhatsApp chats mein leads kho jaati hain. Google Sheet free hai."
+    },
+    {
+      "kind": "point",
+      "title": "1. *Date* + 2. *Naam/number*",
+      "sub": "Basic lagta hai. Par bahut dukaanon mein ye bhi kahin likha nahi hota.",
+      "box": "16 Nov · Ritu · 98xxxxxx"
+    },
+    {
+      "kind": "point",
+      "title": "3. *Kahan se* aaya",
+      "sub": "Insta, Google, walk-in, referral. Mahine baad pata chalega paisa kahan lagana hai.",
+      "box": "Source: Google Maps"
+    },
+    {
+      "kind": "point",
+      "title": "4. *Kya chahiye*",
+      "sub": "Ek line. Next call pe customer ko lagega aapko yaad hai.",
+      "box": "Bridal trial, Dec 12"
+    },
+    {
+      "kind": "point",
+      "title": "5. *Status* + 6. *Next date*",
+      "sub": "Status: Naya / Baat hui / Booked / Nahi. Aur agla follow-up kab.",
+      "box": "Baat hui · Follow-up: 18 Nov"
+    },
+    {
+      "kind": "point",
+      "title": "Roz *5 minute*",
+      "sub": "Subah sheet kholo, \"next date = aaj\" filter karo. Wahi log call karo.",
+      "box": "Filter: Next date = TODAY"
+    },
+    {
+      "kind": "cta",
+      "title": "Ye sheet *apne aap* bhare?",
+      "keyword": "SHEET",
+      "sub": "Comment SHEET: free template + auto-fill kaise hota hai"
+    }
+  ],
+  "caption": "Leads diary mein, WhatsApp mein, staff ke phone mein. Aur mahine ke end mein pata nahi kaun reh gaya. 📒\n\nLead sheet ke 6 columns:\n1️⃣ Date\n2️⃣ Naam + number\n3️⃣ Kahan se aaya\n4️⃣ Kya chahiye\n5️⃣ Status\n6️⃣ Next follow-up date\n\nRoz subah 5 min: \"next date = aaj\" filter, wahi log call karo.\n\nSave karo 🔖\nComment \"SHEET\" 👇 free template.\n\n📲 Ye problem aapke business mein bhi hai? WhatsApp karo: 98131 36114, hum set kar denge.\n\n🏢 Parachar: local businesses ke liye websites, WhatsApp automation aur lead follow-up systems. Leads aayein, chhootein nahi.\n🌐 parachar.in (link bio mein)\n\n#smallbusiness #leadmanagement #googlesheets #businesstips #parachar"
+}

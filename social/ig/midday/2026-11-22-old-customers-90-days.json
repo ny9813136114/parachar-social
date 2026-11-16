@@ -1,0 +1,68 @@
+{
+  "id": "old-customers-90-days",
+  "style": "services",
+  "industry": "All businesses",
+  "voice": "en-IN-NeerjaNeural",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "kicker": "Sunday ka kaam 👇",
+      "text": "3 mahine se *nahi aaye* customers ki list nikaalo.",
+      "say": "Sunday ka kaam. Teen mahine se nahi aaye customers ki list nikaalo."
+    },
+    {
+      "type": "hook",
+      "dur": 3.0,
+      "kicker": "Kyun?",
+      "text": "Naya customer laane se *purana bulana* sasta hai.",
+      "say": "Kyunki naya customer laane se purana customer wapas bulana sasta hai."
+    },
+    {
+      "type": "chat",
+      "dur": 6.4,
+      "title": "Unhe *ye* bhejo:",
+      "name": "Your Business",
+      "status": "WhatsApp Business",
+      "gap": 1.2,
+      "msgs": [
+        {
+          "from": "us",
+          "text": "Hi [naam] 🙂 kaafi time ho gaya! Pichli baar aapne *[service]* liya tha.",
+          "time": "11:00 am"
+        },
+        {
+          "from": "us",
+          "text": "Is mahine aapke liye *[chhota offer]*, sirf [date] tak. Slot chahiye to \"HA\" likh dijiye.",
+          "time": "11:00 am"
+        },
+        {
+          "from": "them",
+          "text": "HA",
+          "time": "11:42 am"
+        }
+      ],
+      "say": "Naam, pichli service, chhota offer, aur ek word ka reply."
+    },
+    {
+      "type": "list",
+      "dur": 4.8,
+      "title": "Dhyan rakho:",
+      "items": [
+        "Har customer ko *alag naam* se",
+        "Offer ki *last date*",
+        "Mahine mein *1 baar se zyaada* nahi"
+      ],
+      "say": "Har message naam ke saath. Offer ki last date. Aur mahine mein ek baar se zyaada nahi."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "text": "Purane customers = *chhupa paisa*",
+      "keyword": "WAPAS",
+      "sub": "Comment WAPAS: message + list banane ka tareeka",
+      "say": "Comment karo WAPAS, template bhejenge. Ya seedha WhatsApp karo, hum aapke liye set kar denge."
+    }
+  ],
+  "caption": "Aapke phone mein sabse bada chhupa paisa: wo customers jo 3 mahine se nahi aaye. 💸\n\nSunday ka 20 min ka kaam:\n1️⃣ List nikaalo: 90 din se nahi aaye\n2️⃣ Naam + pichli service + chhota offer\n3️⃣ \"HA\" reply ka option\n4️⃣ Last date zaroor\n\nMahine mein 1 baar se zyaada nahi. Save karo 🔖\nComment \"WAPAS\" 👇\n\n📲 Ye problem aapke business mein bhi hai? WhatsApp karo: 98131 36114, hum set kar denge.\n\n🏢 Parachar: local businesses ke liye websites, WhatsApp automation aur lead follow-up systems. Leads aayein, chhootein nahi.\n🌐 parachar.in (link bio mein)\n\n#customerretention #smallbusiness #whatsappmarketing #repeatcustomers #parachar"
+}
