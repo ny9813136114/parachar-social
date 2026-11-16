@@ -4,5 +4,11 @@
   "look": "phone",
   "palette": "orange",
   "at": "2026-11-14"
+ },
+ {
+  "id": "leak-late-reply",
+  "look": "block",
+  "palette": "teal",
+  "at": "2026-11-16"
  }
 ]
