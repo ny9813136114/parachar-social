@@ -30,8 +30,17 @@ async function call(method, p, body, base = Y) {
 }
 
 // Resumable upload of a local MP4: Private, scheduled with publishAt, Hindi language set in the same call.
+// YouTube rejects titles over 100 characters or with < > (15 Nov long video failed on a 113-char title).
+function safeTitle(t) {
+  t = String(t || '').replace(/[<>]/g, '').trim();
+  if ([...t].length <= 100) return t;
+  const cut = [...t].slice(0, 100).join('');
+  const i = Math.max(cut.lastIndexOf(' |'), cut.lastIndexOf(','), cut.lastIndexOf(':'));
+  return (i > 40 ? cut.slice(0, i) : cut).trim();
+}
+
 async function upload(m) {
-  const meta = { snippet: { title: m.title, description: m.description, tags: m.tags, categoryId: '27',
+  const meta = { snippet: { title: safeTitle(m.title), description: m.description, tags: m.tags, categoryId: '27',
       defaultLanguage: m.language || 'hi', defaultAudioLanguage: m.language || 'hi' },
     status: { privacyStatus: 'private', ...(m.publishAt ? { publishAt: m.publishAt } : {}), embeddable: true,
       selfDeclaredMadeForKids: false, containsSyntheticMedia: false } };

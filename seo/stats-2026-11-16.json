@@ -1,0 +1,5 @@
+[
+ {"name":"s0","method":"GET","path":"/v3/videos?part=snippet,statistics,contentDetails&id=ctTgNyM4ugo,fMrDhWO3Z6U,AiXwoYbLuqc,dafbpHFlG1E,xkID7Qwzmz0,LJjzQ9WkcMk,-0PCdPHOftA,OMorAssFIKE,5m8GwFJuda0,CTwcfApiKDA,j48Sb5mde8c,khfZ4IT5beY"},
+ {"name":"ch","method":"GET","path":"/v3/channels?part=statistics,snippet&mine=true"},
+ {"name":"ct","method":"GET","path":"/v3/commentThreads?part=snippet&allThreadsRelatedToChannelId=UCdqRVpQKsb5huTo6__pTpuA&maxResults=50"}
+]
