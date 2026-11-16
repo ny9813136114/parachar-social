@@ -1,0 +1,116 @@
+{
+  "id": "fd-tds-50000-do-bank",
+  "template": "T1 kitna-milega",
+  "theme": "teal",
+  "voice": "hi-IN-SwaraNeural",
+  "trust": "स्रोत: आयकर अधिनियम 2025 (TDS सीमा, FY 2026-27), CBDT · जाँच: 16 नवंबर 2026 · यह अनुमान है",
+  "url": "https://parachar.com/fd-interest-tax-calculator/",
+  "search": "parachar fd tax",
+  "question": "आपकी FD कितने की है? रकम लिखिए, TDS बताएँगे 👇",
+  "campaign": "fd-tds",
+  "playlist": "बैंक, UPI और बचत योजनाएँ",
+  "title": "FD ब्याज पर TDS 2026-27: ₹50,000 तक नहीं कटेगा, सीनियर को ₹1 लाख | ₹8 लाख FD पर ₹5,600 #shorts",
+  "seoIntro": "FD TDS limit 2026-27: एक बैंक से साल का ब्याज ₹50,000 (सीनियर ₹1 लाख) तक TDS नहीं",
+  "description": "FY 2026-27 में बैंक FD के ब्याज पर TDS तभी कटता है जब एक बैंक से साल का ब्याज ₹50,000 से ज़्यादा हो (60+ के लिए ₹1,00,000)। ₹8 लाख FD 7% पर = ₹56,000 ब्याज, तो पूरे पर 10% यानी ₹5,600 TDS; PAN न दिया तो 20%। सीमा हर बैंक के लिए अलग है। TDS न कटे तब भी ब्याज आपकी आमदनी में जुड़ता है और ITR में दिखाना होता है। कुल आय टैक्स-फ्री सीमा से कम हो तो बैंक में Form 121 (पहले 15G/15H) दें। अपनी FD पर हिसाब, फ्री:",
+  "about": "FD TDS limit 2026, FD interest tax और Form 15G 15H (अब Form 121), आसान हिंदी में। रकम अनुमान है; ब्याज दर आपकी बैंक की।",
+  "hashtags": [
+    "#FD",
+    "#TDS",
+    "#IncomeTax",
+    "#FixedDeposit",
+    "#Bachat"
+  ],
+  "tags": [
+    "fd tds limit 2026",
+    "fd interest tds",
+    "fd par tds kitna katega",
+    "tds on fd senior citizen",
+    "form 15g 15h",
+    "form 121",
+    "fd interest tax",
+    "fd tds 50000"
+  ],
+  "broll": [
+    "indian bank branch",
+    "indian woman smartphone banking",
+    "indian senior couple",
+    "indian rupee notes",
+    "indian woman calculator"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.6,
+      "chip": "2026-27 TDS नियम",
+      "lines": [
+        "FD ब्याज *₹50,000* तक",
+        "बैंक TDS नहीं काटेगा"
+      ],
+      "sub": "सीनियर सिटीज़न: ₹1 लाख तक 👇",
+      "say": "इस साल FD का ब्याज पचास हज़ार तक है, तो बैंक TDS नहीं काटेगा। सीनियर सिटीज़न के लिए एक लाख तक।"
+    },
+    {
+      "type": "inputs",
+      "dur": 4.6,
+      "heading": "सुनीता, भोपाल",
+      "rows": [
+        [
+          "FD",
+          "₹8,00,000"
+        ],
+        [
+          "ब्याज दर",
+          "7%"
+        ],
+        [
+          "साल का ब्याज",
+          "₹56,000"
+        ]
+      ],
+      "say": "जैसे भोपाल की सुनीता, आठ लाख की FD, सात प्रतिशत। साल का ब्याज छप्पन हज़ार।"
+    },
+    {
+      "type": "count",
+      "dur": 4.6,
+      "chip": "₹50,000 से ऊपर गया",
+      "label": "बैंक काटेगा (10% TDS)",
+      "value": 5600,
+      "note": "PAN न दिया तो 20%, यानी ₹11,200",
+      "say": "पचास हज़ार से ऊपर गया, तो पूरे छप्पन हज़ार पर दस प्रतिशत, पाँच हज़ार छह सौ कटेंगे।"
+    },
+    {
+      "type": "split",
+      "dur": 5.0,
+      "heading": "दो बैंकों में ₹4-4 लाख",
+      "segments": [
+        {
+          "label": "बैंक A: ₹28,000 ब्याज",
+          "value": 28000,
+          "color": "#14b8a6"
+        },
+        {
+          "label": "बैंक B: ₹28,000 ब्याज",
+          "value": 28000,
+          "color": "#f59e0b"
+        }
+      ],
+      "callout": "हर बैंक में ₹50,000 से कम = TDS नहीं",
+      "say": "सीमा हर बैंक की अलग है। चार-चार लाख दो बैंकों में, तो कहीं TDS नहीं कटेगा।"
+    },
+    {
+      "type": "warn",
+      "dur": 4.8,
+      "icon": "⚠️",
+      "text": "TDS न कटे, फिर भी ब्याज *टैक्स* में जुड़ता है",
+      "sub": "आय टैक्स-फ्री सीमा से कम? बैंक में Form 121 (पहले 15G/15H)",
+      "say": "पर ध्यान रहे, TDS न कटे तब भी ब्याज आपकी आमदनी में जुड़ता है। ITR में दिखाइए।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "line": "अपनी FD पर<br><em>TDS और टैक्स देखें</em>",
+      "tool": "FD ब्याज टैक्स कैलकुलेटर",
+      "say": "अपनी FD का हिसाब Google पर parachar fd tax लिखकर देखिए।"
+    }
+  ]
+}
