@@ -113,6 +113,7 @@ async function post(date) {
     } catch (e) { console.log(`::warning::post is live but first comment failed: ${e.message}`); }
   }
   spec.posted = { at: new Date().toISOString(), urn: postUrn };
+  fs.mkdirSync('linkedin/published', { recursive: true });
   fs.writeFileSync(path.join('linkedin/published', f), JSON.stringify(spec, null, 2));
   fs.unlinkSync(path.join('linkedin/queue', f));
 }
