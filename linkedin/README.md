@@ -1,26 +1,31 @@
-# LinkedIn auto-post (owner's personal profile)
+# LinkedIn auto-post (Parachar company page)
 
-What runs automatically: one post on Mon/Tue/Thu/Sat at 08:45 IST from `linkedin/queue/<YYYY-MM-DD>-<slug>.json`
-(text, optional image or PDF carousel from `linkedin/media/`, optional first comment with the link). After posting
-the file moves to `linkedin/published/`. Files with `"needs_owner"` are skipped until that field is removed.
+What runs automatically: one post Mon-Sat at 08:43 IST from `linkedin/queue/<YYYY-MM-DD>-<slug>.json`
+(text, optional image or PDF carousel from `linkedin/media/`, optional first comment), posted AS the Parachar
+company page. After posting the file moves to `linkedin/published/`. Files with `"needs_owner"` are skipped.
 
-What is NOT automated (on purpose, LinkedIn bans bots): connection requests, DMs, comments on other people's posts,
-company-page posts (needs LinkedIn partner approval; repost personal posts to the page by hand).
+Owner rule (17 Nov 2026): posts go only to the company page, never the personal profile. If repo variable
+`LI_ORG` is not set, the workflow posts nothing and keeps the queue.
+
+What is NOT automated (on purpose, LinkedIn bans bots): connection requests, DMs, comments on other people's posts.
 
 Note: this repo is public, so queued drafts are visible to anyone who opens the repo.
 
-## One-time setup (owner, ~10 min)
-1. https://www.linkedin.com/developers/apps → **Create app**. App name: Parachar Poster. LinkedIn Page: Parachar
-   (create the company page first). Logo: logo-400x400.png. Accept terms → Create.
-2. App → **Products** → request **Share on LinkedIn** and **Sign In with LinkedIn using OpenID Connect** (both instant).
-3. App → **Auth** tab → under OAuth 2.0 tools click **OAuth Token Generator Tool** (or open
-   https://www.linkedin.com/developers/tools/oauth/token-generator) → pick the app → tick `openid`, `profile`,
-   `w_member_social` → Request access token → sign in → copy the token.
-4. GitHub repo → Settings → Secrets and variables → Actions:
-   - Secret `LI_TOKEN` = the token
-   - Variable `LI_TOKEN_DATE` = today's date (YYYY-MM-DD)
-   - Variable `LI_AUTO_POST` = `on` (set to `off` any time to pause)
-5. Actions → **LinkedIn post** → Run workflow → leave "dry run" ticked → check the log. Then run once with a real date.
+## One-time setup for the company page (owner)
+Posting as a page needs LinkedIn's **Community Management API** (free, but LinkedIn reviews the request).
+LinkedIn allows that product only on an app with no other products, so make a NEW app:
+1. https://www.linkedin.com/developers/apps/new → App name: Parachar Page Poster, LinkedIn Page: Parachar,
+   logo-400x400.png → Create.
+2. App → **Settings** → **Verify** next to the Parachar page → open the link as a page admin → Verify.
+3. App → **Products** → **Community Management API** → Request access → fill the form (use case: "Scheduling
+   our own company page posts"). Wait for LinkedIn's approval email.
+4. After approval: https://www.linkedin.com/developers/tools/oauth/token-generator → pick this app → tick
+   `w_organization_social` and `r_organization_social` → Request access token → copy it.
+5. GitHub repo → Settings → Secrets and variables → Actions:
+   - Secret `LI_TOKEN` = the new token. Variable `LI_TOKEN_DATE` = today (YYYY-MM-DD).
+   - Variable `LI_ORG` = the page number from the page admin URL `linkedin.com/company/<number>/admin/`.
+   - Variable `LI_AUTO_POST` = `on`.
+6. Actions → **LinkedIn post** → Run workflow (dry run ticked) → the log must show `urn:li:organization:<number>`.
 
 ## Every 60 days
 LinkedIn tokens for this product last 60 days and can't auto-refresh. From day 50 the run shows a warning; at day 60

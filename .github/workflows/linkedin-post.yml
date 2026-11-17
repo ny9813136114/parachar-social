@@ -1,6 +1,6 @@
 name: LinkedIn post
 
-# Mon-Sat 08:43 IST: posts today's file from linkedin/queue/ to the owner's personal LinkedIn profile.
+# Mon-Sat 08:43 IST: posts today's file from linkedin/queue/ to the Parachar LinkedIn COMPANY PAGE (repo variable LI_ORG). Never the personal profile.
 # Wednesday is the weekly LinkedIn video (4:5, rendered here from the file's "reel", voice + music + Pexels video).
 # OFF until repo variable LI_AUTO_POST = on and secret LI_TOKEN are set (see linkedin/README.md).
 
@@ -26,6 +26,7 @@ jobs:
     env:
       LI_TOKEN: ${{ secrets.LI_TOKEN }}
       LI_VERSION: ${{ vars.LI_VERSION }}
+      LI_ORG: ${{ vars.LI_ORG }}
       LI_TOKEN_DATE: ${{ vars.LI_TOKEN_DATE }}
       MUSIC: "on"
       TTS_ENGINE: edge
@@ -37,8 +38,15 @@ jobs:
           ref: ${{ github.event_name == 'schedule' && 'main' || github.ref }}
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
+      - name: Stop if the company page is not set up
+        id: gate
+        run: |
+          if [ -z "${{ vars.LI_ORG }}" ]; then
+            echo "::warning::LI_ORG not set: posts go only to the company page, so nothing is posted. Queue kept."
+            echo "skip=1" >> "$GITHUB_OUTPUT"; fi
       - name: Render today's LinkedIn video (only on video days)
         id: reel
+        if: steps.gate.outputs.skip != '1'
         run: |
           SPEC=$(node linkedin.js reel "${{ inputs.date }}")
           echo "spec=$SPEC" >> "$GITHUB_OUTPUT"
@@ -56,9 +64,10 @@ jobs:
           gh release view "$TAG" >/dev/null 2>&1 && gh release upload "$TAG" "out/$ID/$ID.mp4" --clobber \
             || gh release create "$TAG" "out/$ID/$ID.mp4" --title "LinkedIn video: $ID" --notes "LinkedIn video (auto)." 
       - name: Post
+        if: steps.gate.outputs.skip != '1'
         run: node linkedin.js post "${{ inputs.date }}"
       - name: Save queue state
-        if: env.DRY_RUN != '1'
+        if: env.DRY_RUN != '1' && steps.gate.outputs.skip != '1'
         run: |
           git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A linkedin && git commit -qm "LinkedIn: posted $(TZ=Asia/Kolkata date +%F)" && git push || echo "nothing to commit"
