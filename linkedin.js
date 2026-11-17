@@ -1,8 +1,10 @@
-// LinkedIn auto-post for the owner's PERSONAL profile (Share on LinkedIn, w_member_social).
+// LinkedIn auto-post for the Parachar COMPANY PAGE only (owner 17 Nov: never the personal profile).
+// Needs repo variable LI_ORG (the page's number from linkedin.com/company/<number>/admin/) and an LI_TOKEN made
+// with w_organization_social by an app that has the Community Management API. Without LI_ORG nothing is posted.
 // Usage: node linkedin.js post [YYYY-MM-DD]   -> posts linkedin/queue/<date>-*.json, moves it to linkedin/published/
 //        node linkedin.js reel [YYYY-MM-DD]   -> if that day's file has a "reel" (LinkedIn video), writes its render spec
 //                                                 and prints the path (the workflow renders it, then posts)
-//        node linkedin.js check               -> verifies the token and prints the author URN
+//        node linkedin.js check               -> verifies the token and prints the page URN it would post as
 // Env: LI_TOKEN (secret, 60-day token from LinkedIn's OAuth token generator), LI_VERSION (YYYYMM, optional),
 //      LI_TOKEN_DATE (YYYY-MM-DD the token was made; warns after 50 days), DRY_RUN=1 to only print.
 // No connection requests, DMs or comments on other people's posts: those stay manual (LinkedIn bans bots).
@@ -26,7 +28,17 @@ async function req(method, url, body, headers = {}, tries = 0) {
   if (!r.ok) throw new Error(`${method} ${url} -> ${r.status} ${t.slice(0, 500)}`);
   return { r, json: t ? (() => { try { return JSON.parse(t); } catch { return t; } })() : null };
 }
-async function me() { const { json } = await req('GET', `${API}/v2/userinfo`); return `urn:li:person:${json.sub}`; }
+const ORG = (process.env.LI_ORG || '').trim();
+const ORG_URN = ORG ? (ORG.startsWith('urn:') ? ORG : `urn:li:organization:${ORG.replace(/\D/g, '')}`) : '';
+// The page the token can post as. Throws if LI_ORG is not set, so nothing ever goes to a personal profile.
+async function me() {
+  if (!ORG_URN) throw new Error('LI_ORG not set: company page not configured, nothing posted (see linkedin/README.md)');
+  if (TOKEN) { // read check: the token must be able to see the page
+    try { await req('GET', `${API}/rest/organizations/${ORG_URN.split(':').pop()}`); }
+    catch (e) { console.log(`::warning::could not read page ${ORG_URN} with this token (${e.message.slice(0, 200)})`); }
+  }
+  return ORG_URN;
+}
 
 async function upload(kind, author, file) { // kind: images | documents
   const { json } = await req('POST', `${API}/rest/${kind}?action=initializeUpload`,
@@ -83,7 +95,7 @@ async function post(date) {
   const f = files[0], spec = JSON.parse(fs.readFileSync(path.join('linkedin/queue', f), 'utf8'));
   if (spec.needs_owner) { console.log(`::warning::${f} needs the owner's input (${spec.needs_owner}); skipped.`); return; }
   tokenAgeCheck();
-  const author = TOKEN ? await me() : 'urn:li:person:DRYRUN'; // read-only check, so a dry run also proves the token works
+  const author = await me(); // read-only check, so a dry run also proves the token works
   if (DRY) console.log(TOKEN ? `Token OK (author ${author})` : '::warning::No LI_TOKEN: token not checked.');
   const body = { author, commentary: esc(spec.text.trim()), visibility: 'PUBLIC',
     distribution: { feedDistribution: 'MAIN_FEED', targetEntities: [], thirdPartyDistributionChannels: [] },
