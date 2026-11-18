@@ -16,5 +16,11 @@
   "look": "footage",
   "palette": "orange",
   "at": "2026-11-17"
+ },
+ {
+  "id": "audit-clinic-google-profile",
+  "look": "notebook",
+  "palette": "teal",
+  "at": "2026-11-18"
  }
 ]
