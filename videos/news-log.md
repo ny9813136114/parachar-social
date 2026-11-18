@@ -10,3 +10,4 @@
 2026-11-15: nothing (no new yojana-desk entry since 11 Nov; PIB 14-15 Nov: only Odisha PMAY-G 5 lakh houses, state-only, skipped)
 2026-11-16: nothing (no new yojana-desk entry since 11 Nov; PIB 15-16 Nov: no money/deadline news)
 2026-11-17: nothing (no new yojana-desk entry since 11 Nov; PIB 16-17 Nov: Census 2027 self-enumeration in 4 states, no money/deadline + no tool page; rest no money news)
+2026-11-18: nothing (no new yojana-desk entry since 11 Nov; PIB 17-18 Nov: H5N1 vaccine, GRAP, ASEAN visit, no money/deadline news)
