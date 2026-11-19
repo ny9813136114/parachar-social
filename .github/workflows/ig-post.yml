@@ -67,6 +67,21 @@ jobs:
       - name: What is due
         id: due
         run: |
+          # GitHub sometimes runs a scheduled job 10+ hours late (17 Nov: midday post went out at 00:04 IST, image at
+          # 03:14 IST). A scheduled run only posts inside its slot's window (IST); outside it, it skips and the
+          # external trigger / next run posts. Manual runs always post.
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            M=$(( 10#$(TZ=Asia/Kolkata date +%H) * 60 + 10#$(TZ=Asia/Kolkata date +%M) ))
+            case "$IG_QUEUE" in
+              social/ig/queue)  LO=480;  HI=750 ;;   # 08:00-12:30
+              social/ig/midday) LO=750;  HI=1020 ;;  # 12:30-17:00
+              *)                LO=1080; HI=1350 ;;  # 18:00-22:30
+            esac
+            if [ $M -lt $LO ] || [ $M -ge $HI ]; then
+              echo "::warning::Scheduled run fired at $(TZ=Asia/Kolkata date +%H:%M) IST, outside this slot's window; skipped."
+              echo "kind=none" >> "$GITHUB_OUTPUT"; exit 0
+            fi
+          fi
           OUT=$(node ig.js kind "$DATE_IN")
           echo "$OUT"
           echo "kind=${OUT%% *}" >> "$GITHUB_OUTPUT"
