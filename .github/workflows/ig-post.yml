@@ -1,19 +1,19 @@
 name: Instagram post
 
-# Daily 08:47 IST: posts today's services reel or carousel from social/ig/queue/ to Instagram (+ a Facebook Page copy).
-# Daily 13:17 IST: posts today's midday reel/carousel from social/ig/midday/ (owner 16 Nov: 3 posts a day).
-# Daily 18:47 IST: posts today's image post from social/ig/images/ (PNG pre-rendered by card.js in social/ig/media/<id>/).
+# 08:47 IST: posts today's services reel or carousel from social/ig/queue/ to Instagram (+ a Facebook Page copy).
+# 13:17 IST: posts today's midday reel/carousel from social/ig/midday/ (owner 16 Nov: 3 posts a day).
+# 18:47 IST: posts today's image post from social/ig/images/ (PNG pre-rendered by card.js in social/ig/media/<id>/).
 # Reels are rendered here (voice + music), uploaded to a release so Meta can fetch them, then posted (see ig.js).
 # Pause any time: repo variable IG_AUTO_POST = off. Facebook copy off: repo variable FB_COPY = off.
 
 on:
   schedule:
-    - cron: "17 3 * * *"   # 08:47 IST (off the busy :00/:30 slots, which GitHub sometimes skips)
-    - cron: "47 5 * * *"   # 11:17 IST catch-up if GitHub skipped the first run; posted files are moved, so nothing posts twice
-    - cron: "47 7 * * *"   # 13:17 IST daily midday reel/carousel
-    - cron: "17 9 * * *"   # 14:47 IST midday catch-up
-    - cron: "17 13 * * *"  # 18:47 IST daily image post
-    - cron: "47 14 * * *"  # 20:17 IST image catch-up
+    # GitHub runs scheduled jobs late or skips them (17-20 Nov: runs at 3-4 AM IST, slots missed). So the job is
+    # started every 30 min and each run works out what is due: morning from 08:47, midday from 13:17, image from
+    # 18:47 IST; a slot missed earlier is caught up later the same day. At most one post per run, 75+ min apart,
+    # and nothing before 08:00 or after 22:30 IST. Posted files are moved, so nothing posts twice.
+    - cron: "17 * * * *"
+    - cron: "47 * * * *"
   workflow_dispatch:
     inputs:
       date:
@@ -54,7 +54,7 @@ jobs:
       PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       GH_TOKEN: ${{ github.token }}
       DATE_IN: ${{ inputs.date }}
-      IG_QUEUE: ${{ (github.event.schedule == '17 13 * * *' || github.event.schedule == '47 14 * * *' || inputs.queue == 'image') && 'social/ig/images' || ((github.event.schedule == '47 7 * * *' || github.event.schedule == '17 9 * * *' || inputs.queue == 'midday') && 'social/ig/midday' || 'social/ig/queue') }}
+      QUEUE_IN: ${{ inputs.queue }}
       LOOK: ${{ inputs.look }}
     steps:
       - uses: actions/checkout@v4
@@ -67,21 +67,21 @@ jobs:
       - name: What is due
         id: due
         run: |
-          # GitHub sometimes runs a scheduled job 10+ hours late (17 Nov: midday post went out at 00:04 IST, image at
-          # 03:14 IST). A scheduled run only posts inside its slot's window (IST); outside it, it skips and the
-          # external trigger / next run posts. Manual runs always post.
           if [ "${{ github.event_name }}" = "schedule" ]; then
-            M=$(( 10#$(TZ=Asia/Kolkata date +%H) * 60 + 10#$(TZ=Asia/Kolkata date +%M) ))
-            case "$IG_QUEUE" in
-              social/ig/queue)  LO=480;  HI=750 ;;   # 08:00-12:30
-              social/ig/midday) LO=750;  HI=1020 ;;  # 12:30-17:00
-              *)                LO=1080; HI=1350 ;;  # 18:00-22:30
-            esac
-            if [ $M -lt $LO ] || [ $M -ge $HI ]; then
-              echo "::warning::Scheduled run fired at $(TZ=Asia/Kolkata date +%H:%M) IST, outside this slot's window; skipped."
-              echo "kind=none" >> "$GITHUB_OUTPUT"; exit 0
-            fi
+            M=$(( 10#$(TZ=Asia/Kolkata date +%H) * 60 + 10#$(TZ=Asia/Kolkata date +%M) )); D=$(TZ=Asia/Kolkata date +%F)
+            if [ $M -lt 480 ] || [ $M -ge 1350 ]; then echo "Outside 08:00-22:30 IST; nothing posted."; echo "kind=none" >> "$GITHUB_OUTPUT"; exit 0; fi
+            AGO=$(node -e "const l=require('./social/ig/published/log.json');const t=Object.values(l).filter(r=>r.at).map(r=>Date.parse(r.at));console.log(t.length?Math.round((Date.now()-Math.max(...t))/60000):9999)")
+            if [ "$AGO" -lt 75 ]; then echo "Last post $AGO min ago; waiting for the next run."; echo "kind=none" >> "$GITHUB_OUTPUT"; exit 0; fi
+            IG_QUEUE=""
+            for S in "social/ig/queue 527" "social/ig/midday 797" "social/ig/images 1127"; do
+              set -- $S
+              if [ $M -ge $2 ] && ls "$1/$D"-*.json >/dev/null 2>&1; then IG_QUEUE=$1; break; fi
+            done
+            [ -z "$IG_QUEUE" ] && { echo "Nothing due."; echo "kind=none" >> "$GITHUB_OUTPUT"; exit 0; }
+          else
+            case "$QUEUE_IN" in image) IG_QUEUE=social/ig/images ;; midday) IG_QUEUE=social/ig/midday ;; *) IG_QUEUE=social/ig/queue ;; esac
           fi
+          echo "IG_QUEUE=$IG_QUEUE" >> "$GITHUB_ENV"; export IG_QUEUE; echo "Queue: $IG_QUEUE"
           OUT=$(node ig.js kind "$DATE_IN")
           echo "$OUT"
           echo "kind=${OUT%% *}" >> "$GITHUB_OUTPUT"
