@@ -133,6 +133,7 @@ function todays(date) {
     rec.instagram = t.kind === 'reel' ? await igReel(acc.ig, urls.video, urls.cover, caption)
       : t.kind === 'image' ? await igImage(acc.ig, urls[0], caption) : await igCarousel(acc.ig, urls, caption);
     try { rec.permalink = (await graph('GET', `/${rec.instagram}`, { fields: 'permalink' })).permalink; } catch {}
+    rec.at = new Date().toISOString(); // the workflow spaces catch-up posts by this
     console.log(`Instagram posted: ${rec.permalink || rec.instagram}`);
   }
   if (!rec.facebook && process.env.FB_COPY !== 'off') {
