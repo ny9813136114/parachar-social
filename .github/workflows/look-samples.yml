@@ -12,6 +12,9 @@ on:
       looks:
         description: "Space-separated looks, one per spec (empty = automatic)"
         default: ""
+      style:
+        description: "Engine style: v3 (YouTube looks) or parable (IG story reels)"
+        default: "v3"
 
 permissions:
   contents: write
@@ -22,7 +25,7 @@ jobs:
     timeout-minutes: 60
     env:
       PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-      ENGINE_STYLE: v3
+      ENGINE_STYLE: ${{ github.event.inputs.style || 'v3' }}
       MUSIC: "on"
       TTS_ENGINE: edge
       TTS_VOICE: hi-IN-MadhurNeural

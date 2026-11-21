@@ -139,7 +139,7 @@ function sfxFiles(dir) {
   const W = 1080, H = spec.format === 'li' ? 1350 : 1920; // LinkedIn videos are 4:5
   const page = await browser.newPage({ viewport: { width: W, height: H }, deviceScaleFactor: 1 });
   // ENGINE_STYLE=v2 / v3 / services (or spec.style) picks engine-v2.html / engine-v3.html / engine-services.html.
-  await page.goto('file://' + path.join(__dirname, { v2: 'engine-v2.html', v3: 'engine-v3.html', services: 'engine-services.html' }[style] || 'engine.html'));
+  await page.goto('file://' + path.join(__dirname, { v2: 'engine-v2.html', v3: 'engine-v3.html', services: 'engine-services.html', parable: 'engine-parable.html' }[style] || 'engine.html'));
   await page.evaluate(() => window.preload && window.preload());
   const { duration, cues, look, sfx = [] } = await page.evaluate(s => window.build(s), spec);
   if (look) console.log(`${spec.id}: look ${look}${spec.palette && spec.palette.ac ? ' ' + spec.palette.ac : ''}${clips ? `, footage: ${clips.map(c => c.credit).join('; ')}` : ', no footage'}`);
@@ -182,7 +182,7 @@ function sfxFiles(dir) {
       '-f', 'lavfi', '-i', 'anullsrc=channel_layout=stereo:sample_rate=44100',
       ...(clips ? ['-filter_complex', vf.join(';'), '-map', '[v]', '-map', `${an}:a`] : []),
       '-shortest', '-t', duration.toFixed(2), '-c:v', 'libx264', '-preset', 'medium', '-crf', '20', '-pix_fmt', 'yuv420p',
-      '-c:a', 'aac', '-b:a', '128k', '-movflags', '+faststart', (tts || music || (style === 'services' && process.env.SFX !== 'off' && sfx.length)) ? silent : mp4], { stdio: ['pipe', 'inherit', 'inherit'] });
+      '-c:a', 'aac', '-b:a', '128k', '-movflags', '+faststart', (tts || music || ((style === 'services' || style === 'parable') && process.env.SFX !== 'off' && sfx.length)) ? silent : mp4], { stdio: ['pipe', 'inherit', 'inherit'] });
     const n = Math.ceil(duration * fps);
     for (let f = 0; f < n; f++) {
       await page.evaluate(t => window.seek(t), f / fps);
@@ -192,7 +192,7 @@ function sfxFiles(dir) {
     ff.stdin.end();
     await new Promise((res, rej) => ff.on('close', c => c ? rej(new Error('ffmpeg ' + c)) : res()));
     // sound effects at the moments the engine reported (scene changes, messages, list items, big numbers)
-    const fxOn = style === 'services' && process.env.SFX !== 'off' && sfx.length > 0;
+    const fxOn = (style === 'services' || style === 'parable') && process.env.SFX !== 'off' && sfx.length > 0;
     const events = [];
     if (fxOn) {
       const files = sfxFiles(path.join(out, 'sfx'));
@@ -236,7 +236,7 @@ function sfxFiles(dir) {
 
   fs.writeFileSync(path.join(out, 'captions.srt'),
     cues.map((c, i) => `${i + 1}\n${srtTime(c.start)} --> ${srtTime(c.end)}\n${c.text}\n`).join('\n'));
-  if (style === 'services') { // Instagram/LinkedIn services reels: no YouTube metadata, caption comes from the spec.
+  if (style === 'services' || style === 'parable') { // Instagram/LinkedIn services reels: no YouTube metadata, caption comes from the spec.
     fs.writeFileSync(path.join(out, 'post.md'), `# ${spec.id} (${duration.toFixed(1)} s)\n\n## Instagram caption\n${spec.caption || ''}\n`);
     console.log(`${spec.id}: ${duration.toFixed(1)} s -> ${out}`);
     return;

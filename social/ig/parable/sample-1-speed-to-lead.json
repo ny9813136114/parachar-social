@@ -1,0 +1,155 @@
+{
+ "id": "parable-speed-to-lead",
+ "style": "parable",
+ "series": "Parachar Kahaniyan",
+ "topic": "lead reply speed",
+ "voice": "hi-IN-MadhurNeural",
+ "scenes": [
+  {
+   "dur": 3.0,
+   "text": "Ek hi gali mein *do coaching* wale the.",
+   "say": "एक ही गली में दो कोचिंग वाले थे।",
+   "ops": [
+    {
+     "op": "shop",
+     "id": "A",
+     "pos": "L",
+     "name": "Sharma Classes",
+     "at": 0.3
+    },
+    {
+     "op": "shop",
+     "id": "B",
+     "pos": "R",
+     "name": "Verma Academy",
+     "at": 0.9
+    }
+   ]
+  },
+  {
+   "dur": 3.0,
+   "text": "Dono ne same ads chalaye. *Same budget.*",
+   "say": "दोनों ने एक जैसे ऐड चलाए, एक जैसा बजट।",
+   "ops": [
+    {
+     "op": "badge",
+     "on": "A",
+     "text": "₹10,000 ads"
+    },
+    {
+     "op": "badge",
+     "on": "B",
+     "text": "₹10,000 ads"
+    }
+   ]
+  },
+  {
+   "dur": 3.0,
+   "text": "Raat 10 baje, *10 parents* ne form bhara.",
+   "say": "रात दस बजे, दस पेरेंट्स ने दोनों को फ़ॉर्म भरा।",
+   "ops": [
+    {
+     "op": "dots",
+     "n": 10,
+     "from": "top",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "dur": 3.0,
+   "text": "Sharma ji ne *5 minute* mein WhatsApp kar diya.",
+   "say": "शर्मा जी ने पाँच मिनट में व्हाट्सऐप पर जवाब दे दिया।",
+   "ops": [
+    {
+     "op": "bubble",
+     "on": "A",
+     "text": "5 min mein reply ✓",
+     "tone": "good",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "dur": 3.0,
+   "text": "Verma ji ne socha, *kal subah* call karenge.",
+   "say": "वर्मा जी ने सोचा, कल सुबह कॉल कर लेंगे।",
+   "ops": [
+    {
+     "op": "bubble",
+     "on": "B",
+     "text": "Kal subah... 😴",
+     "tone": "bad",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "dur": 3.2,
+   "text": "Subah tak *7 parents* Sharma ji se baat kar chuke the.",
+   "say": "सुबह तक सात पेरेंट्स शर्मा क्लासेस से बात कर चुके थे।",
+   "ops": [
+    {
+     "op": "go",
+     "to": {
+      "A": 7,
+      "B": 3
+     },
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "dur": 3.4,
+   "text": "Verma ji: \"Ads kaam nahi karte.\" Budget *double* kar diya.",
+   "say": "महीने के आख़िर में वर्मा जी बोले, ऐड काम नहीं करते। और बजट दोगुना कर दिया।",
+   "ops": [
+    {
+     "op": "dim",
+     "id": "B",
+     "at": 0.3
+    },
+    {
+     "op": "badge",
+     "on": "B",
+     "text": "₹20,000 ads",
+     "tone": "bad",
+     "dy": 66,
+     "at": 1.6
+    }
+   ]
+  },
+  {
+   "dur": 3.4,
+   "text": "Problem ads mein nahi thi. *Reply speed* mein thi.",
+   "say": "पर दिक्कत ऐड में नहीं थी। दिक्कत जवाब की स्पीड में थी।",
+   "ops": [
+    {
+     "op": "clear",
+     "at": 0.2
+    },
+    {
+     "op": "big",
+     "text": "5 min",
+     "sub": "vs 12 ghante",
+     "at": 0.7
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "dur": 3.0,
+   "lesson": "*Speed-to-lead*",
+   "say": "यही है स्पीड टू लीड। जो पहले जवाब देता है, ग्राहक उसी का होता है।",
+   "sub": "Jo *pehle jawab* deta hai, customer usi ka hota hai."
+  },
+  {
+   "type": "cta",
+   "dur": 4.0,
+   "line": "Aapke business mein ye *leak* hai?",
+   "action": "AUDIT comment karo",
+   "say": "आपके बिज़नेस में भी ये लीक है? कमेंट में ऑडिट लिखिए।"
+  }
+ ],
+ "caption": "Do coaching, same ads, same budget. Phir bhi ek ke paas 7 admissions, doosre ke paas 3.\n\nFarq ads ka nahi tha. Farq tha reply ki speed ka. Raat 10 baje form bharne wala parent 3 jagah poochta hai, aur jo pehle jawab deta hai wahi jeet-ta hai.\n\nAapke business mein ye leak hai? Comment mein AUDIT likho.\n\nWhatsApp: 98131 36114\nParachar: chhote business ke liye leads, WhatsApp aur Google ka setup.\nparachar.in (link bio mein)\n\n#smallbusiness #marketingtips #leadgeneration #whatsappbusiness #coachinginstitute"
+}
