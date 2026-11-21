@@ -146,6 +146,15 @@ async function post(date) {
     return;
   }
   if (cmd === 'probe') { // status codes only, for debugging auth; prints no secrets
+    if (process.env.LI_CLIENT_ID && process.env.LI_CLIENT_SECRET) { // LinkedIn's own check of the exact token GitHub holds
+      const r = await fetch('https://www.linkedin.com/oauth/v2/introspectToken', { method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({ token: TOKEN, client_id: process.env.LI_CLIENT_ID.trim(), client_secret: process.env.LI_CLIENT_SECRET.trim() }) });
+      const j = await r.json().catch(() => ({}));
+      console.log('introspect', r.status, JSON.stringify({ active: j.active, status: j.status, scope: j.scope, auth_type: j.auth_type,
+        created_at: j.created_at && new Date(j.created_at * 1000).toISOString(), expires_at: j.expires_at && new Date(j.expires_at * 1000).toISOString(),
+        error: j.error, error_description: j.error_description }));
+    } else console.log('introspect skipped: add secrets LI_CLIENT_ID and LI_CLIENT_SECRET (from the app Auth tab) to run it');
     const o = encodeURIComponent(ORG_URN), id = ORG_URN.split(':').pop();
     for (const [u, h] of [[`${API}/rest/organizations/${id}`, 1], [`${API}/v2/organizations/${id}`, 0],
       [`${API}/rest/posts?q=author&author=${o}&count=1`, 1], [`${API}/v2/me`, 0], [`${API}/v2/userinfo`, 0],
