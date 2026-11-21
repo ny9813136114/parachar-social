@@ -15,7 +15,7 @@ const ym = back => { const d = new Date(); d.setUTCDate(1); d.setUTCMonth(d.getU
 const RAW = process.env.LI_TOKEN || '', DRY = process.env.DRY_RUN === '1';
 // Tolerate common paste slips: spaces/newlines, quotes, a leading "Bearer ".
 const TOKEN = RAW.trim().replace(/^["']|["']$/g, '').replace(/^Bearer\s+/i, '').trim();
-if (RAW) console.log(`LI_TOKEN shape: ${TOKEN.length} chars${RAW !== TOKEN ? ' (cleaned whitespace/quotes/Bearer)' : ''}, starts ${TOKEN.slice(0, 2)}…`);
+if (RAW) console.error(`LI_TOKEN shape: ${TOKEN.length} chars${RAW !== TOKEN ? ' (cleaned whitespace/quotes/Bearer)' : ''}, starts ${TOKEN.slice(0, 2)}…`);
 let VER = process.env.LI_VERSION || ym(2);
 const API = 'https://api.linkedin.com';
 const H = (extra = {}) => ({ Authorization: `Bearer ${TOKEN}`, 'LinkedIn-Version': VER, 'X-Restli-Protocol-Version': '2.0.0', ...extra });
