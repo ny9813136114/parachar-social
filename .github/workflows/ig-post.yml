@@ -20,9 +20,9 @@ on:
         description: "Queue date YYYY-MM-DD (blank = today in IST)"
         default: ""
       queue:
-        description: "Which post: reel (morning queue), midday (midday queue) or image (evening queue)"
+        description: "Which post: reel (morning queue), midday, image (evening), or auto (whatever slot is due now; for an external timer)"
         type: choice
-        options: [reel, midday, image]
+        options: [reel, midday, image, auto]
         default: reel
       dry_run:
         description: "Dry run: render + check everything, post nothing"
@@ -67,7 +67,7 @@ jobs:
       - name: What is due
         id: due
         run: |
-          if [ "${{ github.event_name }}" = "schedule" ]; then
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "$QUEUE_IN" = "auto" ]; then
             M=$(( 10#$(TZ=Asia/Kolkata date +%H) * 60 + 10#$(TZ=Asia/Kolkata date +%M) )); D=$(TZ=Asia/Kolkata date +%F)
             if [ $M -lt 480 ] || [ $M -ge 1350 ]; then echo "Outside 08:00-22:30 IST; nothing posted."; echo "kind=none" >> "$GITHUB_OUTPUT"; exit 0; fi
             AGO=$(node -e "const l=require('./social/ig/published/log.json');const t=Object.values(l).filter(r=>r.at).map(r=>Date.parse(r.at));console.log(t.length?Math.round((Date.now()-Math.max(...t))/60000):9999)")
