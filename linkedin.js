@@ -145,6 +145,16 @@ async function post(date) {
     }
     return;
   }
+  if (cmd === 'probe') { // status codes only, for debugging auth; prints no secrets
+    const o = encodeURIComponent(ORG_URN), id = ORG_URN.split(':').pop();
+    for (const [u, h] of [[`${API}/rest/organizations/${id}`, 1], [`${API}/v2/organizations/${id}`, 0],
+      [`${API}/rest/posts?q=author&author=${o}&count=1`, 1], [`${API}/v2/me`, 0], [`${API}/v2/userinfo`, 0],
+      [`${API}/rest/organizationAcls?q=roleAssignee`, 1]]) {
+      const r = await fetch(u, { headers: h ? H() : { Authorization: `Bearer ${TOKEN}`, 'X-Restli-Protocol-Version': '2.0.0' } });
+      console.log(r.status, u.replace(API, ''), (await r.text()).slice(0, 160));
+    }
+    return;
+  }
   if (cmd === 'check') { tokenAgeCheck(); console.log('Token OK, author', await me()); return; }
   if (cmd === 'post') return post(arg || new Date(Date.now() + 5.5 * 3600e3).toISOString().slice(0, 10));
   console.log('usage: node linkedin.js post [YYYY-MM-DD] | check');
