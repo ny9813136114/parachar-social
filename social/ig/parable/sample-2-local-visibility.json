@@ -6,9 +6,9 @@
  "voice": "hi-IN-MadhurNeural",
  "scenes": [
   {
-   "dur": 3.0,
-   "text": "Ek hi road par *do dentist* the.",
-   "say": "एक ही रोड पर दो डेंटिस्ट थे।",
+   "dur": 2.6,
+   "text": "Ek road. *Do dentist.*",
+   "say": "एक रोड, दो डेंटिस्ट।",
    "ops": [
     {
      "op": "shop",
@@ -29,9 +29,9 @@
    ]
   },
   {
-   "dur": 3.2,
+   "dur": 2.6,
    "text": "Dr. Mehta: best machines, *20 saal* ka experience.",
-   "say": "डॉक्टर मेहता के पास सबसे अच्छी मशीनें थीं, बीस साल का अनुभव।",
+   "say": "डॉक्टर मेहता: सबसे अच्छी मशीनें, बीस साल का अनुभव।",
    "ops": [
     {
      "op": "glow",
@@ -48,9 +48,9 @@
    ]
   },
   {
-   "dur": 3.2,
+   "dur": 2.6,
    "text": "Smile Clinic naya tha. Par har patient se *review* maangta tha.",
-   "say": "स्माइल क्लिनिक नया था, पर हर मरीज़ से एक रिव्यू माँगता था।",
+   "say": "स्माइल क्लिनिक नया था, पर हर मरीज़ से रिव्यू माँगता था।",
    "ops": [
     {
      "op": "badge",
@@ -62,9 +62,9 @@
    ]
   },
   {
-   "dur": 3.2,
-   "text": "Dr. Mehta ke Google profile par *3 reviews*. Timing bhi purani.",
-   "say": "मेहता जी के गूगल प्रोफ़ाइल पर सिर्फ़ तीन रिव्यू थे, और टाइम भी पुराना लिखा था।",
+   "dur": 2.6,
+   "text": "Dr. Mehta ke Google par *3 reviews*. Timing bhi purani.",
+   "say": "मेहता जी के गूगल पर तीन रिव्यू, और टाइम भी पुराना।",
    "ops": [
     {
      "op": "bubble",
@@ -76,9 +76,9 @@
    ]
   },
   {
-   "dur": 3.0,
-   "text": "Naye families ne phone par likha: *dentist near me*.",
-   "say": "शहर में नए परिवार आए। उन्होंने फ़ोन पर लिखा, डेंटिस्ट नियर मी।",
+   "dur": 2.6,
+   "text": "Naye log search karte hain: *\"dentist near me\"*",
+   "say": "नए लोगों ने सर्च किया, डेंटिस्ट नियर मी।",
    "ops": [
     {
      "op": "dots",
@@ -89,7 +89,7 @@
    ]
   },
   {
-   "dur": 2.8,
+   "dur": 2.6,
    "text": "Jo *pehle dikha*, wahin chale gaye.",
    "say": "जो पहले दिखा, वहीं चले गए।",
    "ops": [
@@ -104,7 +104,7 @@
    ]
   },
   {
-   "dur": 2.8,
+   "dur": 2.6,
    "text": "Dr. Mehta: \"Log *sasta* dhoondhte hain.\"",
    "say": "मेहता जी बोले, लोग सस्ता ढूँढते हैं।",
    "ops": [
@@ -116,9 +116,9 @@
    ]
   },
   {
-   "dur": 3.6,
-   "text": "Log best ke paas nahi jaate. Jo *pehle dikhe aur bharosemand lage*, wahan jaate hain.",
-   "say": "लोग सबसे अच्छे के पास नहीं जाते। जो पहले दिखे और भरोसेमंद लगे, उसके पास जाते हैं।",
+   "dur": 2.6,
+   "text": "Log *best* ko nahi chunte. Jo *pehle dikhe*, use chunte hain.",
+   "say": "लोग बेस्ट को नहीं, जो पहले दिखे, उसे चुनते हैं।",
    "ops": [
     {
      "op": "glow",
@@ -129,18 +129,19 @@
   },
   {
    "type": "lesson",
-   "dur": 2.8,
+   "dur": 2.6,
    "lesson": "*Local visibility*",
    "say": "यही है लोकल विज़िबिलिटी।",
    "sub": "Jo *pehle dikhe* aur bharosemand lage, wahi chuna jaata hai."
   },
   {
    "type": "cta",
-   "dur": 4.0,
+   "dur": 3.2,
    "line": "Aapka Google profile *kya bol raha* hai?",
    "action": "AUDIT comment karo",
    "say": "आपका गूगल प्रोफ़ाइल क्या बोल रहा है? कमेंट में ऑडिट लिखिए।"
   }
  ],
- "caption": "Best doctor. 20 saal ka experience. Phir bhi naye patients road ke us paar wale clinic mein gaye.\n\nKyun? Unhone \"dentist near me\" search kiya, aur jo pehle dikha, 4.8 star aur sahi timing ke saath, wahin chale gaye.\n\nAapka Google profile kya bol raha hai? Comment mein AUDIT likho.\n\nWhatsApp: 98131 36114\nParachar: chhote business ke liye leads, WhatsApp aur Google ka setup.\nparachar.in (link bio mein)\n\n#smallbusiness #googlebusinessprofile #localseo #dentist #marketingtips"
+ "caption": "Best doctor. 20 saal ka experience. Phir bhi naye patients road ke us paar wale clinic mein gaye.\n\nKyun? Unhone \"dentist near me\" search kiya, aur jo pehle dikha, 4.8 star aur sahi timing ke saath, wahin chale gaye.\n\nAapka Google profile kya bol raha hai? Comment mein AUDIT likho.\n\nWhatsApp: 98131 36114\nParachar: chhote business ke liye leads, WhatsApp aur Google ka setup.\nparachar.in (link bio mein)\n\n#smallbusiness #googlebusinessprofile #localseo #dentist #marketingtips",
+ "rate": "+18%"
 }

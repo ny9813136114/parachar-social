@@ -25,7 +25,7 @@ const music = process.env.MUSIC === 'on' && !previewOnly;
 const voiceDir = path.join(out, 'voice');
 if (tts) {
   // A spec can pick its own narrator ("voice": "hi-IN-SwaraNeural") so the channel doesn't sound the same every time.
-  const env = spec.voice ? { ...process.env, TTS_VOICE: spec.voice } : process.env;
+  const env = { ...process.env, ...(spec.voice ? { TTS_VOICE: spec.voice } : {}), ...(spec.rate ? { TTS_RATE: spec.rate } : {}) }; // spec.rate e.g. "+18%"
   run('python3', [path.join(__dirname, 'tts.py'), voiceDir], { input: JSON.stringify(spec.scenes.map(s => s.say || '')), env });
   spec.scenes.forEach((s, i) => {
     const f = path.join(voiceDir, `scene-${i}.wav`);
