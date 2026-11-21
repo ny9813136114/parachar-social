@@ -63,6 +63,10 @@ jobs:
           ID=$(node -p "require('./$SPEC').id"); TAG="li-$ID"
           gh release view "$TAG" >/dev/null 2>&1 && gh release upload "$TAG" "out/$ID/$ID.mp4" --clobber \
             || gh release create "$TAG" "out/$ID/$ID.mp4" --title "LinkedIn video: $ID" --notes "LinkedIn video (auto)." 
+      - name: Probe auth (debug)
+        if: env.DRY_RUN == '1'
+        env: { LI_CLIENT_ID: "${{ secrets.LI_CLIENT_ID }}", LI_CLIENT_SECRET: "${{ secrets.LI_CLIENT_SECRET }}" }
+        run: node linkedin.js probe
       - name: Post
         if: steps.gate.outputs.skip != '1'
         run: node linkedin.js post "${{ inputs.date }}"
