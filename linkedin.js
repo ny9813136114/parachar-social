@@ -18,6 +18,10 @@ const TOKEN = RAW.trim().replace(/^["']|["']$/g, '').replace(/^Bearer\s+/i, '').
 if (RAW) console.error(`LI_TOKEN shape: ${TOKEN.length} chars${RAW !== TOKEN ? ' (cleaned whitespace/quotes/Bearer)' : ''}, starts ${TOKEN.slice(0, 2)}…`);
 let VER = process.env.LI_VERSION || ym(2);
 const API = 'https://api.linkedin.com';
+// MAKE_LI_HOOK (secret): a Make.com webhook whose scenario posts to the page with Make's own LinkedIn connection.
+// When set, posts go through Make and LI_TOKEN is not needed (our own app's token kept getting 401 from LinkedIn).
+const HOOK = (process.env.MAKE_LI_HOOK || '').trim();
+const REPO = process.env.GITHUB_REPOSITORY || 'ny9813136114/parachar-social';
 const H = (extra = {}) => ({ Authorization: `Bearer ${TOKEN}`, 'LinkedIn-Version': VER, 'X-Restli-Protocol-Version': '2.0.0', ...extra });
 
 async function req(method, url, body, headers = {}, tries = 0) {
@@ -97,6 +101,7 @@ async function post(date) {
   if (!files.length) { console.log(`No LinkedIn post queued for ${date}.`); return; }
   const f = files[0], spec = JSON.parse(fs.readFileSync(path.join('linkedin/queue', f), 'utf8'));
   if (spec.needs_owner) { console.log(`::warning::${f} needs the owner's input (${spec.needs_owner}); skipped.`); return; }
+  if (HOOK) return postViaMake(f, spec);
   tokenAgeCheck();
   const author = await me(); // read-only check, so a dry run also proves the token works
   if (DRY) console.log(TOKEN ? `Token OK (author ${author})` : '::warning::No LI_TOKEN: token not checked.');
@@ -133,9 +138,33 @@ async function post(date) {
   fs.unlinkSync(path.join('linkedin/queue', f));
 }
 
+// Post through Make. The scenario replies with {"id": "<post urn>"} once LinkedIn accepted the post.
+async function postViaMake(f, spec) {
+  if (!ORG_URN) throw new Error('LI_ORG not set: company page not configured, nothing posted');
+  // No first comment through Make, so its line (usually the parachar.in link) goes at the end of the post.
+  const body = spec.first_comment ? `${spec.text.trim()}\n\n${spec.first_comment.trim()}` : spec.text.trim();
+  const msg = { text: esc(body), media_type: 'none', media_url: '', title: (spec.media && spec.media.title) || spec.id };
+  if (spec.reel) { // the workflow published the rendered video as release li-<reel.id>
+    msg.media_type = 'video'; msg.media_url = `https://github.com/${REPO}/releases/download/li-${spec.reel.id}/${spec.reel.id}.mp4`;
+  } else if (spec.media && spec.media.type !== 'document') {
+    msg.media_type = 'image'; msg.media_url = `https://raw.githubusercontent.com/${REPO}/main/linkedin/media/${spec.media.file}`;
+  } else if (spec.media) console.log(`::warning::${f}: Make has no company document post; posting the text only.`);
+  if (DRY) { console.log(JSON.stringify({ file: f, via: 'make', ...msg }, null, 2)); return; }
+  const r = await fetch(HOOK, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(msg) });
+  const t = await r.text();
+  if (!r.ok) throw new Error(`Make webhook -> ${r.status} ${t.slice(0, 300)}`);
+  let id = ''; try { id = JSON.parse(t).id || ''; } catch { }
+  if (!id) throw new Error(`Make did not confirm the post (reply: ${t.slice(0, 200)}). Check the scenario history in Make.`);
+  console.log(`Posted ${f} via Make -> ${id}`);
+  spec.posted = { at: new Date().toISOString(), urn: id, via: 'make' };
+  fs.mkdirSync('linkedin/published', { recursive: true });
+  fs.writeFileSync(path.join('linkedin/published', f), JSON.stringify(spec, null, 2));
+  fs.unlinkSync(path.join('linkedin/queue', f));
+}
+
 (async () => {
   const [cmd, arg] = process.argv.slice(2);
-  if (!TOKEN && !DRY && cmd !== 'reel') { console.log('::warning::LI_TOKEN secret not set; nothing posted.'); return; }
+  if (!TOKEN && !HOOK && !DRY && cmd !== 'reel') { console.log('::warning::LI_TOKEN secret not set; nothing posted.'); return; }
   if (cmd === 'reel') { // print the date's video spec path (written to out/) or nothing: the workflow renders it
     const t = todays(arg || new Date(Date.now() + 5.5 * 3600e3).toISOString().slice(0, 10));
     if (t && t.spec.reel && !t.spec.needs_owner) {
