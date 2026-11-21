@@ -22,5 +22,11 @@
   "look": "notebook",
   "palette": "teal",
   "at": "2026-11-18"
+ },
+ {
+  "id": "demo-auto-reply",
+  "look": "neon",
+  "palette": "orange",
+  "at": "2026-11-21"
  }
 ]
