@@ -28,5 +28,11 @@
   "look": "neon",
   "palette": "orange",
   "at": "2026-11-21"
+ },
+ {
+  "id": "referral-ask",
+  "look": "midnight",
+  "palette": "teal",
+  "at": "2026-11-21"
  }
 ]
