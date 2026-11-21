@@ -25,6 +25,7 @@ jobs:
     timeout-minutes: 30
     env:
       LI_TOKEN: ${{ secrets.LI_TOKEN }}
+      MAKE_LI_HOOK: ${{ secrets.MAKE_LI_HOOK }}
       LI_VERSION: ${{ vars.LI_VERSION }}
       LI_ORG: ${{ vars.LI_ORG }}
       LI_TOKEN_DATE: ${{ vars.LI_TOKEN_DATE }}
