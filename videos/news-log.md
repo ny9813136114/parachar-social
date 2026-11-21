@@ -13,3 +13,4 @@
 2026-11-18: nothing (no new yojana-desk entry since 11 Nov; PIB 17-18 Nov: H5N1 vaccine, GRAP, ASEAN visit, no money/deadline news)
 2026-11-19: nothing (no new yojana-desk entry since 11 Nov; PIB 18-19 Nov: IITF, COP31, Constitution Day quiz prizes; no money/deadline news with a tool page)
 2026-11-20: nothing (no new yojana-desk entry since 11 Nov; PIB 19-20 Nov: H5N1 vaccine, PMAY-U 2.0 CSMC meeting (sanctions, no rule/amount change), PM visits; checked late after a retry)
+2026-11-21: nothing (no new yojana-desk entry since 11 Nov; PIB 20-21 Nov: SCO forum, SVAMITVA review, Gopal Ratna awards; no money/deadline news with a tool page)
