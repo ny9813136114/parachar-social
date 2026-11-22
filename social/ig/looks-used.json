@@ -34,5 +34,11 @@
   "look": "midnight",
   "palette": "teal",
   "at": "2026-11-21"
+ },
+ {
+  "id": "old-customers-90-days",
+  "look": "phone",
+  "palette": "pink",
+  "at": "2026-11-22"
  }
 ]
