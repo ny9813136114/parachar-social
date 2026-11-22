@@ -1,0 +1,159 @@
+{
+ "id": "parable-ai-search-ca",
+ "style": "parable",
+ "series": "Parachar Kahaniyan",
+ "industry": "CA and finance",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+18%",
+ "scenes": [
+  {
+   "dur": 2.6,
+   "text": "Ek shehar, *do CA*.",
+   "say": "एक शहर, दो सीए।",
+   "ops": [
+    {
+     "op": "shop",
+     "id": "A",
+     "pos": "L",
+     "name": "CA Gupta",
+     "color": "#CDE7A1",
+     "at": 0.3
+    },
+    {
+     "op": "shop",
+     "id": "B",
+     "pos": "R",
+     "name": "CA Jain",
+     "color": "#F7C873",
+     "at": 0.9
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Dono *achhe* the, dono ka kaam *sahi*.",
+   "say": "दोनों अच्छे थे, दोनों का काम सही।",
+   "ops": [
+    {
+     "op": "badge",
+     "on": "A",
+     "text": "15 saal ✓",
+     "tone": "good",
+     "at": 0.8
+    },
+    {
+     "op": "badge",
+     "on": "B",
+     "text": "12 saal ✓",
+     "tone": "good",
+     "at": 1.0
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Log ab *ChatGPT* se poochte hain: \"GST ke liye best CA?\"",
+   "say": "लोग अब चैटजीपीटी से पूछते हैं, जीएसटी के लिए बेस्ट सीए?",
+   "ops": [
+    {
+     "op": "dots",
+     "n": 9,
+     "from": "top",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "CA Jain ki website pe *saaf likha* tha: kya, kahan, kitni fees.",
+   "say": "सीए जैन की वेबसाइट पर साफ़ लिखा था, क्या, कहाँ, कितनी फ़ीस।",
+   "ops": [
+    {
+     "op": "bubble",
+     "on": "B",
+     "text": "Services · FAQ · Fees ✓",
+     "tone": "good",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "CA Gupta ki website? *Sirf naam aur phone.*",
+   "say": "सीए गुप्ता की वेबसाइट पर, सिर्फ़ नाम और फ़ोन।",
+   "ops": [
+    {
+     "op": "bubble",
+     "on": "A",
+     "text": "Sirf naam + phone",
+     "tone": "bad",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "AI ne *Jain* ka naam bataya.",
+   "say": "एआई ने जैन का नाम बताया।",
+   "ops": [
+    {
+     "op": "go",
+     "to": {
+      "B": 8,
+      "A": 1
+     },
+     "at": 0.3
+    },
+    {
+     "op": "glow",
+     "id": "B",
+     "at": 1.4
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Gupta ji: *\"Aajkal clients kam hain.\"*",
+   "say": "गुप्ता जी बोले, आजकल क्लाइंट कम हैं।",
+   "ops": [
+    {
+     "op": "dim",
+     "id": "A",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "AI usi ko bataata hai, *jiski baat saaf likhi ho*.",
+   "say": "एआई उसी को बताता है जिसकी बात साफ़ लिखी हो।",
+   "ops": [
+    {
+     "op": "clear",
+     "at": 0.2
+    },
+    {
+     "op": "big",
+     "text": "Saaf likho",
+     "sub": "AI tabhi bataayega",
+     "at": 0.7
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "dur": 2.6,
+   "lesson": "*AI search*",
+   "sub": "Jo website *sawaalon ka jawab* deti hai, AI usi ko chunta hai.",
+   "say": "यही है एआई सर्च।"
+  },
+  {
+   "type": "cta",
+   "dur": 3.2,
+   "line": "Aapke business mein ye *leak* hai?",
+   "action": "AUDIT comment karo",
+   "say": "आपके बिज़नेस में ये लीक है? कमेंट में ऑडिट लिखिए।"
+  }
+ ],
+ "caption": "Do CA, dono achhe. Par log ab ChatGPT se poochte hain \"best CA for GST\".\n\nEk ki website pe saaf likha tha: kya karte hain, kahan, kitni fees, aur aam sawaalon ke jawab. Doosre ki website pe sirf naam aur phone. AI ne kiska naam bataya, aap samajh gaye.\n\nAI aapke baare mein kya bolta hai? Comment mein AUDIT likho.\n\nWhatsApp: 98131 36114\nParachar: chhote business ke liye leads, WhatsApp aur Google ka setup.\nparachar.in (link bio mein)\n\n#charteredaccountant #aisearch #chatgpt #websitetips #smallbusiness"
+}

@@ -1,0 +1,159 @@
+{
+ "id": "parable-dm-reply",
+ "style": "parable",
+ "series": "Parachar Kahaniyan",
+ "industry": "Boutiques and D2C",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+18%",
+ "scenes": [
+  {
+   "dur": 2.6,
+   "text": "Instagram pe *do boutique*.",
+   "say": "इंस्टाग्राम पर दो बुटीक।",
+   "ops": [
+    {
+     "op": "shop",
+     "id": "A",
+     "pos": "L",
+     "name": "Rang Boutique",
+     "color": "#F4A6A0",
+     "at": 0.3
+    },
+    {
+     "op": "shop",
+     "id": "B",
+     "pos": "R",
+     "name": "Silk Story",
+     "color": "#F7C873",
+     "at": 0.9
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Dono ki reel *viral* hui.",
+   "say": "दोनों की रील वायरल हुई।",
+   "ops": [
+    {
+     "op": "badge",
+     "on": "A",
+     "text": "50k views",
+     "tone": "good",
+     "at": 0.8
+    },
+    {
+     "op": "badge",
+     "on": "B",
+     "text": "50k views",
+     "tone": "good",
+     "at": 1.0
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Dono ko *DM* aaye: \"Price?\"",
+   "say": "दोनों को डीएम आए, प्राइस?",
+   "ops": [
+    {
+     "op": "dots",
+     "n": 10,
+     "from": "top",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Silk Story ne *turant* bheja: price, size, COD.",
+   "say": "सिल्क स्टोरी ने तुरंत भेजा, प्राइस, साइज़, कैश ऑन डिलीवरी।",
+   "ops": [
+    {
+     "op": "bubble",
+     "on": "B",
+     "text": "Price · Size · COD ✓",
+     "tone": "good",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Rang ne *raat ko* sab ek saath dekhe.",
+   "say": "रंग ने रात को सब एक साथ देखे।",
+   "ops": [
+    {
+     "op": "bubble",
+     "on": "A",
+     "text": "12 ghante baad...",
+     "tone": "bad",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Tab tak log *order kar chuke* the.",
+   "say": "तब तक लोग ऑर्डर कर चुके थे।",
+   "ops": [
+    {
+     "op": "go",
+     "to": {
+      "B": 8,
+      "A": 2
+     },
+     "at": 0.3
+    },
+    {
+     "op": "glow",
+     "id": "B",
+     "at": 1.4
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Rang: *\"Views aate hain, sale nahi.\"*",
+   "say": "रंग बोली, व्यूज़ आते हैं, सेल नहीं।",
+   "ops": [
+    {
+     "op": "dim",
+     "id": "A",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Reel ne *dhyaan* kheecha. *Reply* ne bikri ki.",
+   "say": "रील ने ध्यान खींचा, रिप्लाई ने बिक्री की।",
+   "ops": [
+    {
+     "op": "clear",
+     "at": 0.2
+    },
+    {
+     "op": "big",
+     "text": "Views ≠ Sale",
+     "sub": "reply = sale",
+     "at": 0.7
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "dur": 2.6,
+   "lesson": "*DM se sale*",
+   "sub": "Viral hona aadha kaam hai. *Jaldi jawab* baaki aadha.",
+   "say": "यही है डीएम से सेल।"
+  },
+  {
+   "type": "cta",
+   "dur": 3.2,
+   "line": "Aapke business mein ye *leak* hai?",
+   "action": "AUDIT comment karo",
+   "say": "आपके बिज़नेस में ये लीक है? कमेंट में ऑडिट लिखिए।"
+  }
+ ],
+ "caption": "Do boutique, dono ki reel viral. Dono ko DM aaye: \"Price?\"\n\nEk ne turant price, size aur COD bheja. Doosri ne raat ko sab ek saath dekhe. Tab tak log order kar chuke the.\n\nAapke DMs ka jawab kitni der mein jaata hai? Comment mein AUDIT likho.\n\nWhatsApp: 98131 36114\nParachar: chhote business ke liye leads, WhatsApp aur Google ka setup.\nparachar.in (link bio mein)\n\n#boutique #instagrammarketing #d2cbrand #instagramdm #smallbusiness"
+}

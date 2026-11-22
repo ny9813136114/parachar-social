@@ -1,0 +1,155 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<!-- Parachar PARABLE reels (owner 21 Nov): a short marketing story told on a notebook page. Shops are circles,
+     customers are dots with eyes. Hindi voice tells the story, Hinglish text on screen mirrors each line.
+     Contract (same as the other engines): window.build(spec) -> {duration,cues,look,sfx}; window.seek(t).
+     Scene: {say, text, dur, ops:[...]}. Ops run in order, each at its own time inside the scene ("at", seconds,
+     default staggered) and stay in effect after their scene:
+       {op:"shop", id, pos:"L"|"R"|"C"|[x,y], label, color, small?}  a shop appears (circle + name)
+       {op:"dots", n, from:"top"|"bottom"|"left"|"right"}           customers appear (in a row on that side)
+       {op:"go", to:{A:7,B:3}}                                      free and placed dots walk to the shops
+       {op:"leave", from:"A", n, to:"B"|"out"}                      n dots leave a shop for another (or walk out)
+       {op:"bubble", on:"A", text, tone:"good"|"bad"}               a note pops up next to a shop
+       {op:"badge", on:"A", text, tone}                             a counter tag under a shop
+       {op:"dim", id} / {op:"glow", id} / {op:"cross", id}          fade / highlight / strike a shop
+       {op:"big", text, sub}                                        large words in the middle of the page
+       {op:"clear"}                                                 everything on the page fades away
+     Scene types "lesson" ({text}) and "cta" ({line, action, phone}) draw their own end cards.
+     Safe zone for Instagram: x 70..940, y 230..1440. -->
+<style>
+@font-face{font-family:K;src:url(fonts/kalam-700-latin.woff2) format("woff2");font-weight:700}
+@font-face{font-family:K;src:url(fonts/kalam-700-devanagari.woff2) format("woff2");font-weight:700;unicode-range:U+0900-097F}
+@font-face{font-family:B;src:url(fonts/baloo-2-800-latin.woff2) format("woff2");font-weight:800}
+*{box-sizing:border-box;margin:0}
+:root{--paper:#F4EBD6;--ink:#2B241E;--soft:#7A6A58;--good:#2F8F5B;--bad:#C2452D;--mark:#FFD45C}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--paper)}
+body{font-family:K,cursive;color:var(--ink)}
+#st{position:absolute;inset:0;overflow:hidden}
+.paper{position:absolute;inset:0;background:
+  radial-gradient(ellipse at 50% 40%,rgba(255,255,255,.55),transparent 62%),
+  radial-gradient(ellipse at 50% 50%,transparent 58%,rgba(120,90,50,.22) 100%),
+  repeating-linear-gradient(0deg,transparent 0 63px,rgba(70,110,160,.10) 63px 65px),var(--paper)}
+.margin{position:absolute;left:96px;top:0;bottom:0;width:3px;background:rgba(200,70,60,.25)}
+.grain{position:absolute;inset:0;opacity:.35;mix-blend-mode:multiply}
+.brand{position:absolute;left:130px;top:118px;font:800 40px B,sans-serif;letter-spacing:.5px;color:var(--ink);opacity:.8}
+.brand i{display:inline-block;width:16px;height:16px;border-radius:50%;background:var(--bad);margin-left:6px;vertical-align:middle}
+.line{position:absolute;left:130px;right:150px;top:230px;height:330px;display:flex;align-items:center;
+  font-size:66px;line-height:1.22;opacity:0}
+.line b{font-weight:700;background:linear-gradient(transparent 55%,var(--mark) 55% 92%,transparent 92%);padding:0 6px}
+.ent{position:absolute;left:0;top:0;will-change:transform,opacity}
+.shop{width:230px;height:230px;margin:-115px 0 0 -115px;border-radius:50%;border:7px solid var(--ink);
+  display:flex;align-items:center;justify-content:center;text-align:center;font-size:40px;line-height:1.05;padding:18px;
+  box-shadow:6px 8px 0 rgba(43,36,30,.18)}
+.shop.small{width:170px;height:170px;margin:-85px 0 0 -85px;font-size:32px}
+.shop .lab{position:absolute;top:100%;margin-top:18px;left:50%;transform:translateX(-50%);white-space:nowrap;font-size:42px}
+.dot{width:54px;height:54px;margin:-27px 0 0 -27px;border-radius:50%;background:#3E5C8A;border:4px solid var(--ink)}
+.dot .eyes{position:absolute;left:9px;top:13px;width:28px;height:14px}
+.dot .eyes::before,.dot .eyes::after{content:"";position:absolute;top:0;width:12px;height:14px;border-radius:50%;background:#fff;
+  box-shadow:inset 3px 2px 0 0 #fff}
+.dot .eyes::before{left:0}.dot .eyes::after{right:0}
+.dot .eyes i{position:absolute;top:4px;width:6px;height:7px;border-radius:50%;background:var(--ink)}
+.dot .eyes i:first-child{left:3px}.dot .eyes i:last-child{right:3px}
+.bub{padding:14px 26px;border:5px solid var(--ink);border-radius:26px;background:#fff;font-size:38px;white-space:nowrap;
+  box-shadow:5px 6px 0 rgba(43,36,30,.18)}
+.bub.good{background:#DFF3E4}.bub.bad{background:#FBE0D8}
+.badge{padding:8px 22px;border-radius:40px;background:var(--ink);color:#fff;font:800 40px B,sans-serif;white-space:nowrap}
+.badge.good{background:var(--good)}.badge.bad{background:var(--bad)}
+.cross{width:260px;height:260px;margin:-130px 0 0 -130px}
+.big{position:absolute;left:110px;right:160px;top:760px;text-align:center;opacity:0}
+.big .t{font:800 128px/1.02 B,sans-serif}
+.big .s{font-size:50px;margin-top:22px;color:var(--soft)}
+.lesson{position:absolute;left:110px;right:160px;top:620px;text-align:center;opacity:0}
+.lesson .k{font-size:54px;color:var(--soft)}
+.lesson .t{font:800 104px/1.05 B,sans-serif;margin-top:14px}
+.lesson .s{font-size:54px;line-height:1.2;margin-top:40px}
+.lesson .t b{background:linear-gradient(transparent 52%,var(--mark) 52% 94%,transparent 94%);padding:0 10px}
+.cta{position:absolute;left:110px;right:160px;top:470px;text-align:center;opacity:0}
+.cta img{width:250px;display:block;margin:0 auto 34px}
+.cta .nm{font:800 64px B,sans-serif;margin:-14px 0 40px}
+.cta .l{font-size:58px;line-height:1.2}
+.cta .a{display:inline-block;margin-top:40px;padding:22px 46px;border:7px solid var(--ink);border-radius:30px;background:var(--mark);
+  font:800 60px B,sans-serif;box-shadow:7px 9px 0 rgba(43,36,30,.2)}
+.cta .p{margin-top:44px;font:800 54px B,sans-serif}
+.cta .p span{color:var(--good)}
+</style></head><body>
+<div id="st">
+  <div class="paper"></div><div class="margin"></div>
+  <svg class="grain" width="1080" height="1920"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .45  0 0 0 0 .35  0 0 0 0 .2  0 0 0 .5 0"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
+  <div class="brand">Parachar<i></i></div>
+</div>
+<script>
+const st=document.getElementById('st');
+const POS={L:[300,1060],R:[780,1060],C:[540,1060],TL:[300,820],TR:[780,820],BL:[300,1240],BR:[780,1240]};
+const COLORS=['#F7C873','#9FD3C7','#F4A6A0','#B9C4F0','#CDE7A1'];
+const DOTC=['#3E5C8A','#C2452D','#2F8F5B','#8A5A9E','#D08A2E','#3E7C8A'];
+const E='cubic-bezier(.45,.05,.25,1)',POP='cubic-bezier(.3,1.6,.5,1)';
+let sfx=[];const fx=(t,k)=>sfx.push({t:+t.toFixed(3),k});
+const tf=(x,y,s=1)=>`translate(${x}px,${y}px) scale(${s})`;
+function mk(cls,html){const d=document.createElement('div');d.className='ent '+cls;if(html)d.innerHTML=html;st.appendChild(d);return d}
+// first animation of an element holds its state before it starts (fill both); later ones only forwards
+function an(el,kf,t,d,ease){const o={delay:t*1000,duration:d*1000,easing:ease||E,fill:el._a?'forwards':'both'};el._a=1;el.animate(kf,o)}
+const fmt=s=>String(s).replace(/\*([^*]+)\*/g,'<b>$1</b>');
+const rnd=(i,k)=>{const x=Math.sin(i*12.9898+k*78.233)*43758.5453;return x-Math.floor(x)};
+
+window.build=function(spec){
+  sfx=[];const shops={},dots=[];let T=0;const cues=[];let ents=[];
+  const seat=(shop,k,n)=>{ // ring of seats around a shop, filled from the front
+    // even ring around the shop, leaving the top (notes) and bottom (tags) free; outer ring after 8
+    const [cx,cy]=shop.p,r=shop.small?140:172,per=8,ring=Math.floor(k/per),j=k%per;
+    const SL=[-0.55,-0.2,0.2,0.55,2.59,2.94,3.34,3.69];const a=SL[j]+ring*0.17;const R=r+ring*64;
+    return [cx+Math.cos(a)*R,cy+Math.sin(a)*R*1.05]};
+  const moveDot=(d,to,t,dur)=>{an(d.el,[{transform:tf(...d.p)},{transform:tf(...to)}],t,dur);
+    const dir=Math.sign(to[0]-d.p[0])*5;an(d.eyes,[{transform:`translateX(${d.dir||0}px)`},{transform:`translateX(${dir}px)`}],t,.25);d.dir=dir;d.p=to};
+  const restack=(id,t)=>{const s=shops[id];dots.filter(d=>d.at===id).forEach((d,k)=>moveDot(d,seat(s,k),t,.6))};
+  spec.scenes.forEach((s,si)=>{
+    const t0=T,dur=s.dur;
+    if(s.text){const l=document.createElement('div');l.className='line';l.innerHTML=`<div>${fmt(s.text)}</div>`;st.appendChild(l);
+      l.animate([{opacity:0,transform:'translateY(24px)'},{opacity:1,transform:'none',offset:Math.min(.12,.4/dur)},{opacity:1,offset:1-Math.min(.1,.3/dur)},{opacity:0}],
+        {delay:t0*1000,duration:dur*1000,fill:'none'});}
+    if(s.text||s.say)cues.push({start:t0,end:t0+dur,text:s.say||s.text});
+    if((s.type==='lesson'||s.type==='cta')&&ents.length){ // end cards start on a clean page
+      ents.forEach(el=>el.animate([{opacity:1},{opacity:0}],{delay:t0*1000,duration:350,fill:'forwards'}));ents=[];for(const k in shops)delete shops[k];dots.length=0}
+    if(s.type==='lesson'){const l=document.createElement('div');l.className='lesson';l.innerHTML=`<div class="k">${s.kicker||'Yahi hai'}</div><div class="t">${fmt(s.lesson)}</div>${s.sub?`<div class="s">${fmt(s.sub)}</div>`:''}`;st.appendChild(l);
+      l.animate([{opacity:0,transform:'scale(.85)'},{opacity:1,transform:'none',offset:.12},{opacity:1}],{delay:(t0+.15)*1000,duration:(dur-.15)*1000,easing:POP,fill:'none'});fx(t0+.2,'impact')}
+    if(s.type==='cta'){const l=document.createElement('div');l.className='cta';
+      l.innerHTML=`<img src="mark.png"><div class="nm">Parachar</div><div class="l">${fmt(s.line||'')}</div><div class="a">${fmt(s.action||'')}</div><div class="p">WhatsApp <span>${s.phone||'98131 36114'}</span></div>`;st.appendChild(l);
+      l.animate([{opacity:0,transform:'translateY(30px)'},{opacity:1,transform:'none'}],{delay:(t0+.1)*1000,duration:500,fill:'forwards'});fx(t0+.15,'whoosh');fx(t0+1.1,'ting')}
+    const ops=s.ops||[];let auto=0.35;
+    ops.forEach((o,oi)=>{
+      const t=t0+(o.at!=null?o.at:auto);auto=Math.min(dur-.6,(o.at!=null?o.at:auto)+Math.max(.5,(dur-.8)/Math.max(ops.length,1)));
+      if(o.op==='shop'){const p=Array.isArray(o.pos)?o.pos:POS[o.pos||'C'];const c=o.color||COLORS[Object.keys(shops).length%COLORS.length];
+        const el=mk('shop'+(o.small?' small':''),`<div>${fmt(o.name||'')}</div>${o.label?`<div class="lab">${fmt(o.label)}</div>`:''}`);el.style.background=c;
+        an(el,[{transform:tf(...p,0),opacity:0},{transform:tf(...p,1),opacity:1}],t,.55,POP);shops[o.id]={el,p,small:o.small};ents.push(el);fx(t,'pop')}
+      if(o.op==='dots'){for(let i=0;i<o.n;i++){const side=o.from||'top',f=(i+.5)/o.n;
+          const p=side==='top'?[150+f*700,700+(i%2)*60]:side==='bottom'?[150+f*700,1380-(i%2)*60]:side==='left'?[140+(i%2)*60,760+f*560]:[880-(i%2)*60,760+f*560];
+          const el=mk('dot','<div class="eyes"><i></i><i></i></div>');el.style.background=DOTC[(dots.length+i)%DOTC.length];
+          const d={el,eyes:el.firstChild,p,at:null};an(el,[{transform:tf(...p,0)},{transform:tf(...p,1)}],t+i*.05,.4,POP);dots.push(d);ents.push(el)}
+        fx(t,'pop')}
+      if(o.op==='go'){let k=0;for(const [id,n] of Object.entries(o.to)){const free=dots.filter(d=>!d.at).slice(0,n);
+          free.forEach((d,j)=>{d.at=id;const seats=dots.filter(x=>x.at===id).indexOf(d);moveDot(d,seat(shops[id],seats),t+(k++)*.06,1.1)})}
+        fx(t,'whoosh')}
+      if(o.op==='leave'){const from=dots.filter(d=>d.at===o.from).slice(-(o.n||1));
+        from.forEach((d,j)=>{if(o.to==='out'){d.at='out';moveDot(d,[d.p[0]<540?-80:1160,d.p[1]+40],t+j*.08,1)}
+          else{d.at=o.to;moveDot(d,seat(shops[o.to],dots.filter(x=>x.at===o.to).indexOf(d)),t+j*.08,1.1)}});
+        restack(o.from,t+.9);fx(t,'whoosh')}
+      if(o.op==='bubble'){const s0=shops[o.on],p=[s0.p[0]+(o.dx||0),s0.p[1]-(o.dy!=null?o.dy:215)];const el=mk('bub '+(o.tone||''),fmt(o.text));
+        el.style.marginLeft='0';const w=Math.min(o.text.length*19+60,520);el.style.marginLeft=(-w/2)+'px';
+        an(el,[{transform:tf(...p,0),opacity:0},{transform:tf(...p,1),opacity:1}],t,.45,POP);ents.push(el);fx(t,o.tone==='bad'?'buzz':'ting')}
+      if(o.op==='badge'){const s0=shops[o.on],p=[s0.p[0],s0.p[1]+(s0.small?120:160)+(o.dy||0)];const el=mk('badge '+(o.tone||''),fmt(o.text));
+        const w=o.text.length*22+44;el.style.marginLeft=(-w/2)+'px';an(el,[{transform:tf(...p,0)},{transform:tf(...p,1)}],t,.45,POP);ents.push(el);fx(t,'tick')}
+      if(o.op==='dim'){an(shops[o.id].el,[{opacity:1,filter:'grayscale(0)'},{opacity:.45,filter:'grayscale(1)'}],t,.6)}
+      if(o.op==='glow'){const el=shops[o.id].el;an(el,[{transform:tf(...shops[o.id].p,1)},{transform:tf(...shops[o.id].p,1.14)},{transform:tf(...shops[o.id].p,1.06)}],t,.7,POP);
+        el.animate([{boxShadow:'6px 8px 0 rgba(43,36,30,.18)'},{boxShadow:'0 0 0 22px rgba(255,212,92,.75)',offset:.25},{boxShadow:'0 0 0 22px rgba(255,212,92,.75)',offset:.75},{boxShadow:'6px 8px 0 rgba(43,36,30,.18)'}],{delay:t*1000,duration:2000,fill:'none'});fx(t,'ting')}
+      if(o.op==='cross'){const s0=shops[o.id];const el=mk('cross',`<svg width="260" height="260"><path d="M40 40 L220 220 M220 40 L40 220" stroke="#C2452D" stroke-width="16" stroke-linecap="round" fill="none" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/></svg>`);
+        el.style.transform=tf(...s0.p);const path=el.querySelector('path');path.animate([{strokeDashoffset:1},{strokeDashoffset:0}],{delay:t*1000,duration:500,fill:'both'});ents.push(el);fx(t,'buzz')}
+      if(o.op==='big'){const l=document.createElement('div');l.className='big';l.innerHTML=`<div class="t">${fmt(o.text)}</div>${o.sub?`<div class="s">${fmt(o.sub)}</div>`:''}`;st.appendChild(l);
+        const end=o.until!=null?o.until:dur;l.animate([{opacity:0,transform:'scale(.8)'},{opacity:1,transform:'none',offset:.15},{opacity:1,offset:.9},{opacity:0}],{delay:t*1000,duration:(t0+end-t)*1000,easing:POP,fill:'none'});fx(t,'impact')}
+      if(o.op==='clear'){ents.forEach(el=>el.animate([{opacity:1},{opacity:0}],{delay:t*1000,duration:400,fill:'forwards'}));ents=[];
+        for(const k in shops)delete shops[k];dots.forEach(d=>d.at='gone');dots.length=0}
+    });
+    T+=dur;
+  });
+  document.getAnimations().forEach(a=>a.pause());window.seek(0);return{duration:T,cues,look:'parable',sfx};
+};
+window.seek=function(t){document.getAnimations().forEach(a=>a.currentTime=t*1000)};
+</script></body></html>
