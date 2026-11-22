@@ -1,0 +1,159 @@
+{
+ "id": "parable-review-reply",
+ "style": "parable",
+ "series": "Parachar Kahaniyan",
+ "industry": "Clinics",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+18%",
+ "scenes": [
+  {
+   "dur": 2.6,
+   "text": "Do *skin clinic*.",
+   "say": "दो स्किन क्लिनिक।",
+   "ops": [
+    {
+     "op": "shop",
+     "id": "A",
+     "pos": "L",
+     "name": "Skin Care+",
+     "color": "#B9C4F0",
+     "at": 0.3
+    },
+    {
+     "op": "shop",
+     "id": "B",
+     "pos": "R",
+     "name": "Derma Point",
+     "color": "#CDE7A1",
+     "at": 0.9
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Dono pe ek *gussa wala review* aaya.",
+   "say": "दोनों पर एक गुस्से वाला रिव्यू आया।",
+   "ops": [
+    {
+     "op": "bubble",
+     "on": "A",
+     "text": "★ 1 · \"2 ghante wait\"",
+     "tone": "bad",
+     "at": 0.6
+    },
+    {
+     "op": "bubble",
+     "on": "B",
+     "text": "★ 1 · \"2 ghante wait\"",
+     "tone": "bad",
+     "at": 1.2
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Skin Care+ ne *chup* rehna theek samjha.",
+   "say": "स्किन केयर प्लस ने चुप रहना ठीक समझा।",
+   "ops": [
+    {
+     "op": "badge",
+     "on": "A",
+     "text": "No reply",
+     "tone": "bad",
+     "at": 0.8
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Derma Point ne likha: *\"Sorry, ab online slot booking hai.\"*",
+   "say": "डर्मा पॉइंट ने लिखा, सॉरी, अब ऑनलाइन स्लॉट बुकिंग है।",
+   "ops": [
+    {
+     "op": "badge",
+     "on": "B",
+     "text": "Reply in 1 day ✓",
+     "tone": "good",
+     "at": 0.8
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Naye patients ne *dono review* padhe.",
+   "say": "नए पेशेंट्स ने दोनों रिव्यू पढ़े।",
+   "ops": [
+    {
+     "op": "dots",
+     "n": 9,
+     "from": "top",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Unhone *jawab dene wale* ko chuna.",
+   "say": "उन्होंने जवाब देने वाले को चुना।",
+   "ops": [
+    {
+     "op": "go",
+     "to": {
+      "B": 7,
+      "A": 2
+     },
+     "at": 0.3
+    },
+    {
+     "op": "glow",
+     "id": "B",
+     "at": 1.4
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Ek bura review *nuksaan* nahi tha. *Chuppi* thi.",
+   "say": "एक बुरा रिव्यू नुकसान नहीं था, चुप्पी थी।",
+   "ops": [
+    {
+     "op": "dim",
+     "id": "A",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Log review se zyada *jawab* padhte hain.",
+   "say": "लोग रिव्यू से ज़्यादा जवाब पढ़ते हैं।",
+   "ops": [
+    {
+     "op": "clear",
+     "at": 0.2
+    },
+    {
+     "op": "big",
+     "text": "Jawab do",
+     "sub": "bharosa wahi banata hai",
+     "at": 0.7
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "dur": 2.6,
+   "lesson": "*Review reply*",
+   "sub": "Bura review bhi *bharosa* bana sakta hai, agar jawab achha ho.",
+   "say": "यही है रिव्यू का जवाब।"
+  },
+  {
+   "type": "cta",
+   "dur": 3.2,
+   "line": "Aapke business mein ye *leak* hai?",
+   "action": "AUDIT comment karo",
+   "say": "आपके बिज़नेस में ये लीक है? कमेंट में ऑडिट लिखिए।"
+  }
+ ],
+ "caption": "Do skin clinic, dono pe ek gusse wala 1-star review: \"2 ghante wait karaya\".\n\nEk chup raha. Doosre ne likha: \"Sorry, ab online slot booking hai, wait nahi hoga.\" Naye patients ne dono padhe aur jawab dene wale ko chuna.\n\nAap apne reviews ka jawab dete ho? Comment mein AUDIT likho.\n\nWhatsApp: 98131 36114\nParachar: chhote business ke liye leads, WhatsApp aur Google ka setup.\nparachar.in (link bio mein)\n\n#clinicmarketing #googlereviews #dermatologist #doctormarketing #reputationmanagement"
+}

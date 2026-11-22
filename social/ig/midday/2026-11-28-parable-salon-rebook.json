@@ -1,0 +1,164 @@
+{
+ "id": "parable-salon-rebook",
+ "style": "parable",
+ "series": "Parachar Kahaniyan",
+ "industry": "Salons",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+18%",
+ "scenes": [
+  {
+   "dur": 2.6,
+   "text": "Ek colony, *do salon*.",
+   "say": "एक कॉलोनी, दो सैलून।",
+   "ops": [
+    {
+     "op": "shop",
+     "id": "A",
+     "pos": "L",
+     "name": "Glow Salon",
+     "color": "#F4A6A0",
+     "at": 0.3
+    },
+    {
+     "op": "shop",
+     "id": "B",
+     "pos": "R",
+     "name": "Style Studio",
+     "color": "#B9C4F0",
+     "at": 0.9
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Dono ke paas *20 regular* customers.",
+   "say": "दोनों के पास बीस रेगुलर ग्राहक थे।",
+   "ops": [
+    {
+     "op": "dots",
+     "n": 10,
+     "from": "top",
+     "at": 0.4
+    },
+    {
+     "op": "go",
+     "to": {
+      "A": 5,
+      "B": 5
+     },
+     "at": 1.0
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Ek mahine baad *haircut* ka time aaya.",
+   "say": "एक महीने बाद, हेयरकट का टाइम आया।",
+   "ops": [
+    {
+     "op": "big",
+     "text": "30 din",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Glow ne bheja: *\"Aapka haircut due hai. Kal 5 baje?\"*",
+   "say": "ग्लो ने मैसेज भेजा, आपका हेयरकट ड्यू है, कल पाँच बजे?",
+   "ops": [
+    {
+     "op": "bubble",
+     "on": "A",
+     "text": "Reminder ✓",
+     "tone": "good",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Style Studio ne *intezaar* kiya.",
+   "say": "स्टाइल स्टूडियो ने इंतज़ार किया।",
+   "ops": [
+    {
+     "op": "bubble",
+     "on": "B",
+     "text": "Aa jayenge... 🤞",
+     "tone": "bad",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Style ke customers *naye salon* chale gaye.",
+   "say": "स्टाइल के ग्राहक नए सैलून चले गए।",
+   "ops": [
+    {
+     "op": "leave",
+     "from": "B",
+     "n": 3,
+     "to": "out",
+     "at": 0.4
+    },
+    {
+     "op": "dim",
+     "id": "B",
+     "at": 1.2
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Glow ke *saare wapas* aaye.",
+   "say": "ग्लो के सारे वापस आए।",
+   "ops": [
+    {
+     "op": "glow",
+     "id": "A",
+     "at": 0.5
+    },
+    {
+     "op": "badge",
+     "on": "A",
+     "text": "Rebook 90%",
+     "tone": "good",
+     "at": 1.0
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Customer bhoola nahi tha. Bas *kisi ne yaad nahi dilaya*.",
+   "say": "ग्राहक भूला नहीं था, बस किसी ने याद नहीं दिलाया।",
+   "ops": [
+    {
+     "op": "clear",
+     "at": 0.2
+    },
+    {
+     "op": "big",
+     "text": "Yaad dilao",
+     "sub": "customer wapas aata hai",
+     "at": 0.7
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "dur": 2.6,
+   "lesson": "*Rebooking*",
+   "sub": "Naya customer mehenga hai. *Purana* yaad dilane se aata hai.",
+   "say": "यही है रीबुकिंग।"
+  },
+  {
+   "type": "cta",
+   "dur": 3.2,
+   "line": "Aapke business mein ye *leak* hai?",
+   "action": "AUDIT comment karo",
+   "say": "आपके बिज़नेस में ये लीक है? कमेंट में ऑडिट लिखिए।"
+  }
+ ],
+ "caption": "Do salon, dono ke paas regular customers.\n\nEk ne 30 din baad ek chhota sa message bheja: \"Aapka haircut due hai, kal 5 baje?\" Doosre ne intezaar kiya. Ek ke customers wapas aaye, doosre ke naye salon chale gaye.\n\nAap apne customers ko yaad dilate ho? Comment mein AUDIT likho.\n\nWhatsApp: 98131 36114\nParachar: chhote business ke liye leads, WhatsApp aur Google ka setup.\nparachar.in (link bio mein)\n\n#salonmarketing #salonbusiness #whatsappbusiness #customerretention #smallbusiness"
+}

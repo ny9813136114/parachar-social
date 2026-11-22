@@ -1,0 +1,172 @@
+{
+ "id": "parable-ad-tracking",
+ "style": "parable",
+ "series": "Parachar Kahaniyan",
+ "industry": "Real estate",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+18%",
+ "scenes": [
+  {
+   "dur": 2.6,
+   "text": "Ek shehar, *do builders*.",
+   "say": "एक शहर, दो बिल्डर।",
+   "ops": [
+    {
+     "op": "shop",
+     "id": "A",
+     "pos": "L",
+     "name": "Builder Raj",
+     "color": "#F7C873",
+     "at": 0.3
+    },
+    {
+     "op": "shop",
+     "id": "B",
+     "pos": "R",
+     "name": "Builder Arora",
+     "color": "#B9C4F0",
+     "at": 0.9
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Dono har mahine *₹2 lakh* ke ads chalate the.",
+   "say": "दोनों हर महीने दो लाख के ऐड चलाते थे।",
+   "ops": [
+    {
+     "op": "badge",
+     "on": "A",
+     "text": "₹2 lakh/mahina",
+     "at": 0.8
+    },
+    {
+     "op": "badge",
+     "on": "B",
+     "text": "₹2 lakh/mahina",
+     "at": 1.0
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Dono ko *100 leads* aati thi.",
+   "say": "दोनों को सौ लीड्स आती थीं।",
+   "ops": [
+    {
+     "op": "dots",
+     "n": 10,
+     "from": "top",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Raj har lead ke saath likhta tha: *kaunsa ad*.",
+   "say": "राज हर लीड के साथ लिखता था, कौनसा ऐड।",
+   "ops": [
+    {
+     "op": "go",
+     "to": {
+      "A": 5,
+      "B": 5
+     },
+     "at": 0.3
+    },
+    {
+     "op": "bubble",
+     "on": "A",
+     "text": "Ad 3 → 4 site visit ✓",
+     "tone": "good",
+     "at": 1.4
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Arora ko bas pata tha: *leads aa rahi hain*.",
+   "say": "अरोड़ा को बस इतना पता था, लीड्स आ रही हैं।",
+   "ops": [
+    {
+     "op": "bubble",
+     "on": "B",
+     "text": "Kaunsa ad? Pata nahi",
+     "tone": "bad",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Raj ne bekaar ads band kiye, *achhe ads* badhaye.",
+   "say": "राज ने बेकार ऐड बंद किए, अच्छे ऐड बढ़ाए।",
+   "ops": [
+    {
+     "op": "glow",
+     "id": "A",
+     "at": 0.5
+    },
+    {
+     "op": "badge",
+     "on": "A",
+     "text": "Same budget, 2x visits",
+     "tone": "good",
+     "at": 1.2,
+     "dy": 64
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Arora ne *har ad* pe paisa lagaye rakha.",
+   "say": "अरोड़ा ने हर ऐड पर पैसा लगाए रखा।",
+   "ops": [
+    {
+     "op": "dim",
+     "id": "B",
+     "at": 0.4
+    },
+    {
+     "op": "leave",
+     "from": "B",
+     "n": 3,
+     "to": "A",
+     "at": 1.0
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Farq budget ka nahi tha. *Hisaab* ka tha.",
+   "say": "फ़र्क बजट का नहीं था, हिसाब का था।",
+   "ops": [
+    {
+     "op": "clear",
+     "at": 0.2
+    },
+    {
+     "op": "big",
+     "text": "Kaunsa ad?",
+     "sub": "yahi sawaal paisa bachata hai",
+     "at": 0.7
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "dur": 2.6,
+   "lesson": "*Ad tracking*",
+   "sub": "Jo *naapta* hai, wahi badhata hai.",
+   "say": "यही है ऐड ट्रैकिंग।"
+  },
+  {
+   "type": "cta",
+   "dur": 3.2,
+   "line": "Aapke business mein ye *leak* hai?",
+   "action": "AUDIT comment karo",
+   "say": "आपके बिज़नेस में ये लीक है? कमेंट में ऑडिट लिखिए।"
+  }
+ ],
+ "caption": "Do builders. Same ₹2 lakh ka ad budget. Same 100 leads.\n\nEk ko pata tha kaunsa ad site visit laata hai. Doosre ko bas itna pata tha ki leads aa rahi hain. Teen mahine baad ek ke paas double site visits the, doosra kehta tha \"ads kaam nahi karte\".\n\nAapko pata hai kaunsa ad kaam kar raha hai? Comment mein AUDIT likho.\n\nWhatsApp: 98131 36114\nParachar: chhote business ke liye leads, WhatsApp aur Google ka setup.\nparachar.in (link bio mein)\n\n#realestatemarketing #leadgeneration #facebookads #builders #marketingtips"
+}

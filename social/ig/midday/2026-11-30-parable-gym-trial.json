@@ -1,0 +1,166 @@
+{
+ "id": "parable-gym-trial",
+ "style": "parable",
+ "series": "Parachar Kahaniyan",
+ "industry": "Gyms and fitness",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+18%",
+ "scenes": [
+  {
+   "dur": 2.6,
+   "text": "Ek area, *do gym*.",
+   "say": "एक एरिया, दो जिम।",
+   "ops": [
+    {
+     "op": "shop",
+     "id": "A",
+     "pos": "L",
+     "name": "Iron Gym",
+     "color": "#B9C4F0",
+     "at": 0.3
+    },
+    {
+     "op": "shop",
+     "id": "B",
+     "pos": "R",
+     "name": "FitZone",
+     "color": "#F7C873",
+     "at": 0.9
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Dono ne *free trial* diya.",
+   "say": "दोनों ने फ़्री ट्रायल दिया।",
+   "ops": [
+    {
+     "op": "dots",
+     "n": 10,
+     "from": "top",
+     "at": 0.4
+    },
+    {
+     "op": "go",
+     "to": {
+      "A": 5,
+      "B": 5
+     },
+     "at": 1.0
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Trial ke baad, *FitZone ne 3 baar* follow-up kiya.",
+   "say": "ट्रायल के बाद फ़िटज़ोन ने तीन बार फ़ॉलो-अप किया।",
+   "ops": [
+    {
+     "op": "bubble",
+     "on": "B",
+     "text": "Day 1 · Day 3 · Day 7 ✓",
+     "tone": "good",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Iron Gym ne socha: *\"Pasand aaya toh aayenge.\"*",
+   "say": "आयरन जिम ने सोचा, पसंद आया तो आएँगे।",
+   "ops": [
+    {
+     "op": "bubble",
+     "on": "A",
+     "text": "Khud aa jayenge 🤷",
+     "tone": "bad",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "FitZone ke *4 log* member bane.",
+   "say": "फ़िटज़ोन के चार लोग मेंबर बने।",
+   "ops": [
+    {
+     "op": "badge",
+     "on": "B",
+     "text": "4 members",
+     "tone": "good",
+     "at": 0.8
+    },
+    {
+     "op": "glow",
+     "id": "B",
+     "at": 1.0
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Iron ka *sirf 1*.",
+   "say": "आयरन का सिर्फ़ एक।",
+   "ops": [
+    {
+     "op": "badge",
+     "on": "A",
+     "text": "1 member",
+     "tone": "bad",
+     "at": 0.8
+    },
+    {
+     "op": "leave",
+     "from": "A",
+     "n": 4,
+     "to": "out",
+     "at": 1.0
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Iron Gym: *\"Log serious nahi hain.\"*",
+   "say": "आयरन जिम बोला, लोग सीरियस नहीं हैं।",
+   "ops": [
+    {
+     "op": "dim",
+     "id": "A",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Log serious the. Bas *kisi ne poocha nahi*.",
+   "say": "लोग सीरियस थे, बस किसी ने पूछा नहीं।",
+   "ops": [
+    {
+     "op": "clear",
+     "at": 0.2
+    },
+    {
+     "op": "big",
+     "text": "3 follow-ups",
+     "sub": "sabse saste members",
+     "at": 0.7
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "dur": 2.6,
+   "lesson": "*Follow-up*",
+   "sub": "Pehli baar mein *haan* kam milta hai. Teesri baar mein zyada.",
+   "say": "यही है फ़ॉलो-अप।"
+  },
+  {
+   "type": "cta",
+   "dur": 3.2,
+   "line": "Aapke business mein ye *leak* hai?",
+   "action": "AUDIT comment karo",
+   "say": "आपके बिज़नेस में ये लीक है? कमेंट में ऑडिट लिखिए।"
+  }
+ ],
+ "caption": "Do gym, dono ne free trial diya.\n\nEk ne trial ke baad Day 1, Day 3 aur Day 7 pe message kiya. Doosre ne socha \"pasand aaya toh aayenge\". Ek ke 4 members bane, doosre ka 1.\n\nAapke trial waale customers ka kya hota hai? Comment mein AUDIT likho.\n\nWhatsApp: 98131 36114\nParachar: chhote business ke liye leads, WhatsApp aur Google ka setup.\nparachar.in (link bio mein)\n\n#gymmarketing #fitnessbusiness #followup #whatsappbusiness #smallbusiness"
+}

@@ -1,0 +1,166 @@
+{
+ "id": "parable-own-customers",
+ "style": "parable",
+ "series": "Parachar Kahaniyan",
+ "industry": "Restaurants",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+18%",
+ "scenes": [
+  {
+   "dur": 2.6,
+   "text": "Ek market, *do café*.",
+   "say": "एक मार्केट, दो कैफ़े।",
+   "ops": [
+    {
+     "op": "shop",
+     "id": "A",
+     "pos": "L",
+     "name": "Chai Adda",
+     "color": "#F4A6A0",
+     "at": 0.3
+    },
+    {
+     "op": "shop",
+     "id": "B",
+     "pos": "R",
+     "name": "Café 22",
+     "color": "#9FD3C7",
+     "at": 0.9
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Dono ke *aadhe orders* app se aate the.",
+   "say": "दोनों के आधे ऑर्डर ऐप से आते थे।",
+   "ops": [
+    {
+     "op": "dots",
+     "n": 10,
+     "from": "top",
+     "at": 0.4
+    },
+    {
+     "op": "go",
+     "to": {
+      "A": 5,
+      "B": 5
+     },
+     "at": 1.0
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Har order pe app *commission* kaat-ta tha.",
+   "say": "हर ऑर्डर पर ऐप कमीशन काटता था।",
+   "ops": [
+    {
+     "op": "badge",
+     "on": "A",
+     "text": "-25% commission",
+     "tone": "bad",
+     "at": 0.8
+    },
+    {
+     "op": "badge",
+     "on": "B",
+     "text": "-25% commission",
+     "tone": "bad",
+     "at": 1.0
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Café 22 ne bill pe *WhatsApp number* maangna shuru kiya.",
+   "say": "कैफ़े बाईस ने बिल पर व्हाट्सऐप नंबर माँगना शुरू किया।",
+   "ops": [
+    {
+     "op": "bubble",
+     "on": "B",
+     "text": "500 customers ka list ✓",
+     "tone": "good",
+     "at": 1.0
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Baarish wale din usne bheja: *\"Garam chai, 10% off\"*.",
+   "say": "बारिश वाले दिन उसने भेजा, गरम चाय, दस परसेंट ऑफ़।",
+   "ops": [
+    {
+     "op": "glow",
+     "id": "B",
+     "at": 0.5
+    },
+    {
+     "op": "leave",
+     "from": "A",
+     "n": 3,
+     "to": "B",
+     "at": 1.2
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Direct order. *Koi commission nahi.*",
+   "say": "सीधा ऑर्डर, कोई कमीशन नहीं।",
+   "ops": [
+    {
+     "op": "badge",
+     "on": "B",
+     "text": "0% commission",
+     "tone": "good",
+     "at": 0.6,
+     "dy": 64
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Chai Adda ab bhi *app ke bharose* tha.",
+   "say": "चाय अड्डा अब भी ऐप के भरोसे था।",
+   "ops": [
+    {
+     "op": "dim",
+     "id": "A",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "text": "Customer app ka nahi tha. *Number* jiske paas, customer uska.",
+   "say": "ग्राहक ऐप का नहीं था। नंबर जिसके पास, ग्राहक उसका।",
+   "ops": [
+    {
+     "op": "clear",
+     "at": 0.2
+    },
+    {
+     "op": "big",
+     "text": "Number = customer",
+     "at": 0.7
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "dur": 2.6,
+   "lesson": "*Apne customers*",
+   "sub": "Commission do, par customer ka *number* apne paas rakho.",
+   "say": "यही है अपने ग्राहकों को अपना बनाना।"
+  },
+  {
+   "type": "cta",
+   "dur": 3.2,
+   "line": "Aapke business mein ye *leak* hai?",
+   "action": "AUDIT comment karo",
+   "say": "आपके बिज़नेस में ये लीक है? कमेंट में ऑडिट लिखिए।"
+  }
+ ],
+ "caption": "Do café. Dono ke aadhe orders app se, aur har order pe commission.\n\nEk ne bill pe WhatsApp number maangna shuru kiya. Baarish wale din ek message gaya, aur direct orders aaye, bina commission.\n\nAapke customers kiske hain, aapke ya app ke? Comment mein AUDIT likho.\n\nWhatsApp: 98131 36114\nParachar: chhote business ke liye leads, WhatsApp aur Google ka setup.\nparachar.in (link bio mein)\n\n#restaurantmarketing #cafe #whatsappmarketing #zomato #smallbusiness"
+}
