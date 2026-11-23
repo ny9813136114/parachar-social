@@ -41,6 +41,16 @@ async function publish(igId, id) {
   throw new Error('Instagram processing took over 10 minutes');
 }
 
+// Meta sometimes answers media_publish with a 500 "unexpected error" although the post went live (23 Nov: the
+// next run then posted the same reel again). So before posting, and after any failed publish, look at the
+// account's latest posts: one with the same caption from the last 12 hours means it is already live.
+async function alreadyLive(igId, caption) {
+  const head = caption.trim().slice(0, 120);
+  const { data = [] } = await graph('GET', `/${igId}/media`, { fields: 'id,caption,timestamp', limit: '8' });
+  const m = data.find(x => (x.caption || '').trim().slice(0, 120) === head && Date.now() - Date.parse(x.timestamp) < 12 * 3600e3);
+  return m ? m.id : null;
+}
+
 async function igReel(igId, videoUrl, coverUrl, caption) {
   const p = { media_type: 'REELS', video_url: videoUrl, caption, share_to_feed: 'true' };
   if (coverUrl) p.cover_url = coverUrl;
@@ -130,8 +140,17 @@ function todays(date) {
   }
   // Instagram is the main target: if it fails the run fails. Facebook is a best-effort copy.
   if (!rec.instagram) {
-    rec.instagram = t.kind === 'reel' ? await igReel(acc.ig, urls.video, urls.cover, caption)
-      : t.kind === 'image' ? await igImage(acc.ig, urls[0], caption) : await igCarousel(acc.ig, urls, caption);
+    const live = await alreadyLive(acc.ig, caption);
+    if (live) { rec.instagram = live; console.log('::warning::This post is already on Instagram (an earlier run published it); not posting again.'); }
+    else try {
+      rec.instagram = t.kind === 'reel' ? await igReel(acc.ig, urls.video, urls.cover, caption)
+        : t.kind === 'image' ? await igImage(acc.ig, urls[0], caption) : await igCarousel(acc.ig, urls, caption);
+    } catch (e) {
+      await sleep(30e3); // the post may still have gone live: check before failing, so the next run doesn't post it twice
+      const id = await alreadyLive(acc.ig, caption).catch(() => null);
+      if (!id) throw e;
+      rec.instagram = id; console.log(`::warning::Meta reported an error (${e.message.slice(0, 120)}) but the post is live.`);
+    }
     try { rec.permalink = (await graph('GET', `/${rec.instagram}`, { fields: 'permalink' })).permalink; } catch {}
     rec.at = new Date().toISOString(); // the workflow spaces catch-up posts by this
     console.log(`Instagram posted: ${rec.permalink || rec.instagram}`);
