@@ -1,0 +1,259 @@
+{
+ "id": "list-10-free-tools",
+ "style": "list",
+ "series": "Parachar Lists",
+ "topic": "free tools for local business",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+25%",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 4.2,
+   "kicker": "Ads pe kharch:",
+   "big": "₹0",
+   "accent": "Phir bhi customer.",
+   "sub": "Ye *10 free tools* abhi save karo.",
+   "say": "ऐड पर ज़ीरो खर्च, फिर भी नए कस्टमर? ये दस फ्री टूल्स सेव करो।"
+  },
+  {
+   "type": "stages",
+   "dur": 4,
+   "title": "Poora raasta, *₹0* mein",
+   "stages": [
+    {
+     "k": "Dikho",
+     "t": "Log aapko dhoondh lein"
+    },
+    {
+     "k": "Jawab do",
+     "t": "Turant reply"
+    },
+    {
+     "k": "Yaad rakho",
+     "t": "Follow-up na chhoote"
+    },
+    {
+     "k": "Wapas lao",
+     "t": "Customer dobara aaye"
+    }
+   ],
+   "say": "चार स्टेप। दिखो, जवाब दो, याद रखो, वापस लाओ।"
+  },
+  {
+   "type": "tool",
+   "n": 1,
+   "stage": "Stage 01 · <span>Dikho</span>",
+   "name": "Google Business Profile",
+   "by": "Google · free",
+   "what": "Maps pe aapki dukaan. *Call* aur *Direction* ek tap pe.",
+   "demo": [
+    {
+     "chip": 1,
+     "text": "\"near me\" search → aapki dukaan"
+    },
+    {
+     "chip": 1,
+     "text": "📞 Call   🧭 Directions"
+    }
+   ],
+   "say": "गूगल बिज़नेस प्रोफ़ाइल। मैप्स पर दुकान, कॉल और रास्ता।",
+   "dur": 3.4
+  },
+  {
+   "type": "tool",
+   "n": 2,
+   "stage": "Stage 01 · <span>Dikho</span>",
+   "name": "Google review link + QR",
+   "by": "Business Profile ke andar",
+   "what": "Ek link. Customer seedha *review* page pe.",
+   "demo": [
+    {
+     "me": 1,
+     "text": "Thank you! 🙏 Ek review de denge? [link]"
+    },
+    {
+     "chip": 1,
+     "text": "QR counter pe lagao"
+    }
+   ],
+   "say": "रिव्यू लिंक और क्यूआर। हर कस्टमर को भेजो।",
+   "dur": 3.4
+  },
+  {
+   "type": "tool",
+   "n": 3,
+   "stage": "Stage 01 · <span>Dikho</span>",
+   "name": "Meta Business Suite",
+   "by": "Meta · free",
+   "what": "Instagram + Facebook post *pehle se schedule*.",
+   "demo": [
+    {
+     "chip": 1,
+     "text": "Mon 9 AM  ✓ scheduled"
+    },
+    {
+     "chip": 1,
+     "text": "Wed 7 PM  ✓ scheduled"
+    }
+   ],
+   "say": "मेटा बिज़नेस सूट। पूरे हफ़्ते की पोस्ट, एक बार में शेड्यूल।",
+   "dur": 3.4
+  },
+  {
+   "type": "tool",
+   "n": 4,
+   "stage": "Stage 02 · <span>Jawab do</span>",
+   "name": "Away message",
+   "by": "WhatsApp Business · free",
+   "what": "Raat 11 baje bhi *turant* jawab.",
+   "demo": [
+    {
+     "text": "Rate kya hai?"
+    },
+    {
+     "me": 1,
+     "text": "Namaste! 🙏 Kal 10 baje call karenge."
+    }
+   ],
+   "say": "अवे मैसेज। रात को भी तुरंत जवाब।",
+   "dur": 3.4
+  },
+  {
+   "type": "tool",
+   "n": 5,
+   "stage": "Stage 02 · <span>Jawab do</span>",
+   "name": "Quick replies",
+   "by": "WhatsApp Business · free",
+   "what": "*/rate* likho, poora message ready.",
+   "demo": [
+    {
+     "me": 1,
+     "text": "/rate"
+    },
+    {
+     "me": 1,
+     "text": "Haircut ₹200 · Facial ₹600 · Book karne ke liye reply karein"
+    }
+   ],
+   "say": "क्विक रिप्लाई। स्लैश रेट लिखो, मैसेज तैयार।",
+   "dur": 3.4
+  },
+  {
+   "type": "tool",
+   "n": 6,
+   "stage": "Stage 02 · <span>Jawab do</span>",
+   "name": "Catalog",
+   "by": "WhatsApp Business · free",
+   "what": "Photo + price ke saath *poori list*, ek link mein.",
+   "demo": [
+    {
+     "chip": 1,
+     "text": "12 items · photo · price"
+    }
+   ],
+   "say": "कैटलॉग। फ़ोटो और दाम, एक लिंक में।",
+   "dur": 3.4
+  },
+  {
+   "type": "tool",
+   "n": 7,
+   "stage": "Stage 03 · <span>Yaad rakho</span>",
+   "name": "Labels",
+   "by": "WhatsApp Business · free",
+   "what": "Har chat pe tag. *Koi lead na chhoote.*",
+   "demo": [
+    {
+     "chip": 1,
+     "text": "New lead"
+    },
+    {
+     "chip": 1,
+     "text": "Follow-up"
+    },
+    {
+     "chip": 1,
+     "text": "Paid"
+    }
+   ],
+   "say": "लेबल्स। हर चैट पर टैग, कोई लीड नहीं छूटेगी।",
+   "dur": 3.4
+  },
+  {
+   "type": "tool",
+   "n": 8,
+   "stage": "Stage 03 · <span>Yaad rakho</span>",
+   "name": "Google Sheets",
+   "by": "Google · free",
+   "what": "Customer register. *Kab call karna hai*, sab ek jagah.",
+   "demo": [
+    {
+     "chip": 1,
+     "text": "Riya · 25 Nov · call karna"
+    },
+    {
+     "chip": 1,
+     "text": "Amit · 27 Nov · quote bhejna"
+    }
+   ],
+   "say": "गूगल शीट्स। किसे कब कॉल करना है, सब एक जगह।",
+   "dur": 3.4
+  },
+  {
+   "type": "tool",
+   "n": 9,
+   "stage": "Stage 04 · <span>Wapas lao</span>",
+   "name": "WhatsApp Status",
+   "by": "WhatsApp Business · free",
+   "what": "Roz ek offer. Jinke phone mein *aapka number saved* hai, sab dekhte hain.",
+   "demo": [
+    {
+     "chip": 1,
+     "text": "Aaj ka offer 🎉"
+    }
+   ],
+   "say": "व्हाट्सऐप स्टेटस। रोज़ एक ऑफ़र।",
+   "dur": 3.4
+  },
+  {
+   "type": "tool",
+   "n": 10,
+   "stage": "Stage 04 · <span>Wapas lao</span>",
+   "name": "Canva",
+   "by": "Free plan",
+   "what": "Offer ka poster *5 minute* mein.",
+   "demo": [
+    {
+     "chip": 1,
+     "text": "Template → naam badlo → download"
+    }
+   ],
+   "say": "और कैनवा। ऑफ़र पोस्टर पाँच मिनट में।",
+   "dur": 3.4
+  },
+  {
+   "type": "combo",
+   "dur": 5,
+   "title": "Kahan se *shuru* karein?",
+   "rows": [
+    {
+     "who": "Dukaan · clinic · salon",
+     "use": "1 + 2 + 4: Google pe dikho, review lo, turant reply."
+    },
+    {
+     "who": "Coaching · service",
+     "use": "4 + 7 + 8: reply, tag, follow-up."
+    }
+   ],
+   "say": "दुकान या क्लिनिक? एक, दो, चार से शुरू करो। कोचिंग? चार, सात, आठ।"
+  },
+  {
+   "type": "cta",
+   "dur": 5,
+   "line": "Saare 10 ke *setup steps* chahiye?",
+   "keyword": "TOOLS",
+   "note": "Comment karo *TOOLS*,<br>steps DM mein milenge.",
+   "say": "सेटअप स्टेप्स चाहिए? कमेंट में टूल्स लिखो।"
+  }
+ ],
+ "caption": "Ads pe ₹0, phir bhi naye customer. Ye 10 free tools save kar lo 👇\n\nDIKHO\n1. Google Business Profile: Maps pe dukaan, Call + Directions\n2. Google review link + QR: har customer ko bhejo (sirf khush walon ko nahi, sabko)\n3. Meta Business Suite: Insta + FB post pehle se schedule\n\nJAWAB DO\n4. WhatsApp Business Away message: raat ko bhi turant reply\n5. Quick replies: /rate likho, poora message ready\n6. Catalog: photo + price, ek link mein\n\nYAAD RAKHO\n7. Labels: New lead / Follow-up / Paid\n8. Google Sheets: kisko kab call karna hai\n\nWAPAS LAO\n9. WhatsApp Status: roz ek offer\n10. Canva (free plan): offer poster 5 min mein\n\nSetup steps chahiye? Comment mein TOOLS likho, DM mein bhejenge.\n\nWhatsApp: 98131 36114\nParachar: chhote business ke liye leads, WhatsApp aur Google ka setup.\nparachar.in (link bio mein)\n\n#smallbusiness #whatsappbusiness #googlebusinessprofile #marketingtips #freetools"
+}

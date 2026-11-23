@@ -13,7 +13,7 @@ on:
         description: "Space-separated looks, one per spec (empty = automatic)"
         default: ""
       style:
-        description: "Engine style: v3 (YouTube looks) or parable (IG story reels)"
+        description: "Engine style: v3 (YouTube looks), parable (IG story reels) or list (IG save-this tool lists)"
         default: "v3"
 
 permissions:

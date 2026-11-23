@@ -1,0 +1,146 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<!-- Parachar LIST reels (owner 23 Nov): "save this" reels. A hook, a 4-step path, one dark card per free tool,
+     a "where to start" combo, and a comment-keyword CTA (owner sends the DMs by hand; nothing is sent automatically).
+     Contract (same as the other engines): window.build(spec) -> {duration,cues,look,sfx}; window.seek(t).
+     Scene types:
+       hook   {kicker, big, accent, sub}                 opening screen (big number / promise)
+       stages {title, stages:[{k,t}]}                    the path, steps light up one by one
+       tool   {n, of, stage, name, by, what, demo:[..], tag}  one tool card; demo = 1-3 short UI lines
+       combo  {title, rows:[{who, use}]}                 "where to start" rows
+       cta    {line, keyword, note}                      comment box types the keyword, then the brand
+     Every scene can carry `say` (Hindi voice). Text supports *accent* marks.
+     Safe zone for Instagram: x 70..940, y 230..1440. -->
+<style>
+@font-face{font-family:B;src:url(fonts/baloo-2-800-latin.woff2) format("woff2");font-weight:800}
+@font-face{font-family:B;src:url(fonts/baloo-2-800-devanagari.woff2) format("woff2");font-weight:800;unicode-range:U+0900-097F}
+@font-face{font-family:M;src:url(fonts/mukta-700-latin.woff2) format("woff2");font-weight:700}
+@font-face{font-family:M;src:url(fonts/mukta-700-devanagari.woff2) format("woff2");font-weight:700;unicode-range:U+0900-097F}
+@font-face{font-family:M;src:url(fonts/mukta-500-latin.woff2) format("woff2");font-weight:500}
+@font-face{font-family:M;src:url(fonts/mukta-500-devanagari.woff2) format("woff2");font-weight:500;unicode-range:U+0900-097F}
+@font-face{font-family:I;src:url(fonts/inter-var-latin.woff2) format("woff2");font-weight:100 900}
+*{box-sizing:border-box;margin:0}
+:root{--bg:#0B0F14;--card:#141B24;--line:#26313F;--ink:#F3F5F8;--soft:#94A3B8;--ac:#22C55E;--ac2:#A3E635;--warm:#FBBF24}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+body{font-family:M,sans-serif;color:var(--ink)}
+#st{position:absolute;inset:0;overflow:hidden}
+.bg{position:absolute;inset:0;background:
+  radial-gradient(900px 700px at 85% 8%,rgba(34,197,94,.22),transparent 60%),
+  radial-gradient(800px 800px at 0% 95%,rgba(251,191,36,.12),transparent 60%),var(--bg)}
+.grid{position:absolute;inset:0;opacity:.18;background-image:linear-gradient(var(--line) 2px,transparent 2px),linear-gradient(90deg,var(--line) 2px,transparent 2px);background-size:90px 90px;
+  -webkit-mask-image:radial-gradient(ellipse at 50% 40%,#000 30%,transparent 75%)}
+.brand{position:absolute;left:80px;top:120px;display:flex;align-items:center;gap:16px;font:800 40px B,sans-serif}
+.brand img{width:56px;height:56px;border-radius:14px;background:#fff;padding:6px}
+.prog{position:absolute;right:140px;top:138px;display:flex;gap:10px;opacity:0}
+.prog i{width:30px;height:10px;border-radius:6px;background:var(--line)}
+.sc{position:absolute;left:0;top:0;width:1080px;height:1920px;opacity:0}
+b{color:var(--ac2);font-weight:inherit}
+/* hook */
+.hk{position:absolute;left:80px;right:140px;top:420px}
+.hk .k{font:700 64px/1.15 M;color:var(--soft)}
+.hk .big{font:800 250px/.95 B;letter-spacing:-4px;margin-top:20px}
+.hk .acc{font:800 118px/1 B;color:var(--ac);margin-top:10px}
+.hk .sub{font:700 64px/1.2 M;margin-top:34px}
+.hk .strike{color:var(--soft);background:linear-gradient(#EF4444,#EF4444) no-repeat 0 55%/0% 12px}
+/* stages */
+.sg{position:absolute;left:80px;right:140px;top:420px}
+.sg .t{font:800 76px/1.1 B;margin-bottom:46px}
+.row{display:flex;align-items:center;gap:30px;padding:30px 34px;margin-bottom:24px;border-radius:30px;background:var(--card);border:3px solid var(--line)}
+.row .n{flex:none;width:92px;height:92px;border-radius:24px;background:var(--line);display:flex;align-items:center;justify-content:center;font:800 46px B;color:var(--soft)}
+.row .tx{font:700 54px/1.1 M}.row .tx small{display:block;font:500 38px M;color:var(--soft);margin-top:6px}
+.row.on{border-color:var(--ac)}.row.on .n{background:var(--ac);color:#06210F}
+/* tool */
+.st{position:absolute;left:80px;top:300px;font:800 36px/1 I,sans-serif;letter-spacing:3px;color:var(--ac);text-transform:uppercase}
+.st span{color:var(--soft)}
+.cd{position:absolute;left:80px;right:140px;top:380px;padding:56px 54px 50px;border-radius:44px;background:linear-gradient(180deg,#18212C,#121820);
+  border:3px solid var(--line);box-shadow:0 40px 90px rgba(0,0,0,.5)}
+.cd .top{display:flex;justify-content:space-between;align-items:center}
+.cd .num{font:800 40px I,sans-serif;color:var(--soft)}
+.cd .tag{padding:10px 24px;border-radius:40px;background:rgba(34,197,94,.15);color:var(--ac);font:800 34px I,sans-serif;letter-spacing:2px}
+.cd .nm{font:800 92px/1.02 B;margin-top:36px}
+.cd .by{font:500 40px M;color:var(--soft);margin-top:10px}
+.cd .wh{font:700 56px/1.22 M;margin-top:40px}
+.demo{margin-top:46px;display:flex;flex-direction:column;gap:20px}
+.ui{align-self:flex-start;max-width:100%;padding:20px 30px;border-radius:26px;font:500 42px/1.25 M;background:#0F151C;border:2px solid var(--line)}
+.ui.me{align-self:flex-end;background:#0E3B24;border-color:#14532D}
+.ui.chip{display:inline-flex;gap:16px;align-items:center}
+.ui .dot{width:22px;height:22px;border-radius:50%;background:var(--warm);flex:none}
+/* combo */
+.cb{position:absolute;left:80px;right:140px;top:420px}
+.cb .t{font:800 80px/1.08 B;margin-bottom:50px}
+.cr{padding:38px 40px;border-radius:32px;background:var(--card);border:3px solid var(--line);margin-bottom:28px}
+.cr .w{font:800 40px I,sans-serif;letter-spacing:2px;color:var(--warm);text-transform:uppercase}
+.cr .u{font:700 56px/1.2 M;margin-top:14px}
+/* cta */
+.ct{position:absolute;left:80px;right:140px;top:430px;text-align:center}
+.ct .l{font:800 78px/1.1 B}
+.box{margin:60px auto 0;width:820px;display:flex;align-items:center;gap:22px;padding:26px 30px;border-radius:60px;background:#fff;color:#111;text-align:left}
+.box .av{width:74px;height:74px;border-radius:50%;background:linear-gradient(135deg,var(--warm),#F97316);flex:none}
+.box .ty{font:800 58px I,sans-serif;letter-spacing:2px;flex:1;white-space:nowrap;overflow:hidden}
+.box .cur{display:inline-block;width:5px;height:56px;background:#111;vertical-align:middle;margin-left:4px}
+.box .snd{font:800 40px I,sans-serif;color:#0095F6}
+.ct .nt{font:700 52px/1.25 M;margin-top:56px}
+.ct .nt b{color:var(--ac)}
+.ct .br{margin-top:80px;display:inline-flex;align-items:center;gap:22px;font:800 64px B}
+.ct .br img{width:96px;height:96px;border-radius:24px;background:#fff;padding:10px}
+.ct .ph{font:700 48px M;color:var(--soft);margin-top:18px}
+</style></head><body>
+<div id="st"><div class="bg"></div><div class="grid"></div>
+  <div class="brand"><img src="mark.png">Parachar</div>
+  <div class="prog" id="prog"></div>
+</div>
+<script>
+const st=document.getElementById('st'),prog=document.getElementById('prog');
+const E='cubic-bezier(.2,.8,.2,1)',POP='cubic-bezier(.3,1.5,.5,1)';
+let sfx=[];const fx=(t,k)=>sfx.push({t:+t.toFixed(3),k});
+const fmt=s=>String(s||'').replace(/\*([^*]+)\*/g,'<b>$1</b>');
+const A=(el,kf,t,d,ease,fill)=>el.animate(kf,{delay:t*1000,duration:d*1000,easing:ease||E,fill:fill||'both'});
+// a scene is visible only during its own time
+function scene(html,t0,dur){const d=document.createElement('div');d.className='sc';d.innerHTML=html;st.appendChild(d);
+  d.animate([{opacity:0},{opacity:1,offset:Math.min(.1,.25/dur)},{opacity:1,offset:1-Math.min(.08,.2/dur)},{opacity:0}],{delay:t0*1000,duration:dur*1000,fill:'none'});return d}
+const rise=(el,t,d=.5)=>A(el,[{opacity:0,transform:'translateY(40px)'},{opacity:1,transform:'none'}],t,d);
+
+window.build=function(spec){
+  sfx=[];const cues=[];let T=0;
+  const total=spec.scenes.filter(s=>s.type==='tool').length;
+  for(let i=0;i<total;i++)prog.appendChild(document.createElement('i'));
+  const pips=[...prog.children];let seenTool=0;
+  spec.scenes.forEach(s=>{
+    const t0=T,dur=s.dur;
+    if(s.say||s.text)cues.push({start:t0,end:t0+dur,text:s.say||s.text});
+    if(s.type==='hook'){const d=scene(`<div class="hk"><div class="k">${fmt(s.kicker)}</div><div class="big">${fmt(s.big)}</div><div class="acc">${fmt(s.accent)}</div><div class="sub">${fmt(s.sub)}</div></div>`,t0,dur);
+      const [k,big,acc,sub]=d.querySelectorAll('.hk>div');rise(k,t0+.05);A(big,[{opacity:0,transform:'scale(.7)'},{opacity:1,transform:'none'}],t0+.35,.5,POP);fx(t0+.35,'impact');
+      rise(acc,t0+.9);fx(t0+.9,'whoosh');rise(sub,t0+1.4);
+      d.querySelectorAll('.strike').forEach(x=>A(x,[{backgroundSize:'0% 12px'},{backgroundSize:'100% 12px'}],t0+.7,.35))}
+    if(s.type==='stages'){const d=scene(`<div class="sg"><div class="t">${fmt(s.title)}</div>${s.stages.map((g,i)=>`<div class="row"><div class="n">0${i+1}</div><div class="tx">${fmt(g.k)}<small>${fmt(g.t)}</small></div></div>`).join('')}</div>`,t0,dur);
+      rise(d.querySelector('.t'),t0+.05);const step=(dur-.9)/s.stages.length;
+      d.querySelectorAll('.row').forEach((r,i)=>{const t=t0+.4+i*step;rise(r,t,.4);
+        A(r.querySelector('.n'),[{background:'#26313F',color:'#94A3B8'},{background:'#22C55E',color:'#06210F'}],t+.2,.25);
+        A(r,[{borderColor:'#26313F'},{borderColor:'#22C55E'}],t+.2,.25);fx(t+.2,'tick')})}
+    if(s.type==='tool'){seenTool++;
+      const demo=(s.demo||[]).map(x=>typeof x==='string'?`<div class="ui">${fmt(x)}</div>`:`<div class="ui ${x.me?'me':''} ${x.chip?'chip':''}">${x.chip?'<span class="dot"></span>':''}${fmt(x.text)}</div>`).join('');
+      const d=scene(`<div class="st">${fmt(s.stage)}</div><div class="cd"><div class="top"><div class="num">${String(s.n).padStart(2,'0')} / ${String(s.of||total).padStart(2,'0')}</div><div class="tag">${s.tag||'FREE'}</div></div>
+        <div class="nm">${fmt(s.name)}</div><div class="by">${fmt(s.by)}</div><div class="wh">${fmt(s.what)}</div><div class="demo">${demo}</div></div>`,t0,dur);
+      const cd=d.querySelector('.cd');A(cd,[{opacity:0,transform:'translateY(80px) scale(.96)'},{opacity:1,transform:'none'}],t0+.05,.5);fx(t0+.05,'whoosh');
+      rise(d.querySelector('.st'),t0+.1,.4);rise(d.querySelector('.wh'),t0+.55,.45);
+      d.querySelectorAll('.ui').forEach((u,i)=>{const t=t0+1.1+i*Math.min(.7,(dur-1.6)/Math.max(1,s.demo.length));A(u,[{opacity:0,transform:'translateY(24px) scale(.95)'},{opacity:1,transform:'none'}],t,.35,POP);fx(t,'pop')});
+      const pip=pips[seenTool-1];if(pip)A(pip,[{background:'#26313F'},{background:'#22C55E'}],t0+.2,.3);
+      if(seenTool===1)A(prog,[{opacity:0},{opacity:1}],t0,.3)}
+    if(s.type==='combo'){const d=scene(`<div class="cb"><div class="t">${fmt(s.title)}</div>${s.rows.map(r=>`<div class="cr"><div class="w">${fmt(r.who)}</div><div class="u">${fmt(r.use)}</div></div>`).join('')}</div>`,t0,dur);
+      A(prog,[{opacity:1},{opacity:0}],t0,.3,E,'forwards');
+      rise(d.querySelector('.t'),t0+.05);d.querySelectorAll('.cr').forEach((r,i)=>{rise(r,t0+.5+i*.7,.45);fx(t0+.5+i*.7,'ting')})}
+    if(s.type==='cta'){const kw=s.keyword||'TOOLS';
+      const d=scene(`<div class="ct"><div class="l">${fmt(s.line)}</div><div class="box"><div class="av"></div><div class="ty"><span class="w"></span><span class="cur"></span></div><div class="snd">Post</div></div>
+        <div class="nt">${fmt(s.note)}</div><div class="br"><img src="mark.png">Parachar</div><div class="ph">WhatsApp 98131 36114</div></div>`,t0,dur);
+      A(prog,[{opacity:1},{opacity:0}],t0,.3,E,'forwards');
+      rise(d.querySelector('.l'),t0+.05);rise(d.querySelector('.box'),t0+.35,.4);
+      const w=d.querySelector('.w');[...kw].forEach((c,i)=>{const sp=document.createElement('span');sp.textContent=c;w.appendChild(sp);
+        A(sp,[{opacity:0},{opacity:1}],t0+.8+i*.12,.01,'linear');fx(t0+.8+i*.12,'tick')});
+      const tEnd=t0+.8+kw.length*.12;A(d.querySelector('.snd'),[{transform:'scale(1)'},{transform:'scale(1.25)'},{transform:'scale(1)'}],tEnd+.1,.35,POP);fx(tEnd+.15,'ting');
+      rise(d.querySelector('.nt'),tEnd+.4);rise(d.querySelector('.br'),tEnd+.8);rise(d.querySelector('.ph'),tEnd+1)}
+    T+=dur;
+  });
+  document.getAnimations().forEach(a=>a.pause());window.seek(0);return{duration:T,cues,look:'list',sfx};
+};
+window.seek=function(t){document.getAnimations().forEach(a=>a.currentTime=t*1000)};
+</script></body></html>
