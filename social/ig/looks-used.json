@@ -40,5 +40,11 @@
   "look": "phone",
   "palette": "pink",
   "at": "2026-11-22"
+ },
+ {
+  "id": "leak-cost-per-visit",
+  "look": "block",
+  "palette": "gold",
+  "at": "2026-11-23"
  }
 ]
