@@ -1,0 +1,107 @@
+{
+  "id": "mudra-tarun-plus-20-lakh",
+  "template": "T3 kya-badla",
+  "theme": "navy",
+  "voice": "hi-IN-SwaraNeural",
+  "trust": "स्रोत: PM मुद्रा योजना (mudra.org.in, बजट 2024 तरुण प्लस), कैबिनेट फ़ैसला CGFMU 11 नवंबर 2026 (pmindia.gov.in) · EMI 10% मानकर · जाँच: 23 नवंबर 2026",
+  "url": "https://parachar.com/mudra-loan-calculator/",
+  "search": "parachar tarun plus",
+  "question": "आपका तरुण लोन चुक गया? कितना बाकी है, लिखिए 👇",
+  "campaign": "mudra",
+  "playlist": "मुद्रा लोन",
+  "title": "Mudra Tarun Plus ₹20 लाख: EMI ₹42,494, बिना गारंटी | किसे मिलेगा, 2031 तक गारंटी #shorts",
+  "seoIntro": "Mudra Tarun Plus 2026: तरुण लोन चुकाने वालों को ₹10-20 लाख, 5 साल में EMI करीब ₹42,494 (10% मानकर)",
+  "description": "मुद्रा योजना की तरुण प्लस श्रेणी में ₹10 लाख से ₹20 लाख तक लोन मिलता है, पर सिर्फ़ उन्हें जिन्होंने पहले तरुण लोन समय पर चुकाया। 10% ब्याज मानें तो ₹20 लाख पर 5 साल में EMI करीब ₹42,494 और कुल ब्याज ₹5.5 लाख। 11 नवंबर 2026 को कैबिनेट ने मुद्रा लोन की गारंटी देने वाला फ़ंड (CGFMU) 31 मार्च 2031 तक बढ़ाया और गारंटी फ़ीस 1% से घटाकर 0.75% सालाना की, इसलिए बैंक गिरवी नहीं माँगता। अपनी EMI देखें, फ्री:",
+  "about": "Mudra Tarun Plus loan, mudra loan 20 lakh EMI और mudra loan bina guarantee, आसान हिंदी में। EMI अनुमान है; ब्याज दर बैंक तय करता है।",
+  "hashtags": [
+    "#MudraLoan",
+    "#TarunPlus",
+    "#BusinessLoan",
+    "#MSME",
+    "#SmallBusiness"
+  ],
+  "tags": [
+    "mudra tarun plus",
+    "mudra loan 20 lakh",
+    "tarun plus loan emi",
+    "mudra loan 20 lakh emi",
+    "mudra loan without guarantee",
+    "मुद्रा तरुण प्लस",
+    "mudra loan 2026",
+    "cgfmu guarantee fee"
+  ],
+  "broll": [
+    "indian small factory",
+    "indian workshop machines",
+    "indian bank branch",
+    "indian businessman",
+    "indian rupee notes"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "chip": "मुद्रा तरुण प्लस",
+      "lines": [
+        "₹20 लाख, बिना गारंटी",
+        "EMI *₹42,494*"
+      ],
+      "sub": "पर हर किसी को नहीं 👇",
+      "say": "मुद्रा तरुण प्लस में बीस लाख, बिना गारंटी। EMI करीब बयालीस हज़ार। पर हर किसी को नहीं मिलता।"
+    },
+    {
+      "type": "list",
+      "dur": 5.4,
+      "heading": "किसे मिलेगा",
+      "items": [
+        "पहले *तरुण लोन* लिया हो",
+        "पूरा, *समय पर* चुकाया हो",
+        "खेती नहीं, कारोबार के लिए"
+      ],
+      "say": "सिर्फ़ उसे, जिसने पहले तरुण लोन लिया, और पूरा समय पर चुकाया। और ये खेती नहीं, कारोबार के लिए है।"
+    },
+    {
+      "type": "count",
+      "dur": 4.4,
+      "chip": "₹20 लाख, 5 साल, 10%",
+      "label": "कुल ब्याज",
+      "value": 549645,
+      "note": "7 साल लें तो EMI कम, ब्याज ज़्यादा",
+      "say": "पाँच साल में कुल ब्याज करीब साढ़े पाँच लाख। साल बढ़ाएँगे, तो EMI घटेगी पर ब्याज बढ़ेगा।"
+    },
+    {
+      "type": "split",
+      "dur": 5.0,
+      "heading": "गारंटी फ़ीस, सालाना",
+      "segments": [
+        {
+          "label": "पहले 1%",
+          "value": 20000,
+          "color": "#f59e0b"
+        },
+        {
+          "label": "अब 0.75%",
+          "value": 15000,
+          "color": "#14b8a6"
+        }
+      ],
+      "callout": "गारंटी फ़ंड 31 मार्च 2031 तक बढ़ा",
+      "say": "ग्यारह नवंबर को कैबिनेट ने मुद्रा की गारंटी इकतीस मार्च दो हज़ार इकतीस तक बढ़ाई, और गारंटी फ़ीस एक से घटाकर पौना प्रतिशत की।"
+    },
+    {
+      "type": "warn",
+      "dur": 4.6,
+      "icon": "⚠️",
+      "text": "EMI मुनाफ़े के *आधे* से कम रखें",
+      "sub": "₹42,494 EMI = महीने का मुनाफ़ा ₹85,000+",
+      "say": "नियम याद रखिए, बयालीस हज़ार की EMI के लिए महीने का मुनाफ़ा पचासी हज़ार से ऊपर होना चाहिए।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "line": "₹10 से ₹20 लाख?<br><em>अपनी EMI निकालें</em>",
+      "tool": "मुद्रा लोन कैलकुलेटर",
+      "say": "अपनी रकम और साल डालकर EMI देखिए। Google पर parachar tarun plus सर्च करें।"
+    }
+  ]
+}
