@@ -12,3 +12,4 @@ Every post must pass all 5, or it is not queued:
 Banned: build-in-public posts about our automation, generic motivation, fake reviews/logos, guaranteed results, any mention of parachar.com.
 Ending (unchanged): "Want this fixed in your business? WhatsApp me: +91 98131 36114"
 Video: LinkedIn native video 1/week (Wed), 4:5, subtitles on (feed is muted).
+- First comment default (from 23 Nov): link the Lead Leak Calculator https://parachar.in/leak-calculator/ — a CTA that needs no reply from us.
