@@ -1,0 +1,106 @@
+{
+  "id": "cc-limit-20-percent-turnover",
+  "template": "T1 kitna-milega",
+  "theme": "navy",
+  "trust": "स्रोत: RBI MSME मास्टर निर्देश, नायक समिति टर्नओवर विधि (₹5 करोड़ तक) · जाँच: 23 नवंबर 2026 · यह अनुमान है, असल लिमिट बैंक तय करता है",
+  "url": "https://parachar.com/cc-limit-calculator-turnover-method/",
+  "search": "parachar cc limit",
+  "question": "अगले साल आपकी बिक्री कितनी होगी? लिखिए, CC लिमिट बताएँगे 👇",
+  "campaign": "cc-limit",
+  "playlist": "MSME / Udyam",
+  "title": "CC Limit कितनी मिलेगी? ₹60 लाख बिक्री पर ₹12 लाख | बैंक का 20% टर्नओवर फ़ॉर्मूला 2026 #shorts",
+  "seoIntro": "CC limit calculator 2026: ₹5 करोड़ तक बिक्री वाले MSME को अगले साल की बिक्री का 20% कैश क्रेडिट",
+  "description": "₹5 करोड़ तक बिक्री वाले MSME के लिए बैंक आम तौर पर टर्नओवर (नायक) विधि से कैश क्रेडिट (CC) लिमिट तय करते हैं: कार्यशील पूँजी की ज़रूरत अगले साल की अनुमानित बिक्री का 25%, जिसमें 20% बैंक देता है और 5% आपका मार्जिन। ₹60 लाख बिक्री पर ज़रूरत ₹15 लाख: बैंक ₹12 लाख, आपका ₹3 लाख। असल लिमिट बैंक की जाँच, CIBIL, स्टॉक और ड्रॉइंग पावर पर भी निर्भर है। अपनी बिक्री पर हिसाब, फ्री:",
+  "about": "CC limit calculator, working capital loan और turnover method (Nayak committee), आसान हिंदी में। यह अनुमान है; अंतिम लिमिट बैंक तय करता है।",
+  "hashtags": [
+    "#CCLimit",
+    "#WorkingCapital",
+    "#MSME",
+    "#BusinessLoan",
+    "#Dukaan"
+  ],
+  "tags": [
+    "cc limit calculator",
+    "cash credit limit kitni milegi",
+    "turnover method 20 percent",
+    "working capital loan msme",
+    "nayak committee",
+    "cc limit kaise badhaye",
+    "कैश क्रेडिट लिमिट",
+    "msme cc loan"
+  ],
+  "broll": [
+    "indian wholesale market",
+    "indian shop owner",
+    "indian bank branch",
+    "indian businessman laptop",
+    "indian warehouse stock"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "chip": "कैश क्रेडिट (CC)",
+      "lines": [
+        "बिक्री ₹60 लाख?",
+        "CC लिमिट *₹12 लाख*"
+      ],
+      "sub": "बैंक का 20% फ़ॉर्मूला 👇",
+      "say": "अगले साल बिक्री साठ लाख होगी? तो बैंक की CC लिमिट करीब बारह लाख बनती है।"
+    },
+    {
+      "type": "inputs",
+      "dur": 4.6,
+      "heading": "विनोद, इलेक्ट्रिकल दुकान, जयपुर",
+      "rows": [
+        [
+          "इस साल बिक्री",
+          "₹48 लाख"
+        ],
+        [
+          "अगले साल अनुमान",
+          "₹60 लाख"
+        ],
+        [
+          "अभी CC",
+          "₹6 लाख"
+        ]
+      ],
+      "say": "जैसे जयपुर के विनोद, इलेक्ट्रिकल दुकान। इस साल अड़तालीस लाख, अगले साल साठ लाख का अनुमान, पर CC सिर्फ़ छह लाख।"
+    },
+    {
+      "type": "split",
+      "dur": 5.2,
+      "heading": "ज़रूरत: बिक्री का 25% = ₹15 लाख",
+      "segments": [
+        {
+          "label": "बैंक (20%)",
+          "value": 1200000,
+          "color": "#14b8a6"
+        },
+        {
+          "label": "आपका मार्जिन (5%)",
+          "value": 300000,
+          "color": "#f59e0b"
+        }
+      ],
+      "callout": "₹5 करोड़ तक बिक्री वालों पर यही तरीका",
+      "say": "फ़ॉर्मूला है, बिक्री का पच्चीस प्रतिशत ज़रूरत। उसमें बीस बैंक देता है, पाँच आपका अपना पैसा। यानी बारह लाख बैंक, तीन लाख आप।"
+    },
+    {
+      "type": "warn",
+      "dur": 4.8,
+      "icon": "📒",
+      "text": "बिक्री *GST रिटर्न* में दिखनी चाहिए",
+      "sub": "कैश बिक्री किताब में नहीं, तो लिमिट भी नहीं",
+      "say": "पर ध्यान रहे, बैंक वही बिक्री मानता है जो GST रिटर्न और खातों में दिखे। कच्ची बिक्री पर लिमिट नहीं मिलती।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.6,
+      "line": "आपकी बिक्री पर<br><em>कितनी लिमिट?</em>",
+      "tool": "CC लिमिट कैलकुलेटर",
+      "say": "अपनी बिक्री डालकर लिमिट देखिए, Google पर parachar cc limit सर्च करके।"
+    }
+  ]
+}

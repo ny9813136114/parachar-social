@@ -1,0 +1,99 @@
+{
+  "id": "mudra-shishu-50000-emi",
+  "template": "T1 kitna-milega",
+  "theme": "amber",
+  "trust": "स्रोत: PM मुद्रा योजना (mudra.org.in), कैबिनेट फ़ैसला CGFMU 11 नवंबर 2026 · EMI 10% मानकर · जाँच: 23 नवंबर 2026 · यह अनुमान है",
+  "url": "https://parachar.com/mudra-loan-calculator/",
+  "search": "parachar mudra emi",
+  "question": "आपको कितने का लोन चाहिए? रकम लिखिए, EMI बताएँगे 👇",
+  "campaign": "mudra",
+  "playlist": "मुद्रा लोन",
+  "title": "Mudra Shishu Loan ₹50,000: EMI ₹2,307 महीना, 2 साल में ब्याज ₹5,374 | बिना गारंटी 2026 #shorts",
+  "seoIntro": "Mudra Shishu loan 2026: ₹50,000 तक बिना गारंटी, 2 साल में EMI करीब ₹2,307 (10% मानकर)",
+  "description": "PM मुद्रा योजना की शिशु श्रेणी में नया या छोटा काम शुरू करने के लिए ₹50,000 तक लोन, बिना गारंटी और बिना गिरवी। 10% ब्याज मानें तो ₹50,000 पर 2 साल में EMI करीब ₹2,307 और कुल ब्याज ₹5,374; 3 साल में EMI ₹1,613, ब्याज ₹8,081। ब्याज दर बैंक तय करता है (आम तौर पर 9-12%)। 11 नवंबर 2026 को कैबिनेट ने मुद्रा लोन की गारंटी (CGFMU) 31 मार्च 2031 तक बढ़ाई। अपनी रकम पर EMI देखें, फ्री:",
+  "about": "Mudra loan 50000 EMI, mudra shishu loan और bina guarantee business loan, आसान हिंदी में। EMI अनुमान है; ब्याज दर अपने बैंक से पूछें।",
+  "hashtags": [
+    "#MudraLoan",
+    "#Shishu",
+    "#BusinessLoan",
+    "#SmallBusiness",
+    "#Dukaan"
+  ],
+  "tags": [
+    "mudra shishu loan",
+    "mudra loan 50000 emi",
+    "mudra loan emi calculator",
+    "bina guarantee loan",
+    "mudra loan 2026",
+    "मुद्रा लोन शिशु",
+    "small business loan india",
+    "mudra loan kaise le"
+  ],
+  "broll": [
+    "indian street vendor",
+    "indian small shop owner",
+    "indian bank counter",
+    "indian rupee notes",
+    "indian woman tailor"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "chip": "मुद्रा शिशु लोन",
+      "lines": [
+        "₹50,000 का लोन",
+        "EMI सिर्फ़ *₹2,307*"
+      ],
+      "sub": "बिना गारंटी, 2 साल में 👇",
+      "say": "मुद्रा शिशु लोन, पचास हज़ार रुपये। दो साल में EMI सिर्फ़ तेईस सौ सात रुपये।"
+    },
+    {
+      "type": "count",
+      "dur": 4.4,
+      "chip": "2 साल, 10% मानकर",
+      "label": "कुल ब्याज",
+      "value": 5374,
+      "note": "3 साल लें तो EMI ₹1,613, ब्याज ₹8,081",
+      "say": "दो साल में कुल ब्याज करीब तिरेपन सौ। तीन साल लें, तो EMI सोलह सौ, पर ब्याज आठ हज़ार।"
+    },
+    {
+      "type": "inputs",
+      "dur": 4.8,
+      "heading": "सलमा, भोपाल",
+      "rows": [
+        [
+          "काम",
+          "घर से सिलाई"
+        ],
+        [
+          "लोन",
+          "₹50,000, नई मशीन"
+        ],
+        [
+          "कमाई बढ़ी",
+          "₹6,000 महीना"
+        ]
+      ],
+      "say": "जैसे भोपाल की सलमा, घर से सिलाई। पचास हज़ार में नई मशीन, कमाई छह हज़ार महीना बढ़ी। EMI आराम से निकलती है।"
+    },
+    {
+      "type": "list",
+      "dur": 5.2,
+      "heading": "बैंक में ये ले जाएँ",
+      "items": [
+        "आधार, PAN, *2 फ़ोटो*",
+        "काम का छोटा प्लान, कोटेशन",
+        "6 महीने का बैंक स्टेटमेंट"
+      ],
+      "say": "बैंक में आधार, PAN, दो फ़ोटो, मशीन या सामान का कोटेशन, और छह महीने का बैंक स्टेटमेंट ले जाइए।"
+    },
+    {
+      "type": "cta",
+      "dur": 4.6,
+      "line": "₹50,000 या ज़्यादा?<br><em>अपनी EMI देखें</em>",
+      "tool": "मुद्रा लोन कैलकुलेटर",
+      "say": "अपनी रकम पर EMI देखनी है? Google में parachar mudra emi टाइप कीजिए।"
+    }
+  ]
+}
