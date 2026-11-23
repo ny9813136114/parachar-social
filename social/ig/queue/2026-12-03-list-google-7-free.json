@@ -1,0 +1,197 @@
+{
+ "id": "list-google-7-free",
+ "style": "list",
+ "series": "Parachar Lists",
+ "topic": "google business profile",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+25%",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 4,
+   "kicker": "\"Near me\" search mein",
+   "big": "Upar",
+   "accent": "aane ke 7 free kaam.",
+   "sub": "Ek bhi rupaya ads pe *nahi*. Save karo.",
+   "say": "नियर मी सर्च में ऊपर आना है? ये सात फ्री काम सेव करो।"
+  },
+  {
+   "type": "stages",
+   "dur": 3.6,
+   "title": "Google ka *simple* rule",
+   "stages": [
+    {
+     "k": "Profile poora",
+     "t": "Sahi aur poori jaankari"
+    },
+    {
+     "k": "Active raho",
+     "t": "Photo aur post regular"
+    },
+    {
+     "k": "Bharosa",
+     "t": "Reviews aur jawab"
+    }
+   ],
+   "say": "तीन चीज़ें। प्रोफ़ाइल पूरा, एक्टिव रहो, भरोसा बनाओ।"
+  },
+  {
+   "type": "tool",
+   "n": 1,
+   "of": 7,
+   "stage": "Step 01 · <span>Profile poora</span>",
+   "name": "Sahi category",
+   "by": "Business Profile",
+   "what": "Primary category *ekdum sahi* chuno.",
+   "demo": [
+    {
+     "chip": 1,
+     "text": "❌ Shop   ✅ Dental clinic"
+    }
+   ],
+   "say": "सही कैटेगरी चुनो। शॉप नहीं, डेंटल क्लिनिक।",
+   "dur": 3.4,
+   "tag": "STEP"
+  },
+  {
+   "type": "tool",
+   "n": 2,
+   "of": 7,
+   "stage": "Step 01 · <span>Profile poora</span>",
+   "name": "Timing + phone",
+   "by": "Business Profile",
+   "what": "Galat timing = band dukaan pe *gussa* customer.",
+   "demo": [
+    {
+     "chip": 1,
+     "text": "Mon–Sat 10–8 · Sun band"
+    },
+    {
+     "chip": 1,
+     "text": "Holiday hours bhi update"
+    }
+   ],
+   "say": "टाइमिंग और फ़ोन हमेशा सही रखो। छुट्टी वाले दिन भी।",
+   "dur": 3.4,
+   "tag": "STEP"
+  },
+  {
+   "type": "tool",
+   "n": 3,
+   "of": 7,
+   "stage": "Step 01 · <span>Profile poora</span>",
+   "name": "Naam-pata har jagah same",
+   "by": "Google · JustDial · website",
+   "what": "Har jagah *ek hi* naam, pata, number.",
+   "demo": [
+    {
+     "chip": 1,
+     "text": "Sharma Dental, Sector 15 · 98xxx"
+    }
+   ],
+   "say": "हर जगह एक ही नाम, पता और नंबर।",
+   "dur": 3.4,
+   "tag": "STEP"
+  },
+  {
+   "type": "tool",
+   "n": 4,
+   "of": 7,
+   "stage": "Step 02 · <span>Active raho</span>",
+   "name": "Asli photos",
+   "by": "Business Profile",
+   "what": "Dukaan, team, kaam: *asli* photos daalo.",
+   "demo": [
+    {
+     "chip": 1,
+     "text": "📷 Andar · Bahar · Team · Kaam"
+    }
+   ],
+   "say": "असली फ़ोटो डालो। दुकान, टीम, काम।",
+   "dur": 3.4,
+   "tag": "STEP"
+  },
+  {
+   "type": "tool",
+   "n": 5,
+   "of": 7,
+   "stage": "Step 02 · <span>Active raho</span>",
+   "name": "Har hafte ek Update",
+   "by": "Business Profile",
+   "what": "Offer, naya kaam, tip: *hafte mein ek* post.",
+   "demo": [
+    {
+     "chip": 1,
+     "text": "Update · \"Is hafte: free checkup\""
+    }
+   ],
+   "say": "हर हफ़्ते एक अपडेट पोस्ट।",
+   "dur": 3.4,
+   "tag": "STEP"
+  },
+  {
+   "type": "tool",
+   "n": 6,
+   "of": 7,
+   "stage": "Step 03 · <span>Bharosa</span>",
+   "name": "Har customer se review",
+   "by": "Review link",
+   "what": "Kaam ke baad *har customer* ko link bhejo.",
+   "demo": [
+    {
+     "me": 1,
+     "text": "Thank you! 🙏 Ek review de denge? [link]"
+    }
+   ],
+   "say": "हर कस्टमर से रिव्यू मांगो, सिर्फ़ खुश वालों से नहीं।",
+   "dur": 3.4,
+   "tag": "STEP"
+  },
+  {
+   "type": "tool",
+   "n": 7,
+   "of": 7,
+   "stage": "Step 03 · <span>Bharosa</span>",
+   "name": "Har review ka jawab",
+   "by": "Business Profile",
+   "what": "Achha ho ya bura, *har review* ka jawab do.",
+   "demo": [
+    {
+     "text": "⭐⭐ \"Wait bahut lamba tha\""
+    },
+    {
+     "me": 1,
+     "text": "Sorry! Ab booking slot shuru kiya hai 🙏"
+    }
+   ],
+   "say": "और हर रिव्यू का जवाब दो, अच्छा हो या बुरा।",
+   "dur": 3.4,
+   "tag": "STEP"
+  },
+  {
+   "type": "combo",
+   "dur": 4.5,
+   "title": "Aaj hi *shuru* karo",
+   "rows": [
+    {
+     "who": "5 minute",
+     "use": "1 + 2: category aur timing check."
+    },
+    {
+     "who": "Is hafte",
+     "use": "4 + 6: 10 photos, 10 review requests."
+    }
+   ],
+   "say": "आज पाँच मिनट: कैटेगरी और टाइमिंग। इस हफ़्ते: दस फ़ोटो, दस रिव्यू।"
+  },
+  {
+   "type": "cta",
+   "dur": 5,
+   "line": "Apna Google profile *check* karwana hai?",
+   "keyword": "GOOGLE",
+   "note": "Comment karo *GOOGLE*,<br>checklist DM mein milegi.",
+   "say": "अपना प्रोफ़ाइल चेक करवाना है? कमेंट में गूगल लिखो।"
+  }
+ ],
+ "caption": "\"Near me\" search mein upar aane ke 7 free kaam. Save karo 👇\n\nPROFILE POORA\n1. Primary category ekdum sahi\n2. Timing + phone hamesha sahi (holiday hours bhi)\n3. Naam, pata, number har jagah same\n\nACTIVE RAHO\n4. Asli photos: dukaan, team, kaam\n5. Har hafte ek Update post\n\nBHAROSA\n6. Har customer se review maango (sirf khush walon se nahi, sabse)\n7. Har review ka jawab do, achha ho ya bura\n\nGoogle khud kehta hai: local ranking relevance, distance aur prominence se hoti hai. Inme se jo aapke haath mein hai, wo ye 7 kaam hain.\n\nApna profile check karwana hai? Comment mein GOOGLE likho, checklist DM mein bhejenge.\n\nWhatsApp: 98131 36114\nParachar: chhote business ke liye leads, WhatsApp aur Google ka setup.\nparachar.in (link bio mein)\n\n#googlebusinessprofile #localseo #smallbusiness #marketingtips #googlemaps"
+}

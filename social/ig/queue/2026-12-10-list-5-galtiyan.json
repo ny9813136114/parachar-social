@@ -1,0 +1,137 @@
+{
+ "id": "list-5-galtiyan",
+ "style": "list",
+ "series": "Parachar Lists",
+ "topic": "mistakes that lose customers",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+25%",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 4,
+   "kicker": "Customer aaya. Phir *gaya*.",
+   "big": "5",
+   "accent": "galtiyan jo customer bhagati hain.",
+   "sub": "No. 2 sabse *common* hai.",
+   "say": "कस्टमर आया, फिर चला गया? ये पाँच गलतियाँ। नंबर दो सबसे कॉमन है।"
+  },
+  {
+   "type": "tool",
+   "n": 1,
+   "of": 5,
+   "stage": "Galti 01",
+   "name": "Late reply",
+   "by": "WhatsApp · Insta DM",
+   "what": "Customer ne 3 jagah poocha. *Pehle* jawab wala jeeta.",
+   "demo": [
+    {
+     "text": "Rate kya hai? (10:05 PM)"
+    },
+    {
+     "me": 1,
+     "text": "Ji batayiye (next day 11 AM)"
+    }
+   ],
+   "say": "पहली गलती, देर से जवाब। जो पहले जवाब देता है, वही जीतता है।",
+   "dur": 3.4,
+   "tag": "GALTI"
+  },
+  {
+   "type": "tool",
+   "n": 2,
+   "of": 5,
+   "stage": "Galti 02",
+   "name": "\"DM for price\"",
+   "by": "Instagram",
+   "what": "Price chhupaoge to customer *scroll* kar dega.",
+   "demo": [
+    {
+     "chip": 1,
+     "text": "✅ \"₹499 se shuru\"  likho"
+    }
+   ],
+   "say": "दूसरी, डीएम फ़ॉर प्राइस। कम से कम शुरुआती दाम लिखो।",
+   "dur": 3.4,
+   "tag": "GALTI"
+  },
+  {
+   "type": "tool",
+   "n": 3,
+   "of": 5,
+   "stage": "Galti 03",
+   "name": "Google pe galat timing",
+   "by": "Business Profile",
+   "what": "Band dukaan pe aaya customer *wapas nahi* aata.",
+   "demo": [
+    {
+     "chip": 1,
+     "text": "Holiday hours update karo"
+    }
+   ],
+   "say": "तीसरी, गूगल पर गलत टाइमिंग।",
+   "dur": 3.4,
+   "tag": "GALTI"
+  },
+  {
+   "type": "tool",
+   "n": 4,
+   "of": 5,
+   "stage": "Galti 04",
+   "name": "Follow-up nahi",
+   "by": "Lead register",
+   "what": "Pehli baar \"sochke batata hoon\" = *na* nahi.",
+   "demo": [
+    {
+     "me": 1,
+     "text": "Namaste! Kal aapne poocha tha, koi sawaal?"
+    }
+   ],
+   "say": "चौथी, फ़ॉलो-अप नहीं। सोचके बताता हूँ का मतलब ना नहीं।",
+   "dur": 3.4,
+   "tag": "GALTI"
+  },
+  {
+   "type": "tool",
+   "n": 5,
+   "of": 5,
+   "stage": "Galti 05",
+   "name": "Bure review pe chup",
+   "by": "Google reviews",
+   "what": "Naya customer *aapka jawab* padhta hai.",
+   "demo": [
+    {
+     "me": 1,
+     "text": "Sorry! Humne theek kar diya hai 🙏"
+    }
+   ],
+   "say": "पाँचवीं, बुरे रिव्यू पर चुप रहना। नया कस्टमर आपका जवाब पढ़ता है।",
+   "dur": 3.4,
+   "tag": "GALTI"
+  },
+  {
+   "type": "combo",
+   "dur": 4.5,
+   "title": "Kal se *kya* karein?",
+   "rows": [
+    {
+     "who": "Aaj",
+     "use": "Away message on + price likho (1, 2)."
+    },
+    {
+     "who": "Is hafte",
+     "use": "Timing check, 3 follow-up, 3 review replies."
+    }
+   ],
+   "say": "आज: अवे मैसेज और दाम लिखो। इस हफ़्ते: टाइमिंग, फ़ॉलो-अप, रिव्यू के जवाब।"
+  },
+  {
+   "type": "cta",
+   "dur": 5,
+   "line": "Aapke business mein *kaunsi* galti hai?",
+   "keyword": "CHECK",
+   "note": "Comment karo *CHECK*,<br>free checklist DM mein.",
+   "say": "आपके बिज़नेस में कौनसी गलती है? कमेंट में चेक लिखो।"
+  }
+ ],
+ "caption": "Customer aaya, phir gaya? Ye 5 galtiyan check karo 👇\n\n1. Late reply: jo pehle jawab deta hai, wahi jeet-ta hai\n2. \"DM for price\": kam se kam \"₹___ se shuru\" likho\n3. Google pe galat timing: holiday hours bhi update karo\n4. Follow-up nahi: \"sochke batata hoon\" ka matlab na nahi\n5. Bure review pe chup: naya customer aapka jawab padhta hai\n\nAaj hi: away message on karo + price likho.\n\nAapke business mein kaunsi galti hai? Comment mein CHECK likho, free checklist DM mein bhejenge.\n\nWhatsApp: 98131 36114\nParachar: chhote business ke liye leads, WhatsApp aur Google ka setup.\nparachar.in (link bio mein)\n\n#smallbusiness #customerservice #whatsappbusiness #marketingtips #googlereviews"
+}
