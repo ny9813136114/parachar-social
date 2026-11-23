@@ -15,3 +15,4 @@
 2026-11-20: nothing (no new yojana-desk entry since 11 Nov; PIB 19-20 Nov: H5N1 vaccine, PMAY-U 2.0 CSMC meeting (sanctions, no rule/amount change), PM visits; checked late after a retry)
 2026-11-21: nothing (no new yojana-desk entry since 11 Nov; PIB 20-21 Nov: SCO forum, SVAMITVA review, Gopal Ratna awards; no money/deadline news with a tool page)
 2026-11-22: nothing (no new yojana-desk entry since 11 Nov; PIB 21-22 Nov: IFFI, Kaushal convocation, CEPA talks; no money/deadline news). Long naukri video uploaded OK (Fiy-cuEvONY, 22 Nov 11:00 IST).
+2026-11-23: nothing (no new yojana-desk entry since 11 Nov; PIB 22-23 Nov: IFFI, World Bank poverty report, SCO forum; no money/deadline news)
