@@ -1,0 +1,26 @@
+{
+ "checked": "2026-11-25T05:05:19.730Z",
+ "posts": 4,
+ "comments": [
+  {
+   "post": "urn:li:share:7529922749142654977",
+   "file": "2026-11-17-launch-story.json",
+   "error": "Make answered 500: Scenario failed to complete."
+  },
+  {
+   "post": "urn:li:share:7530468535228358658",
+   "file": "2026-11-23-slow-reply-cost.json",
+   "error": "Make answered 500: Scenario failed to complete."
+  },
+  {
+   "post": "urn:li:share:7530830931071324160",
+   "file": "2026-11-24-real-estate-leads-leak.json",
+   "error": "Make answered 500: Scenario failed to complete."
+  },
+  {
+   "post": "urn:li:share:7531193292290629633",
+   "file": "2026-11-25-calculator-led-marketing.json",
+   "error": "Make answered 500: Scenario failed to complete."
+  }
+ ]
+}
