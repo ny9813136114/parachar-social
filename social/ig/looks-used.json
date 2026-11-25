@@ -52,5 +52,11 @@
   "look": "footage",
   "palette": "teal",
   "at": "2026-11-23"
+ },
+ {
+  "id": "audit-builder-landing-page",
+  "look": "notebook",
+  "palette": "gold",
+  "at": "2026-11-25"
  }
 ]
