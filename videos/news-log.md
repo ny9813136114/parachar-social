@@ -17,3 +17,4 @@
 2026-11-22: nothing (no new yojana-desk entry since 11 Nov; PIB 21-22 Nov: IFFI, Kaushal convocation, CEPA talks; no money/deadline news). Long naukri video uploaded OK (Fiy-cuEvONY, 22 Nov 11:00 IST).
 2026-11-23: nothing (no new yojana-desk entry since 11 Nov; PIB 22-23 Nov: IFFI, World Bank poverty report, SCO forum; no money/deadline news)
 2026-11-24: nothing (no new yojana-desk entry since 11 Nov; PIB 23-24 Nov: Nepal PM visit, IFFI, coal mining rules, HPV vaccine 1 cr doses; no money/deadline news with a tool page)
+2026-11-25: nothing (no new yojana-desk entry since 11 Nov; PIB 24-25 Nov: IFFI, Kashi Tamil Sangamam, SAMAVESH/e-Anudan portal launch (no money figure), telecom MSME conclave; no money/deadline news with a tool page)
