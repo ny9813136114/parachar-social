@@ -13,7 +13,7 @@ async function api(method, url, body) {
   const t = await r.text();
   if (process.env.LI_DEBUG) console.log("raw:", t.slice(0, 500));
   let j; try { j = JSON.parse(t); } catch { throw new Error(`Make answered ${r.status}: ${t.slice(0, 300)}`); }
-  if (j.error) throw new Error(`LinkedIn: ${j.error}`);
+  if ("error" in j) throw new Error(`LinkedIn: ${JSON.stringify(j.error).slice(0, 400)}`);
   if (j.status && j.status >= 300) throw new Error(`LinkedIn ${j.status}: ${JSON.stringify(j.body).slice(0, 300)}`);
   return j.body;
 }
