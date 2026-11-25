@@ -13,6 +13,7 @@ async function api(method, url, body) {
   const t = await r.text();
   let j; try { j = JSON.parse(t); } catch { throw new Error(`Make answered ${r.status}: ${t.slice(0, 300)}`); }
   if (j.error) throw new Error(`LinkedIn: ${j.error}`);
+  if (j.status && j.status >= 300) throw new Error(`LinkedIn ${j.status}: ${JSON.stringify(j.body).slice(0, 300)}`);
   return j.body;
 }
 
@@ -25,6 +26,7 @@ async function list() {
     let b;
     try { b = await api('GET', `/rest/socialActions/${enc(p.urn)}/comments?count=50`); }
     catch (e) { out.push({ post: p.urn, file: f, error: e.message }); continue; }
+    if (process.env.LI_DEBUG) console.log(f, p.urn, JSON.stringify(b).slice(0, 600));
     const els = (b && b.elements) || [];
     const byOrg = new Set(els.filter(c => c.actor === ORG && c.parentComment).map(c => c.parentComment));
     for (const c of els) {

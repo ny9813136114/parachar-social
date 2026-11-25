@@ -32,6 +32,7 @@ jobs:
     env:
       MAKE_LI_HOOK: ${{ secrets.MAKE_LI_HOOK }}
       LI_ORG: ${{ vars.LI_ORG }}
+      LI_DEBUG: "1"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
