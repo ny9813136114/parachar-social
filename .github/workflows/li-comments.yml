@@ -1,0 +1,53 @@
+name: LinkedIn comments
+
+# "list": reads comments on the page's posts (last 45 days) and pushes inbox.json to the li-inbox branch.
+# "reply": replies to one comment as the Parachar page. Claude checks the inbox twice a day and replies to real questions.
+
+on:
+  workflow_dispatch:
+    inputs:
+      cmd:
+        description: "list or reply"
+        default: list
+      post:
+        description: "reply: post urn"
+        default: ""
+      parent:
+        description: "reply: comment urn"
+        default: ""
+      text:
+        description: "reply: reply text"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: li-comments
+
+jobs:
+  comments:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      MAKE_LI_HOOK: ${{ secrets.MAKE_LI_HOOK }}
+      LI_ORG: ${{ vars.LI_ORG }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: List
+        if: inputs.cmd == 'list'
+        run: |
+          node li-comments.js list
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p /tmp/inbox && cp inbox.json /tmp/inbox/ && git checkout -q --orphan li-inbox-tmp && git rm -rfq --cached . && cp /tmp/inbox/inbox.json . && git add inbox.json
+          git commit -qm "LinkedIn inbox" && git push -qf origin li-inbox-tmp:li-inbox
+      - name: Reply
+        if: inputs.cmd == 'reply'
+        env:
+          POST: ${{ inputs.post }}
+          PARENT: ${{ inputs.parent }}
+          TEXT: ${{ inputs.text }}
+        run: node li-comments.js reply "$POST" "$PARENT" "$TEXT"
