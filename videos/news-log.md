@@ -18,3 +18,4 @@
 2026-11-23: nothing (no new yojana-desk entry since 11 Nov; PIB 22-23 Nov: IFFI, World Bank poverty report, SCO forum; no money/deadline news)
 2026-11-24: nothing (no new yojana-desk entry since 11 Nov; PIB 23-24 Nov: Nepal PM visit, IFFI, coal mining rules, HPV vaccine 1 cr doses; no money/deadline news with a tool page)
 2026-11-25: nothing (no new yojana-desk entry since 11 Nov; PIB 24-25 Nov: IFFI, Kashi Tamil Sangamam, SAMAVESH/e-Anudan portal launch (no money figure), telecom MSME conclave; no money/deadline news with a tool page)
+2026-11-26: nothing (no new yojana-desk entry since 11 Nov; PIB 25-26 Nov: PRAGATI meet, USTR 301 statement, SHRESHTA 2027 last 5 days (no tool page), IFFI; no money/deadline news with a tool page)
