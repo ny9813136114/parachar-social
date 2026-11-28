@@ -58,5 +58,11 @@
   "look": "notebook",
   "palette": "gold",
   "at": "2026-11-25"
+ },
+ {
+  "id": "demo-lead-to-sales",
+  "look": "neon",
+  "palette": "teal",
+  "at": "2026-11-28"
  }
 ]
