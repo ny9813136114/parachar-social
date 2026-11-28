@@ -20,3 +20,4 @@
 2026-11-25: nothing (no new yojana-desk entry since 11 Nov; PIB 24-25 Nov: IFFI, Kashi Tamil Sangamam, SAMAVESH/e-Anudan portal launch (no money figure), telecom MSME conclave; no money/deadline news with a tool page)
 2026-11-26: nothing (no new yojana-desk entry since 11 Nov; PIB 25-26 Nov: PRAGATI meet, USTR 301 statement, SHRESHTA 2027 last 5 days (no tool page), IFFI; no money/deadline news with a tool page)
 2026-11-27: nothing (no new yojana-desk entry since 11 Nov; PIB 26-27 Nov: India Post ₹2,632 cr modernisation (no money for people), Budget 2027-28 pre-consultations, Constitution Day, NH projects WB; no money/deadline news with a tool page)
+2026-11-28: nothing (no new yojana-desk entry since 11 Nov; PIB 27-28 Nov: Navya 2.0 launch, Ambedkar medical aid ₹3.5 lakh (old scheme explainer, no tool page), IFFI, ITU 2030; no money/deadline news with a tool page)
